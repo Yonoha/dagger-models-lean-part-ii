@@ -20,6 +20,8 @@ tar_bytes = subprocess.check_output(['git', 'archive', '--format=tar', '--prefix
 sources = {}
 with tarfile.open(fileobj=io.BytesIO(tar_bytes)) as archive:
     for member in archive:
+        if member.isdir() and member.name.rstrip('/') == prefix.rstrip('/'):
+            continue
         assert member.name.startswith(prefix) and '..' not in Path(member.name).parts
         if member.isdir():
             continue

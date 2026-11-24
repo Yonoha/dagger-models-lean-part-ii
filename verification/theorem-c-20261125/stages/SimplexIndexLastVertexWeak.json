@@ -1,0 +1,19 @@
+{
+  "module": "SimplexIndexLastVertexWeak",
+  "source": "lean/TheoremCStages/SimplexIndexLastVertexWeak.lean",
+  "source_sha256": "449265997e0696e9e116ff4779a49b4410360a9800e9fd204e59c8ad0e141f4d",
+  "actual_exit": 0,
+  "seconds": 8.715797791999648,
+  "artifact_valid": true,
+  "olean_sha256": "c279d79965e38e03046234d2cda0855e54ac1e2df7fbb0db365858121c7fa565",
+  "log": "verification/theorem-c-20261125/stages/SimplexIndexLastVertexWeak.log",
+  "log_sha256": "8d103a1012d1cd262cb9cc9d9b2c483673c9d1af16bc8b541a3af655fb62a5fd",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.NerveSimplexResolutionHomotopy": "3fa849bd6ef37edf5a4eaaa20beadea1ec8df51d98eb09d86284bbea479283a7",
+    "NativeSimplexIndexNerveWeakContractibility": "8f674da69e34f5da5440e3d2a79ef7a8ad586b88ee0ecd2c51b060d8a0b50cd2"
+  },
+  "original_receipt_sha256": "ccce6be15653e870fbb91e0fa45cd895f958cc1acae223ed74d33c3e3feaf59f",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,4 @@
+'DaggerModels.PartII.OrdinaryJTHorizontalMapping.mappingIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJTHorizontalMapping.mappingIso_natural_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

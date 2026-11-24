@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryPrecompletionCategoricalEquivalence",
+  "source": "lean/TheoremCStages/OrdinaryPrecompletionCategoricalEquivalence.lean",
+  "source_sha256": "c35c21a0ae37af1d164725a5d5926f5db69bfce1d1674a5f7b13dbe71d534dd2",
+  "actual_exit": 0,
+  "seconds": 11.986299791999045,
+  "artifact_valid": true,
+  "olean_sha256": "12a0c1f1cac6329175d246c0b13ce353ca24eeb1f0de8e356f676ae023f6dc37",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryPrecompletionCategoricalEquivalence.log",
+  "log_sha256": "20813526d7c58aee593df10c936144ed58650ff9ea8734649eef5ef654e20a8a",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryPrecompletionWalkingHomotopy": "61db727cebfd0ac56767f6e2fb1c424b2ea8c9d97bf67b352537cd3a339755c5",
+    "NativeAllCofibrantLocalizationSaturation": "2a0c1cfd2624862a22631477d0205f35df7d7f3ff0cd818c105d4ec97cad22e9"
+  },
+  "original_receipt_sha256": "adbfba6e86dc97065c092fd99e94c645ba50e37d4647bb78038f348f6d9e6f2c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

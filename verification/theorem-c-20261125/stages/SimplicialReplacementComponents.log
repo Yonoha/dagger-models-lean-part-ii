@@ -1,0 +1,12 @@
+'DaggerModels.PartII.SimplicialReplacementComponents.replacementComponentsIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementComponents.targetComponentsIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementComponents.projection_components_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementComponents.projection_componentMap_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

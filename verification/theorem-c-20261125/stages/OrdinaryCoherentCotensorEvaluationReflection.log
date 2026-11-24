@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryCoherentCotensorEvaluationReflection.mem_coherent_iff_extension_at' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentCotensorEvaluationReflection.evaluation_row_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentCotensorEvaluationReflection.evaluation_reflects_coherent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,24 @@
+'DaggerModels.PartII.OrdinarySegalSpineTwoPullback.discreteSpinePushout' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalSpineTwoPullback.mappingPartsIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalSpineTwoPullback.mappingPartsIso_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalSpineTwoPullback.mappingPartsIso_last' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalSpineTwoPullback.smallSpineIso_hom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalSpineTwoPullback.firstPartIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalSpineTwoPullback.lastPartIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalSpineTwoPullback.middlePartIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

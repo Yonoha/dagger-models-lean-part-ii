@@ -1,0 +1,7 @@
+'DaggerBasedPiCartesianProjection.basedProjection_naturality_isPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerBasedPiCartesianProjection.basedProjection_fibration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerBasedPiCartesianProjection.target_basedProjection_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

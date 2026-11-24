@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryJTRightNerveKan",
+  "source": "lean/TheoremCStages/OrdinaryJTRightNerveKan.lean",
+  "source_sha256": "d7cfe52ed40dfebad85382a195572da5f9eee5c5e0203e51491beb1557d5150d",
+  "actual_exit": 0,
+  "seconds": 9.0433656660025,
+  "artifact_valid": true,
+  "olean_sha256": "029c0c52c69ae18cefb172fa2991ed2085bde22d0da3344e14f1e034597680d5",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTRightNerveKan.log",
+  "log_sha256": "231c35797ceb46579bb69f045b7be314153e1d761ec6edab6275e463b0d48132",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTMappingKan": "1161de98ffd3540d82a69b05d8b3cef752115844d7911a140ad4e4beaa833204",
+    "OrdinaryJTRightNerveSegal": "637c53d465810d0d02133ccf9c45cd3e28e8f59c6b76d3da3340ba6eb65e7e10"
+  },
+  "original_receipt_sha256": "1c53c3aacb26d34a2d00f10e45fa2330fe14bdaffa0d911166fc35e3669bf70d",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

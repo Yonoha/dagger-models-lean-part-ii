@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalHorizontalCotensorPoint",
+  "source": "lean/TheoremCStages/OrdinarySegalHorizontalCotensorPoint.lean",
+  "source_sha256": "4277de18d673a5bc8b0015f1bc4fe86d946089f669c5498a0d0ed1cb236f016a",
+  "actual_exit": 0,
+  "seconds": 8.17474270798266,
+  "artifact_valid": true,
+  "olean_sha256": "017958658ecea98fa0297f67cf99e484ab9f533f9e4b8ab65c25c8a2e39cdaaa",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalHorizontalCotensorPoint.log",
+  "log_sha256": "c2561dd39ddea71c752f1b966c079693a2508a4b3f4fee6edf27cbcab59655c6",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalHorizontalCotensor": "ef729f41bda8fe56a20faa496f9d3cc0209a533cb5dd83e7c84a805dbb24157e",
+    "OrdinarySegalWalkingEvaluation": "3638efb2a5b4daa5f7134ce5639f1cc393c754a020232ea55edcf7bd0f155d25",
+    "TopCatModelCategory.SSet.Monoidal": "c285c002c6c22c4125886e8f256c2a5b7c58eb956cd1574b051a5dbbef62281f"
+  },
+  "original_receipt_sha256": "f50ecbb5b3f4e30dcb6157cac4ed418d35551164d2de19e4da7a448196567dc3",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

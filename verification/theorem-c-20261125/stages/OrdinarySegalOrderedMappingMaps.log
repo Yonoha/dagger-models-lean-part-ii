@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalOrderedMappingMaps.endpoint_naturality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingMaps.point_naturality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingMaps.mappingMap_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingMaps.mappingMap_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

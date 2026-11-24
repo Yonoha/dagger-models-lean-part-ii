@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionUnitAudit.originalInput_unit_mappingMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionFiberComparison.mappingMap_unit_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalResolutionRelativeReedy.diagonalComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexTransitionEndpointSquare.endpointComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTTheoremCFromOriginalRawOrderedUnit.statement_of_originalRawOrderedUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'DaggerModels.PartII.RelativeLeftOuterHornFilling.reversed_edge_horn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RelativeLeftOuterHornFilling.reversed_edge_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

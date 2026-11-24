@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryRelativeRows.zeroIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryRelativeRows.oneIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryRelativeRows.relative_zero_isIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryRelativeRows.relative_one_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryRelativeRows.relative_one_endpoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryRelativeRows.relative_one_weak' depends on axioms: [propext, Classical.choice, Quot.sound]

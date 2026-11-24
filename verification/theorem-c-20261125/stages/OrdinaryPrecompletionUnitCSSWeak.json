@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryPrecompletionUnitCSSWeak",
+  "source": "lean/TheoremCStages/OrdinaryPrecompletionUnitCSSWeak.lean",
+  "source_sha256": "385cd00663178f356343eeb300a82d5aa2199917ea838447b1e2497e3bfb5066",
+  "actual_exit": 0,
+  "seconds": 27.821198040997842,
+  "artifact_valid": true,
+  "olean_sha256": "7b070312d6ccbb6f779457f0bea37cb5fe688808d89b0ab1d168aa22726c5b5c",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryPrecompletionUnitCSSWeak.log",
+  "log_sha256": "63b08ef5c861284afb51b26f3a7603fefd76535d845f24f470e436d014237cf2",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSHorizontalWeak": "f13badc7ef6ffd4aeb7d5d0a64cc0702f61cf90f6d81f46665ef2a13d36b84c5",
+    "OrdinaryCoherentCotensorEvaluationReflection": "9ebd5c51c22cff272b1fda38011a06d1782f4edf6144f304dadaf101aa2e4868",
+    "OrdinarySegalVerticalPrecompletion": "0845d1c8a78b42523d262aabc15c3fcd07b5f5a906d83cba9aacf7d3c9e61f2e"
+  },
+  "original_receipt_sha256": "acf91cc57a3ac9ab5e0d3cc49b85075a2cf64857f761d2c409d419ea9b3694e2",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

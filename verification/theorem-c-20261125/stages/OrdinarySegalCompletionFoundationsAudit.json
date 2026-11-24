@@ -1,0 +1,27 @@
+{
+  "module": "OrdinarySegalCompletionFoundationsAudit",
+  "source": "lean/TheoremCStages/OrdinarySegalCompletionFoundationsAudit.lean",
+  "source_sha256": "142314d2c228d5048c3181b2372619b0658afd3e1c4b5aec915526676ad513c4",
+  "actual_exit": 0,
+  "seconds": 23.423464749997947,
+  "artifact_valid": true,
+  "olean_sha256": "7d7bb5f73381c691248a539a29baba4c7626df2812eaa537bca7f1a24afeb5c8",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCompletionFoundationsAudit.log",
+  "log_sha256": "94548c1c125147f0a9a644db121486d54c3b0b4182f755a7940688d9c2ce6df9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RawOrdinaryJTUnitCSSWeakRouteAudit": "ec31b3bdc9dc67be51dce322f6eb4aec55639c2821aba7091bcec20bd7ffb802",
+    "RawOrdinaryJTEndpointCalibration": "63a4046cb71317cbbbcadfe2ccd7b0a881ba30bd553d801c6f0457d815c3df48",
+    "OrdinaryJTOrdinaryInputReedy": "6a682d19df3e60cb4cc19c75a495050db08e5bdae4112d63afa11bf336aee9bb",
+    "OrdinaryJTOrdinaryInputSegal": "1862a87235be9279e986a7160b62f8cbef9928ffabded90996cf0ae122035477",
+    "OrdinarySegalLocalization": "90c9e3b9509ef49cbbce18b2bb1a0338bf90069e4214f727f702b4c93ab80ec4",
+    "OrdinarySegalPrecompletion": "e26f7ecbd5271948c3287e944d2cb1ee3f3d3fb549df02cd67a0db37de4a8b5c",
+    "OrdinarySegalCoherentArrowImage": "6ebce9891c91b8a693254b345a44501ce30d2fbc96bebbd5b525924fe9976216",
+    "OrdinarySegalUnitPullbackWeak": "b68097e085585250dbf3da97c5b1fca38453cd8d2da1fae66e4e2e00c4d06960",
+    "OrdinarySegalFaceFibrations": "73d2420fdd0836370113d9332b94af685662aef2b9567455dea0cddf65ff12cc",
+    "TheoremCFromOriginalRawOrderedUnit": "735d0f70e773096f22afd89053ec33ff9c6b0216f71d138517b69d7b7dc100a3"
+  },
+  "original_receipt_sha256": "63ff0fd3b19086664f2ac5245d3eca964674ac9b8e10f7040b904eb00ef52909",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

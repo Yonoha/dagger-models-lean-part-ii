@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryCSSWalkingRestrictions.walking_mapping_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSWalkingRestrictions.restriction_walking_lifting' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

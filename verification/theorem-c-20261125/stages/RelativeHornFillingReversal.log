@@ -1,0 +1,12 @@
+'DaggerModels.PartII.RelativeHornFillingReversal.reverse_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RelativeHornFillingReversal.horn_lifting_iff_reversed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RelativeHornFillingReversal.relative_filling_of_reversed_lifting' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RelativeHornFillingReversal.innerFibrations_op' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

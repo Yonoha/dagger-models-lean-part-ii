@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinarySegalFaceFibrations.face_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

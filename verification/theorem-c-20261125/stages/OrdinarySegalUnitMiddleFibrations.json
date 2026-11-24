@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalUnitMiddleFibrations",
+  "source": "lean/TheoremCStages/OrdinarySegalUnitMiddleFibrations.lean",
+  "source_sha256": "39fa07f75af7ca20ccea6cbc8f800b12793b6dabad29b8bbfdd1295485349500",
+  "actual_exit": 0,
+  "seconds": 12.64883620897308,
+  "artifact_valid": true,
+  "olean_sha256": "c6934e032e882618c7fda3f9bb338712391dc7cb04c114d010e386f0d0b8fc86",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalUnitMiddleFibrations.log",
+  "log_sha256": "6d01cdcde988a2ee70c2d710a02e5478e0f63e34847318cce7380b25223160df",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalTwoTriangleUnitWeak": "518285d9761ddb7c85a6006e3ab32f3acaf1abf5ed8efce927eb1b05d801da36",
+    "DaggerModelsPartII.DiagramMappingPushout": "8476fa23a99a12b479832f1cf6688cae572260753634750021743409de2cd8ec",
+    "Mathlib.AlgebraicTopology.SimplicialSet.HornColimits": "32a46c35f1a656463d8a40d6a8e4b9c33f17f04eb6f62b3c9c4f2511aeef421c"
+  },
+  "original_receipt_sha256": "cb793c4d17d2d3d0e703ede66ca76d48b978ef7b4efca47d75dbf340b1fd9fdb",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

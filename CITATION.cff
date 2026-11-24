@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this dedicated Part II release candidate or an exact commit; see PUBLICATION.md for scope."
+type: software
+title: "Models for dagger categories II: Lean companion and original four-link Theorem C"
+authors:
+  - family-names: Akasaka
+    given-names: Keima
+version: 0.1.0-rc1
+date-released: 2026-11-25
+url: "https://github.com/Yonoha/dagger-models-lean-part-ii/releases/tag/v0.1.0-rc1"
+repository-code: "https://github.com/Yonoha/dagger-models-lean-part-ii"
+license: Apache-2.0
+abstract: >-
+  An AI-assisted Lean 4 companion to Models for dagger (infinity,1)-categories II.
+  The original universe-zero four-link Theorem C is proved locally with the
+  original models, adjoints, ordered endpoints and hypotheses. Completeness of
+  the original input is not added. The final theorem and four literal targets
+  have standard transitive axioms only. Saved evidence covers 359 used named
+  stages, 1182 printed standard axiom reports and an original project-source
+  freshness gate. Part I is a separate pinned Git dependency. The English PDF
+  catalogue identifies its prose as AI-generated. A cold full build of this
+  separate repository, new Linux CI or Comparator pass, and independent human
+  correspondence review are not claimed.

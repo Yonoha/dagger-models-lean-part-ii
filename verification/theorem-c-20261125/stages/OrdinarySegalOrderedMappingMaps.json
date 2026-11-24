@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalOrderedMappingMaps",
+  "source": "lean/TheoremCStages/OrdinarySegalOrderedMappingMaps.lean",
+  "source_sha256": "ed57c9e318e52bb10df167aa4bbe5d2a05f592c6e853c1c0810f63f7a7c38b50",
+  "actual_exit": 0,
+  "seconds": 11.155674042005558,
+  "artifact_valid": true,
+  "olean_sha256": "13ee6f4a95212941e5db5473d0137ddb970c8041aab5f136eec67df7c5696594",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalOrderedMappingMaps.log",
+  "log_sha256": "372750c8ab8eeb1cd89571de0ba582b1c1572cf81d897884669883fe6c4e8bee",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalOrderedMappingFibres": "a5e33d982b3e21f5a32f5975ef7d1fecb2250d4dd6fd5e60c196caf1b54fb36c",
+    "NativeSSetFibrationSquareFibreWeak": "2aeec0cf3f789a04f077f548df35aef8e787c659bd925bee3644b84e0c9a9a2c"
+  },
+  "original_receipt_sha256": "4bc91a129880bad39abf2c5338904d1a3acc886060bac08eb56e51760462419e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

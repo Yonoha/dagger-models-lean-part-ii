@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryCoherentWeakInvariance.mapping_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentWeakInvariance.coherent_components_preimage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentWeakInvariance.coherent_membership_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentWeakInvariance.coherentArrowMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

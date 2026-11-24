@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalOrderedMappingWeakCongruence",
+  "source": "lean/TheoremCStages/OrdinarySegalOrderedMappingWeakCongruence.lean",
+  "source_sha256": "fa637b22f7bb11c407c55118ae49dc0d1576c2b506f678e671cb5a5007b58dd9",
+  "actual_exit": 0,
+  "seconds": 9.859861874952912,
+  "artifact_valid": true,
+  "olean_sha256": "d6bc93a19d04656bca73420a96b6135bb45ac24334f2a1029adc202a3c33cb4a",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalOrderedMappingWeakCongruence.log",
+  "log_sha256": "5382fe1059336f766bc4dad0436fa7348c931ef3185bce0a2d7e764472d9c357",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalOrderedMappingIdentity": "b11515d5d892d89cad39c61685c398ed69bd6b2cb02a9b8e0428fadd65a871bb"
+  },
+  "original_receipt_sha256": "6533029a692ebd25b2a7d99424626914c425efd7ab19a8bcfbf3fbb2172bf628",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryCoherentDiagonalEndpointWeak",
+  "source": "lean/TheoremCStages/OrdinaryCoherentDiagonalEndpointWeak.lean",
+  "source_sha256": "5882525c927bf8557b416546c88b4cf788a089b979ad3bfa74bc8047b7af2c33",
+  "actual_exit": 0,
+  "seconds": 9.2805717500014,
+  "artifact_valid": true,
+  "olean_sha256": "559fe53989a338ecba6851f8cee2434c0bd1c51320d6b1ce3431f4d6b2e60cfc",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentDiagonalEndpointWeak.log",
+  "log_sha256": "da4d52fad395910e4a8dbe1b3bfdb7b5017375391ca130f1457ab6e1fad6a913",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingPrecompletionExchangeEndpoint": "32eafc2c9a11d09879ec9acb01baf04e57107971fb28769334239b957dfbcbf5",
+    "OrdinaryPrecompletionConstantSectionWeak": "47cd0534a8accbe57936c015c204ac43f1eee80552880524938b4c1068628413"
+  },
+  "original_receipt_sha256": "189b841fbf63b5a86d34e769571341dda3cc6b245f79063d9e0d0cfc021e3375",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

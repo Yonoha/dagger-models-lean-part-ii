@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryRelativeSegal",
+  "source": "lean/TheoremCStages/OrdinaryRelativeSegal.lean",
+  "source_sha256": "2947da74e85875b1f8a505dcef132f0108e517a3b6a032976a91764752f28839",
+  "actual_exit": 0,
+  "seconds": 22.7193741670053,
+  "artifact_valid": true,
+  "olean_sha256": "eef60b598c043c017c41579bb798d141af8bb95872396ebf606ad41d415a216b",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryRelativeSegal.log",
+  "log_sha256": "c63796b1b96cee109508794c56f488a9fd3cfe7dbf78b282b8759b3d85af57fd",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryZeroCoskeletonMapping": "5ba63af29820ba8f35f3a8cf3b2f2374676238bd77d3d5b3e844c1a4f5477006",
+    "DaggerModelsPartII.DiagramMappingPrecompFibration": "85b12ba4a8e4856af4d54ae275399c94297dac22c7f9d0bb4c3d5bb7b6aa6b78",
+    "DaggerModelsPartII.DiagramTensorMappingAdjunction": "0a4835f98391dd03f4f522fa6bfcbed3ac3330d29a11a03448fd53fedf1f5895",
+    "NativeSSetFibrationsOverBaseWeakPullbacks": "b9d3f4c33f1317b1ac6400d0e27dbf391f93c467efd66dd83d16a0d9c5539e6b"
+  },
+  "original_receipt_sha256": "5d311be01c1eff7b5eded1d096f159d8c6b1ec60ce53ccee16142c4b2b5068c0",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalOrderedMappingComposition.mappingMap_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingComposition.constantSection_pre' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

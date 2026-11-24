@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryCSSOuterFaces",
+  "source": "lean/TheoremCStages/OrdinaryCSSOuterFaces.lean",
+  "source_sha256": "138f98cae2b903367aa2fdd1140319f91d14fbca144dd1c1e097a56360f1b8b4",
+  "actual_exit": 0,
+  "seconds": 12.953399084042758,
+  "artifact_valid": true,
+  "olean_sha256": "140dc42e48d07e5a7400048b5b67ca6e69bcf5286467c0de4e52c16f153e605a",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCSSOuterFaces.log",
+  "log_sha256": "ca1c24e0a682d629422af8bfa612a6bc56a807738afad6348e8052d42804fa4c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.OuterFaceSpineGeometry": "337717197741375ef45022cbe0b032d70339e27e9ae5aba3dde7bd360eb86b10",
+    "DaggerModelsPartII.ReversalDiscreteFreeColimits": "5bfb9c7de0a4447133c5b43e72aa1d0faac25e1c5bb938b6c5cd80d0aa941ed3",
+    "OrdinaryCSSLocalization": "69c90e956a0841beef3059888d32454551e09b73558d0bfa4f69730810f86a9d",
+    "DaggerModelsPartII.LeftProperPushoutComparison": "75e5147fadf4d68c9f2a1e8e3c1e49368b2bfd23b0bd7e739bb06d1b1e8211a1"
+  },
+  "original_receipt_sha256": "1ebc3c43af06301c198d1f8e14431e843dce2024fce42cf7b23a5d4c2c5f22cb",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

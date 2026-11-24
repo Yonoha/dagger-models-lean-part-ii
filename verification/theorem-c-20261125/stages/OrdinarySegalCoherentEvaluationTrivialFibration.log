@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCoherentEvaluationTrivialFibration.coherentEvaluation_boundary_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentEvaluationTrivialFibration.coherentEvaluation_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

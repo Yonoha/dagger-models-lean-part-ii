@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalAllVertexDescent",
+  "source": "lean/TheoremCStages/OrdinarySegalAllVertexDescent.lean",
+  "source_sha256": "9e024e7df9ca54d33732b0ccca48a5a418f2d3f3349f7f1916f382550465aed5",
+  "actual_exit": 0,
+  "seconds": 22.98438879099558,
+  "artifact_valid": true,
+  "olean_sha256": "93cfaac959a166381c4345964362ded9f16273f560c3ab8765f4ef4c44ed834e",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalAllVertexDescent.log",
+  "log_sha256": "53ebf9ebdc60c3817b057efba1b9daddd0b043bd05b6d2ad16fce2e0feca5234",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalAllVertexResolution": "1d66f5c67c16d51bdf083daf71af71bff4439b2ad8bbcd99deb9a6a4b7cc798e",
+    "BisimplicialCommaZeroFiberComparison": "5eba7d1a6720ace4b034079e4944dd54a8b8aea95cd2cee0eefba0113c073e0f",
+    "SimplicialReplacementChosenHomotopyFiber": "7c6e44d3509a6a662f7556f94fef367481f87e7c7f036a2d4f162d0c4540092e"
+  },
+  "original_receipt_sha256": "37f6f640cebc12e625b92e5f7228dbc5d9a1e8e8a823f2ba9d81528286d9ebe0",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

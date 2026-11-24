@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryCoherentWeakInvariance",
+  "source": "lean/TheoremCStages/OrdinaryCoherentWeakInvariance.lean",
+  "source_sha256": "6cd480218812095e1628f91e592b0f399dbe84a98c613fcded2f2241ed80b24f",
+  "actual_exit": 0,
+  "seconds": 14.988574166010949,
+  "artifact_valid": true,
+  "olean_sha256": "a4c99047df13f62a436c91c77dbc337bb9cae40467a853301f7652e97e70e4da",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentWeakInvariance.log",
+  "log_sha256": "29cb668ce91612f203992abd223c32a09e029940ae04f2363697658fa428805d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCoherentArrowNaturality": "ec6c75d24d7be982f7fbb6e52cd18eb51c18a778000028c9359e60cc0ee9c030",
+    "DaggerModelsPartII.CosimplicialMappingInvariance": "43b67b76895d8845524594f26f1958f761c5a27da39460e220e3c27f3245c902",
+    "OriginalSimplicialPiZeroWeakEquivalence": "5457700382eccd65025c904b99ff18acca248da31fab7b3706fe5f6d0792f95f",
+    "NativeSubcomplexWeakRestriction": "c6ac54732a31f70c4eb3a877ffe71671227f6e65dd091c0d8dd6ce94d2aa8005"
+  },
+  "original_receipt_sha256": "031706991e0df9b918a321d62a5d20c3bd7eca9d485d0e7d5aef56d4fe2a9f86",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

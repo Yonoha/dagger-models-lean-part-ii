@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalAllVertexPrecompletionFibres.vertexResolution_app' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalAllVertexPrecompletionFibres.resolutionUnit_vertexComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalAllVertexPrecompletionFibres.rowUnit_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

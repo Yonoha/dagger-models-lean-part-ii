@@ -1,0 +1,19 @@
+{
+  "module": "KanHomotopyMonomorphismFibre",
+  "source": "lean/TheoremCStages/KanHomotopyMonomorphismFibre.lean",
+  "source_sha256": "c88e99f1802b662b112f3afd253b4b990158d6c57ffb4b41ddb92b4771514ddc",
+  "actual_exit": 0,
+  "seconds": 14.834125666995533,
+  "artifact_valid": true,
+  "olean_sha256": "864bc4a8c24a4209f403deceb7aa00e11189a85e3ab7bbc261bb4e6f689c4833",
+  "log": "verification/theorem-c-20261125/stages/KanHomotopyMonomorphismFibre.log",
+  "log_sha256": "d906047bfcf4dc8e74aa52810debaaf16a609aa89503dc89f7900d58d126bfaa",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "KanHomotopyMonomorphismCancellation": "351c10e5f3e4b8a41a0beb12f22a83bc5a8a065b4df610363315cfa166f22a88",
+    "NativeSSetFibrationSquareFibreWeak": "2aeec0cf3f789a04f077f548df35aef8e787c659bd925bee3644b84e0c9a9a2c"
+  },
+  "original_receipt_sha256": "e43673a751e4914296d1db38e3513c9372ae2a3cff0cf84d8ec32ff34bc36024",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

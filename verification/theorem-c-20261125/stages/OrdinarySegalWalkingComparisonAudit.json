@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalWalkingComparisonAudit",
+  "source": "lean/TheoremCStages/OrdinarySegalWalkingComparisonAudit.lean",
+  "source_sha256": "72e704b40c5cc037f6361f83448e977eeedc4f64e5b7b08494004f4acc496a5a",
+  "actual_exit": 0,
+  "seconds": 13.486310124979354,
+  "artifact_valid": true,
+  "olean_sha256": "95c6a333e72cbf61eabcb5883cba571cc38ca1677047468c4d96c275c39ef148",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalWalkingComparisonAudit.log",
+  "log_sha256": "12fa45fa106ab7713a29113d3cc97dcc78ac1b469d06e30470a1684660767a57",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalWalkingFullFaithfulnessAudit": "24631bc2cc5071fcb4c591a0aa22f6f7df9268ccc329706521bf26acc29e6710",
+    "OrdinaryWalkingCoherentEssentialSurjectivity": "dd50c14814fd1240dc302fe57ba97dbca58ee1b099457be128eca4f76f4e9c2b"
+  },
+  "original_receipt_sha256": "8f951b3792a96bab8fa41ee37a03255200640b39c8e25fcbbdb3e704c37442f7",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

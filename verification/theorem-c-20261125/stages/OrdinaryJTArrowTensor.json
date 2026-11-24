@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryJTArrowTensor",
+  "source": "lean/TheoremCStages/OrdinaryJTArrowTensor.lean",
+  "source_sha256": "86fe9793ff8260f581397a98bef429722e553f294a9bf9cb5c7317bdfbc7c0a9",
+  "actual_exit": 0,
+  "seconds": 14.5278547090129,
+  "artifact_valid": true,
+  "olean_sha256": "29bb1bf966dba6ab0c04499b6ace1de3c13e11dc2f5162633205c65724dae9bd",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTArrowTensor.log",
+  "log_sha256": "54d92ab74b4b88b8d62b5557554bd6cc51bd6ded76cd2e398ed011f9c3c581ab",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.JTOrdinaryEndpointFibration": "a5560a4c7125757fc2e5d44338dfdd494da3d85e0931c278b46dd4ce1a9447e2",
+    "DaggerModelsPartII.ReducedCylinder": "2dc1c9f03289b8d27718c3b5e224816ceefccf28a98ac0b3a213baba02bf0b6c"
+  },
+  "original_receipt_sha256": "767569d7576610fde0b0eec597407284f6707c12a67892d1765dc383f6b22d7c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

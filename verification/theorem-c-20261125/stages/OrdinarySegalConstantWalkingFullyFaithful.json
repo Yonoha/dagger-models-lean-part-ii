@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalConstantWalkingFullyFaithful",
+  "source": "lean/TheoremCStages/OrdinarySegalConstantWalkingFullyFaithful.lean",
+  "source_sha256": "8630887fbfafb48ac7987a27435d2386d95ed1c5a1842146fbf37ac6d5951090",
+  "actual_exit": 0,
+  "seconds": 9.730604999989737,
+  "artifact_valid": true,
+  "olean_sha256": "b3dfeba7d3fb9e7201372f0f0e414e5a886dbe0c0aa933cefb6b60392205ad1b",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalConstantWalkingFullyFaithful.log",
+  "log_sha256": "5f336a21429f4c29c39ec8cd1c407d6bd0f30c7abcbaaaf2b943753dd0bc05c8",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalConstantIntervalFullyFaithful": "2e4fdf90eac13b5397368c0ab7954aa44f8d16bca775be11dec5cce014c39d0f",
+    "OrdinarySegalCotensorOrderedMappingFibration": "f6923024c644937d9da8183565452c6b0466fc6c2f43f9a15ef4c5a3a8e54671",
+    "OrdinarySegalCotensorUnitMappingDiagonal": "0234da2c64c1ad37e1d9d26873dd1e408dd94c1fb692601e2347f32a0e2b2719",
+    "OrdinarySegalOrderedMappingComposition": "1d1b75c19b2247539f4e38c67545732c73d5247a2014eba91242c45cc18e10eb",
+    "KanHomotopyMonomorphismCancellation": "351c10e5f3e4b8a41a0beb12f22a83bc5a8a065b4df610363315cfa166f22a88"
+  },
+  "original_receipt_sha256": "b9958d604b900347c4a1d8006fcba8278b441acbe055246a95d6b009c191b203",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

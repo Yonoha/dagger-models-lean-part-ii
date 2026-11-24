@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryWalkingFirstEdgeCalibration",
+  "source": "lean/TheoremCStages/OrdinaryWalkingFirstEdgeCalibration.lean",
+  "source_sha256": "c4afebbdb1e7dc6dac5cb50ff929f67f8e93237e056540e5bdd86a0c8eac12b9",
+  "actual_exit": 0,
+  "seconds": 7.476968625036534,
+  "artifact_valid": true,
+  "olean_sha256": "809ecf8222ed286770ba55a499fd7ddad8f623537439e97095121ec375d64b65",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingFirstEdgeCalibration.log",
+  "log_sha256": "cec79a340f228d06bd3b85323ecc997a47c3a2d737a613218d50f8629638e4ea",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingAlternatingPushout": "a089e340875e001a0bc03f77d858dd19511015aefdafb4effa51b8976ca77e7d",
+    "RelativeLeftOuterHornGeometry": "baece8a2ae5870f15dbbc7f6e1a75dfc20f35d380a1bfcab50bc56fc758a1514",
+    "OriginalJoinedHornPrefix": "069bb8dee5ff90363b9442319e510a6d6692d0e1e89f22570cb39798fe2fb396"
+  },
+  "original_receipt_sha256": "8eecb188eb1f7fc6f07e1214f55c04127d6c50d5b3d7a6938059b853b150e5b1",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalOrderedMappingWeakCongruence.weak_congr' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingWeakCongruence.weak_of_eq_id' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

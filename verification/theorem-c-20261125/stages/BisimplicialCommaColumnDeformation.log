@@ -1,0 +1,12 @@
+'DaggerModels.PartII.BisimplicialCommaColumnDeformation.deformationIndexMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaColumnDeformation.deformationPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaColumnDeformation.deformation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaColumnDeformation.nerve_forget_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryJTFirstRowIdentity",
+  "source": "lean/TheoremCStages/OrdinaryJTFirstRowIdentity.lean",
+  "source_sha256": "1d464506eeaa16281b44de698125a40da72e1d5075e05aaf244a64468b2a2dfd",
+  "actual_exit": 0,
+  "seconds": 8.966168290993664,
+  "artifact_valid": true,
+  "olean_sha256": "a886862c5569bebb53059584aa481f1e5c21307d0d24a5ae81d407c37851b71c",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTFirstRowIdentity.log",
+  "log_sha256": "a4424f60baba68a04e90b25090acc78f252ced3b08f2b03552dceecf5f2bd317",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.OrdinaryJTRealization": "95f305f0afc270708e14d18c622ba6f91f7d99b0c0715b3c08e3270f64128da3",
+    "DaggerModelsPartII.JTParameterZero": "1c6ab114c82764a68c391ca5a4d5ab71f874473491ae04bec36615b11ecf0d8b",
+    "TopCatModelCategory.SSet.StandardSimplex": "050f8572ed0d49431de461cb7a2a55014695b4fa1c51bcf92340bfffacb80021",
+    "Mathlib.CategoryTheory.Products.Basic": "b5c584a2cada5993ca6b8cad788400a451985288efd3eaa6a3ca50e691f32376"
+  },
+  "original_receipt_sha256": "9a11ac38bd167e90aa8f9daec4ade7b8cf2429955bf70f31a0fd31e12c169dc7",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

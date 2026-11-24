@@ -1,0 +1,3 @@
+'DaggerModels.PartII.KanHomotopyMonomorphismSpecifiedFibre.fibreMap_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionDerivedMapping.point_to_precompletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionDerivedMapping.precompletionChosenMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionDerivedMapping.strictPrecompletionMap_eq_mappingMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionDerivedMapping.barDerivedMap_eq_canonical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionDerivedMapping.canonicalDerivedMapping_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

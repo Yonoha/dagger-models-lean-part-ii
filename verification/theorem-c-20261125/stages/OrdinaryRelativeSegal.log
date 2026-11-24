@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinaryRelativeSegal.targetOverZero_segal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

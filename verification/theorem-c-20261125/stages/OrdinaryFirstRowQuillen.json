@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryFirstRowQuillen",
+  "source": "lean/TheoremCStages/OrdinaryFirstRowQuillen.lean",
+  "source_sha256": "8ba6c6107c17146392186785ccf87f4858b40105a026ffe95e318a93fa57572e",
+  "actual_exit": 0,
+  "seconds": 12.29572483303491,
+  "artifact_valid": true,
+  "olean_sha256": "a2b702f3e908937a28be608bde591d98b2f307d4ee851a3c74dd6d9974563eb7",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryFirstRowQuillen.log",
+  "log_sha256": "6d0c7bdd30f97ba563918bbcba96929d000f363ff69284e3c0791d1e6668eb2a",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryFirstRowAdjunction": "126e3d23d4d039fb5be0b05b97792837810e826e1adf728805e3125c4dd67080",
+    "OrdinaryCSSHorizontalWeak": "f13badc7ef6ffd4aeb7d5d0a64cc0702f61cf90f6d81f46665ef2a13d36b84c5",
+    "TopCatModelCategory.QuillenAdjunction": "4b87918f2bdc60ed25395b606958ddc4172f9ab54e930d153271049030edf4e3"
+  },
+  "original_receipt_sha256": "da75f5445bf2cfb1af0fb7b142bc2036ff09cd7eb206ce637938ce4283045f88",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

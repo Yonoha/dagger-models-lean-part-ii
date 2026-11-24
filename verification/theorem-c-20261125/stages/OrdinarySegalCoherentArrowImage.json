@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCoherentArrowImage",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentArrowImage.lean",
+  "source_sha256": "54d7e60b9ab83ec93a02881ee7b65f4ea4315b2923527779ac83f667ef690225",
+  "actual_exit": 0,
+  "seconds": 15.949259667017031,
+  "artifact_valid": true,
+  "olean_sha256": "6ebce9891c91b8a693254b345a44501ce30d2fbc96bebbd5b525924fe9976216",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentArrowImage.log",
+  "log_sha256": "4f8f622cc73caa0fcc3bfd8c6230d977ddf2d7e393ba1c7e99aad711bfc5aa8b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalWalkingEvaluation": "3638efb2a5b4daa5f7134ce5639f1cc393c754a020232ea55edcf7bd0f155d25",
+    "OrdinarySegalComponentImage": "fefadd03dfce9e2ff0588c7f55189508095c089fd38bb9643bed63e86c35296f",
+    "NativeFibrationSurjectiveComponents": "2872033501f1ad84dade6b0c400937bc8067ffe41e50ba9247e7b6ea565a60d7"
+  },
+  "original_receipt_sha256": "bb955c090d90e9c56b50895c8646b508209cfed43489873bfbf53cbfc499a971",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

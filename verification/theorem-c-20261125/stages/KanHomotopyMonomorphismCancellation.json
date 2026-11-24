@@ -1,0 +1,20 @@
+{
+  "module": "KanHomotopyMonomorphismCancellation",
+  "source": "lean/TheoremCStages/KanHomotopyMonomorphismCancellation.lean",
+  "source_sha256": "a41d9fb1771a7a642d10406e09dd2b698aee695af2478f4fe713686bb1d0ced2",
+  "actual_exit": 0,
+  "seconds": 11.40828962501837,
+  "artifact_valid": true,
+  "olean_sha256": "351c10e5f3e4b8a41a0beb12f22a83bc5a8a065b4df610363315cfa166f22a88",
+  "log": "verification/theorem-c-20261125/stages/KanHomotopyMonomorphismCancellation.log",
+  "log_sha256": "0a8f4970520d20f6890c8e5cc934cadd8673e5edaa209a5df2ea691a733770e4",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "KanHomotopyMonomorphism": "2967725c66b6cc397919f7d9c1c49f8f74a1635e0763aeb9a93979e1d37be905",
+    "NativeFibrationSurjectiveComponents": "2872033501f1ad84dade6b0c400937bc8067ffe41e50ba9247e7b6ea565a60d7",
+    "NativeFibrationWeakFromVertexFibres": "444884a9d88b0b6e5d701f6338090bf5dc1fb458213f596f8cccbf73470a3f25"
+  },
+  "original_receipt_sha256": "5baaedbe3608c54976c4a2ac9ab6022e8dad614e496c09e297399959afff962e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

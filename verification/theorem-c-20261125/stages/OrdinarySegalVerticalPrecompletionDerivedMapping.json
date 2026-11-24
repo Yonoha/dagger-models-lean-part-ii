@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalVerticalPrecompletionDerivedMapping",
+  "source": "lean/TheoremCStages/OrdinarySegalVerticalPrecompletionDerivedMapping.lean",
+  "source_sha256": "ede6f0d7fc1c20ef75e3b4aa71643d758c27f42c0096de378d705f03831b6f60",
+  "actual_exit": 0,
+  "seconds": 21.72521124999912,
+  "artifact_valid": true,
+  "olean_sha256": "e1871c4148d3f3b6caee34f7b32bc8984e65a0bf951d3b06fc564488ac4d757b",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalVerticalPrecompletionDerivedMapping.log",
+  "log_sha256": "60d8037b66c6541328c7f3563e9fe96311d8b234e81bdd089a2e469df9b85a0c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalEndpointZeroTotalUnit": "f1ffb89f8b66e21850763ed7f3fe7b68dc2fbbaffc10d56d0e181f4427afd9e0",
+    "OrdinarySegalEndpointPointCalibration": "71ee8b5d3c51016ae87158d4139d58139369999e65d79beb7872842bba7137aa",
+    "BisimplicialCommaZeroFiberComparison": "5eba7d1a6720ace4b034079e4944dd54a8b8aea95cd2cee0eefba0113c073e0f",
+    "DaggerModelsPartII.ChosenHomotopyFiberFunctor": "0916c8621778b789e1cafdd723d7e7ed052a9bbfe09725f6c271cc680b224620"
+  },
+  "original_receipt_sha256": "57ebcb4a2fb202b85c54fe0caab1ecb40f1b733de950cd36e702e8223d02dd4e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

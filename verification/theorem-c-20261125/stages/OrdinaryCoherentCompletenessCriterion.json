@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryCoherentCompletenessCriterion",
+  "source": "lean/TheoremCStages/OrdinaryCoherentCompletenessCriterion.lean",
+  "source_sha256": "bc869c4403537f1edf3c4946e3cc831d5a580926579dcfd4ee7d5840666ce54f",
+  "actual_exit": 0,
+  "seconds": 9.46339970799454,
+  "artifact_valid": true,
+  "olean_sha256": "5c659fae1edd81c9daf4ab4f3d11dc9464833defca61b21ca23546ace79431fb",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentCompletenessCriterion.log",
+  "log_sha256": "cf5f66141551cb4c7fef423c7ba18cd4459da0d6138d450aa4be7b433960bb74",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCoherentArrowNaturality": "ec6c75d24d7be982f7fbb6e52cd18eb51c18a778000028c9359e60cc0ee9c030",
+    "OrdinarySegalCoherentEvaluationTrivialFibration": "b07762be22e40ddd371ebb069ee7666d166901bc95f30fe942741ecc6c6b9af5",
+    "OrdinaryCSSConditions": "d93a3feb58efc0450536578c40483bfece19c3d26c3cbfe2f3ea87cdc6079b59"
+  },
+  "original_receipt_sha256": "7a6dadf5ab855b88d161a327f466acc96a10b55607db8ac2bbfb639cf4bbf819",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

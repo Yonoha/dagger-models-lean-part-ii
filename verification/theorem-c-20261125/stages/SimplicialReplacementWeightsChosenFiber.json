@@ -1,0 +1,19 @@
+{
+  "module": "SimplicialReplacementWeightsChosenFiber",
+  "source": "lean/TheoremCStages/SimplicialReplacementWeightsChosenFiber.lean",
+  "source_sha256": "dd7a26994745c8ae933665b521a20c14cac496ced74898b8f351de89ced58c71",
+  "actual_exit": 0,
+  "seconds": 8.171331250006915,
+  "artifact_valid": true,
+  "olean_sha256": "c495bc9f1d53615871f5e4218daa16804440d910cd37cd4f0bdbea284d1d1a4f",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementWeightsChosenFiber.log",
+  "log_sha256": "0cadcdf6a41324685fc6b1d765c1c03f90917ec3c8a4d28eb8369b5a4ae6750b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplicialReplacementChosenFiber": "a9af608c991e8fc95ade568b38504087f66cd8bd716aba5e34383f66b353fbc3",
+    "NativeSimplicialReplacementWeightsChange": "32830911e51f9b46a5825e5096d7b92e55ac2ec90db6fd50a5cde583e787edde"
+  },
+  "original_receipt_sha256": "a402bafc21f4bbe40886b49d77752a1372656ddc2f3745abb7270578bad42378",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

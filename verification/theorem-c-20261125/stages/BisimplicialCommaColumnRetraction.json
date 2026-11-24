@@ -1,0 +1,20 @@
+{
+  "module": "BisimplicialCommaColumnRetraction",
+  "source": "lean/TheoremCStages/BisimplicialCommaColumnRetraction.lean",
+  "source_sha256": "fa75bdce7577628df1201e90329599ceb2a35faf27c8eae91d57c5090e60d766",
+  "actual_exit": 0,
+  "seconds": 15.870043415998225,
+  "artifact_valid": true,
+  "olean_sha256": "8e15c685264ad7c19db1970132eec40540dc85fab9d622889df27cd156e950bd",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialCommaColumnRetraction.log",
+  "log_sha256": "ab6a42bad35944daabfb2a93876babc976b1848c95d411651a13a199b4a8757c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialBaseSimplexFibers": "7002ff38d073cf1fb89df7cc5fdfbffb8985762253cd98798c57c8671915574a",
+    "Mathlib.CategoryTheory.Elements": "3f6e9eadbe25c4b990013c287f753b189878cd5612f3b438c2d6d25472344320",
+    "NerveHomotopy": "93ff0c1144cbb2c42d870adcaa45d10cd5fb3ca5e869d5a372f4548645901c46"
+  },
+  "original_receipt_sha256": "b29861f9e73fa3484ec69184b9e181e676ebc630f5b0de28dec9e8b8a961fa8e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

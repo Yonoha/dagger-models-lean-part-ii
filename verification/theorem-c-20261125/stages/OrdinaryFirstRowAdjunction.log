@@ -1,0 +1,5 @@
+'DaggerModels.PartII.OrdinaryFirstRowAdjunction.firstRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowAdjunction.adjunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowAdjunction.counit_app_app' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

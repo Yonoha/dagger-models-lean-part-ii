@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryFirstRowQuillenEquivalence",
+  "source": "lean/TheoremCStages/OrdinaryFirstRowQuillenEquivalence.lean",
+  "source_sha256": "76771f30c740451dc03082e381df6e9a4df421b23fec7fdfdac83b810cafe37b",
+  "actual_exit": 0,
+  "seconds": 10.700790583039634,
+  "artifact_valid": true,
+  "olean_sha256": "0b1ff92833c965e7bd7d00784248bca0c610d7dbf099146deccc09a91a1a2b25",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryFirstRowQuillenEquivalence.log",
+  "log_sha256": "4614dbbbb917622cdee2956691eef416999149dfe0eacc2354115daaa57c6ac1",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryFirstRowQuillen": "a2b702f3e908937a28be608bde591d98b2f307d4ee851a3c74dd6d9974563eb7",
+    "OrdinaryFirstRowCounitWeak": "b945362058b98f17bb6e749ed6eddd4988b5b11f016f7a073d93a8483e6104e1",
+    "OrdinaryJTLeftWeak": "6b5e2a807ff2cd59d04797bc77bb71f3ac19fdc92d05a76d797ee1ddabd6b51b",
+    "OrdinaryJTDiscreteRealizationIdentity": "fd9e1f7d049fb8ca69e15b52d3c842d529e09e7c07ce5b6969a213777fd6a2b6"
+  },
+  "original_receipt_sha256": "61cd44568d6bd588686e70f6101bf8f498db03318c327ff3ec9e029f69b718fe",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

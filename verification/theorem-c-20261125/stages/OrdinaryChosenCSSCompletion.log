@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinaryChosenCSSCompletion.inclusion_baseWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryChosenCSSCompletion.inclusion_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryChosenCSSCompletion.completion_injectiveFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryChosenCSSCompletion.inclusion_cssWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryChosenCSSCompletion.completion_cssFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

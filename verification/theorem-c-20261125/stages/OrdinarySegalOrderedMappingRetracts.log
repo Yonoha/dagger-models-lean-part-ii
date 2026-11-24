@@ -1,0 +1,30 @@
+'DaggerModels.PartII.OrdinarySegalOrderedMappingRetracts.sourceSplit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingRetracts.targetSplit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingRetracts.inclusionEndpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingRetracts.retractionEndpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingRetracts.inclusion_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingRetracts.retraction_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingRetracts.source_retract' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingRetracts.target_retract' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingRetracts.mappingRetract' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingRetracts.orderedMappingProperty_isStableUnderRetracts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

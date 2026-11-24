@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryWalkingCoherentVertexCalibration.constantAt_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentVertexCalibration.slice_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentVertexCalibration.simplexUnit_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

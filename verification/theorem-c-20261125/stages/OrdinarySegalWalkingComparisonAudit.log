@@ -1,0 +1,24 @@
+'DaggerModels.PartII.OrdinarySegalWalkingComparisonAudit.originalInput_coherent_object_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalWalkingFullFaithfulnessAudit.originalInput_constantWalking_mappingMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentEssentialSurjectivity.coherent_object_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentEssentialSurjectivity.endpoint_one_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentEssentialSurjectivity.endpoint_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentVertexCalibration.simplexUnit_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorConstantObject.objectMap_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTTheoremCFromOriginalRawOrderedUnit.statement_of_originalRawOrderedUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

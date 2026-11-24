@@ -1,0 +1,20 @@
+{
+  "module": "SimplicialReplacementPointwiseKan",
+  "source": "lean/TheoremCStages/SimplicialReplacementPointwiseKan.lean",
+  "source_sha256": "39c8b5ff2193cc8cf8a4290dacf269a4e6d76dcba38546e4f092acced3b407e7",
+  "actual_exit": 0,
+  "seconds": 11.814860667000175,
+  "artifact_valid": true,
+  "olean_sha256": "f3f712aacf0a89868a4eabf7dd4c0f6f8c859b000c78e3ecf35e307bf090388d",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementPointwiseKan.log",
+  "log_sha256": "4c7ad3e52a8ee3e17fbd404876cba4770335e815823f7aefcb6b06fde09a318c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeSimplicialReplacementWeightsChange": "32830911e51f9b46a5825e5096d7b92e55ac2ec90db6fd50a5cde583e787edde",
+    "NativeBisimplicialDiagonalWeak": "26fd2f3337aa3170dcb9ee7a7b05e8c4209a2be9453d92eb429283cd67968a5c",
+    "TopCatModelCategory.ModelCategorySSet": "9f5b1ae2f96d4f71e3775e9a292ca4f9c639279878cc78e44a3ccf13c65ffe7f"
+  },
+  "original_receipt_sha256": "01cea66dd88e54cc0c836ff939933e3426bc07874d30cbd6b376cd14f4590326",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

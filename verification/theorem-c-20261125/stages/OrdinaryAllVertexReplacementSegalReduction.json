@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryAllVertexReplacementSegalReduction",
+  "source": "lean/TheoremCStages/OrdinaryAllVertexReplacementSegalReduction.lean",
+  "source_sha256": "15cf4dbeeba0e44d125d649e73df52befc869756db9d9e1d7c9f41bd20617ec1",
+  "actual_exit": 0,
+  "seconds": 18.435263541003224,
+  "artifact_valid": true,
+  "olean_sha256": "81746e767e8dc02161951a0cfbe12618fc31256905478ea0468165fc23220605",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryAllVertexReplacementSegalReduction.log",
+  "log_sha256": "1f1f69bf55fd55bc83c730888899e4b578ad7e7a1c3c73127ff8e35075b40e70",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryAllVertexDerivedUnit": "bf23f4863805a29518127afe6d6f70795715c860a5c2062d99a010b8bdfd6207",
+    "OrdinaryAllVertexReplacementComparison": "be5d489b6d82053e05ba2b51fe3f231fbe19b34502b8daa0325eaf9019a29fa2"
+  },
+  "original_receipt_sha256": "5567b34c2884bf6a8b00fae61c9a27daa608d4bdbde8d96aa5ac38d3400fe66c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

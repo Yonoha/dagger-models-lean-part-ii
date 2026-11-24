@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalWalkingEvaluation",
+  "source": "lean/TheoremCStages/OrdinarySegalWalkingEvaluation.lean",
+  "source_sha256": "4f74b325c88bc7440fd1d211dd9da28a8fc1acaeef18bbd1025a29f93be4ade7",
+  "actual_exit": 0,
+  "seconds": 11.510441292019095,
+  "artifact_valid": true,
+  "olean_sha256": "3638efb2a5b4daa5f7134ce5639f1cc393c754a020232ea55edcf7bd0f155d25",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalWalkingEvaluation.log",
+  "log_sha256": "e85589ca979dff4d9161c70b53995c1386c548c58ff1dee7dc4589c7e208b1ca",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryDiscreteMapping": "a44dc7eecb6d1bc21a89eb457532bffb6b3b67985323b8ba95898ec3df90dd68",
+    "DaggerModelsPartII.InjectiveKanModel": "48053e09ae8a90906e2fa6334014a5ea64918605e9726274b4280a76a177d971",
+    "DaggerModelsPartII.DiagramMappingPrecompFibration": "85b12ba4a8e4856af4d54ae275399c94297dac22c7f9d0bb4c3d5bb7b6aa6b78",
+    "DaggerModelsPartII.JTSimplexUnitKan": "2fbe9cb4142bed33ce3e2631245abecf12a028a6d798aa8f50d83263f7fb562c"
+  },
+  "original_receipt_sha256": "8537303c63082705abed21786c1d7376a5e84b6661ddaba97144f09b8755ab72",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

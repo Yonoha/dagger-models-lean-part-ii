@@ -1,0 +1,18 @@
+{
+  "module": "RelativeRightOuterHornFilling",
+  "source": "lean/TheoremCStages/RelativeRightOuterHornFilling.lean",
+  "source_sha256": "20155ab4bf7b80d24171d7c85d398382d61738fbcda7680db4cdb40409222ea0",
+  "actual_exit": 0,
+  "seconds": 9.078769042040221,
+  "artifact_valid": true,
+  "olean_sha256": "5ab89c16cce0456c1fa6796cc6fb48b40e8d7ae64e05a460edb64afff617839d",
+  "log": "verification/theorem-c-20261125/stages/RelativeRightOuterHornFilling.log",
+  "log_sha256": "2440a20d57be5ac9c4e80c21cf480af39ee8486df668756aca0f122c218153df",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RelativeRightOuterHornData": "79faede1dec6c4d16d297246dc9d9adaae1875223ba0e55351cafcaa6a01d135"
+  },
+  "original_receipt_sha256": "ce922dfc6875167a44d49e4e533bae850c325394b07532fa85415ccfb06db2a1",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

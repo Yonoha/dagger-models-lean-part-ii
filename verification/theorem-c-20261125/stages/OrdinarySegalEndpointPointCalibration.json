@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalEndpointPointCalibration",
+  "source": "lean/TheoremCStages/OrdinarySegalEndpointPointCalibration.lean",
+  "source_sha256": "bcca83d461e6db965a6923044a99c74ca54c0cab95e42dc19fa5bb43b6ebe7db",
+  "actual_exit": 0,
+  "seconds": 12.148507040998084,
+  "artifact_valid": true,
+  "olean_sha256": "71ee8b5d3c51016ae87158d4139d58139369999e65d79beb7872842bba7137aa",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalEndpointPointCalibration.log",
+  "log_sha256": "a8acee08afd48c0e49eaa604b656be683223b5d63ccb5b3e6255cb9ac1bcfa8a",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialCommaZeroPointCalibration": "7cd2b0bd327cdec73481df3e309a6109c343c0497a80b87af51b0bc6e0c8eaa2",
+    "BisimplicialCommaChosenFiberSpan": "a8b11a5ca4ed0921ed4f407f98a02d78e4c7c928e8367f7997b281c9a51bcb9a",
+    "OrdinarySegalEndpointDescentFiber": "f3eed08300a63888b268cab25b3b6042fa6f7a262b650e772883b73846ca5a69"
+  },
+  "original_receipt_sha256": "dd30df185b0c615439260cdd1e72bcb300efcfdcb1bd391ab91634c69049ae68",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

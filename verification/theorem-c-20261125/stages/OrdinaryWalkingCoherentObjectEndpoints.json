@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryWalkingCoherentObjectEndpoints",
+  "source": "lean/TheoremCStages/OrdinaryWalkingCoherentObjectEndpoints.lean",
+  "source_sha256": "07eb9a429088f298e2275400c75983a80d6a746d32ad365cf3f4dc64a43f56f1",
+  "actual_exit": 0,
+  "seconds": 7.154128291003872,
+  "artifact_valid": true,
+  "olean_sha256": "61b121577886c2de889937b394e13f1d83fecbe3c60823e2a8986a2b15a26a99",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingCoherentObjectEndpoints.log",
+  "log_sha256": "d89caebc4168022e16b4e9e19baf6fbac5c916281ce612b31fad54d97eb46b30",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingCoherentObject": "2b38988656b098e8e5e733f184003a0465e71cb752472cb55eea90c822a639bb",
+    "OrdinaryWalkingCoherentVertexCalibration": "3007b8a861fe0b8b8e1a6c4e637d14f0adddb2c534bf5ccee49b49b658ad1645",
+    "TopCatModelCategory.SSet.Monoidal": "c285c002c6c22c4125886e8f256c2a5b7c58eb956cd1574b051a5dbbef62281f"
+  },
+  "original_receipt_sha256": "b8f1f297991985250451861eadd271d5878e916fc04a875da3bb5607c2c37f8c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalHorizontalRestrictions",
+  "source": "lean/TheoremCStages/OrdinarySegalHorizontalRestrictions.lean",
+  "source_sha256": "e973be85366bdae16225a5a374c95af77dc5165dc9c9835516f0adb61dea3c70",
+  "actual_exit": 0,
+  "seconds": 12.408060624962673,
+  "artifact_valid": true,
+  "olean_sha256": "814974ba7c4609072024d5c2b6cffb794e2eb299655fa43ea6a9d8e9502d03ce",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalHorizontalRestrictions.log",
+  "log_sha256": "f257db463a17dd2e100a851aa736fe8873d5def7a38f46685141d1fec08ed61c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalInnerHorn": "e94a533bfff94e0f0ee5416e53d551dc14ab3e48bd9ba61d2ce628d53ad1830e",
+    "OrdinaryDiscreteMapping": "a44dc7eecb6d1bc21a89eb457532bffb6b3b67985323b8ba95898ec3df90dd68",
+    "RestrictionHomLiftingTranspose": "bc67e3c907bac692ea135ca2cb63c9a66dc833bc6b609017d854e259449b2d16",
+    "DaggerModelsPartII.InjectiveLocalEquivalences": "a8370a8b6d0989314180bb9d2a8da01cb847874cc7b2c0c8bd1ef1b4313e0c9f",
+    "OrdinaryCSSRestrictionQuasicategory": "4b98722afd77771ce41e633267c5be2bf0693cc9447ea428ff7036570df175d2"
+  },
+  "original_receipt_sha256": "8fda594394f4b739f6996a366f1e98b8c57e404a60fae9c20d08830da301171d",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

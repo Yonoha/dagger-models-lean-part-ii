@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalCoherentCompositeFiberNaturality",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentCompositeFiberNaturality.lean",
+  "source_sha256": "848a159229e499127554b0f7c4e39684ec6cbc514dc4f654f96160ea5c495066",
+  "actual_exit": 0,
+  "seconds": 8.344836917007342,
+  "artifact_valid": true,
+  "olean_sha256": "6b0db2bf903cd2c298105d8240caa7abf0e2c43025b15cfd15d639bd78f412e1",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentCompositeFiberNaturality.log",
+  "log_sha256": "895c39b44f6d11e4248f444b9b518e9d224f755876ac021bb206cfe529463818",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentFixedTriangleNaturality": "d3573a9183dbf2788d19648df36cfb673bee7daa0a45ffe9e8bc8de6716b07ed",
+    "OrdinarySegalCoherentVertexNaturality": "37ff841dfc88f6f371c3171aa75f6a22ce0f1fa5b639031a9be1e19da1338c61",
+    "OrdinarySegalOrderedMappingTransportCoordinates": "99e5084ebba7471c09623eef69b5fd3daaa4785beda0a70ad89331437c56d3f5",
+    "OrdinarySegalCoherentFixedTriangleSourceCoordinates": "ca039250414939130e3941356149382cf39f7947e3d3dce8bfedb4500daaf3cb"
+  },
+  "original_receipt_sha256": "a3d24adb2c8838cba9ba3053daf3481cd0d5205a583a600dd5d534aaffc163d5",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

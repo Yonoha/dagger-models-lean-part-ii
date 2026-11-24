@@ -1,0 +1,18 @@
+'DaggerModels.PartII.OrdinaryAllVertexDerivedUnit.diagonalArrow_to_precompletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexDerivedUnit.precompletionChosenMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexDerivedUnit.originalFiberComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexDerivedUnit.strictPrecompletionMap_eq_tupleMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexDerivedUnit.barDerivedMap_eq_canonical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexDerivedUnit.canonicalDerivedTupleMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

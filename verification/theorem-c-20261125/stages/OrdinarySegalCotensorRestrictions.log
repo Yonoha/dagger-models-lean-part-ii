@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCotensorRestrictions.pre_app_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorRestrictions.simplexUnit_pre_app_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

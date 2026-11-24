@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryJTCSSQuillen",
+  "source": "lean/TheoremCStages/OrdinaryJTCSSQuillen.lean",
+  "source_sha256": "953ee82c5fa7435e7c5e290441b244466e035f43d76d7171e637b802aec4c00f",
+  "actual_exit": 0,
+  "seconds": 9.206894000002649,
+  "artifact_valid": true,
+  "olean_sha256": "412fadb3f480501859c47d3e135ee13ac0aa7d7b8086b133a7c626074cf896b5",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTCSSQuillen.log",
+  "log_sha256": "1dceb91fba74d3b763bdf6790a20fbf5609685c383bac87f84d33da6ea9e32c0",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTLocality": "8f4c3fe5240fed19d4a7b5d01515934d34fddc8d93554ae56ab1da11a66cd4eb",
+    "OrdinaryJoyalFibrancy": "3055baf194e9bb524134a22c96ac40a228686e684e74094c09a61add1eb70e55",
+    "DaggerModelsPartII.LeftLocalizedQuillenDescent": "10743323182343e16f48782e68e2f181d598eb79c2b889c2baf19f354d2f93bd"
+  },
+  "original_receipt_sha256": "7c7b7abfca353badf9fee87822fe6c60a453a6d9afa14612a14eb85ff087f7c7",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

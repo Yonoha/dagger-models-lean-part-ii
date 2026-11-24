@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryRelativeSegalRecognitionReduction.relativeComparison_weak_of_vertexComparisons' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryRelativeSegalRecognitionReduction.segalCondition_iff_of_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryRelativeSegalRecognitionReduction.targetOverZero_segal_of_vertexComparisons' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalEndpointZeroTotalUnit.zeroFiberComparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalEndpointZeroTotalUnit.zeroFiberComparison_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalEndpointZeroTotalUnit.zeroFiberComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalEndpointZeroTotalUnit.zeroFiber_totalReconstruction_unit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

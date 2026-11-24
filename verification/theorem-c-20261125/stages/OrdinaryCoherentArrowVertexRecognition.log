@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinaryCoherentArrowVertexRecognition.edgeEvaluation_level' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentArrowVertexRecognition.mem_coherent_iff_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentArrowVertexRecognition.mem_coherent_iff_invertible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentArrowVertexRecognition.horizontalRow_quasicategory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentArrowVertexRecognition.segal_mem_coherent_iff_invertible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

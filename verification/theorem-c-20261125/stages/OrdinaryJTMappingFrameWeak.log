@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryJTMappingFrameWeak.frame_op_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTMappingFrameWeak.restriction_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryWalkingAlternatingIntersection",
+  "source": "lean/TheoremCStages/OrdinaryWalkingAlternatingIntersection.lean",
+  "source_sha256": "55bdb7c79214bf44fdda1a2a0b050fe1e56a86843536540eb1bc2131c195ec5c",
+  "actual_exit": 0,
+  "seconds": 9.042449958040379,
+  "artifact_valid": true,
+  "olean_sha256": "923ce407db0d4c7e71e5a31c0c36c3ce0c81b381b805713b4c067169b3d25876",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingAlternatingIntersection.log",
+  "log_sha256": "15e6deb76595b56f803e13e559254dd32e937c22502db480a0726a3e71a4970e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingAlternatingOutsideHorn": "f43902f6d71d8c8895eb8f9aee74d07e3ae754785745a5291b9433d193edc4fd",
+    "OrdinaryWalkingAlternatingNondegenerate": "f41bbb307675979a0924f83c5300980559e5273c0ff70dbeff5a3f006bf4f5a5",
+    "TopCatModelCategory.SSet.Simplices": "294ee44bcfbf5fec926cc012f34dc401693856947ce395e64807552951bcd4fc"
+  },
+  "original_receipt_sha256": "91775e07c84a3e612215612b9d9055cb740c05edca3e5a793d0028df3a276bee",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

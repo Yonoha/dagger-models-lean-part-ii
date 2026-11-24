@@ -1,0 +1,18 @@
+{
+  "module": "OrdinaryWalkingAlternatingOutsideHorn",
+  "source": "lean/TheoremCStages/OrdinaryWalkingAlternatingOutsideHorn.lean",
+  "source_sha256": "c2e8e9685d303109bb030d916bf867f5b26a627c32730e0b96957beec7d68e4c",
+  "actual_exit": 0,
+  "seconds": 7.330661999993026,
+  "artifact_valid": true,
+  "olean_sha256": "f43902f6d71d8c8895eb8f9aee74d07e3ae754785745a5291b9433d193edc4fd",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingAlternatingOutsideHorn.log",
+  "log_sha256": "18df563f4d0a3eca9e16cd5c1d5a6ad85f298bd7432f4f9c2fe35c270ee4f6c2",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingAlternatingAttachment": "54b0fadbaf6db6e040e7618b532ac4e284c851c252534db2df1dd8db4f112ab6"
+  },
+  "original_receipt_sha256": "944a03867fe81d2b6492db62cce5b0eb2054be0abc155702136e9907144a41ba",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

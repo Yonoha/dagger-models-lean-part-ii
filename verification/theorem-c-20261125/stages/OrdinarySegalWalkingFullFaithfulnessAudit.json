@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalWalkingFullFaithfulnessAudit",
+  "source": "lean/TheoremCStages/OrdinarySegalWalkingFullFaithfulnessAudit.lean",
+  "source_sha256": "b62e0bd10e949df4ed5551fafc5920060a7be9054a6951492ffb333d1a2ff95c",
+  "actual_exit": 0,
+  "seconds": 23.136156207998283,
+  "artifact_valid": true,
+  "olean_sha256": "24631bc2cc5071fcb4c591a0aa22f6f7df9268ccc329706521bf26acc29e6710",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalWalkingFullFaithfulnessAudit.log",
+  "log_sha256": "03590397e1993ecb7294ac3c18912d17c26c43b591350a4a3884f60e7f67b566",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCotensorFoundationsAudit": "5713bd3e2de1a0fce04f2d6de3fa8f26bc477e75f881bcf4140699c7fa5a9015",
+    "OrdinarySegalConstantWalkingFullyFaithful": "b3dfeba7d3fb9e7201372f0f0e414e5a886dbe0c0aa933cefb6b60392205ad1b",
+    "OrdinarySegalCotensorUnitMappingDiagonal": "0234da2c64c1ad37e1d9d26873dd1e408dd94c1fb692601e2347f32a0e2b2719"
+  },
+  "original_receipt_sha256": "a8d81547e7b1b3ff3fd2cddc2355d38b1b08ca00d7a9d8b2f5793e0bbdecc03e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

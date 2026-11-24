@@ -1,0 +1,10 @@
+'DaggerModels.PartII.OrdinarySegalUnitSquares.mapSpaceIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinarySegalUnitSquares.spineTwoEdgesIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalUnitSquares.spineTwoEdgesIso_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalUnitSquares.spineTwoEdgesIso_last' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

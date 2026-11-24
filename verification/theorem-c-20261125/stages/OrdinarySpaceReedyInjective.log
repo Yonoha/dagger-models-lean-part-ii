@@ -1,0 +1,18 @@
+'DaggerModels.PartII.OrdinarySpaceReedyInjective.reedy_cofibrations_eq_monomorphisms' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySpaceReedyInjective.cofibrations_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySpaceReedyInjective.weakEquivalences_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySpaceReedyInjective.fibrations_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySpaceReedyInjective.right_map_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySpaceReedyInjective.isQuillenAdjunction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

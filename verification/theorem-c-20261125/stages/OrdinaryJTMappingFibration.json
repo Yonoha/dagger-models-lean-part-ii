@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryJTMappingFibration",
+  "source": "lean/TheoremCStages/OrdinaryJTMappingFibration.lean",
+  "source_sha256": "c79d9f0408349827f0971addf56e5676de47a8d3727ece025d46acdde96c0a67",
+  "actual_exit": 0,
+  "seconds": 10.59403412498068,
+  "artifact_valid": true,
+  "olean_sha256": "68ec6e723b825b7fbab9ce46ae2840643c5f90d7cf3ffee7ce279baa404f951a",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTMappingFibration.log",
+  "log_sha256": "0ff1a61af394345b7a195d768e4010accf7cb4faa1079b61dee5627c990a688e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTRelativeMappingFrame": "afc96f9b47f4bad28c2f74ddaecfe3af3d65c3d4bdbeae7c33dd2bb22787982a",
+    "OrdinaryJTMappingFrameWeak": "fb42acb6858ada3e60f04aadbcfbea2f3673c49480054aea2dfd6e29cc1b1717",
+    "DaggerModelsPartII.StrictFrameMappingFibration": "9ccd888a7bac7911abb112209e9f07456c3a8186b350ee3c4d9e0629f3f5b379"
+  },
+  "original_receipt_sha256": "014c9a4624fc14552233f5d2173396c32d0a4e92f8741a48e53cab304d4d6c10",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

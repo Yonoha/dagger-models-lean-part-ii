@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryCSSHorizontalJoyalFibrancy.restriction_joyalFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalJoyalFibrancy.matching_joyalFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalJoyalFibrancy.flip_reedyFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalJoyalFibrancy.horizontal_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

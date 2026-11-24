@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalOrderedMappingComposition",
+  "source": "lean/TheoremCStages/OrdinarySegalOrderedMappingComposition.lean",
+  "source_sha256": "915821c3576f96efa8ff24c2abcac7200e14c53e9d5330ec8083b84d75dc5a59",
+  "actual_exit": 0,
+  "seconds": 8.464266167022288,
+  "artifact_valid": true,
+  "olean_sha256": "1d1b75c19b2247539f4e38c67545732c73d5247a2014eba91242c45cc18e10eb",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalOrderedMappingComposition.log",
+  "log_sha256": "ecafb7b405aac038f5b28ec1d463eb014fb18d2bb4b4fa0128a02a3f3514a35f",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalOrderedMappingMaps": "13ee6f4a95212941e5db5473d0137ddb970c8041aab5f136eec67df7c5696594",
+    "OrdinarySegalPrecompletion": "e26f7ecbd5271948c3287e944d2cb1ee3f3d3fb549df02cd67a0db37de4a8b5c"
+  },
+  "original_receipt_sha256": "815cf0db3f9ca29572a33ee5bec551c291abae2e5372f5e0067ef018bc573fa5",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

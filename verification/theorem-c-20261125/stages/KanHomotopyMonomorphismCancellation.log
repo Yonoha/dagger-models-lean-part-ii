@@ -1,0 +1,6 @@
+'DaggerModels.PartII.KanHomotopyMonomorphismCancellation.weak_of_diagonal_weak_of_components' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.KanHomotopyMonomorphismCancellation.weak_pair_of_composite_and_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

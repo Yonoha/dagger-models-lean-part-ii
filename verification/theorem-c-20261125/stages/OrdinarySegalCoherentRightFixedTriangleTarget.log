@@ -1,0 +1,21 @@
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedTriangleTarget.targetVertex_point' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedTriangleTarget.hornTargetIso_composite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedTriangleTarget.hornTargetIso_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedTriangleTarget.fixedHornSourceFiberIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedTriangleTarget.compositeToOriginalFiber_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedTriangleTarget.compositeToOriginalFiber_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedTriangleTarget.compositeToOriginalFiber_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

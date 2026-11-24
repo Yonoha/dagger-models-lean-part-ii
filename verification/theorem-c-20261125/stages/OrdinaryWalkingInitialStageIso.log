@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryWalkingInitialStageIso.initialStageIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingInitialStageIso.initialStageIso_hom_ι' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingInitialStageIso.initialStageIso_inv_unit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

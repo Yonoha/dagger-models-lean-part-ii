@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCotensorOrderedMappingFibration",
+  "source": "lean/TheoremCStages/OrdinarySegalCotensorOrderedMappingFibration.lean",
+  "source_sha256": "0188ff9a6d7763478c5c6fbd0e4a942ac11cc9bc712db417fe39f301dfe0808f",
+  "actual_exit": 0,
+  "seconds": 8.115640916978009,
+  "artifact_valid": true,
+  "olean_sha256": "f6923024c644937d9da8183565452c6b0466fc6c2f43f9a15ef4c5a3a8e54671",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCotensorOrderedMappingFibration.log",
+  "log_sha256": "1ba5c137a69ec058dddc3a3814bced1ad3568e0f486f47880adfd1da3b0ba50c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCotensorRelativeEndpointFibration": "34eeb6901939527c2bea75a3cc3d7bcd5a56f8c02d87204674d4477ed7e60f17",
+    "OrdinarySegalOrderedMappingMaps": "13ee6f4a95212941e5db5473d0137ddb970c8041aab5f136eec67df7c5696594",
+    "KanFibrationCornerFibre": "33f77b75edf5a2b658d5a91a25e60090aab794cafa6872bae2b09ebfd0139655"
+  },
+  "original_receipt_sha256": "ad98798cc4411867832ccd9fd00e6427add778317ed61a75ac08ff837fba57ed",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

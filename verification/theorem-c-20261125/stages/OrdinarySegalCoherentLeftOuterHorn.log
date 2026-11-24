@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCoherentLeftOuterHorn.fixedRestriction_boundary_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentLeftOuterHorn.fixedRestriction_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

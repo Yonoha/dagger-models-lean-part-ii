@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalCoherentRightFixedSpine",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentRightFixedSpine.lean",
+  "source_sha256": "5d34f71c11966d0c0b46b071c1eecc59a93dea06b7ce6bb9e5971ac14a801c54",
+  "actual_exit": 0,
+  "seconds": 32.29855570800282,
+  "artifact_valid": true,
+  "olean_sha256": "420410e4ed1d10320d2a5651db235ba1fb131e459ff0f951f24f45ee6d96dfc7",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentRightFixedSpine.log",
+  "log_sha256": "a274e7f47d1200436e6d8351ccb398985f45c17aa636885a2fe1edabd14a51e9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentRightFixedTriangleTarget": "acd24d036f02dc48a36bc63bb0955317a71bdf89fba7c6910304f591e408456c",
+    "OrdinarySegalBinaryComparison": "f8c86f57850f6d1e5ef3bb0902196c689286fc7b7307a585b66df3e514aff30d"
+  },
+  "original_receipt_sha256": "5926738441103fbe2999df921978499d6632ec514398df95db3227cba8eaa2cf",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

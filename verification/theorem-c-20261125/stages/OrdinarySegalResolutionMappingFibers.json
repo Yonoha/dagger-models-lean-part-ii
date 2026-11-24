@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalResolutionMappingFibers",
+  "source": "lean/TheoremCStages/OrdinarySegalResolutionMappingFibers.lean",
+  "source_sha256": "4ce248a622f1faf2dd96eca4990e078416598411de114343e4df0cb2ddecd921",
+  "actual_exit": 0,
+  "seconds": 118.82775024999864,
+  "artifact_valid": true,
+  "olean_sha256": "21b53456f4ea1a96a330c60a8686ae9e79d09f61fa85a7bcc88a583f83f4f303",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalResolutionMappingFibers.log",
+  "log_sha256": "3c59d4f3d952ba80bace7986162d5c92e783d2e17f2a54a1cb60a9611f4be617",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalVerticalPrecompletion": "0845d1c8a78b42523d262aabc15c3fcd07b5f5a906d83cba9aacf7d3c9e61f2e",
+    "OrdinarySegalOrderedMappingMaps": "13ee6f4a95212941e5db5473d0137ddb970c8041aab5f136eec67df7c5696594",
+    "OrdinarySegalConstantGroupoidSimplexFullyFaithful": "0ca36853f287a4fef6ee0e9496dd62ce3b8e00635ea10d92b96a71e04bb7190b",
+    "Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory": "f7706b250c58ce9abd4dd93ff9e376175a99177208766419b95b355bdb4f6a93"
+  },
+  "original_receipt_sha256": "8352b69534bb4a021b5db5dcd41adb066eb3acf397c16875b758b876f1458945",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

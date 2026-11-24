@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryGroupoidSimplexFullFaithfulnessAudit",
+  "source": "lean/TheoremCStages/OrdinaryGroupoidSimplexFullFaithfulnessAudit.lean",
+  "source_sha256": "5611b98440e1bec12c97aa96d8961571aa62acd579d7859b4e1bebbd536ed92e",
+  "actual_exit": 0,
+  "seconds": 16.73841258295579,
+  "artifact_valid": true,
+  "olean_sha256": "6378dfbf70a046f580471a06f33906182f52d15850fdd934e0560751b7a411e9",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryGroupoidSimplexFullFaithfulnessAudit.log",
+  "log_sha256": "9c684a3f74d9c4330d6e3eaf6a09650a567c86fca9464f84e0ec0926dbdbfa0e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryGroupoidSimplexComparisonAudit": "8adeb9dd5e200ac2baa97a12e800f7be146f5d11f0f8de45e4a37ef5cf97ceae",
+    "OrdinarySegalConstantGroupoidSimplexFullyFaithful": "0ca36853f287a4fef6ee0e9496dd62ce3b8e00635ea10d92b96a71e04bb7190b"
+  },
+  "original_receipt_sha256": "503517a59b282bba7d8f78902e2529e31d583b1f2b9a05bf7409349c1c876062",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

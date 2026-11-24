@@ -1,0 +1,24 @@
+{
+  "module": "TheoremCOriginalCompletionProof",
+  "source": "lean/TheoremCStages/TheoremCOriginalCompletionProof.lean",
+  "source_sha256": "80cac142b34987f4a9f2ab5b93a68e4780897858668a1f4cdea6cbb7bb00cc66",
+  "actual_exit": 0,
+  "seconds": 30.35841241700109,
+  "artifact_valid": true,
+  "olean_sha256": "e82272e7fd7ac43c7ab59c71ce5c40169a755f4cd5b2a1476f3b868359b15a59",
+  "log": "verification/theorem-c-20261125/stages/TheoremCOriginalCompletionProof.log",
+  "log_sha256": "ef8b54108f970a10434355cb7efb5236333a9ec425b5febf24d819cb32b23659",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCSSWeakOrderedRecognition": "1248d1b16113a92e3f9698cd7c3b7c126f47bedd63dee9f7fe3c4a9e35184560",
+    "RawOrdinaryJTTargetCSSFibrant": "ade693b9002aaa1463fa929eebe108ff0e78bface8d8f36dd730301ba5cede94",
+    "RawOrdinaryJTUnitCSSWeak": "8ee80ba09d3a7fc4d9278bef133d76b7e76ba58d95c9af5c9788edc34e22c966",
+    "RawOrdinaryJTChosenMapCalibration": "aea469037b62b4582db333df16caa1c29a08a52b0d358f62ea8ea7c3a5481402",
+    "OrdinaryJTOrdinaryInputSegal": "1862a87235be9279e986a7160b62f8cbef9928ffabded90996cf0ae122035477",
+    "OrdinaryJTOrdinaryInputReedy": "6a682d19df3e60cb4cc19c75a495050db08e5bdae4112d63afa11bf336aee9bb",
+    "TheoremCFromOriginalRawOrderedUnit": "735d0f70e773096f22afd89053ec33ff9c6b0216f71d138517b69d7b7dc100a3"
+  },
+  "original_receipt_sha256": "c44cd12f764818360b7ab582d299a93afe32da4c91f5ce02a6c30feac0fe6e80",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

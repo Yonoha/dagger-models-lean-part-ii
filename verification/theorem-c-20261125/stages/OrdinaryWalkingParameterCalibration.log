@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryWalkingParameterCalibration.parameterWalkingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingParameterCalibration.parameterVertex_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingParameterCalibration.vertexArrowIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingParameterCalibration.restriction_nativeWalking_lifting' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

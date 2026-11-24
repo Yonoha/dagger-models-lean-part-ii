@@ -1,0 +1,16 @@
+'DaggerModels.PartII.OrdinaryCotensorWalkingHomotopy.curried' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryCotensorWalkingHomotopy.uncurried' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCotensorWalkingHomotopy.categoricalHomotopy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCotensorWalkingHomotopy.chosenVertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCotensorWalkingHomotopy.endpoint_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCotensorWalkingHomotopy.endpoint_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

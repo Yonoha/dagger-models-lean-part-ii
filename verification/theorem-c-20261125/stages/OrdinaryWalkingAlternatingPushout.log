@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryWalkingAlternatingPushout.range_attachmentMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingPushout.stage_attachment_preimage_isPushout' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingPushout.stage_attachment_horn_isPushout' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

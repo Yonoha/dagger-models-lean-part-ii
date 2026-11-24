@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryCSSFibrantOrderedRecognition.cssWeak_baseWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSFibrantOrderedRecognition.cssWeak_chosenMappingMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

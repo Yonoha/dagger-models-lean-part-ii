@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-25",
+  "original_C_proved": true,
+  "original_target": "DaggerModels.PartII.TheoremCStatement.statement",
+  "proof": "DaggerModels.PartII.TheoremCOriginalCompletionProof.original_statement",
+  "literal_four_link_audit": "DaggerModels.PartII.TheoremCOriginalFourLinksAudit",
+  "universe_scope": "Original universe zero",
+  "original_source_completeness_assumed": false,
+  "used_named_stages": 359,
+  "used_stage_printed_axiom_reports": 1182,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "part_i_repository": "https://github.com/Yonoha/dagger-models-lean",
+  "part_i_commit": "9ee62295a79ef61269259e27216afc0292458931",
+  "lean_version": "leanprover/lean4:v4.27.0",
+  "mathlib_commit": "a3a10db0e9d66acbebf76c5e6a135066525ac900",
+  "original_statement_source_sha256": "0c6bf38fecf783f856e778fb3e8d9be7d9d911414b03281d7b6bd397cfdb34ac",
+  "manuscript_sha256": "7649ae3be3a924a782ea6648cef74dc56c83c9ca95a474c1d69e344bfadc8a18",
+  "source_bytes_unchanged": true,
+  "original_final_modules_rechecked_from_saved_sources": true,
+  "independent_human_review": false,
+  "new_linux_ci": false,
+  "new_comparator": false,
+  "fresh_separate_repository_full_build": false,
+  "agent_review": "AI correspondence review found no mismatch in original four-link target; not independent human certification."
+}

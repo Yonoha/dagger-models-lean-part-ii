@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryWalkingCoherentObjectEndpoints.endpoint_zero_objectMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentObjectEndpoints.endpoint_one_objectMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

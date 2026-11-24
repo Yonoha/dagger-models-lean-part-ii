@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalVerticalPrecompletionUnitAudit",
+  "source": "lean/TheoremCStages/OrdinarySegalVerticalPrecompletionUnitAudit.lean",
+  "source_sha256": "aa45394f29f105976e23e8e8b7bf6f364e7c5059e702a40ed5661a2304f44fc9",
+  "actual_exit": 0,
+  "seconds": 18.78316508300486,
+  "artifact_valid": true,
+  "olean_sha256": "bd596616c8a797fba0b533c0ff0472a52c6c7a06cd60f20998fb44786db2ebff",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalVerticalPrecompletionUnitAudit.log",
+  "log_sha256": "35c35c415871fb65772a48d3652084e93e23f747dd50b406ed7a3aa5d4302fa1",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryGroupoidSimplexTransitionAudit": "affcd2ecdc53fdcaa9df469b17cae26f40988910b9fcd4e220d678291a1124ab",
+    "OrdinaryGroupoidSimplexTransitionEndpointSquare": "04d0e4fd48af274172ca089e9364e60065d0a4995919c73bd9854e79ef00c216",
+    "OrdinarySegalVerticalPrecompletionFiberComparison": "68bada4b32007f71da5e525e2b49d26f278aceec3541d1fde096a60b140b54ef",
+    "OrdinarySegalResolutionRelativeReedy": "906f8d1e857f1ce12a9c1d78b279b00e6d79ed863e560d6cefb22c7edfc11727"
+  },
+  "original_receipt_sha256": "e922e482992d7b578e3926dab06639cba146f618a2e310403ed9df1a5bae957e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

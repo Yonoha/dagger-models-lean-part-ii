@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalCoherentEdgeNaturality",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentEdgeNaturality.lean",
+  "source_sha256": "8cbe4e08fa0389e4596ed19e786c2a9051d50da9c7d8b6a3317821c9d723455d",
+  "actual_exit": 0,
+  "seconds": 6.66625304199988,
+  "artifact_valid": true,
+  "olean_sha256": "26e04472069411e801e64ec5d663ffaef2867faae6d94e6aa623afab201636c2",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentEdgeNaturality.log",
+  "log_sha256": "68f2d5535da6cbe5ab273a34c2782d1de11bc8187763d897269c2a3324cc5d13",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalRestrictionTargetNaturality": "fea943d6afa5653dc0050e922aabdf8d3679cc28b85cc96dc0c5be716092fd6f",
+    "OrdinarySegalCoherentFixedHornSourceIso": "9c60027775c6a68926fb7a2bcb539750989da2aace7725c0fa42bfb884907f5a"
+  },
+  "original_receipt_sha256": "6e0f368a761fd913c7cd7a8077a45acde799e113531fc61c3f672a90fadbb117",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

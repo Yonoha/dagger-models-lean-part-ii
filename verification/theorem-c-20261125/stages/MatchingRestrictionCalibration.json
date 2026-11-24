@@ -1,0 +1,18 @@
+{
+  "module": "MatchingRestrictionCalibration",
+  "source": "lean/TheoremCStages/MatchingRestrictionCalibration.lean",
+  "source_sha256": "6850a97a4920b433e0dc6d4bed0d6afb5e17d4ce7e8f4e525ea344ebc8d10c84",
+  "actual_exit": 0,
+  "seconds": 13.436061209009495,
+  "artifact_valid": true,
+  "olean_sha256": "a2e7b14093f885cc8c11e0d39cdfca767d2c6fedee13857af47a0e4186c5eda3",
+  "log": "verification/theorem-c-20261125/stages/MatchingRestrictionCalibration.log",
+  "log_sha256": "8377cd9468f38b997c588ca2129e1975f50b4a13fbb4788f4881adea75ee42ff",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.DiagramRestrictionLimits": "fd8d87c69bcd826d5753e5297c400ba023e84cbbb0d647a0288832f19e3e9482"
+  },
+  "original_receipt_sha256": "c2d5e8f8c1492ae329340a82eba7d76eef9fb85f6a9e8a3c26b72a2f7c79ada1",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,9 @@
+'DaggerModels.PartII.TheoremCOriginalCompletionProof.rawChosenFiberMapAtP_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalCompletionProof.originalRawOrderedUnitWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalCompletionProof.original_statement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

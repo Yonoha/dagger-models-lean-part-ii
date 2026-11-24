@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryWalkingAlternatingExhaustion.stage_one_eq_unit_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingExhaustion.iSup_stage_eq_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

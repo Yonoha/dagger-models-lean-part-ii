@@ -1,0 +1,4 @@
+'DaggerModels.PartII.OrdinaryJTRightNerveSegal.rowMappingIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJTRightNerveSegal.spineRestriction_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

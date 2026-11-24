@@ -1,0 +1,25 @@
+{
+  "module": "OrdinarySegalCotensorFoundationsAudit",
+  "source": "lean/TheoremCStages/OrdinarySegalCotensorFoundationsAudit.lean",
+  "source_sha256": "a3ec8ba42debca44a562a99e91069fedc6efbdd5014687965d1e6b35b9322d0f",
+  "actual_exit": 0,
+  "seconds": 27.319839000003412,
+  "artifact_valid": true,
+  "olean_sha256": "5713bd3e2de1a0fce04f2d6de3fa8f26bc477e75f881bcf4140699c7fa5a9015",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCotensorFoundationsAudit.log",
+  "log_sha256": "a14a8049b47615512f6dfa15828a575a14697ebd2951b386c1e5bdf5245e43d9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentEvaluationAudit": "cd44fd8b513e8ad46be2046d3f5ddc26d68fce5941af283c05a90ac06b160ca8",
+    "OrdinarySegalCotensorUnitHomotopyMono": "a254734b105b243938b7e90e2d957d77f931aa64e2989792f9b2b1b0a8f3579d",
+    "OrdinaryIntervalPrismTwoTriangleSquare": "e5283474d82a2aa39e2b3773df98519a7592f94e4f4b98c6539bbbfb7926b983",
+    "OrdinarySegalUnitMiddleFibrations": "c6934e032e882618c7fda3f9bb338712391dc7cb04c114d010e386f0d0b8fc86",
+    "KanHomotopyMonomorphismCancellation": "351c10e5f3e4b8a41a0beb12f22a83bc5a8a065b4df610363315cfa166f22a88",
+    "OrdinarySegalCotensorEndpointCorner": "eb3b6243683248d46523d4840dce5aace558565ff47e4de8bc6627661c97e42d",
+    "OrdinarySegalCotensorEndpointCalibration": "5c8034edb8def005539eb515512febd1f55a08232f04aca639ff3d32dea8a579",
+    "OrdinarySegalConstantIntervalFullyFaithful": "2e4fdf90eac13b5397368c0ab7954aa44f8d16bca775be11dec5cce014c39d0f"
+  },
+  "original_receipt_sha256": "ddc4d76205f57c886daaa55207215be7037a07a431c2bff0a9a1099296d49886",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

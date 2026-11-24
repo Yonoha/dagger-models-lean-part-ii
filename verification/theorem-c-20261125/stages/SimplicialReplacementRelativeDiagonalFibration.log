@@ -1,0 +1,12 @@
+'DaggerModels.PartII.SimplicialReplacementRelativeDiagonalFibration.base_operator_mapπ_bijective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementRelativeDiagonalFibration.replaced_total_basedProjection_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementRelativeDiagonalFibration.replaced_base_basedProjection_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementRelativeDiagonalFibration.relative_diagonal_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

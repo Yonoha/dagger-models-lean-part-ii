@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryGroupoidSimplexCotensorTransitionHomotopy",
+  "source": "lean/TheoremCStages/OrdinaryGroupoidSimplexCotensorTransitionHomotopy.lean",
+  "source_sha256": "1e517a06260d60f9f9f5136b77712d9ef2dc3808efc048ee2c0a416254eaf6f0",
+  "actual_exit": 0,
+  "seconds": 10.608678416989278,
+  "artifact_valid": true,
+  "olean_sha256": "16e808791387dec025cb0ab6fe772b2b1bd8c1faba25f171ac567a6b177dc0d7",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryGroupoidSimplexCotensorTransitionHomotopy.log",
+  "log_sha256": "e256a1f71d491ecbb07970b4f6761f2a31123ead3ab901bef8fe93b39177d794",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCotensorEvaluationNaturality": "7868c9a65633e3a018aa03fb30f6c562e6a40b83fe493fa4f9ff6a7bf5a51d21",
+    "OrdinaryGroupoidSimplexCotensorHomotopyInverse": "a1be1d90b9e5456c2c12550618ba65fbb80875551a2628f97d79ead2a29d231f",
+    "OrdinarySegalPrecompletion": "e26f7ecbd5271948c3287e944d2cb1ee3f3d3fb549df02cd67a0db37de4a8b5c",
+    "DaggerModelsPartII.JTParameterBlocks": "8fad3e801c9823186685e95d28b5cbcab3c7a69f3cb567613cc50f9149ffc282"
+  },
+  "original_receipt_sha256": "a4494d4c4cb044aa49e63534be2067dd11d6ec836887b903e821ebc4dae7de06",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

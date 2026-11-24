@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryRelativeSegalRecognitionReduction",
+  "source": "lean/TheoremCStages/OrdinaryRelativeSegalRecognitionReduction.lean",
+  "source_sha256": "4989fc5ffde438e3ca12eca5c4153b80079b84ea8fc1aeddafbb45a6872ef99b",
+  "actual_exit": 0,
+  "seconds": 12.917825500000617,
+  "artifact_valid": true,
+  "olean_sha256": "b81047d718b11f86609b50c6db2cba4d6115ae6df33571d21efe779caf46e3ed",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryRelativeSegalRecognitionReduction.log",
+  "log_sha256": "3594346c6d799d4cdce60a3fe637dff69ed118fbbb7cd0d9f51217db44ce20e2",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryAllVertexSquareComparison": "432d1ee00dd18bc08c4ef3531f82d827ec51aa634f5506b53e89eca03e808818",
+    "OrdinarySegalLocalization": "90c9e3b9509ef49cbbce18b2bb1a0338bf90069e4214f727f702b4c93ab80ec4"
+  },
+  "original_receipt_sha256": "62fb1afe0c680a1fa330d75d98bf3a7e96e92afb81aab883404b3ee51cc7220d",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryJTMappingCornerFibration",
+  "source": "lean/TheoremCStages/OrdinaryJTMappingCornerFibration.lean",
+  "source_sha256": "44f6fa41e6181eb231e408143e0525ac3f55cd420d767c80ad57defc4ee8d2ce",
+  "actual_exit": 0,
+  "seconds": 22.4477404159843,
+  "artifact_valid": true,
+  "olean_sha256": "7398ab14418c0b5cae46e92c244ad3047603617e35164dc7b5dde0e9aa84493d",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTMappingCornerFibration.log",
+  "log_sha256": "232321fd7917e5952a1dd1c9905e34a50f4d0a00165ed3b9058d618cbe3ad1f7",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTRelativeMappingFrame": "afc96f9b47f4bad28c2f74ddaecfe3af3d65c3d4bdbeae7c33dd2bb22787982a",
+    "OrdinaryJTMappingFrameWeak": "fb42acb6858ada3e60f04aadbcfbea2f3673c49480054aea2dfd6e29cc1b1717",
+    "DaggerModelsPartII.DiagramHomKanFibration": "6ef69a8f067ad1aef3aed459c3591824b2013c8f2fbcaac1d61ec5de85a862d0"
+  },
+  "original_receipt_sha256": "fbd09eb77bede7484c1542b78e5ae6ad10ebbb45074560b3ac3610025b63e515",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

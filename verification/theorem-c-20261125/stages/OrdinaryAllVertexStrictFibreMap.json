@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryAllVertexStrictFibreMap",
+  "source": "lean/TheoremCStages/OrdinaryAllVertexStrictFibreMap.lean",
+  "source_sha256": "8741bf5d68bab54fdf1856d09a8351b2b9689a9650e17e6884f64981e7e581f7",
+  "actual_exit": 0,
+  "seconds": 14.39554733299883,
+  "artifact_valid": true,
+  "olean_sha256": "ed2ac38998401f0a1055dee1db4f9b0738e44fbcdc161fec53fc6acc529af1ac",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryAllVertexStrictFibreMap.log",
+  "log_sha256": "f1ff571cd00e23340ed4ac34228558f6696fd2a2c24211423246e908e63a56b6",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalAllVertexUnitFibres": "2d243738dd1971d20eecc8036067e912ede78e1372b9cad5af5fd275e70859de",
+    "OrdinarySegalAllVertexResolution": "1d66f5c67c16d51bdf083daf71af71bff4439b2ad8bbcd99deb9a6a4b7cc798e",
+    "NativeSSetFibrationSquareFibreWeak": "2aeec0cf3f789a04f077f548df35aef8e787c659bd925bee3644b84e0c9a9a2c"
+  },
+  "original_receipt_sha256": "930a5ebe0a7ef9c83aaedc72825ee8559439e04da4a983eb951e448117ed8a77",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

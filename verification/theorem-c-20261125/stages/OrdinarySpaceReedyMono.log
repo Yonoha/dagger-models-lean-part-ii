@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySpaceReedyMono.relativeLatchingMap_app_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySpaceReedyMono.relativeLatchingMap_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySpaceReedyMono.mono_reedyCofibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

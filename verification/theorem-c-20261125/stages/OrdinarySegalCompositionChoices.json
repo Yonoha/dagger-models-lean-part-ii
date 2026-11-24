@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCompositionChoices",
+  "source": "lean/TheoremCStages/OrdinarySegalCompositionChoices.lean",
+  "source_sha256": "92ce511fe1d1789b08400431542c82a56f55e87dd6e3dc0fd66f07845c4e4cff",
+  "actual_exit": 0,
+  "seconds": 23.841886416019406,
+  "artifact_valid": true,
+  "olean_sha256": "230595618624170453e405cf460198b2cf08b0774065368e84f169cb3b0ae664",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCompositionChoices.log",
+  "log_sha256": "421623e111d47cf307a7fd6f12725100a7cdd9e439e1aa2d21e3db0ea8c108d6",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalOrderedMappingFibres": "a5e33d982b3e21f5a32f5975ef7d1fecb2250d4dd6fd5e60c196caf1b54fb36c",
+    "OrdinarySegalBinaryComparison": "f8c86f57850f6d1e5ef3bb0902196c689286fc7b7307a585b66df3e514aff30d",
+    "TopCatModelCategory.ModelCategorySSet": "9f5b1ae2f96d4f71e3775e9a292ca4f9c639279878cc78e44a3ccf13c65ffe7f"
+  },
+  "original_receipt_sha256": "01c7367fbc8358b4987ddd1c8a9b20508e43669099890db77063e1855c914a27",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

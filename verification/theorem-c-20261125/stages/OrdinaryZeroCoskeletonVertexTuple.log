@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinaryZeroCoskeletonVertexTuple.coskeletonPiIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryZeroCoskeletonVertexTuple.mappingVertexPiIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryZeroCoskeletonVertexTuple.coskeletonPiIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryZeroCoskeletonVertexTuple.mappingVertexPiIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryZeroCoskeletonVertexTuple.vertices_vertexMap_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

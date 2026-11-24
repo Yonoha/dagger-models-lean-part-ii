@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryWalkingPrecompletionRows",
+  "source": "lean/TheoremCStages/OrdinaryWalkingPrecompletionRows.lean",
+  "source_sha256": "265b85550ba1b6fe65546b60d4c7560a68d406d9fa13b62b7e3a4d8e486fb11b",
+  "actual_exit": 0,
+  "seconds": 16.293135749991052,
+  "artifact_valid": true,
+  "olean_sha256": "a810020b6e8b2f8015ca52dc1a06e44b13985bc40b5056b6d3c824b82c75b08b",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingPrecompletionRows.log",
+  "log_sha256": "0e34f12c53b17295a6adedc7d6a1102dc7771548336f2d2334650795cf048100",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingPrecompletionLabels": "96e88075cbe667568e59565ab73bdb1402fcd27b2fba2666f0799b8ef47de6c5",
+    "OrdinarySegalVerticalPrecompletion": "0845d1c8a78b42523d262aabc15c3fcd07b5f5a906d83cba9aacf7d3c9e61f2e",
+    "DaggerModelsPartII.JTCodiscreteParameterPairing": "eff5df15d4dd8256f5d1cd64d315051d4f69c357fa41a706ef65df9a18b71855"
+  },
+  "original_receipt_sha256": "81d4ff2d4476ee2d36ac267f2f1ec5217acd08e8d583cf5201df635acd00a792",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

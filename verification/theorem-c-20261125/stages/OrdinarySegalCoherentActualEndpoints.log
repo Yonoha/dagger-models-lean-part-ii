@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCoherentActualEndpoints.vertex_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentActualEndpoints.sourceVertex_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

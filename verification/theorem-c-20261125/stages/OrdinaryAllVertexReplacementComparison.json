@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryAllVertexReplacementComparison",
+  "source": "lean/TheoremCStages/OrdinaryAllVertexReplacementComparison.lean",
+  "source_sha256": "328100da383eb01ae259c306c1f54a7faae3ec375d9fe78756b4e1987c7e95ee",
+  "actual_exit": 0,
+  "seconds": 21.957863707997603,
+  "artifact_valid": true,
+  "olean_sha256": "be5d489b6d82053e05ba2b51fe3f231fbe19b34502b8daa0325eaf9019a29fa2",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryAllVertexReplacementComparison.log",
+  "log_sha256": "26b87f1346c0e322f501067cab8e65f8ad2f9ffef806d6959c1f79f435d00f6b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryAllVertexStrictFibreMap": "ed2ac38998401f0a1055dee1db4f9b0738e44fbcdc161fec53fc6acc529af1ac",
+    "OrdinaryRelativeSegalRecognitionReduction": "b81047d718b11f86609b50c6db2cba4d6115ae6df33571d21efe779caf46e3ed",
+    "DaggerModelsPartII.DiagonalRecognition": "22762c206f29020e1cd520f36424583e21f5e02976360a75a5b519d939a9200d",
+    "NativeFinitePiWeak": "654b6c02041c14056041c227b15a2c4e0dfa0b5be8a11d2c17020280dac6acbb"
+  },
+  "original_receipt_sha256": "3b49a2f62bde039166bc4340880f0717a7473df11bf95d8036648f5a2f9f3d89",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

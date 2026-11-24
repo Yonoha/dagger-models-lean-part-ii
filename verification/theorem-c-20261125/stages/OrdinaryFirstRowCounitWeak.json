@@ -1,0 +1,22 @@
+{
+  "module": "OrdinaryFirstRowCounitWeak",
+  "source": "lean/TheoremCStages/OrdinaryFirstRowCounitWeak.lean",
+  "source_sha256": "ca7cfd2de099df9da1886a04e3af6aee84fc23c41033281a27ea9441ef79601c",
+  "actual_exit": 0,
+  "seconds": 9.512547624995932,
+  "artifact_valid": true,
+  "olean_sha256": "b945362058b98f17bb6e749ed6eddd4988b5b11f016f7a073d93a8483e6104e1",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryFirstRowCounitWeak.log",
+  "log_sha256": "a3a2747839d41d6fa1b9e53b0811006e421f627335a03b85aa25302dc8b659c1",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryFirstRowAdjunction": "126e3d23d4d039fb5be0b05b97792837810e826e1adf728805e3125c4dd67080",
+    "OrdinaryCSSHorizontalWeak": "f13badc7ef6ffd4aeb7d5d0a64cc0702f61cf90f6d81f46665ef2a13d36b84c5",
+    "OrdinaryCSSConditions": "d93a3feb58efc0450536578c40483bfece19c3d26c3cbfe2f3ea87cdc6079b59",
+    "OrdinarySpaceReedyInjective": "20f8025f1476131ee6bd859821558a425425cb0a97f2b9ee10d92c90b2b514b4",
+    "OrdinaryReedyVerticalConstancy": "8ba262797690a6ca2e53dab313a7da9e6c9eb12a6b65fcfd0c54f71f14294151"
+  },
+  "original_receipt_sha256": "0b0016e5565b892836627bae7ec284939892ff4e0f0c4edf3d2e7b7864b39506",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalCotensorEndpointCorner",
+  "source": "lean/TheoremCStages/OrdinarySegalCotensorEndpointCorner.lean",
+  "source_sha256": "e29b77bdc17891052177af9bec9df90e762319caa3d4e3e941343ed9ade70098",
+  "actual_exit": 0,
+  "seconds": 15.99044862500159,
+  "artifact_valid": true,
+  "olean_sha256": "eb3b6243683248d46523d4840dce5aace558565ff47e4de8bc6627661c97e42d",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCotensorEndpointCorner.log",
+  "log_sha256": "84a1c3f253fa974f3b35a55b75e68d333980e4c4d2045529650be336198a612e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCotensorBoundaryOne": "21d72c16c8cc7151cb3a5eedb937202a6d2c8bc1ee43404ca373923c78cc70dc",
+    "OrdinarySegalCotensorRestrictions": "7e1ad7f53ff45b9448cca6c464c9e7fd1355ea7cd971e87f645818fa0ad54f63",
+    "DaggerModelsPartII.ReducedCylinder": "2dc1c9f03289b8d27718c3b5e224816ceefccf28a98ac0b3a213baba02bf0b6c",
+    "DaggerModelsPartII.DiagramMappingPushout": "8476fa23a99a12b479832f1cf6688cae572260753634750021743409de2cd8ec",
+    "SSetSM7": "c4e90c1668d48e43745f77216069e9b28714ab1cfdf26897a2ba0df9f2e03c18"
+  },
+  "original_receipt_sha256": "d78e876b65c979b22c5c92bb938839b83e7668cb10c5d625ad2df6fcc6c7d4bd",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionComponents.unit_vertices_bijective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionComponents.unit_row_components_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionComponents.unit_object_components_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalSpineTwoIncidence",
+  "source": "lean/TheoremCStages/OrdinarySegalSpineTwoIncidence.lean",
+  "source_sha256": "b0ab17e9691ce4e14bfd9428e18aa3ecbcfe1352db1e5f95a5f4c81956b09c0e",
+  "actual_exit": 0,
+  "seconds": 8.900035083992407,
+  "artifact_valid": true,
+  "olean_sha256": "e755568ee47b41fb579f6cac1efa2388bcbf73a58c002f63504b34483a9ed059",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalSpineTwoIncidence.log",
+  "log_sha256": "042fcc556929c76bc9cf6787aa3d1cbd4fe445a72e4b32b047eff8868a61960a",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalSpineTwoPullback": "5d487961957bbd042b7c5455729b281dd08295c9dc76e4efbb0ded440e7fd503",
+    "DaggerModelsPartII.OuterFaceSpineGeometry": "337717197741375ef45022cbe0b032d70339e27e9ae5aba3dde7bd360eb86b10"
+  },
+  "original_receipt_sha256": "c410017537d9d757908eb464a8f5f1fad19a6249095d398366784c574211379b",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

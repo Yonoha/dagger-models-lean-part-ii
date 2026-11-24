@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinaryAllVertexPointReconstruction.zeroFiberComparison_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexPointReconstruction.parameterPoint_reconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexPointReconstruction.diagonalPoint_unit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexPointReconstruction.zeroFiber_totalReconstruction_unit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexPointReconstruction.zeroFiberComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

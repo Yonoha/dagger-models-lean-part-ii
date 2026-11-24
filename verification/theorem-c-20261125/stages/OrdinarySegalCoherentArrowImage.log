@@ -1,0 +1,18 @@
+'DaggerModels.PartII.OrdinarySegalCoherentArrowImage.coherentArrow_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentArrowImage.coherentArrow_inclusion_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentArrowImage.coherentEvaluation_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentArrowImage.coherentEvaluation_surjective_components' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentArrowImage.coherentEvaluation_degree_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentArrowImage.range_edgeEvaluation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

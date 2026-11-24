@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalAllVertexUnitFibres",
+  "source": "lean/TheoremCStages/OrdinarySegalAllVertexUnitFibres.lean",
+  "source_sha256": "14fd279ffd9874ec45e3bf7b32b0552d186e8707ceca12ea18fb198a671f9550",
+  "actual_exit": 0,
+  "seconds": 13.759807708993321,
+  "artifact_valid": true,
+  "olean_sha256": "2d243738dd1971d20eecc8036067e912ede78e1372b9cad5af5fd275e70859de",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalAllVertexUnitFibres.log",
+  "log_sha256": "d6bce9a21b2418527e2728acff4b2a40ee8b53233039cff9e7cafacfaa788a1c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryAllVertexSquareComparison": "432d1ee00dd18bc08c4ef3531f82d827ec51aa634f5506b53e89eca03e808818",
+    "OrdinarySegalConstantGroupoidSimplexFullyFaithful": "0ca36853f287a4fef6ee0e9496dd62ce3b8e00635ea10d92b96a71e04bb7190b",
+    "OrdinarySegalPrecompletion": "e26f7ecbd5271948c3287e944d2cb1ee3f3d3fb549df02cd67a0db37de4a8b5c",
+    "NativeSSetFibrationsOverBaseWeakPullbacks": "b9d3f4c33f1317b1ac6400d0e27dbf391f93c467efd66dd83d16a0d9c5539e6b"
+  },
+  "original_receipt_sha256": "00e1ad42edd99634766128c93e05a6900d83ca0a9a8ed89c6fff17db49fca57e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

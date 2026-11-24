@@ -1,0 +1,20 @@
+{
+  "module": "NativeWeakMonoRelativeWalkingHomotopy",
+  "source": "lean/TheoremCStages/NativeWeakMonoRelativeWalkingHomotopy.lean",
+  "source_sha256": "064ccbec0f5b5a2eda29c81860b96d7a306c11a411b1161c63d97c7c3b06d288",
+  "actual_exit": 0,
+  "seconds": 8.089081000012811,
+  "artifact_valid": true,
+  "olean_sha256": "6879469ee16703d4662099394a37432a22bb517f417d55fd32660760abd22d6f",
+  "log": "verification/theorem-c-20261125/stages/NativeWeakMonoRelativeWalkingHomotopy.log",
+  "log_sha256": "2a3f520757ebf61d7561161c947d6af64b6a938d78d5cc8c0beb0f87acb384c8",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeKanTrivialFibrationRelativeWalkingPath": "bdd3650747066db8b1980b964770f16a114caf415f2f38064bba88fc5a9ea8da",
+    "NativeWeakMonoWholeRestriction": "cc6d89af80083862b79f2ea6df83dfef8f9cec99924137adfdd3bdab6d1857e1",
+    "NativeConstantIhomMaps": "843227d74ff8866a21082d779f61b8fdb32e981523ac5cf1769ab2ae0d888620"
+  },
+  "original_receipt_sha256": "5916ab93531b220d55ccda4e90c3b42801cf8c28a1bcb537f1cb812c5cebe85a",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

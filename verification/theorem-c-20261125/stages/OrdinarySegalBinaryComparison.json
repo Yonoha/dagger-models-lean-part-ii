@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalBinaryComparison",
+  "source": "lean/TheoremCStages/OrdinarySegalBinaryComparison.lean",
+  "source_sha256": "9170ef00d3044d0bba5c3848d23dcf257a9daf8391ee41a2600abec314b107df",
+  "actual_exit": 0,
+  "seconds": 13.650739624979906,
+  "artifact_valid": true,
+  "olean_sha256": "f8c86f57850f6d1e5ef3bb0902196c689286fc7b7307a585b66df3e514aff30d",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalBinaryComparison.log",
+  "log_sha256": "07a396024d089fd764fd6b07db2a96b7b487dcbf2f5cdd0a5b33afd75ae69b5c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalUnitSquares": "a997831c57fecba12ed8f45c949c898397302ebf7a5e467c745a74de70937b2e",
+    "OrdinarySegalSpineTwoIncidence": "e755568ee47b41fb579f6cac1efa2388bcbf73a58c002f63504b34483a9ed059",
+    "OrdinarySegalWalkingEvaluation": "3638efb2a5b4daa5f7134ce5639f1cc393c754a020232ea55edcf7bd0f155d25",
+    "DaggerModelsPartII.DiagramMappingPrecompFibration": "85b12ba4a8e4856af4d54ae275399c94297dac22c7f9d0bb4c3d5bb7b6aa6b78"
+  },
+  "original_receipt_sha256": "8718df0c34030ff76839e63c2e49bf30a50e4bb7aa46804198ea15b8b2580097",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryAllVertexSquareComparison",
+  "source": "lean/TheoremCStages/OrdinaryAllVertexSquareComparison.lean",
+  "source_sha256": "7d7f2e71b8f94aeda52aee5d4222b865ea807b51472ac9d892ee5d5e22af0615",
+  "actual_exit": 0,
+  "seconds": 22.13461137500417,
+  "artifact_valid": true,
+  "olean_sha256": "432d1ee00dd18bc08c4ef3531f82d827ec51aa634f5506b53e89eca03e808818",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryAllVertexSquareComparison.log",
+  "log_sha256": "9e5a1bfb57f886b8233118d8e49a6ddafd4703e44df4392d9fb9bcac89f483ca",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryZeroCoskeletonVertexTuple": "1e60c982344c81b3872ddb4e34a539667ad912ee14a5cd2099714b5794d57fb6",
+    "OrdinaryRelativeRowWeak": "3e04622b765ef824a914f31867e02222c3e36997d2e701f84d8aab8883a285ce",
+    "OrdinaryGroupoidSimplexTransitionEndpointSquare": "04d0e4fd48af274172ca089e9364e60065d0a4995919c73bd9854e79ef00c216"
+  },
+  "original_receipt_sha256": "5e6c423839d110d003c1eaddaad36589886d3be4246470f968157e42f1c66bce",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

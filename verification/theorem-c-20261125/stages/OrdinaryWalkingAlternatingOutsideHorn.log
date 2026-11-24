@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryWalkingAlternatingOutsideHorn.not_mem_horn_iff_positive_range' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingOutsideHorn.outside_horn_epi_or_zero_face' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

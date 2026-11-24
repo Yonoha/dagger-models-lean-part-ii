@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryCoherentArrowNaturality",
+  "source": "lean/TheoremCStages/OrdinaryCoherentArrowNaturality.lean",
+  "source_sha256": "fc7839c8a01306720eb08dab5ebb1254d286e9a5fb239cfbf810072ddd4d3bc8",
+  "actual_exit": 0,
+  "seconds": 8.792624249996152,
+  "artifact_valid": true,
+  "olean_sha256": "ec6c75d24d7be982f7fbb6e52cd18eb51c18a778000028c9359e60cc0ee9c030",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentArrowNaturality.log",
+  "log_sha256": "36a06793c7b42318ce3c63ec48db12eafb2cf4de2940c7b025c50397dbb953fb",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentArrowImage": "6ebce9891c91b8a693254b345a44501ce30d2fbc96bebbd5b525924fe9976216",
+    "OrdinarySegalRestrictionTargetNaturality": "fea943d6afa5653dc0050e922aabdf8d3679cc28b85cc96dc0c5be716092fd6f"
+  },
+  "original_receipt_sha256": "04c944d496c0a6650c1e0c7c4ba496e28879da526733ceb8478883b630b28ced",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

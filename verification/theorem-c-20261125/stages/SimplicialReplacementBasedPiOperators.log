@@ -1,0 +1,12 @@
+'DaggerModels.PartII.SimplicialReplacementBasedPiOperators.replacementRowFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementBasedPiOperators.operator_mapπ_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementBasedPiOperators.operator_mapπ_bijective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementBasedPiOperators.operator_mapπ_bijective_at' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

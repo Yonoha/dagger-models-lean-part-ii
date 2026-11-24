@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryWalkingInitialStageIso",
+  "source": "lean/TheoremCStages/OrdinaryWalkingInitialStageIso.lean",
+  "source_sha256": "c6e6d2516d7d7087c7e6088ff767093d572eb5e2d01fef352bea740309e1fa92",
+  "actual_exit": 0,
+  "seconds": 17.329952457977924,
+  "artifact_valid": true,
+  "olean_sha256": "2d1b4d78c31fa417d0a03dbc8f1155b4b86666e7de70f225ab37c85804e94565",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingInitialStageIso.log",
+  "log_sha256": "2172754d156b51d937cf4007491298ac6d23ea950bdae238ba616659c9044578",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingAlternatingExhaustion": "1b193812c32f0b7b5c0a210244012b4e0e269bbea20bd7f164462924357a9368",
+    "DaggerModelsPartII.JTSimplexUnitKan": "2fbe9cb4142bed33ce3e2631245abecf12a028a6d798aa8f50d83263f7fb562c"
+  },
+  "original_receipt_sha256": "98591bec928c2347803ba9f3ab8f4d2bc28b3f21567d600bb3f2afad23e64326",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

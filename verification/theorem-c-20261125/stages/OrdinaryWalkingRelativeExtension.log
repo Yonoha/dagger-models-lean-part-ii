@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryWalkingRelativeExtension.stageInclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingRelativeExtension.extend_one_stage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

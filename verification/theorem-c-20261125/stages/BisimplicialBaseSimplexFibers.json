@@ -1,0 +1,19 @@
+{
+  "module": "BisimplicialBaseSimplexFibers",
+  "source": "lean/TheoremCStages/BisimplicialBaseSimplexFibers.lean",
+  "source_sha256": "25208e7a377d1da570c52fd3aba464d79759d278c50092f0a3e3c83f115b03cb",
+  "actual_exit": 0,
+  "seconds": 19.931121667003026,
+  "artifact_valid": true,
+  "olean_sha256": "7002ff38d073cf1fb89df7cc5fdfbffb8985762253cd98798c57c8671915574a",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialBaseSimplexFibers.log",
+  "log_sha256": "0aab9b21c2763e920e8210c5ed2cf633c071cba641df196327136932362a5ceb",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "EquifiberedFiberBaseChange": "27b4faf8d57fb70f56112b794b4d1d57b4b723f06dbc38a376f9f42656f14e0c",
+    "Mathlib.CategoryTheory.Comma.Basic": "27418d5cbbe2e0c7929097eaab5d41bf6bdd8182e77926943f8e688fc1cdd14c"
+  },
+  "original_receipt_sha256": "f362f83b92f2f4dc0e5b782dd5b314b67f7cb0b51befc3ccbfe04c966fc1d350",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

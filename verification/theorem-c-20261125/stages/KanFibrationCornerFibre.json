@@ -1,0 +1,18 @@
+{
+  "module": "KanFibrationCornerFibre",
+  "source": "lean/TheoremCStages/KanFibrationCornerFibre.lean",
+  "source_sha256": "8c960857288f8490664139bdf1a7dd7946542c56f41b94481a955d5cd17e4394",
+  "actual_exit": 0,
+  "seconds": 6.999305124976672,
+  "artifact_valid": true,
+  "olean_sha256": "33f77b75edf5a2b658d5a91a25e60090aab794cafa6872bae2b09ebfd0139655",
+  "log": "verification/theorem-c-20261125/stages/KanFibrationCornerFibre.log",
+  "log_sha256": "e40654bc22251894d8edc3a8774d3c8d6f3917b1a29f74953f250ac9e19524ba",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeSSetFibrationSquareFibreWeak": "2aeec0cf3f789a04f077f548df35aef8e787c659bd925bee3644b84e0c9a9a2c"
+  },
+  "original_receipt_sha256": "4fccc646459f68cf066e669224ad45f9667f0d1b584b94c138c6e124c816d0a6",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

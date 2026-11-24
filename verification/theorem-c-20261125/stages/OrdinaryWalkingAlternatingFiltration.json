@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryWalkingAlternatingFiltration",
+  "source": "lean/TheoremCStages/OrdinaryWalkingAlternatingFiltration.lean",
+  "source_sha256": "8bc86c6ae8667d15896ddf6647f38fb588c55cde7afadaf360d8870a0b417baa",
+  "actual_exit": 0,
+  "seconds": 9.251306499994826,
+  "artifact_valid": true,
+  "olean_sha256": "9783486be8c506e055181ac614b5e600f05b8f731639d4a2f83768ee4656ca05",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingAlternatingFiltration.log",
+  "log_sha256": "8d78fda206cf5129b2686ff6115e51b83f0c52ebb8fa3be9403dfff13fccb695",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.GroupoidSimplex": "311ec803ac88509bb3f274b7167139b27e7c38dc089b814a12cc4a199e4dcf43",
+    "DaggerModelsPartII.JTCylinderCEComparison": "353fb31567d3b01351c445a7a6af2bc4848a40c1af2ac64ba8fba17665e825b8",
+    "OriginalCodiscreteNerveInjective": "a32387b5c121c9074469e0f720b01223f9cd29db4f6e79e8f85a0d7f8a8b9956",
+    "Mathlib.AlgebraicTopology.SimplicialSet.Subcomplex": "779f4c1b3eb71b315aa57a6557c158df8a7dbaaf9be439cd76ccb79511c9bb51"
+  },
+  "original_receipt_sha256": "a4a26f754fcab2c0209cdb4935fdd97a138561f8d4c10a0a42f2e55b8c44fd2d",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

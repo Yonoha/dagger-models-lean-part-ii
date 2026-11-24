@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCotensorBoundaryOne",
+  "source": "lean/TheoremCStages/OrdinarySegalCotensorBoundaryOne.lean",
+  "source_sha256": "32df0bd7560c641258a9a9aaf5d63a38b3930c1cfacaaa15f5c8e0056b576d59",
+  "actual_exit": 0,
+  "seconds": 8.774250582966488,
+  "artifact_valid": true,
+  "olean_sha256": "21d72c16c8cc7151cb3a5eedb937202a6d2c8bc1ee43404ca373923c78cc70dc",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCotensorBoundaryOne.log",
+  "log_sha256": "6c59238ed652dcb067da17a6187d823cb1be8e76a81df7ee60c93290f8ed9328",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCotensorParameterNaturality": "9187b478553e8324f03670c0e23de76e9919f095b4bc40d6a02a006c761e929f",
+    "OrdinarySegalOrderedMappingFibres": "a5e33d982b3e21f5a32f5975ef7d1fecb2250d4dd6fd5e60c196caf1b54fb36c",
+    "Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts": "53f2792fc00155bdc77014ca3edfc8cf5c356696177897bd37f8636458303c91"
+  },
+  "original_receipt_sha256": "fccbccadfa0ece7ed829b8a5dafa948ec1276491eb92a67bb4663a2fbe58b18c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

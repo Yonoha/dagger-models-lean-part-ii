@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryPrecompletionCSSReplacement.replacement_localObject' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionCSSReplacement.replacement_cssFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

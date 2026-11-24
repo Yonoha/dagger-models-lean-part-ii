@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalCoherentFixedTriangle",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentFixedTriangle.lean",
+  "source_sha256": "6a0ca4ec1744d6111d8cc174a55afb0aa94d364f68b0637cba906ea5098f9666",
+  "actual_exit": 0,
+  "seconds": 11.105082834023051,
+  "artifact_valid": true,
+  "olean_sha256": "1f0c70e5c16b799a17921b8faec32051df0c497ee3be462e91394b103165b46b",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentFixedTriangle.log",
+  "log_sha256": "7bf823ba260c860695133f5709f937c952dbc65afb0e5b7b5b9e3c52b6a9d4d9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentFixedHornSourceIso": "9c60027775c6a68926fb7a2bcb539750989da2aace7725c0fa42bfb884907f5a",
+    "OrdinarySegalIteratedOrderedFiberIso": "537609be8c653d31c5ec5165f8aab20ddcac375ed6ea68bfded5bb538b45c117"
+  },
+  "original_receipt_sha256": "1d40d1838e1084be84ea4e808d6495ec80dc4b9c3849f386f9567adb34ed1fb1",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryJTRightNerveCompleteness.parameterVertex_categorical_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTRightNerveCompleteness.walkingRestriction_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

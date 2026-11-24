@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinarySegalSurjectiveObjectDescent.weak_of_component_surjective_baseChange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

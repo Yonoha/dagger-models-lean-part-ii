@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryJTHorizontalMapping",
+  "source": "lean/TheoremCStages/OrdinaryJTHorizontalMapping.lean",
+  "source_sha256": "53cdc020acc82fe12292e16b61b55ba7996a3285250176f87fbdb7b7fd9655b9",
+  "actual_exit": 0,
+  "seconds": 11.802108917036094,
+  "artifact_valid": true,
+  "olean_sha256": "d16b90721450bb8d363093827f28f8ac7f58bb06f7e0d19a283192850c683ca0",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTHorizontalMapping.log",
+  "log_sha256": "bd7ab7b5a6abde8d006e741f9f8f15193fb3faa4314d9725eb70b5cf9d3d7443",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTCurriedAdjunction": "7c8ea8427b52bf90fc5b0f82e6e09f550c755b9ad4e579204f394b597d6a8356",
+    "OrdinaryJTColumnOperators": "5da113729c825cf2a873f13052656da6c4f96dce9e7856239a3d091c1321c23c",
+    "OrdinaryJTMappingFrameWeak": "fb42acb6858ada3e60f04aadbcfbea2f3673c49480054aea2dfd6e29cc1b1717",
+    "NativeBisimplicialHorizontalMapping": "b968e941bde60ea26169c0bc883f058c9f030722df6ab5f23b2e28b66675ade7"
+  },
+  "original_receipt_sha256": "4578316fbec8504f4587692b070da9bd2cec2e3c30a29d42f86de257267b48f9",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

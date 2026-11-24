@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinarySegalCotensorEvaluationNaturality.evaluation_pre' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

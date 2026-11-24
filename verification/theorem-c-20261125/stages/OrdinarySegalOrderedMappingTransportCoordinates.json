@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalOrderedMappingTransportCoordinates",
+  "source": "lean/TheoremCStages/OrdinarySegalOrderedMappingTransportCoordinates.lean",
+  "source_sha256": "3233ea15208a29d942e72ef7a44af7969980dd8c084ca2e9bd889a50a72806a6",
+  "actual_exit": 0,
+  "seconds": 9.543024750018958,
+  "artifact_valid": true,
+  "olean_sha256": "99e5084ebba7471c09623eef69b5fd3daaa4785beda0a70ad89331437c56d3f5",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalOrderedMappingTransportCoordinates.log",
+  "log_sha256": "52d8b4f2327fbde2ff52b698820820edc9b9f908c1551c813a7ac3f129b4361c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalOrderedMappingEndpointTransport": "be8209cb1c7732143687181f9d07ceb005b87da9b07ff74a938a8aae2aa993a8"
+  },
+  "original_receipt_sha256": "a605332cf34ce8ee0ce28cd92439fa4d45479b9c931e974d25bdec5fa8fe5a8e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

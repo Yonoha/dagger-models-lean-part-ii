@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryReedyVerticalConstancy",
+  "source": "lean/TheoremCStages/OrdinaryReedyVerticalConstancy.lean",
+  "source_sha256": "eed138519f730a27701d5c897017afcee2394b7b41bbc908550e197061b8f76f",
+  "actual_exit": 0,
+  "seconds": 11.406074209022336,
+  "artifact_valid": true,
+  "olean_sha256": "8ba262797690a6ca2e53dab313a7da9e6c9eb12a6b65fcfd0c54f71f14294151",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryReedyVerticalConstancy.log",
+  "log_sha256": "16b0c39e19923cf985405dd91db2dc66e6122a41befaa7dbaa28ea7c70d36c0d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.DiagramHomPrecompLifting": "ff5303519bc5afafc60638e92214efffdca6dbc206a5ef5e8cf021408a591b64",
+    "NativeFibrationWeakFromVertexFibres": "444884a9d88b0b6e5d701f6338090bf5dc1fb458213f596f8cccbf73470a3f25",
+    "NativeJoyalFirstFactorization": "c8788d6df6f92dad6748f271a0dee419680eb0b3270079e22a9afc7c79b693c3",
+    "NativeJoyalMappingWeakProperties": "fd9fd60263153dd0bf3fb26e418c42527f9b765dc4c341c4dff758b3e43b0493"
+  },
+  "original_receipt_sha256": "b30c2bd8514ab36418f4433e7a41c9f2882bcba004c0950441929b4af91ad38a",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,19 @@
+{
+  "module": "RelativeRightOuterHornData",
+  "source": "lean/TheoremCStages/RelativeRightOuterHornData.lean",
+  "source_sha256": "e79a1bb5a91a8d4a3609e383b5cb1bb4a8eec7b3212b954a6e0c9709db567f3c",
+  "actual_exit": 0,
+  "seconds": 6.700302499986719,
+  "artifact_valid": true,
+  "olean_sha256": "79faede1dec6c4d16d297246dc9d9adaae1875223ba0e55351cafcaa6a01d135",
+  "log": "verification/theorem-c-20261125/stages/RelativeRightOuterHornData.log",
+  "log_sha256": "d728f4e48a8e0aef5a11829ae18bb0ed46ec165fb521c38224fa596363a02b90",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RelativeBoundaryTargetLifting": "3824f09ca0a0159f7ac1033a3fdb1b82288cf26a2d389fac3f46c3ede2e8fcec",
+    "OriginalRightOuterHornFilling": "55431f30ee0cc5468b4e436d7bd09dd23b6a3430c0d1bb61b07d7a8a1ebf3452"
+  },
+  "original_receipt_sha256": "e5469d8239113c7802016bcec76882a3c78d518e207ffa04076d2c7cda32b741",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

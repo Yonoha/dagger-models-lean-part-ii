@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalCoherentFixedEdgeNaturality.fixedFullMap_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentFixedEdgeNaturality.fixedHornMap_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentFixedEdgeNaturality.restriction_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentFixedEdgeNaturality.fixedRestriction_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

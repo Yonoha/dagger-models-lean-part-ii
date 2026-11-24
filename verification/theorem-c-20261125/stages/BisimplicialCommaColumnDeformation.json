@@ -1,0 +1,19 @@
+{
+  "module": "BisimplicialCommaColumnDeformation",
+  "source": "lean/TheoremCStages/BisimplicialCommaColumnDeformation.lean",
+  "source_sha256": "8f2e01a4b3645d45f8ac208f9c6827e18b54319f5eecff6d9ecea07894fcb06b",
+  "actual_exit": 0,
+  "seconds": 16.630143457994564,
+  "artifact_valid": true,
+  "olean_sha256": "4606422e05179f344b312b9a51c9aff65db7de423de036e6163254e839cc8c40",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialCommaColumnDeformation.log",
+  "log_sha256": "4d9fb3df460e26e5dd20e539d3136f6f505bb42a0a08558115c64cc60424120e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialCommaColumnRetraction": "8e15c685264ad7c19db1970132eec40540dc85fab9d622889df27cd156e950bd",
+    "TopCatModelCategory.SSet.StandardSimplex": "050f8572ed0d49431de461cb7a2a55014695b4fa1c51bcf92340bfffacb80021"
+  },
+  "original_receipt_sha256": "51d1cc17a4b88868277fd85e861fee776f3b04ade7a6c031b2be2f6a064c44b6",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

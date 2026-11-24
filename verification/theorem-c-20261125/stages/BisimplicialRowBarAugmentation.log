@@ -1,0 +1,9 @@
+'DaggerModels.PartII.BisimplicialRowBarAugmentation.flippedAugmentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialRowBarAugmentation.diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialRowBarAugmentation.augmentation_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

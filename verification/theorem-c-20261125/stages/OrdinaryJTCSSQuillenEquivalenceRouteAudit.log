@@ -1,0 +1,10 @@
+'DaggerModels.PartII.OrdinaryJTCSSQuillenEquivalence.isQuillenEquivalence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowQuillenEquivalence.isQuillenEquivalence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalWeak.weak_of_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJoyalIsofibrationRecognition.originalJoyal_fibration_of_inner_and_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

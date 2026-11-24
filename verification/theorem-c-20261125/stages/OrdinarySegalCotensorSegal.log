@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalCotensorSegal.cotensor_segalCondition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorSegal.cotensor_segalFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorSegal.cotensor_coherentEvaluation_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

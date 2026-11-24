@@ -1,0 +1,19 @@
+{
+  "module": "CartesianSimplicialMapFibration",
+  "source": "lean/TheoremCStages/CartesianSimplicialMapFibration.lean",
+  "source_sha256": "f112e9703bb9224d98ec407798a5dc905c1de28dd7ecf1aa1b493bc1486dd0af",
+  "actual_exit": 0,
+  "seconds": 7.49292920899461,
+  "artifact_valid": true,
+  "olean_sha256": "2d58ca57f56c678c7c5367d13aa61dc6d6967cb53e4cdb052127b19a0cf6bdad",
+  "log": "verification/theorem-c-20261125/stages/CartesianSimplicialMapFibration.log",
+  "log_sha256": "b434cf6cdbb4710509544f6054ac9b4c5939746d7b9c6fbb885b44eaf7d010c1",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeOverGroupoidNerveFibration": "567e72a7e8c119819d7092a99533c4346aeaacae205010829d841f85fcf42fba",
+    "TopCatModelCategory.SSet.NonDegenerateProdSimplex": "bac3d50d8016d3acf1acfce1015fd9c7cee79614e8f4da02296a3fe8f0c2e30a"
+  },
+  "original_receipt_sha256": "c8749afd5fcbf83521629d6703b6f561cf39bbdb947d9cc14cafdbc283cdf6c5",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

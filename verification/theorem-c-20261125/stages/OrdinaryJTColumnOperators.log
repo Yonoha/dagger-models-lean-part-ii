@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryJTColumnOperators.column_horizontal_map_down' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTColumnOperators.column_parameter_map_down' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

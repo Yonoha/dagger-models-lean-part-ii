@@ -1,0 +1,19 @@
+{
+  "module": "RawOrdinaryJTUnitCSSWeakRouteAudit",
+  "source": "lean/TheoremCStages/RawOrdinaryJTUnitCSSWeakRouteAudit.lean",
+  "source_sha256": "f65be3c114b8f4a531b58b94da81ae7505500714800998b2cb7a1e0662015bf6",
+  "actual_exit": 0,
+  "seconds": 12.789882500015665,
+  "artifact_valid": true,
+  "olean_sha256": "ec31b3bdc9dc67be51dce322f6eb4aec55639c2821aba7091bcec20bd7ffb802",
+  "log": "verification/theorem-c-20261125/stages/RawOrdinaryJTUnitCSSWeakRouteAudit.log",
+  "log_sha256": "402486369e9df339d25bab42a0827eb9a9da49805e595c62b7ff27506c96be5b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RawOrdinaryJTUnitCSSWeak": "8ee80ba09d3a7fc4d9278bef133d76b7e76ba58d95c9af5c9788edc34e22c966",
+    "OrdinaryJTCSSQuillenEquivalenceRouteAudit": "a5df5e180e7f8a61eca23d929bd2a18c9ea8e237e3f4ca8fa8665c0d25316f30"
+  },
+  "original_receipt_sha256": "d734c1672884cfaf10bc717a4ce5d2157a60fe8c53da9591be3c4d4e3c86409c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

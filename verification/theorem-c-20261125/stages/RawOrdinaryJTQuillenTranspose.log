@@ -1,0 +1,9 @@
+'DaggerModels.PartII.RawOrdinaryJTQuillenTranspose.transpose_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTQuillenTranspose.leftComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTQuillenTranspose.target_reedyFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

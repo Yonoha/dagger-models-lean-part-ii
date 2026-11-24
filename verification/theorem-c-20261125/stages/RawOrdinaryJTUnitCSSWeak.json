@@ -1,0 +1,20 @@
+{
+  "module": "RawOrdinaryJTUnitCSSWeak",
+  "source": "lean/TheoremCStages/RawOrdinaryJTUnitCSSWeak.lean",
+  "source_sha256": "1759ea1de88cc698404ae051b8c31356519b6200f1bea4f37ae088250111d404",
+  "actual_exit": 0,
+  "seconds": 10.16392329201335,
+  "artifact_valid": true,
+  "olean_sha256": "8ee80ba09d3a7fc4d9278bef133d76b7e76ba58d95c9af5c9788edc34e22c966",
+  "log": "verification/theorem-c-20261125/stages/RawOrdinaryJTUnitCSSWeak.log",
+  "log_sha256": "cfbec05114b5db8a62ad5c8b5e10629af4f7b4f040cffce028a847e2f9ee70d4",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTCSSQuillenEquivalence": "5543cc4b6a76c5204b248bb8b2f736fa76e71b26de9fce16e84514075ac41216",
+    "RawOrdinaryJTQuillenTranspose": "5539e3be19ad4c9f407b39b3f754d746ba6bdae7d300641572388dc195576769",
+    "OrdinaryJoyalFibrancy": "3055baf194e9bb524134a22c96ac40a228686e684e74094c09a61add1eb70e55"
+  },
+  "original_receipt_sha256": "f3ca8c27aaf51fae06ba07d546ecb80e2e79237d4b6d1d0fe1e1d41b2af4d77b",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

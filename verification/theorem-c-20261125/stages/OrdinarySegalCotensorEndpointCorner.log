@@ -1,0 +1,21 @@
+'DaggerModels.PartII.OrdinarySegalCotensorEndpointCorner.square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorEndpointCorner.corner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorEndpointCorner.mappingPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorEndpointCorner.cornerArrowIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorEndpointCorner.square_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorEndpointCorner.corner_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorEndpointCorner.endpointTargetIso_natural_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

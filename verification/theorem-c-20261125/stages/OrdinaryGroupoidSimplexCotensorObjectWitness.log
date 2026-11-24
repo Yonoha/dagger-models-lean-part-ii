@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCotensorObjectWitness.coherent_object_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalResolutionRelativeReedy",
+  "source": "lean/TheoremCStages/OrdinarySegalResolutionRelativeReedy.lean",
+  "source_sha256": "df71a68a8d4689485fb3a238047fba7b29c1bf442d16e58ff0607b65bf591b62",
+  "actual_exit": 0,
+  "seconds": 13.760868042008951,
+  "artifact_valid": true,
+  "olean_sha256": "906f8d1e857f1ce12a9c1d78b279b00e6d79ed863e560d6cefb22c7edfc11727",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalResolutionRelativeReedy.log",
+  "log_sha256": "2d3fec06eaf3ee0508388c9dcf39e6f973314886fd5e2b8b8780df0241f5c214",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalResolutionMappingFibers": "21b53456f4ea1a96a330c60a8686ae9e79d09f61fa85a7bcc88a583f83f4f303",
+    "OrdinarySegalCotensorFibrant": "d3dd61da025757807a6788c42ca771187f67662eaf004b3d25cf0df069832df1",
+    "NativeRelativeReedyFibreComparisonWeak": "2318eaa72b3e2423127357724b8906de5180bf4496c36232b3e6d16c64e8a496"
+  },
+  "original_receipt_sha256": "f69393934ecddfe783c0dc3e1ea3bd937c69e0dd9f4241e2bdc4cc578b2d8e22",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

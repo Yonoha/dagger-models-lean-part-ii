@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinarySegalFullTupleDescent.segal_of_relative_and_tuple_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

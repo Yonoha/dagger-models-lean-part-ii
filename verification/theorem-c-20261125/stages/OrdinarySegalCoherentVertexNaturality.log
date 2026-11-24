@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCoherentVertexNaturality.vertex_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentVertexNaturality.sourceVertex_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

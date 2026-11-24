@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalOrderedMappingEndpointTransport.transport_refl' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingEndpointTransport.transport_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingEndpointTransport.transport_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingEndpointTransport.map_of_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

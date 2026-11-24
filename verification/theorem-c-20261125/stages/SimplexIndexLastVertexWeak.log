@@ -1,0 +1,15 @@
+'DaggerModels.PartII.SimplexIndexLastVertexWeak.lastOrdinalPoint_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexIndexLastVertexWeak.lastVertexMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexIndexLastVertexWeak.firstOrdinal_le_last' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexIndexLastVertexWeak.timeOrdinal_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexIndexLastVertexWeak.timeOrdinal_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

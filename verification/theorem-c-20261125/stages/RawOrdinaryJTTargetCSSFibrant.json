@@ -1,0 +1,19 @@
+{
+  "module": "RawOrdinaryJTTargetCSSFibrant",
+  "source": "lean/TheoremCStages/RawOrdinaryJTTargetCSSFibrant.lean",
+  "source_sha256": "d47a1b18e41562e80f5fdd88ae2b63590d134e7c8402ed7cf51b1336e22cf0ea",
+  "actual_exit": 0,
+  "seconds": 11.90114133300085,
+  "artifact_valid": true,
+  "olean_sha256": "ade693b9002aaa1463fa929eebe108ff0e78bface8d8f36dd730301ba5cede94",
+  "log": "verification/theorem-c-20261125/stages/RawOrdinaryJTTargetCSSFibrant.log",
+  "log_sha256": "b45aa0de3c98a1667391e6a148759141a01b2eaae113005a46bfa7cd650cce06",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTLocality": "8f4c3fe5240fed19d4a7b5d01515934d34fddc8d93554ae56ab1da11a66cd4eb",
+    "RawOrdinaryJTRightNerve": "6278446c9f9f3fb582d0abbeac5b24fb87770ddc65e3f950d8f0662b09b9b730"
+  },
+  "original_receipt_sha256": "8271e4072fdbe6db92e073abdf69a7a20f6b55ed2f904e56cac70fa43cf49bbe",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,15 @@
+'_private.SimplexIndexLastVertexHomotopy.0.DaggerModels.PartII.SimplexIndexLastVertexHomotopy.first_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'_private.SimplexIndexLastVertexHomotopy.0.DaggerModels.PartII.SimplexIndexLastVertexHomotopy.time_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexIndexLastVertexHomotopy.comparisonMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexIndexLastVertexHomotopy.comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexIndexLastVertexHomotopy.lastVertexMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,18 @@
+'DaggerModels.PartII.OrdinarySegalBinaryComparison.firstVertex_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalBinaryComparison.lastVertex_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalBinaryComparison.rowSpineIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalBinaryComparison.binaryComparison_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalBinaryComparison.binaryComparison_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalBinaryComparison.binaryComparison_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

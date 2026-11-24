@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryJTColumnOperators",
+  "source": "lean/TheoremCStages/OrdinaryJTColumnOperators.lean",
+  "source_sha256": "35e22491ce44c5da2af03334e3d0d61d2928a27909b692fc4cbf4021bd419d00",
+  "actual_exit": 0,
+  "seconds": 7.751919333008118,
+  "artifact_valid": true,
+  "olean_sha256": "5da113729c825cf2a873f13052656da6c4f96dce9e7856239a3d091c1321c23c",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTColumnOperators.log",
+  "log_sha256": "ce9118bebb296300d15041a2d727bd2b2a5dcfa81a8e431c98c967bac2bbab8d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTCurriedAdjunction": "7c8ea8427b52bf90fc5b0f82e6e09f550c755b9ad4e579204f394b597d6a8356",
+    "OrdinaryJTNativeRightNerveReedy": "bb6d29fe18920fefd2cf3bfdc6e0e45a14f7108f7b19a9b190aa463283e9fcf3"
+  },
+  "original_receipt_sha256": "7e08845982b1790a1ce7bf469838fe9166f0416a569e01db8ffb8090a6f55d94",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

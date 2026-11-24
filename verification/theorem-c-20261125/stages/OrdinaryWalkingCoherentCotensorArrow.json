@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryWalkingCoherentCotensorArrow",
+  "source": "lean/TheoremCStages/OrdinaryWalkingCoherentCotensorArrow.lean",
+  "source_sha256": "a12047014abbc2747ca56fa71aa6bdd76ff224506aaef3f625f7af6ba346dfcc",
+  "actual_exit": 0,
+  "seconds": 8.321433375007473,
+  "artifact_valid": true,
+  "olean_sha256": "af3544856a08eba2f8658b03fa49d6d127963791c66723ffa5abebfa28d23006",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingCoherentCotensorArrow.log",
+  "log_sha256": "70f1af73e6197823a34f58c4ad180a4655bcdcdd871eb4c575f79a781b07f131",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingCoherentContraction": "a7276b067b7d22629241972e2797d4efd02ac455821828b92612024c12dc066b",
+    "OrdinarySegalCotensorMappingIso": "bd62d6e353c656d9b6130c230ae745d813b979ac3fa6a5e354e47ba46ab12ed7"
+  },
+  "original_receipt_sha256": "9c02528b2cf733bb4ef3c19fd9ca1ca2c1c32b00eaad3dd980d4f56d857cb9c9",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

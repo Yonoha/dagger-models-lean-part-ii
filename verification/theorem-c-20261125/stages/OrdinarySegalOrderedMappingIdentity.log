@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalOrderedMappingIdentity.mappingMap_id' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingIdentity.point_comp_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

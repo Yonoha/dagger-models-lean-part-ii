@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryGroupoidSimplexCoherentContraction",
+  "source": "lean/TheoremCStages/OrdinaryGroupoidSimplexCoherentContraction.lean",
+  "source_sha256": "0cfc85e5a54fd96313401bf2c5c79d70559d50c34b9e85d79681764a28f0bd96",
+  "actual_exit": 0,
+  "seconds": 7.50165820796974,
+  "artifact_valid": true,
+  "olean_sha256": "8cd7d435c56c181d9bddffe8649d39a4b0f65eb6bbc3e88b399aec65ce7d95e0",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryGroupoidSimplexCoherentContraction.log",
+  "log_sha256": "8e28ff5efc94f553ec09027a7f8a7ec0d633604b26ed23fd178386da1354232e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingCoherentVertexCalibration": "3007b8a861fe0b8b8e1a6c4e637d14f0adddb2c534bf5ccee49b49b658ad1645",
+    "DaggerModelsPartII.JTCodiscreteParameterPairing": "eff5df15d4dd8256f5d1cd64d315051d4f69c357fa41a706ef65df9a18b71855",
+    "Mathlib.CategoryTheory.Monoidal.Closed.Cartesian": "f83bb607fcea360d92477d879dedc3d127f170578c7e1b700aba8fc39f885faa"
+  },
+  "original_receipt_sha256": "91262ae9f9bd60ba7cdf027619ebf3d45ca7fe39577449fed2c6f039e95e3e5b",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

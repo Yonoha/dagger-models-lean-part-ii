@@ -1,0 +1,22 @@
+{
+  "module": "OrdinaryAllVertexPointReconstruction",
+  "source": "lean/TheoremCStages/OrdinaryAllVertexPointReconstruction.lean",
+  "source_sha256": "ef8a9182f183f90ad0f009c01fbe2de3a13b4b3583164af4f22d43a9ec300e5a",
+  "actual_exit": 0,
+  "seconds": 21.830893999998807,
+  "artifact_valid": true,
+  "olean_sha256": "4d01872e7a0c77c6aaa8365c2bf1ba49bf1eea230be1bffe6aba1f37c5582a71",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryAllVertexPointReconstruction.log",
+  "log_sha256": "0c968e9e9347846a80bb0eec5d853ea3da96a20fb0aa15420592ca5c7bf15abb",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalAllVertexDiagonalCalibration": "cf5635156593184a1eaa0a9be2dbf851d2968a2d71a080f50f0ca6076fe4de6c",
+    "OrdinarySegalAllVertexDescent": "93cfaac959a166381c4345964362ded9f16273f560c3ab8765f4ef4c44ed834e",
+    "OrdinaryAllVertexStrictFibreMap": "ed2ac38998401f0a1055dee1db4f9b0738e44fbcdc161fec53fc6acc529af1ac",
+    "OrdinarySegalEndpointPointCalibration": "71ee8b5d3c51016ae87158d4139d58139369999e65d79beb7872842bba7137aa",
+    "BisimplicialCommaZeroTotalReconstruction": "84262cda4d20deafbf0b9df61a58ffeaa07e96dc05ea8109546cfe852536f89c"
+  },
+  "original_receipt_sha256": "12229702f157c461694a1c54b6d14526b8f6a0e38c088256b679d5c21e9e61a6",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

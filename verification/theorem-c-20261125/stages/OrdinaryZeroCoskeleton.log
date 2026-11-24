@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinaryZeroCoskeleton.relativeInclusion_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryZeroCoskeleton.relativeInclusion_trivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryZeroCoskeleton.vertices_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryZeroCoskeleton.coskeleton_fibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryZeroCoskeleton.targetOverZero_fibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinarySegalRelativeLeftOuterHorn.restriction_left_outer_horn_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryWalkingExtensionRecognition",
+  "source": "lean/TheoremCStages/OrdinaryWalkingExtensionRecognition.lean",
+  "source_sha256": "538846d4dd5636cdff7c7504f3ec1494c16a123f80493ca007910ed77a82a6d2",
+  "actual_exit": 0,
+  "seconds": 9.612215415996616,
+  "artifact_valid": true,
+  "olean_sha256": "35d0a243778a9035c1702c3b7496af21b185aa586c7eeb84ad54fff7cc59ba58",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingExtensionRecognition.log",
+  "log_sha256": "d0d4b19f7f810743a9e7a0a5e55021d3eff2de8630a325dffd5c5085d4144f97",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingParameterCalibration": "57073c32f7576efe6a28b1f110a1ace7f5959a952abf801419f06d8bba3d49a2",
+    "OrdinaryWalkingParameterInvertibleEdge": "4d090b5b2fe6d0b3a505d5782e657956f0857133c7259fcc748d1ee01943a4ea",
+    "NativeHoIsoWalkingExtension": "0b2566e2ba5a5e7635f122b175c9558108bb4ffb55255fc603b243069b2cb28c"
+  },
+  "original_receipt_sha256": "5ee68039ed3ae1fd2e48c00ed6eaaa0608a1d899e0ea2389f5d4344e09bf026c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

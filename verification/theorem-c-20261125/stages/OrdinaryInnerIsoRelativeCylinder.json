@@ -1,0 +1,23 @@
+{
+  "module": "OrdinaryInnerIsoRelativeCylinder",
+  "source": "lean/TheoremCStages/OrdinaryInnerIsoRelativeCylinder.lean",
+  "source_sha256": "108df0a906a42d0ed2f303b4e0954a6c618e5e7a14668173152cdd45caed14b5",
+  "actual_exit": 0,
+  "seconds": 10.405989166989457,
+  "artifact_valid": true,
+  "olean_sha256": "2d22fb93acd2b634df111250aa0dd4fe79ea48cb4d2aa8f51e415fabdf7df67a",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryInnerIsoRelativeCylinder.log",
+  "log_sha256": "e41e662af88a01536caad0c5bfda5d57c5b4566e73a9c9fb7746e01ce97a99f5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeWalkingPositiveBoundaryPushout": "683f5b6470bbf40430105839779edaf1bddd5dc50e2c1cd644060f2d0332fc5a",
+    "NativeWalkingEndpointSection": "90ea34602516b31fe7ebed709445d3e1652f574dd1bf23863f913e7b2defddb6",
+    "NativeBoundaryJoyalMappingWeak": "f3f3967d36fbfdecb9d79464719cd6311d0e53bdac51158bd39dfb5b1d9450b4",
+    "TopCatModelCategory.SSet.AnodyneExtensionsAdjunctions": "ee8b7f085808e6a121e74cf26db99b4f5c599d02f0c620804f1dc13361eeff7f",
+    "TopCatModelCategory.SSet.Monoidal": "c285c002c6c22c4125886e8f256c2a5b7c58eb956cd1574b051a5dbbef62281f",
+    "Mathlib.CategoryTheory.Monoidal.Limits.Preserves": "3a98e5320728c54028acb3a4d51883ca0f26c1de555fab5cd059f195836dd238"
+  },
+  "original_receipt_sha256": "906b05a3bd7a3ab070ee52e8646ecd93f65c839f517d8d4d120c0c5007790d15",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

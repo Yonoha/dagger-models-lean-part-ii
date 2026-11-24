@@ -1,0 +1,9 @@
+'DaggerOriginalRelativeBoundaryTargetLifting.relativeTarget_innerHornFillers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerOriginalRelativeBoundaryTargetLifting.relativeTarget_reflects_invertible_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerOriginalRelativeBoundaryTargetLifting.relativeCoslice_lift_invertible_image_edge_to_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

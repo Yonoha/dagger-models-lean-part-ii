@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalSurjectiveObjectDescent",
+  "source": "lean/TheoremCStages/OrdinarySegalSurjectiveObjectDescent.lean",
+  "source_sha256": "6dcfd23e1143667982397d6b8a1404e8c47ecc513fe99fc05b3724277d8c1d63",
+  "actual_exit": 0,
+  "seconds": 10.979857667000033,
+  "artifact_valid": true,
+  "olean_sha256": "519c2511d2322f4c380fe97242a24a4ed82d264bfff85dcba9283d5790d0e9ea",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalSurjectiveObjectDescent.log",
+  "log_sha256": "e5b4724ba5c992a28c215ee4da2a12fe7c456655da1ecbad2182ef30e2843b70",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.FibrationSquareComponentFibers": "87bd51da5d2a299490f48b948507fac2c71d56538586eb7f05a6d83dc53738dd",
+    "NativeFibrewiseWeakRecognition": "edb2edd426bf0c4997a726b5566f5212180907785883da24608ecc3aaa242b43"
+  },
+  "original_receipt_sha256": "c74c1450a0087f7a0f542ae1b27fe6a04ce60c872495b8dfe13ca4bece304a61",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

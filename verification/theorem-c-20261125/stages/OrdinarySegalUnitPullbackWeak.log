@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalUnitPullbackWeak.firstUnitComparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalUnitPullbackWeak.secondUnitComparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalUnitPullbackWeak.firstUnitComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalUnitPullbackWeak.secondUnitComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

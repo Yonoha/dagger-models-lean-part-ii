@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryWalkingAlternatingNondegenerate",
+  "source": "lean/TheoremCStages/OrdinaryWalkingAlternatingNondegenerate.lean",
+  "source_sha256": "ed3d50f931cc4b25b7862e48b9a44d9e13dc02986430d14a0cc6b8ee82459b4d",
+  "actual_exit": 0,
+  "seconds": 7.887757959018927,
+  "artifact_valid": true,
+  "olean_sha256": "f41bbb307675979a0924f83c5300980559e5273c0ff70dbeff5a3f006bf4f5a5",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingAlternatingNondegenerate.log",
+  "log_sha256": "313a299ce5ff3e97b8f54d2c74aa619f0e3ce3165538e1f058af6d24b9dcdb54",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingAlternatingExhaustion": "1b193812c32f0b7b5c0a210244012b4e0e269bbea20bd7f164462924357a9368",
+    "Mathlib.AlgebraicTopology.SimplicialSet.Degenerate": "ece4f0b47ca9ce9bbb4b9013cb0a7fa59c3b6e5c65658688383c4b297b6b2a6a"
+  },
+  "original_receipt_sha256": "d121e0096200848ee5bf7bb29d004087be811734dd2751fd74ec496020d8d937",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

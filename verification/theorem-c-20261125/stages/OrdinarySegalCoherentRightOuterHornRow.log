@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalCoherentRightOuterHornRow.hornRowIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightOuterHornRow.hornRowIso_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightOuterHornRow.hornRowIso_second' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightOuterHornRow.rowRightHorn_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightOuterHornRow.rowRightHorn_second' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

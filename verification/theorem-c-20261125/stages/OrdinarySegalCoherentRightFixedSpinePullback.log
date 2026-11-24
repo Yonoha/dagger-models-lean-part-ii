@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpinePullback.spineBase_lastEdge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpinePullback.spineBase_firstEdge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpinePullback.spineProjection_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpinePullback.fixedToSpinePullback_triangle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpinePullback.fixedToSpinePullback_firstEdge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

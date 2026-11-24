@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalComponentImage.mem_selected_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalComponentImage.factor_inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalComponentImage.componentImage_inclusion_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalComponentImage.factor_surjective_components' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalComponentImage.factor_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

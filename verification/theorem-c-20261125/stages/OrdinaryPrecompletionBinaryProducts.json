@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryPrecompletionBinaryProducts",
+  "source": "lean/TheoremCStages/OrdinaryPrecompletionBinaryProducts.lean",
+  "source_sha256": "a062baa6dac54056b55cd4e59b7d73999271723a75dda33c61afb5d75dd3dfc1",
+  "actual_exit": 0,
+  "seconds": 10.829332417008118,
+  "artifact_valid": true,
+  "olean_sha256": "3b28bcdb76d7503a112ddafc95aa4f9e044bb7f2a82c193dcdb557bab040bd9f",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryPrecompletionBinaryProducts.log",
+  "log_sha256": "43e91623a82787eb09e87e8c39c064df756fe1c9ce146051b27a536391296bec",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalVerticalPrecompletionNaturality": "1269c41aca8d75f0e9786e4f90d434758e8e4b71f5cfb04f3e13baf328c536e6",
+    "NativeBisimplicialDiagonal": "ac9b3f0b2335762937b16e547deffafc31130aac311a05b3bb07d98372812834",
+    "Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory": "f7706b250c58ce9abd4dd93ff9e376175a99177208766419b95b355bdb4f6a93"
+  },
+  "original_receipt_sha256": "0789b894463d7cbfcae3efa7fc07f94f6ca5d2ba1069a3ac81a940eee25ca0fb",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

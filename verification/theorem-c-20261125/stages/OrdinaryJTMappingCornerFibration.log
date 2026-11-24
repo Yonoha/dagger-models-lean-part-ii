@@ -1,0 +1,5 @@
+'DaggerModels.PartII.OrdinaryJTMappingCornerFibration.diagram_corner_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTMappingCornerFibration.rowIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJTMappingCornerFibration.corner' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalRelativeWalkingAudit",
+  "source": "lean/TheoremCStages/OrdinarySegalRelativeWalkingAudit.lean",
+  "source_sha256": "7925c04b55ee708e2e54613bfb39789db4403b70feef4806afe01d912c08dcb2",
+  "actual_exit": 0,
+  "seconds": 18.340640541980974,
+  "artifact_valid": true,
+  "olean_sha256": "6f636095a3ad76b9f6899377631f7ec223a93e14c80969a0f964afd68fdc5b49",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalRelativeWalkingAudit.log",
+  "log_sha256": "5d31c3c4619e42c6aa380da927aa05561a5abb73259aadbc6e6ed7f121e7b89b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalRelativeFoundationsAudit": "1faeb0dd5eaacd809253f2eca46e53df6e75d83d240ce80bbe8fe60d730433e8",
+    "OrdinarySegalRelativeLeftOuterHorn": "36f9225dab78a3c5a7d68dbca0fb53d6e164b3b2085dd1d8c1efba4c76dc0b9f",
+    "OrdinaryWalkingRelativeUnitExtension": "237051d7a6e7770433b3ffc5bcc23f2899e1dec3139f79c0227f23220d954f45",
+    "OrdinarySegalRestrictionTranspose": "518df396927e98e8fd2bd3f0fd3256cad68b1e78898ca2d7ec77a9edd36d0686",
+    "OrdinaryWalkingParameterInvertibleEdge": "4d090b5b2fe6d0b3a505d5782e657956f0857133c7259fcc748d1ee01943a4ea"
+  },
+  "original_receipt_sha256": "a27fae2b2f427c5aff4bdefe17818dd9314ff01bbb3619ccac94f87a580f2bab",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

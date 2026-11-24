@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryIntervalPrismTwoTriangleSquare",
+  "source": "lean/TheoremCStages/OrdinaryIntervalPrismTwoTriangleSquare.lean",
+  "source_sha256": "aacde51bcefae01fef98d927964284b4431e68c9f151728028c725ca2dc8a814",
+  "actual_exit": 0,
+  "seconds": 10.47947458398994,
+  "artifact_valid": true,
+  "olean_sha256": "e5283474d82a2aa39e2b3773df98519a7592f94e4f4b98c6539bbbfb7926b983",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryIntervalPrismTwoTriangleSquare.log",
+  "log_sha256": "945c81a0329cdec7f163615739e0d74e0280699f736f9e707f17576353fc93ee",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryIntervalPrismConstantSection": "e7d90d41f84a4b429c09beb01a05bdd1858042b62fccdee7b69681e6ecef4187",
+    "OrdinarySegalTwoTriangleUnitWeak": "518285d9761ddb7c85a6006e3ab32f3acaf1abf5ed8efce927eb1b05d801da36"
+  },
+  "original_receipt_sha256": "be2871a4c1e7a8740cba6dcf6796d590e82c4acf28cc6ba7d11e4f229cb36a22",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

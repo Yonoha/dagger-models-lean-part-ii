@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySpaceReedyInjective",
+  "source": "lean/TheoremCStages/OrdinarySpaceReedyInjective.lean",
+  "source_sha256": "7b7136720909bae038fc9b8832635b0ccf75b752807ad09dbcc245c398998190",
+  "actual_exit": 0,
+  "seconds": 16.519205667020287,
+  "artifact_valid": true,
+  "olean_sha256": "20f8025f1476131ee6bd859821558a425425cb0a97f2b9ee10d92c90b2b514b4",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySpaceReedyInjective.log",
+  "log_sha256": "23d0734c5e91b42ea90c4dd1d3e23d7720b4fa14e813b55f98b92e156234f4ad",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySpaceReedyMono": "174c21dd89867f4fb3fd372989bb87a675001e442a844bafafc966a1b7e36642",
+    "OrdinaryJTReedyQuillen": "17b155ecc5a1a12ca624010508dd49f113e51d9d5ded51cc04c9d533d6a62d03",
+    "DaggerModelsPartII.InjectiveKanModel": "48053e09ae8a90906e2fa6334014a5ea64918605e9726274b4280a76a177d971",
+    "DaggerModelsPartII.MappingCofibrationInclusion": "797434c00bf1bf7db114bea44f498f26baf55b32a8337292377d5893b7294638"
+  },
+  "original_receipt_sha256": "0529244f4eb5f71f6614429ded7c5d9bf5668d7eb347789292d78dae8b4dfbf0",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

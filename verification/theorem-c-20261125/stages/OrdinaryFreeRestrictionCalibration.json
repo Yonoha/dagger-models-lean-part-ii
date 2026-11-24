@@ -1,0 +1,18 @@
+{
+  "module": "OrdinaryFreeRestrictionCalibration",
+  "source": "lean/TheoremCStages/OrdinaryFreeRestrictionCalibration.lean",
+  "source_sha256": "5baf45a4294977ee921e6408a7bb6d61464e66b640a889ab68f954b3732d059d",
+  "actual_exit": 0,
+  "seconds": 9.056460792024154,
+  "artifact_valid": true,
+  "olean_sha256": "25a86ce51356c72422395b2c4b149d4b163767b0c1284df28e15e00137dd11f7",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryFreeRestrictionCalibration.log",
+  "log_sha256": "2d058f5375ceeb14c1a821cd1c010c00fef111e86f44fb28780b883b44c2288c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryFreeRestrictionEnriched": "b3c6d7bcbd020f9ec6efffdfacfdaed262e014d8ae6d2c08d1b39969cf6172d9"
+  },
+  "original_receipt_sha256": "9851d8bee077e768dd22f3599236397862b76252b3a96c9c1075c4efa59b1227",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

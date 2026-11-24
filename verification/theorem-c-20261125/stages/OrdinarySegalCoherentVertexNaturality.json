@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalCoherentVertexNaturality",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentVertexNaturality.lean",
+  "source_sha256": "0f3f9457fbc78267d35252c63195d83a489978a3a116d27f8a7f02a5d9ee070b",
+  "actual_exit": 0,
+  "seconds": 9.966633874981198,
+  "artifact_valid": true,
+  "olean_sha256": "37ff841dfc88f6f371c3171aa75f6a22ce0f1fa5b639031a9be1e19da1338c61",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentVertexNaturality.log",
+  "log_sha256": "228f847f094712c4e6297fe54ffbde445b99b5da3b9dbdb1a932aa3a323c03c7",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentFixedEdgeNaturality": "5559442b63915efe486ccb6d154cd0100dc99ca41c30c66b44bf7f031172083b",
+    "OrdinarySegalCoherentFixedTriangleSource": "e72890e55650082558cb0ee0bd7f911b9ebafc931450f3f6428db0aed7f1c045"
+  },
+  "original_receipt_sha256": "1273c33a6720c279f1bac20289fd12a7c0afe7abe6ad801e04ae75c21fb47e04",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

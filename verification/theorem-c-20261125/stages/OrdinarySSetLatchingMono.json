@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySSetLatchingMono",
+  "source": "lean/TheoremCStages/OrdinarySSetLatchingMono.lean",
+  "source_sha256": "361432f8fd681e2c9ca8a11c06c9a7fe1bc77885d69183c5d0210b68219ca018",
+  "actual_exit": 0,
+  "seconds": 4.459359624946956,
+  "artifact_valid": true,
+  "olean_sha256": "7d6982c6a02348ed88a660b1bffaf4f8df836ee2020dbd3a742eebbe709d5d1c",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySSetLatchingMono.log",
+  "log_sha256": "4fdb4e6ed6341152b046c1b7bc2d819d05561357caf5ed8005cddf5276d778cc",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.ReedyMaps": "9b27d6b92c07aee6b6ad251dbc24f26f5f16a33ae0443863306cd7215afdcf45",
+    "Mathlib.AlgebraicTopology.SimplicialSet.Degenerate": "ece4f0b47ca9ce9bbb4b9013cb0a7fa59c3b6e5c65658688383c4b297b6b2a6a",
+    "Mathlib.CategoryTheory.Limits.Types.Colimits": "359be19936bcbd45a908117861f4d7de994fc6a3d8e5f83763cb9aae357774af"
+  },
+  "original_receipt_sha256": "319d162534822c39da8f7b713239b9df0647098bf16e7ec58e1fae088d7b7555",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

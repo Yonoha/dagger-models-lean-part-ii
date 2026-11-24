@@ -1,0 +1,3 @@
+'DaggerModels.PartII.RelativeHornReversedExtension.relative_extension_of_reversed_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

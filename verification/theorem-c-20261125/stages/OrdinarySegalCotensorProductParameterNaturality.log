@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinarySegalCotensorProductParameterNaturality.productIso_natural_outer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

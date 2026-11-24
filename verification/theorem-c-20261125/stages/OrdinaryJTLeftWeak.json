@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryJTLeftWeak",
+  "source": "lean/TheoremCStages/OrdinaryJTLeftWeak.lean",
+  "source_sha256": "5feffc655430b9aca996188fa5545c32d02e82ae18feada36ad166c78df42d82",
+  "actual_exit": 0,
+  "seconds": 8.578006124997046,
+  "artifact_valid": true,
+  "olean_sha256": "6b5e2a807ff2cd59d04797bc77bb71f3ac19fdc92d05a76d797ee1ddabd6b51b",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTLeftWeak.log",
+  "log_sha256": "bc673042ea0a26b19b57f42b78f84897fd7f9d0f3686bf44dcf554c218c94e8f",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTCSSQuillen": "412fadb3f480501859c47d3e135ee13ac0aa7d7b8086b133a7c626074cf896b5",
+    "Mathlib.AlgebraicTopology.ModelCategory.BrownLemma": "4b63a657e6c97a2c4e32c05864bfd1843adc5ab732d82dbb2c6330d6741b0b64"
+  },
+  "original_receipt_sha256": "4ecd6a9e3eb4ae73b0de58e5c25e35b1f07b41c94af3249d8d88da2bd5053554",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

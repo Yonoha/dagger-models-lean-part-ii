@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryZeroCoskeletonMapping.precomp_isIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryZeroCoskeletonMapping.spineMap_zero_isIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

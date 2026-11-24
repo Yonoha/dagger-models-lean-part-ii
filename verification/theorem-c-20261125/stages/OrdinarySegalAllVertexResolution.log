@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalAllVertexResolution.vertexResolution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalAllVertexResolution.vertexResolution_row_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalAllVertexResolution.vertexResolution_equifibered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

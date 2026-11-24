@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryJTRightNerveReedy",
+  "source": "lean/TheoremCStages/OrdinaryJTRightNerveReedy.lean",
+  "source_sha256": "07646a98196f7534493851511a3cecf383c8fd7af2d61afe6af9fe8f79deced5",
+  "actual_exit": 0,
+  "seconds": 11.163062541978434,
+  "artifact_valid": true,
+  "olean_sha256": "47c5537c66e1d5bfbddb4f40438f5311dd6b785735213ed6e2b07e35972d1d26",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTRightNerveReedy.log",
+  "log_sha256": "57cc5009c9fc2eaaad330d419f58a92961502163a18bcc5d1d06a0cbbdea53ec",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTMappingFunctor": "2ca58a267a23261ec29e04ccb7889746df6ee1a3d107bd8a61349cd36bb23e4a",
+    "OrdinaryJTMappingFibration": "68ec6e723b825b7fbab9ce46ae2840643c5f90d7cf3ffee7ce279baa404f951a",
+    "DaggerModelsPartII.StandardSimplexFrame": "908bae9d6707c2f765c2b012f40874d58f3ee8736bde5e739bd973c7079b3ef1"
+  },
+  "original_receipt_sha256": "f555fcbaa127369d0b9e28f440a4fb1a131c40b4dca63588aae5c11c2856dd95",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

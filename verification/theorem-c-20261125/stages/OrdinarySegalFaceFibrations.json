@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalFaceFibrations",
+  "source": "lean/TheoremCStages/OrdinarySegalFaceFibrations.lean",
+  "source_sha256": "a3aea094d590bea86f1e5e4154eb6f3286f27fab253fb0104d5f1df8c4835f73",
+  "actual_exit": 0,
+  "seconds": 8.350881999998819,
+  "artifact_valid": true,
+  "olean_sha256": "73d2420fdd0836370113d9332b94af685662aef2b9567455dea0cddf65ff12cc",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalFaceFibrations.log",
+  "log_sha256": "fe257d6ee82e376ed09676fa23af5768e2951f4077908ec72df4099795e4c9d2",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalWalkingEvaluation": "3638efb2a5b4daa5f7134ce5639f1cc393c754a020232ea55edcf7bd0f155d25"
+  },
+  "original_receipt_sha256": "2aeb78966156b0096f6526ce81f48d791f373c563838b739afb689e307d2fc92",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

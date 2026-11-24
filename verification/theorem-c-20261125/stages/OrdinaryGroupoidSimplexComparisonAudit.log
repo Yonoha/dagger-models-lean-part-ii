@@ -1,0 +1,36 @@
+'DaggerModels.PartII.OrdinaryGroupoidSimplexComparisonAudit.originalInput_transition_inverse_composites' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexComparisonAudit.originalInput_coherent_object_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCotensorHomotopyAudit.originalInput_homotopy_endpoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCotensorConstantHomotopy.constantSection_homotopy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCotensorTransitionHomotopy.left_homotopy_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCotensorTransitionHomotopy.left_homotopy_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCotensorTransitionHomotopy.right_homotopy_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCotensorTransitionHomotopy.right_homotopy_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentLeftOuterHorn.fixedRestriction_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentOuterHornRow.rowLeftHorn_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentOuterHornRow.rowLeftHorn_second' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTTheoremCFromOriginalRawOrderedUnit.statement_of_originalRawOrderedUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

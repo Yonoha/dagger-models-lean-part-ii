@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryWalkingCoherentVertexCalibration",
+  "source": "lean/TheoremCStages/OrdinaryWalkingCoherentVertexCalibration.lean",
+  "source_sha256": "2ea12525594289cf93d548b56f37bc1fd02b69bd202971c63516ffea1beea269",
+  "actual_exit": 0,
+  "seconds": 7.0261336250114255,
+  "artifact_valid": true,
+  "olean_sha256": "3007b8a861fe0b8b8e1a6c4e637d14f0adddb2c534bf5ccee49b49b658ad1645",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingCoherentVertexCalibration.log",
+  "log_sha256": "cc7edca70bdd1dfbbc4833241a9803cc7e39ad36f93cde17d2f3b8b7dce743ea",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingCoherentContraction": "a7276b067b7d22629241972e2797d4efd02ac455821828b92612024c12dc066b",
+    "DaggerModelsPartII.JTParameterVertexKan": "86d0c0beb48e327b8cfa472f2d267719a6059e3167c480d19b9e73fe215512fc",
+    "TopCatModelCategory.SSet.Monoidal": "c285c002c6c22c4125886e8f256c2a5b7c58eb956cd1574b051a5dbbef62281f"
+  },
+  "original_receipt_sha256": "f3fcf36d43a6b3c4714d3b006a2ca71bb2ab16bc3d24f981b8432f29f0d0c35f",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

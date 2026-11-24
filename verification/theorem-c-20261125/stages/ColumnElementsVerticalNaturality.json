@@ -1,0 +1,19 @@
+{
+  "module": "ColumnElementsVerticalNaturality",
+  "source": "lean/TheoremCStages/ColumnElementsVerticalNaturality.lean",
+  "source_sha256": "a8702f9f0e37fc1cdb4220cf8fea098ca843d9293c9cd4a461c348fa5bf10315",
+  "actual_exit": 0,
+  "seconds": 6.33371370799432,
+  "artifact_valid": true,
+  "olean_sha256": "87a5d719dbf545529acbf7c6bd624b0cc6f47561fd56d77498967b9a2d3a9303",
+  "log": "verification/theorem-c-20261125/stages/ColumnElementsVerticalNaturality.log",
+  "log_sha256": "de0e097220051dcfeab9b94cd9a11e1db2825af0d1ff3be6761ab7e9b54e06b3",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplicialReplacementColumnElements": "f6029b4d46bee84f43c80b026603694e3ef5e5a594852fbb1a09681820b082af",
+    "SimplicialSetLocalSystemMorphismFibration": "f4d36db109759a9af135c4cca4c1759360b15493a7907f06a3390882f477a964"
+  },
+  "original_receipt_sha256": "fb9c8ece1093638230d087c008e0c55c978ec2cfbc788cbadb325236719fc1ed",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

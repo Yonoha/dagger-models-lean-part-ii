@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryInnerHornFromOuterFaces.outerSet_faceUnion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryInnerHornFromOuterFaces.innerHorn_of_outerFaces' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

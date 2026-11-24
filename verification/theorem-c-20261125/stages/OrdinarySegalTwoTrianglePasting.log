@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalTwoTrianglePasting.twoTriangle_isPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalTwoTrianglePasting.twoTriangleUnitComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

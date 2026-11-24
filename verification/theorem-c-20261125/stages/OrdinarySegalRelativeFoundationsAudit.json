@@ -1,0 +1,23 @@
+{
+  "module": "OrdinarySegalRelativeFoundationsAudit",
+  "source": "lean/TheoremCStages/OrdinarySegalRelativeFoundationsAudit.lean",
+  "source_sha256": "1816512614cc260f1b104653558a557db70f9764bfdd9079188b5e5a4db0d09d",
+  "actual_exit": 0,
+  "seconds": 20.960912082984578,
+  "artifact_valid": true,
+  "olean_sha256": "1faeb0dd5eaacd809253f2eca46e53df6e75d83d240ce80bbe8fe60d730433e8",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalRelativeFoundationsAudit.log",
+  "log_sha256": "44341203d4fb695b0365a25a87e503eacfd4bf6d7e9f45aabfd1cb9bdc0886ca",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalRelativeOuterHorn": "6663a648d3145254b9f91b20a4ca8cdb167aaf7fe15c29c2489013acf560933c",
+    "OrdinarySegalCompletionFoundationsAudit": "7d7bb5f73381c691248a539a29baba4c7626df2812eaa537bca7f1a24afeb5c8",
+    "OrdinarySegalOrderedMappingMaps": "13ee6f4a95212941e5db5473d0137ddb970c8041aab5f136eec67df7c5696594",
+    "OrdinarySegalCompositionChoices": "230595618624170453e405cf460198b2cf08b0774065368e84f169cb3b0ae664",
+    "OrdinaryWalkingAlternatingAttachment": "54b0fadbaf6db6e040e7618b532ac4e284c851c252534db2df1dd8db4f112ab6",
+    "RelativeHornReversedExtension": "d13649c6761f1eaca7056d6c8fa02122c34833cb0bd5f51629f4eea8bd7aa032"
+  },
+  "original_receipt_sha256": "32c92e0fc69addcb10d18e08cd3c8815a7eebcadc5c463ffe85cd3d5367dba4b",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

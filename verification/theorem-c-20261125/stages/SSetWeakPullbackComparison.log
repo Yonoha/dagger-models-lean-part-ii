@@ -1,0 +1,9 @@
+'DaggerModels.PartII.SSetWeakPullbackComparison.pointMap_isPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SSetWeakPullbackComparison.pointMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SSetWeakPullbackComparison.comparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

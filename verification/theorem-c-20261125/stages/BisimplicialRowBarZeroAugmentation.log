@@ -1,0 +1,6 @@
+'DaggerModels.PartII.BisimplicialRowBarZeroAugmentation.constant_augmentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialRowBarZeroAugmentation.zeroInclusion_reconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

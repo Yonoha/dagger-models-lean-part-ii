@@ -1,0 +1,18 @@
+{
+  "module": "TheoremCOriginalFourLinksAudit",
+  "source": "lean/TheoremCStages/TheoremCOriginalFourLinksAudit.lean",
+  "source_sha256": "52700a2f220959baccd477ad0a0c68f85126b9564ffb4de757df479bf279941d",
+  "actual_exit": 0,
+  "seconds": 34.057389042005525,
+  "artifact_valid": true,
+  "olean_sha256": "595078c58e008faa9b69cb8d892b3f7d1c0aa57a7250a0b8605e79e9183476cc",
+  "log": "verification/theorem-c-20261125/stages/TheoremCOriginalFourLinksAudit.log",
+  "log_sha256": "152729234a273288052dc5f3dd1f5eb3bf0a37c7a587114b2c74ce634972d732",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "TheoremCOriginalCompletionProof": "e82272e7fd7ac43c7ab59c71ce5c40169a755f4cd5b2a1476f3b868359b15a59"
+  },
+  "original_receipt_sha256": "d2c106fedf1cf22d4e8b1b3e9dc2118d03573d37046b3ae833db2b07388e963d",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

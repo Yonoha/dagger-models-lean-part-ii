@@ -1,0 +1,20 @@
+{
+  "module": "RawOrdinaryJTChosenMapCalibration",
+  "source": "lean/TheoremCStages/RawOrdinaryJTChosenMapCalibration.lean",
+  "source_sha256": "f476f0a64d94bedef191206b21f78f0e3a2614887ac32929f6151d9b0df1e821",
+  "actual_exit": 0,
+  "seconds": 22.324091958987992,
+  "artifact_valid": true,
+  "olean_sha256": "aea469037b62b4582db333df16caa1c29a08a52b0d358f62ea8ea7c3a5481402",
+  "log": "verification/theorem-c-20261125/stages/RawOrdinaryJTChosenMapCalibration.log",
+  "log_sha256": "8620f6ab6335b6478839174fc54bb3d8ba3814cada483aefce2f80d2e4a93770",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RawOrdinaryJTEndpointCalibration": "63a4046cb71317cbbbcadfe2ccd7b0a881ba30bd553d801c6f0457d815c3df48",
+    "OrdinarySegalOrderedMappingMaps": "13ee6f4a95212941e5db5473d0137ddb970c8041aab5f136eec67df7c5696594",
+    "DaggerModelsPartII.ChosenHomotopyFiberFunctor": "0916c8621778b789e1cafdd723d7e7ed052a9bbfe09725f6c271cc680b224620"
+  },
+  "original_receipt_sha256": "04a32029cfbbdc462c1ba9e76afd751764f8c01d7009ec22a45b4d597c1332a4",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalUnitPullbackWeak",
+  "source": "lean/TheoremCStages/OrdinarySegalUnitPullbackWeak.lean",
+  "source_sha256": "db795e2935584bc3fe987eda955cf076e6013192c46f10eadf3c430d56c6d3f9",
+  "actual_exit": 0,
+  "seconds": 13.397478500031866,
+  "artifact_valid": true,
+  "olean_sha256": "b68097e085585250dbf3da97c5b1fca38453cd8d2da1fae66e4e2e00c4d06960",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalUnitPullbackWeak.log",
+  "log_sha256": "c2204dba6f8556449edf855127255b035e5387625b3dfbe827b79d69120d9866",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "KanBinaryUnitPullback": "70c632feff167b4fb0147d1859dc35e2f2383aa136505d0ddd1ff62937082c37",
+    "OrdinarySegalBinaryComparison": "f8c86f57850f6d1e5ef3bb0902196c689286fc7b7307a585b66df3e514aff30d"
+  },
+  "original_receipt_sha256": "1d2b50d2b60afc74ffc32587b1f09c477f2afdd2ba300b98fad122263d623ad4",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCoherentFixedTriangleSourceCoordinates.compositeToOriginalFiber_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentFixedTriangleSourceCoordinates.compositeToOriginalFiber_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

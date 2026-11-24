@@ -1,0 +1,27 @@
+'DaggerModels.PartII.OrdinarySegalCoherentEvaluationAudit.coherentFiber_projection_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentEvaluationAudit.originalInput_coherentEvaluation_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentEvaluationTrivialFibration.coherentEvaluation_boundary_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentEvaluationTrivialFibration.coherentEvaluation_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingRelativeUnitExtension.edge_extension_over' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingPushout.stage_attachment_horn_isPushout' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalRestrictionTranspose.simplexUnit_transpose' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTUnitCSSWeak.rawTranspose_cssWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTTheoremCFromOriginalRawOrderedUnit.statement_of_originalRawOrderedUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalHorizontalRestrictions.innerHorn_mapping_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalHorizontalRestrictions.restriction_innerFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalHorizontalRestrictions.restriction_quasicategory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryWalkingCoherentObject",
+  "source": "lean/TheoremCStages/OrdinaryWalkingCoherentObject.lean",
+  "source_sha256": "a8aedaaa6dc72df97460e3f90ccdb1118d71a38824f9661d66a4701c9c71a992",
+  "actual_exit": 0,
+  "seconds": 6.66065495897783,
+  "artifact_valid": true,
+  "olean_sha256": "2b38988656b098e8e5e733f184003a0465e71cb752472cb55eea90c822a639bb",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingCoherentObject.log",
+  "log_sha256": "0f8c18ca1008e0ac47be269bab0f662ab02a13748fd4c382dc272156a0c833be",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingCoherentCotensorArrow": "af3544856a08eba2f8658b03fa49d6d127963791c66723ffa5abebfa28d23006",
+    "OrdinarySegalCotensorZeroIso": "ba75d258bb75def6b169c49e576bfdf1e1123e76b594da707c02e4a8336e656c"
+  },
+  "original_receipt_sha256": "7425ab303e2050107518ee7c0c51ebe10f825d5b3f33225d4e988bf21ecfd78e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

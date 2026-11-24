@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalComponentSubcomplex.inclusion_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalComponentSubcomplex.selected_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalComponentSubcomplex.restrict_isPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalComponentSubcomplex.restrict_weakEquivalence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

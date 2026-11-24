@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCoherentSourceTransport.mappingMap_weak_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentSourceTransport.mappingMap_weak_iff_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

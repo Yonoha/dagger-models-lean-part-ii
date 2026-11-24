@@ -1,0 +1,9 @@
+'DaggerModels.PartII.BisimplicialCommaZeroTotalReconstruction.outerConstantValue_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaZeroTotalReconstruction.zeroFiber_totalBarMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaZeroTotalReconstruction.zeroFiber_totalReconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,19 @@
+{
+  "module": "AdjunctionLeftIdentityQuillenEquivalence",
+  "source": "lean/TheoremCStages/AdjunctionLeftIdentityQuillenEquivalence.lean",
+  "source_sha256": "5ebad75569e85e80f00d8ae3ded2e591a08f6bb755b20becb9ce269000ea0653",
+  "actual_exit": 0,
+  "seconds": 3.4709768330212682,
+  "artifact_valid": true,
+  "olean_sha256": "62ec6bf1ad52f7dd4a33fe538b2c5031c56e430789abbcac67f2a963c7040c38",
+  "log": "verification/theorem-c-20261125/stages/AdjunctionLeftIdentityQuillenEquivalence.log",
+  "log_sha256": "4af9320ef895d660778a73ec9ad440a5fda62e94aaa56217885684896addb77d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "TopCatModelCategory.QuillenAdjunction": "4b87918f2bdc60ed25395b606958ddc4172f9ab54e930d153271049030edf4e3",
+    "Mathlib.CategoryTheory.Adjunction.FullyFaithful": "de53f408fd42824f40e672250d0ad372259937cedf728bb860b3609466935cd3"
+  },
+  "original_receipt_sha256": "03e7e53d712eccecf7d28027e7d6253a4a31377299b931a1c3fb5f10b2375104",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

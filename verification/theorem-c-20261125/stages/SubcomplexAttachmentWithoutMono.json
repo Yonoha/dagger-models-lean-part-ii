@@ -1,0 +1,18 @@
+{
+  "module": "SubcomplexAttachmentWithoutMono",
+  "source": "lean/TheoremCStages/SubcomplexAttachmentWithoutMono.lean",
+  "source_sha256": "52fdf5c61e47e81c3694b822e1b262395114e86007e7a29431a6c863e820f6dd",
+  "actual_exit": 0,
+  "seconds": 3.9391830409877002,
+  "artifact_valid": true,
+  "olean_sha256": "099ce19c4650604b46753beb9084947a52012ecbc1ba16fc78408f2d8ca2f4ba",
+  "log": "verification/theorem-c-20261125/stages/SubcomplexAttachmentWithoutMono.log",
+  "log_sha256": "27a7855ab4d4a83783fdc9f5f597a138a8afdfb32fb032bed5f7cd25429a77e6",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeSubcomplexAttachmentPushout": "55d432770f0d314b97debb52113676d999d3fd439aefd2804f546ef952b4fc96"
+  },
+  "original_receipt_sha256": "740ddb76d3dee65bbe7133a8462fc18f5900dfaaf6b4f4b1a070292919de30e3",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

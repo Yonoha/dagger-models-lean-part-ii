@@ -1,0 +1,19 @@
+{
+  "module": "SimplicialReplacementValueChosenFiber",
+  "source": "lean/TheoremCStages/SimplicialReplacementValueChosenFiber.lean",
+  "source_sha256": "5081eaa931ce212597689a0ffa534e12fc0f52b257191198862da410ad02a29e",
+  "actual_exit": 0,
+  "seconds": 13.114462166005978,
+  "artifact_valid": true,
+  "olean_sha256": "6e907ca0b9556b7c8b36142d5205721c9f4beef3e10652645ee26b74fff9a29d",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementValueChosenFiber.log",
+  "log_sha256": "68db649eb0e4cd0793ba88cc5fbfed7be3d239b415aa73b7d7f467713a3b6aed",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplicialReplacementChosenHomotopyFiber": "7c6e44d3509a6a662f7556f94fef367481f87e7c7f036a2d4f162d0c4540092e",
+    "DaggerModelsPartII.ChosenHomotopyFiberTriangle": "90f4cfafb2fcf0965b9e7598115b0eda928f6099fa550286fa4848e70afd5de4"
+  },
+  "original_receipt_sha256": "a70928a852119eeba99ed538da0e950a1b6aaa42e2d955cce28324c42378023a",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

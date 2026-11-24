@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalEndpointPointCalibration.outerConstantPoint_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalEndpointPointCalibration.parameterPoint_reconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalEndpointPointCalibration.originalFiberComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

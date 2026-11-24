@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalHorizontalCotensor",
+  "source": "lean/TheoremCStages/OrdinarySegalHorizontalCotensor.lean",
+  "source_sha256": "a0738957c07058b0fa361070606ea6ed7df2aafb5c3f6da138aa634fae2808a8",
+  "actual_exit": 0,
+  "seconds": 7.603073375008535,
+  "artifact_valid": true,
+  "olean_sha256": "ef729f41bda8fe56a20faa496f9d3cc0209a533cb5dd83e7c84a805dbb24157e",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalHorizontalCotensor.log",
+  "log_sha256": "5df4670956ae9e45bcccca014232fc1c06f0c301943d9d58341d0f04e5254fe9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSLocalization": "69c90e956a0841beef3059888d32454551e09b73558d0bfa4f69730810f86a9d",
+    "DaggerModelsPartII.DiagramMappingLimits": "e77dad4306bc62b99b802e2af82720799697fb49e9aa1720f86cabb6b53534e6",
+    "DaggerModelsPartII.DiagramTensorMappingAdjunction": "0a4835f98391dd03f4f522fa6bfcbed3ac3330d29a11a03448fd53fedf1f5895",
+    "Mathlib.AlgebraicTopology.SimplicialSet.Monoidal": "8bf6192cbc97fdc3faa8ae584715d0c3984d592750ed89d425552161eab03194"
+  },
+  "original_receipt_sha256": "b8e0c36c23e28e0070104b43a7bf04daf65bf841ad20b6fc5391726ac6d5bfbd",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

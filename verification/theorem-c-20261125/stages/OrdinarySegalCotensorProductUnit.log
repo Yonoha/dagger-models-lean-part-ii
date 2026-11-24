@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalCotensorProductUnit.point_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorProductUnit.point_product_inv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorProductUnit.constantSection_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

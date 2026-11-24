@@ -1,0 +1,18 @@
+{
+  "module": "NatSubcomplexGluing",
+  "source": "lean/TheoremCStages/NatSubcomplexGluing.lean",
+  "source_sha256": "874f555a0fb68b30eb0b7fc1c29e2c404d96aa124153b5bf7fe0766c681ec412",
+  "actual_exit": 0,
+  "seconds": 3.8511562080238946,
+  "artifact_valid": true,
+  "olean_sha256": "02b8051906d23841a8817e5c10461d7657150a60797179bf9c0e97455174d398",
+  "log": "verification/theorem-c-20261125/stages/NatSubcomplexGluing.log",
+  "log_sha256": "f16f6fd5d565d20e51960c7b6590381f9d4394dbdf48823e0ef5bc705f17a0e5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "Mathlib.AlgebraicTopology.SimplicialSet.SubcomplexColimits": "e4e0ba7b7575269ae8ee6a8734901fc80be1e6cd4dc14a06d08a49a5470449d6"
+  },
+  "original_receipt_sha256": "872d39b2dff134fdcb249577ca51509fc35dc5b754129a19fc260c79e13012af",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

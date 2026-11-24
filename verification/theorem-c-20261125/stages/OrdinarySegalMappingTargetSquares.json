@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalMappingTargetSquares",
+  "source": "lean/TheoremCStages/OrdinarySegalMappingTargetSquares.lean",
+  "source_sha256": "631d8d2247dc0fd30c0fcd04c6f21a95b90c8290cb9ea3f1ea17b9b0f0d0f3e9",
+  "actual_exit": 0,
+  "seconds": 6.84254487499129,
+  "artifact_valid": true,
+  "olean_sha256": "85a9a34ac5486fde7a35b1cde8226ca6135f1622494c8b788323d27f9414b438",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalMappingTargetSquares.log",
+  "log_sha256": "9c485517e9230aa8e6c7ef2a9dfb318658805147cc39f9ef51e36c25efee2217",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentEdgeNaturality": "26e04472069411e801e64ec5d663ffaef2867faae6d94e6aa623afab201636c2"
+  },
+  "original_receipt_sha256": "56a6f8e9bd28d23d751f9183e4a85441709338ff181d2cb284051df235d9e2a6",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

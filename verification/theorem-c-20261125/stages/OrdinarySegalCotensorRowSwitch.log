@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalCotensorRowSwitch.braidMappingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorRowSwitch.braidMappingIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorRowSwitch.rowSwitchIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorRowSwitch.rowSwitchIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorRowSwitch.unitRowArrowIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,18 @@
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCoherentContraction.contraction_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCoherentContraction.contraction_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCoherentContraction.constantAt_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCoherentContraction.slice_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCoherentContraction.slice_simplexUnit_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCoherentContraction.slice_one_eq_checked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

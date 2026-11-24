@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryGroupoidSimplexTransitionAudit",
+  "source": "lean/TheoremCStages/OrdinaryGroupoidSimplexTransitionAudit.lean",
+  "source_sha256": "a9f5e717eb64b6d238d1a116f7692365845b446c6c8abd1730fd8108a10afeb7",
+  "actual_exit": 0,
+  "seconds": 18.154336374995182,
+  "artifact_valid": true,
+  "olean_sha256": "affcd2ecdc53fdcaa9df469b17cae26f40988910b9fcd4e220d678291a1124ab",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryGroupoidSimplexTransitionAudit.log",
+  "log_sha256": "f8e8704f0448c60317d9e07e576fbedb85e59f51bac989625b33fc62a26ca254",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentTransportAudit": "cbcaf661a10d267a145b720615af0ee068aaa9e519d9a4745aa91eacae08627b",
+    "OrdinarySegalCoherentTargetTransport": "1ae35a4955378b5e7096c1bcf49bd6aaa7bdef2612d34c59f0bfdf64e35ef8e4",
+    "OrdinaryGroupoidSimplexTransitionFullyFaithful": "7d20f26107b12c4de5ff4a344305679ce2cc69330a38e48488729fb2c314022c",
+    "OrdinarySegalVerticalPrecompletionComponents": "6b336c19759aac7fcd842adc987c17e5553e9b5b8c0bb16438b9df582a27a2bd"
+  },
+  "original_receipt_sha256": "92a146196a3b95212914d630a0cbec4fb3420713d475fe6ec453a89e5c539106",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

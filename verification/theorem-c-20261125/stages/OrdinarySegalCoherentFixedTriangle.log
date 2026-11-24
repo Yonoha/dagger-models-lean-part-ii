@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCoherentFixedTriangle.fixedTriangleProjection_horn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentFixedTriangle.fixedTriangleProjection_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

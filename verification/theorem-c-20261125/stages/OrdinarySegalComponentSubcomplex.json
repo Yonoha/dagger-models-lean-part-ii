@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalComponentSubcomplex",
+  "source": "lean/TheoremCStages/OrdinarySegalComponentSubcomplex.lean",
+  "source_sha256": "e4d5addbd10b9dacd8c4c0c600f71cb34e82eb1540c0204ed9ebeedd06b19ec0",
+  "actual_exit": 0,
+  "seconds": 7.4289536669966765,
+  "artifact_valid": true,
+  "olean_sha256": "926da7994a79e55921ebab267e041fcb02ddd8474294461e3f5120f4151a2c93",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalComponentSubcomplex.log",
+  "log_sha256": "b8cc10c50063abea3ad982d36c3e86b941aabf353865d82a107f3fb8553fc2a9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeConstantProjectionSubcomplexFibration": "64fce1803c29909caf112aa39e23f8e6cea42c089bdd8a5ddcf2f2743c6822da",
+    "NativeSubcomplexWeakRestriction": "c6ac54732a31f70c4eb3a877ffe71671227f6e65dd091c0d8dd6ce94d2aa8005",
+    "OriginalFullVertexSubcomplex": "46bc5c09858ce81d69b055874979c465a8260e08bf71c94d8ce61da1d7a114a5"
+  },
+  "original_receipt_sha256": "fdfaa85f0bf527807c96ea12915c9c6b85a0415860edd7e8e492503af7b1bfd7",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

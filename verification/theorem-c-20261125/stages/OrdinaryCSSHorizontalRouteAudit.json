@@ -1,0 +1,28 @@
+{
+  "module": "OrdinaryCSSHorizontalRouteAudit",
+  "source": "lean/TheoremCStages/OrdinaryCSSHorizontalRouteAudit.lean",
+  "source_sha256": "355d0142d01452cc6a057c13bc4bdf613ce3e0f815b8190429e1caf9ef1ad27d",
+  "actual_exit": 0,
+  "seconds": 49.56663437501993,
+  "artifact_valid": true,
+  "olean_sha256": "e62ed8b875bf5b0397efd8af4a707d6bc0ef6f2d5cc2783b0a9e8b2d5526f528",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCSSHorizontalRouteAudit.log",
+  "log_sha256": "211773da83dde914985b7faee967c8b81e09faba60d5abccdac65485710e44b5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSRestrictionQuasicategory": "4b98722afd77771ce41e633267c5be2bf0693cc9447ea428ff7036570df175d2",
+    "OrdinaryInnerIsoRelativeCylinder": "2d22fb93acd2b634df111250aa0dd4fe79ea48cb4d2aa8f51e415fabdf7df67a",
+    "NativeWeakMonoRelativeWalkingHomotopy": "6879469ee16703d4662099394a37432a22bb517f417d55fd32660760abd22d6f",
+    "OrdinaryJoyalIsofibrationRecognition": "43716eae755066ca50021a7e46480993508d04a042196357a0cb7620149fe130",
+    "MatchingRestrictionCalibration": "a2e7b14093f885cc8c11e0d39cdfca767d2c6fedee13857af47a0e4186c5eda3",
+    "OrdinaryCSSHorizontalJoyalFibrancy": "e99a0a2983f2307ed3ae33029f847969662b2e6ee4074bb51dddf2ef26586fbd",
+    "OrdinaryCSSHorizontalWeak": "f13badc7ef6ffd4aeb7d5d0a64cc0702f61cf90f6d81f46665ef2a13d36b84c5",
+    "OrdinaryFirstRowAdjunction": "126e3d23d4d039fb5be0b05b97792837810e826e1adf728805e3125c4dd67080",
+    "OrdinaryFirstRowQuillen": "a2b702f3e908937a28be608bde591d98b2f307d4ee851a3c74dd6d9974563eb7",
+    "OrdinaryJTLeftWeak": "6b5e2a807ff2cd59d04797bc77bb71f3ac19fdc92d05a76d797ee1ddabd6b51b",
+    "OrdinaryFirstRowCounitWeak": "b945362058b98f17bb6e749ed6eddd4988b5b11f016f7a073d93a8483e6104e1"
+  },
+  "original_receipt_sha256": "8da66de0127ad02e25cfdabab41965d5a308db487bc60e0fb835727ffbde2746",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

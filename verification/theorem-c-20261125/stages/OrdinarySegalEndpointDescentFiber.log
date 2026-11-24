@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalEndpointDescentFiber.endpointSimplexFiberComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalEndpointDescentFiber.endpointSimplexFiberComparison_with_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,12 @@
+'DaggerModels.PartII.SimplicialReplacementChosenHomotopyFiber.chosenFiberComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementChosenHomotopyFiber.relative_diagonal_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementChosenHomotopyFiber.total_diagonal_unit_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementChosenHomotopyFiber.base_diagonal_unit_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,23 @@
+{
+  "module": "OrdinaryCoherentDiagonalSubcomplex",
+  "source": "lean/TheoremCStages/OrdinaryCoherentDiagonalSubcomplex.lean",
+  "source_sha256": "cdd2ea713b117facf587416a63e9b1a9a1b0ee284ae3ad6b32a78bf554aa4f58",
+  "actual_exit": 0,
+  "seconds": 22.085913417002303,
+  "artifact_valid": true,
+  "olean_sha256": "8b7f511e7d1a8b014c052d446f388e980cd66b68e50e5faf2d4819e77b92609b",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentDiagonalSubcomplex.log",
+  "log_sha256": "4d7ca835434fb944a7c212058dd2babc1e56c70c3ae89e2b108d29e1010bc438",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCoherentReplacementComparison": "54d3c2a208aad6a5818102fe472416da822e87b076d099a57d5b5778afa00490",
+    "OrdinaryCoherentReplacementPreimage": "45c396bbc61d5268990c6228624c494547793275309db3ceaa35d613bc2f966b",
+    "OrdinaryCoherentCotensorEvaluationReflection": "9ebd5c51c22cff272b1fda38011a06d1782f4edf6144f304dadaf101aa2e4868",
+    "OrdinarySegalComponentImage": "fefadd03dfce9e2ff0588c7f55189508095c089fd38bb9643bed63e86c35296f",
+    "OrdinarySegalCotensorEvaluationNaturality": "7868c9a65633e3a018aa03fb30f6c562e6a40b83fe493fa4f9ff6a7bf5a51d21",
+    "OrdinarySegalComponentSubcomplex": "926da7994a79e55921ebab267e041fcb02ddd8474294461e3f5120f4151a2c93"
+  },
+  "original_receipt_sha256": "3c24e1ae8cc0df5e1158967986bb511395fb2e78fac3f281dd6d872cb7c1d2ca",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

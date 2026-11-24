@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryCSSWalkingRestrictions",
+  "source": "lean/TheoremCStages/OrdinaryCSSWalkingRestrictions.lean",
+  "source_sha256": "cc12e74a0c43bc0faa4676ec59d1996c71c0fecb6700634c76e86fa639b809c5",
+  "actual_exit": 0,
+  "seconds": 12.570352374983486,
+  "artifact_valid": true,
+  "olean_sha256": "79187aab95812221f6a61f1d77f828be76d6b82adb3e056e8bc5fc3810af4248",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCSSWalkingRestrictions.log",
+  "log_sha256": "c50e6ce658c1ad16dcae8c037cb2d50d3f9158b06cffdbb399e1b9984efd39af",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSConditions": "d93a3feb58efc0450536578c40483bfece19c3d26c3cbfe2f3ea87cdc6079b59",
+    "OrdinaryDiscreteMapping": "a44dc7eecb6d1bc21a89eb457532bffb6b3b67985323b8ba95898ec3df90dd68",
+    "RestrictionHomLiftingTranspose": "bc67e3c907bac692ea135ca2cb63c9a66dc833bc6b609017d854e259449b2d16",
+    "DaggerModelsPartII.DiagramMappingPrecompFibration": "85b12ba4a8e4856af4d54ae275399c94297dac22c7f9d0bb4c3d5bb7b6aa6b78"
+  },
+  "original_receipt_sha256": "b808d3fee6b7e37b1039748a572991d28b7d2b02dd1990bc6879ce59423c1184",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalTwoTriangleUnitWeak",
+  "source": "lean/TheoremCStages/OrdinarySegalTwoTriangleUnitWeak.lean",
+  "source_sha256": "4972c63a1f6207d1bae383543a78310a15b53b88137bc4b9b4a9d49c6e6c861f",
+  "actual_exit": 0,
+  "seconds": 12.073986708011944,
+  "artifact_valid": true,
+  "olean_sha256": "518285d9761ddb7c85a6006e3ab32f3acaf1abf5ed8efce927eb1b05d801da36",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalTwoTriangleUnitWeak.log",
+  "log_sha256": "50036d461f05e5ca8d0c3c9e9c2026bb99383a2db3b428023fa6a1e796a321a3",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalUnitPullbackWeak": "b68097e085585250dbf3da97c5b1fca38453cd8d2da1fae66e4e2e00c4d06960",
+    "OrdinarySegalFaceFibrations": "73d2420fdd0836370113d9332b94af685662aef2b9567455dea0cddf65ff12cc",
+    "OrdinarySegalOrderedMappingFibres": "a5e33d982b3e21f5a32f5975ef7d1fecb2250d4dd6fd5e60c196caf1b54fb36c"
+  },
+  "original_receipt_sha256": "94b4bc27b92a0e05bd12b33eb70d5f068505de72e8800e3d4f930898ac8228f0",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

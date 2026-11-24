@@ -1,0 +1,6 @@
+'DaggerModels.PartII.JTTheoremCFromOriginalRawOrderedUnit.chosenPsiWeak_of_originalRawOrderedUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTTheoremCFromOriginalRawOrderedUnit.statement_of_originalRawOrderedUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

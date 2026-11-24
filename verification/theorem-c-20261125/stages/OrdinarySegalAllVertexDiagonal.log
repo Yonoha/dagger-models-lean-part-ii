@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalAllVertexDiagonal.rowDiscreteMappingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalAllVertexDiagonal.vertexBaseDiagonalIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalAllVertexDiagonal.rowResolution_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,18 @@
+{
+  "module": "OrdinaryIntervalPrismConstantSection",
+  "source": "lean/TheoremCStages/OrdinaryIntervalPrismConstantSection.lean",
+  "source_sha256": "b2faba212f3e26684ac044ae7d2f336e012fffa797702e6aba1e4dd0f6e8b3c9",
+  "actual_exit": 0,
+  "seconds": 15.746385583013762,
+  "artifact_valid": true,
+  "olean_sha256": "e7d90d41f84a4b429c09beb01a05bdd1858042b62fccdee7b69681e6ecef4187",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryIntervalPrismConstantSection.log",
+  "log_sha256": "57d4320bc6d84fc9cad570cd6fd1b7021811280701dc7a59cef1eea4f7a6238b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryIntervalPrismMappingIso": "7af5bef90e4bd238693b9bf695301f9b6c36eddb36910ff7390b688ca887885e"
+  },
+  "original_receipt_sha256": "142a62e659d07c917e08caf39fd55e0f696c4603d3f2a0409d308b215b6a5c8c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

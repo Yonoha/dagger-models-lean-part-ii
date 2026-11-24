@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalTwoTriangleUnitWeak.insertedTriangles_outerPair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalTwoTriangleUnitWeak.twoTriangleUnitComparison_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalTwoTriangleUnitWeak.twoTriangleUnitComparison_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

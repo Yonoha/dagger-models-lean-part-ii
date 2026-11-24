@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalHorizontalCotensorPoint.pointRowIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalHorizontalCotensorPoint.pointRowIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalHorizontalCotensorPoint.pointIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalHorizontalCotensorPoint.constantSection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalHorizontalCotensorPoint.constantSection_evaluateVertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

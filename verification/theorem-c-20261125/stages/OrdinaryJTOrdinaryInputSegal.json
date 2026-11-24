@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryJTOrdinaryInputSegal",
+  "source": "lean/TheoremCStages/OrdinaryJTOrdinaryInputSegal.lean",
+  "source_sha256": "ce554ae294b15b8b2113bfce2cba5eb76e718f4b07496e1bb61bc4693bc3e96a",
+  "actual_exit": 0,
+  "seconds": 10.443098208983429,
+  "artifact_valid": true,
+  "olean_sha256": "1862a87235be9279e986a7160b62f8cbef9928ffabded90996cf0ae122035477",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTOrdinaryInputSegal.log",
+  "log_sha256": "0357772e4fc43673d1dd6bdfa4bd12e6bd890cf179969210c821f46471141f26",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryFreeRestrictionCalibration": "25a86ce51356c72422395b2c4b149d4b163767b0c1284df28e15e00137dd11f7",
+    "OrdinaryCSSConditions": "d93a3feb58efc0450536578c40483bfece19c3d26c3cbfe2f3ea87cdc6079b59",
+    "DaggerModelsPartII.SegalSpaceConditions": "0db5dd6cefbd3753d146f3f3d951dbfff3635385fed6bcd34473afb506c18381",
+    "TopCatModelCategory.ModelCategorySSet": "9f5b1ae2f96d4f71e3775e9a292ca4f9c639279878cc78e44a3ccf13c65ffe7f"
+  },
+  "original_receipt_sha256": "39fa458bc5e8bd831ae01df24d2e949e100c1066a3517951106b6d6712d6cff7",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

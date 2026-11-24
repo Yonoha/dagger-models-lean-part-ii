@@ -1,0 +1,20 @@
+{
+  "module": "BisimplicialCommaDiagonalReconstruction",
+  "source": "lean/TheoremCStages/BisimplicialCommaDiagonalReconstruction.lean",
+  "source_sha256": "61f2d4fe07c1d714e6c751e7666a646fb0f6b66c25847c4d83be8b4a7b76ce84",
+  "actual_exit": 0,
+  "seconds": 15.189141916998778,
+  "artifact_valid": true,
+  "olean_sha256": "f46f21d21ebf67c849fdb517e446d7db01015d341f9c1a30485185aded3a376d",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialCommaDiagonalReconstruction.log",
+  "log_sha256": "8fa2ea672d7f4dede7ca363b48c6ccc3fc51b001e384d7742c29628f9f413b62",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialCommaBarReconstruction": "5e17b69a678af058f386d9a53760c6171ca9a328918a4adec47f48bbcf3bb203",
+    "BisimplicialRowBarAugmentation": "81d592d0ba854152e790a8b31dc12c49c359cb8a91002f675c79fa3e4e9c6c11",
+    "SimplicialReplacementPointwiseKan": "f3f712aacf0a89868a4eabf7dd4c0f6f8c859b000c78e3ecf35e307bf090388d"
+  },
+  "original_receipt_sha256": "aced2df495f067b43852f84d49d67bf56f97a78ca54fece7e5dca2d7df78354d",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

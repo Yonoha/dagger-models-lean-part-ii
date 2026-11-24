@@ -1,0 +1,21 @@
+{
+  "module": "RelativeSelectedLeftOuterHornFilling",
+  "source": "lean/TheoremCStages/RelativeSelectedLeftOuterHornFilling.lean",
+  "source_sha256": "cb64725dcbdb98362e2d1455119177d877e6fb3b91098489d73e615e0421f2a4",
+  "actual_exit": 0,
+  "seconds": 8.375685209000949,
+  "artifact_valid": true,
+  "olean_sha256": "ae53561ad25931e411ff8bd90e57b74daa34a1077077b33ba1dd0f023156dfa3",
+  "log": "verification/theorem-c-20261125/stages/RelativeSelectedLeftOuterHornFilling.log",
+  "log_sha256": "cbffecc056b7393e67f2b7a8e842d266cf2f97af39d625c5367c34de830b11c5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RelativeLeftOuterHornFilling": "1a1e3b5dee2658de47a48476efda499a28399b3f16f526162624e0f54d167825",
+    "RelativeRightOuterHornFilling": "5ab89c16cce0456c1fa6796cc6fb48b40e8d7ae64e05a460edb64afff617839d",
+    "OriginalInnerHornFillersReversal": "a33e21fec7e17b9ea3748f02e425e06c2245d4bca80056a3bb77251dfd995b10",
+    "OriginalHomotopyCategoryOppositeComparison": "3664e2f0d9543744703ee7cf4c1dcbbf369fc38dc5aa781d8d03495dd63c8717"
+  },
+  "original_receipt_sha256": "37b5c198dd705d429474cc50cc6fdfc24b48fb5c143ccf4faef4a5df0c9524a8",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

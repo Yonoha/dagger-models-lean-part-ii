@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalResolutionEquifibered.rowBaseIso_naturality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalResolutionEquifibered.transitionComparison_targetIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalResolutionEquifibered.endpointResolution_equifibered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalResolutionEquifibered.relativeEndpointResolution_equifibered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

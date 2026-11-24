@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryCoherentCompletenessCriterion.endpoint_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentCompletenessCriterion.evaluation_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentCompletenessCriterion.completeness_iff_endpoint_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

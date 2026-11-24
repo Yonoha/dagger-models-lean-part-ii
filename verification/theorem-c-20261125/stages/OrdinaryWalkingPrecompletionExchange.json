@@ -1,0 +1,22 @@
+{
+  "module": "OrdinaryWalkingPrecompletionExchange",
+  "source": "lean/TheoremCStages/OrdinaryWalkingPrecompletionExchange.lean",
+  "source_sha256": "46e752b95b17018b0ee88c13816a08dc3f5e3e0d4d769a02175175843f3b6733",
+  "actual_exit": 0,
+  "seconds": 76.03580020800291,
+  "artifact_valid": true,
+  "olean_sha256": "e2d9879bffcf3b307691a781132e425990cf984b28f771f9e494c05c5e4c8888",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingPrecompletionExchange.log",
+  "log_sha256": "dd3e6ffcd9e72ce3f00081c1439ad229f7bae33e3b3c8cdf18876e913aa78df7",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCotensorParameterNaturality": "9187b478553e8324f03670c0e23de76e9919f095b4bc40d6a02a006c761e929f",
+    "OrdinarySegalCotensorRowSwitch": "e3d963d81e96ae86e4153c55ae2863c26d202ecb8affdee46afee228c1047fac",
+    "OrdinarySegalCotensorZeroIso": "ba75d258bb75def6b169c49e576bfdf1e1123e76b594da707c02e4a8336e656c",
+    "OrdinarySegalVerticalPrecompletion": "0845d1c8a78b42523d262aabc15c3fcd07b5f5a906d83cba9aacf7d3c9e61f2e",
+    "NativeBisimplicialDiagonal": "ac9b3f0b2335762937b16e547deffafc31130aac311a05b3bb07d98372812834"
+  },
+  "original_receipt_sha256": "40948a8c12eaf266de96686f815454c3fe181f6c6c136cfa70093c73036d5a0d",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

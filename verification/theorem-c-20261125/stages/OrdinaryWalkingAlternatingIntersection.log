@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryWalkingAlternatingIntersection.preimage_le_horn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingIntersection.preimage_eq_horn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

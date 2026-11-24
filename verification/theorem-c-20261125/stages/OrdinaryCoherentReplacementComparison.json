@@ -1,0 +1,23 @@
+{
+  "module": "OrdinaryCoherentReplacementComparison",
+  "source": "lean/TheoremCStages/OrdinaryCoherentReplacementComparison.lean",
+  "source_sha256": "2e432d04c16ddc95d92eaeca2f51706dac5bc6c2fdc8135d90c2bfa02399a5d1",
+  "actual_exit": 0,
+  "seconds": 27.902603374997852,
+  "artifact_valid": true,
+  "olean_sha256": "54d3c2a208aad6a5818102fe472416da822e87b076d099a57d5b5778afa00490",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentReplacementComparison.log",
+  "log_sha256": "98fcb285df278dc500730491716ebb544a588e5eef8f2e43c5b3555240e88848",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryComponentImageDescent": "3d86a3c3a96ba35825d8d3bad4f986e062cbfee2edc924f99ee023708d5eca54",
+    "OrdinaryCoherentArrowVertexRecognition": "d334547a2d0007a74f1b3921f9653bf4c29cf20012d07d541d94c5da40ce0409",
+    "OrdinaryCoherentPrecompletionResolution": "b5ea54a00a1da52625d8ee4d97cfe26ff8394d19b4c8678554a5a899df9b7961",
+    "OrdinarySegalAllVertexDiagonal": "caed856ddc478000d48b782afc585f83a39c34cb4021ab66b871346df5561e57",
+    "OrdinaryWalkingPrecompletionExchange": "e2d9879bffcf3b307691a781132e425990cf984b28f771f9e494c05c5e4c8888",
+    "OriginalSimplicialPiZeroWeakEquivalence": "5457700382eccd65025c904b99ff18acca248da31fab7b3706fe5f6d0792f95f"
+  },
+  "original_receipt_sha256": "d9ec3e86d5fcc0d1ba15ef68379a64a471407fef846964a69e2a7f5e4094f6f9",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

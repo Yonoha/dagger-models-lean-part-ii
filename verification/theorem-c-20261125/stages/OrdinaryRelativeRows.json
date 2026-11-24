@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryRelativeRows",
+  "source": "lean/TheoremCStages/OrdinaryRelativeRows.lean",
+  "source_sha256": "aabc647cf25ab4eb9fcacecc6a47a3b9a2c34bc63b2186715035f48d04f9029b",
+  "actual_exit": 0,
+  "seconds": 17.125134166009957,
+  "artifact_valid": true,
+  "olean_sha256": "974273ce44eee54e5858c931265406fe858c9721087064a4c55cb9167fbdb1d5",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryRelativeRows.log",
+  "log_sha256": "686572884018680a3cfba005963b78d4e1545fb48aeec6996b2d28f5cc24a9de",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryZeroCoskeleton": "bfa5fc9d5106652177cf1687bf2b20b8c3c925a7f2f29c055ad888c52e20d352",
+    "OrdinarySegalEndpointSquareFiberwiseRecognition": "52896b8e7228e85e8dc8d0b29b603ba00d9924ac183cc24cc3eecbf1e06fdd10"
+  },
+  "original_receipt_sha256": "2146b0894e922f87a14ce9b851a3df3a61ba3b284993a989446153753c896726",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

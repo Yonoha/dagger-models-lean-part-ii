@@ -1,0 +1,19 @@
+{
+  "module": "RawOrdinaryJTEndpointCalibration",
+  "source": "lean/TheoremCStages/RawOrdinaryJTEndpointCalibration.lean",
+  "source_sha256": "39eda741a0a8719a53e89f056f36ce9f744701459e00cf0b91090ab9394114e5",
+  "actual_exit": 0,
+  "seconds": 19.154681957967114,
+  "artifact_valid": true,
+  "olean_sha256": "63a4046cb71317cbbbcadfe2ccd7b0a881ba30bd553d801c6f0457d815c3df48",
+  "log": "verification/theorem-c-20261125/stages/RawOrdinaryJTEndpointCalibration.log",
+  "log_sha256": "683a79755048526013f85269528e3f22519452ddb3de6858e7309d33a0134edb",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RawOrdinaryJTUnitCSSWeak": "8ee80ba09d3a7fc4d9278bef133d76b7e76ba58d95c9af5c9788edc34e22c966",
+    "DaggerModelsPartII.JTRawOrdinaryAdjoint": "ac20074c86e9e446b24f74dea3a351d4009a8bd033fd8af409304466fe0c8979"
+  },
+  "original_receipt_sha256": "b8c02f73f969dfe8ab8826d8ad85a7c7190d1e009f2ed4a951382c268da81cd3",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

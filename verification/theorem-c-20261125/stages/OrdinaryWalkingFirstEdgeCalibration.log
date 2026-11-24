@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinaryWalkingFirstEdgeCalibration.alternatingSimplex_firstEdge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingFirstEdgeCalibration.attachmentMap_one_eq_unit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingFirstEdgeCalibration.firstEdge_attachmentMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingFirstEdgeCalibration.stage_monotone' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingFirstEdgeCalibration.firstEdge_hornToPrevious' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

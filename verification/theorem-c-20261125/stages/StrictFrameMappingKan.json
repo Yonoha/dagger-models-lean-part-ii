@@ -1,0 +1,21 @@
+{
+  "module": "StrictFrameMappingKan",
+  "source": "lean/TheoremCStages/StrictFrameMappingKan.lean",
+  "source_sha256": "843cca7b586ebbf051dc2681d7d8be7dea60c4acd8f046c78564c5a9cab7c53d",
+  "actual_exit": 0,
+  "seconds": 6.7511305419611745,
+  "artifact_valid": true,
+  "olean_sha256": "f777e81945a57f176c331bfc6b147d32435f88af5a4f71a916b4965005cad5a9",
+  "log": "verification/theorem-c-20261125/stages/StrictFrameMappingKan.log",
+  "log_sha256": "20698864c0649330dd64c185542136bd3f8d7f688fd27b80a2ac935491d1319a",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.StrictFrameMappingFibration": "9ccd888a7bac7911abb112209e9f07456c3a8186b350ee3c4d9e0629f3f5b379",
+    "Mathlib.CategoryTheory.Limits.Yoneda": "07558938cad9e16ca17b88ec9240f7580a49d2e71fa2bac5935dd5ae09bf42a6",
+    "Mathlib.CategoryTheory.Limits.Opposites": "ded4772a7c74c008a66d4f3c89a97de87cae03d4220abdf17e449c583db9257f",
+    "Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory": "f7706b250c58ce9abd4dd93ff9e376175a99177208766419b95b355bdb4f6a93"
+  },
+  "original_receipt_sha256": "4cd5a1dccb5f73b59dd1438274236404ce6bb639320f9b95a539efeb6c73eae8",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

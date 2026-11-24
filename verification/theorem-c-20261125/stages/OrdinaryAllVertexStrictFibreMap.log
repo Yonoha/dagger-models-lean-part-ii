@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryAllVertexStrictFibreMap.fibreMap_weak_of_comparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexStrictFibreMap.tupleMap_weak_of_vertexComparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexStrictFibreMap.constantSection_tupleMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

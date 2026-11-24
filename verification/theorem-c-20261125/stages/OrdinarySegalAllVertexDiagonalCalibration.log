@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalAllVertexDiagonalCalibration.vertexMap_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalAllVertexDiagonalCalibration.vertexBaseUnit_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

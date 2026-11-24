@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryCoherentZeroProjection",
+  "source": "lean/TheoremCStages/OrdinaryCoherentZeroProjection.lean",
+  "source_sha256": "6b88b8b6b84065b87ed1bc949d7d1b445fb045e8ef2d00c09ef812edb4637c8c",
+  "actual_exit": 0,
+  "seconds": 13.639938375010388,
+  "artifact_valid": true,
+  "olean_sha256": "122017eed1cd3f10d8cc2700986e03535ba86c9a5e2fc41355879263efa2b25d",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentZeroProjection.log",
+  "log_sha256": "a3406b2142efeb170bae50329dffb46935ccd39814a6054e047b16d0573f2bbf",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCoherentZeroCoskeleton": "ca34d1b5b5c67c955afa2c45b2b1c202bccebf9c92686c480c1168eacb1e251d",
+    "OrdinaryCoherentArrowNaturality": "ec6c75d24d7be982f7fbb6e52cd18eb51c18a778000028c9359e60cc0ee9c030",
+    "OrdinarySegalRestrictionTargetNaturality": "fea943d6afa5653dc0050e922aabdf8d3679cc28b85cc96dc0c5be716092fd6f"
+  },
+  "original_receipt_sha256": "3b1183e762720522a734d98f9d40c31f964824db048746c4bc0b715ec2b31a69",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

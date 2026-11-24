@@ -1,0 +1,4 @@
+'DaggerModels.PartII.OrdinaryCSSHorizontalWeak.horizontal_weak_le_css' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalWeak.weak_of_rows' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,18 @@
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCotensorHomotopyAudit.originalInput_homotopy_endpoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorParameterHomotopy.homotopy_evaluation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCoherentContraction.slice_simplexUnit_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalWalkingFullFaithfulnessAudit.originalInput_constantWalking_mappingMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalWalkingComparisonAudit.originalInput_coherent_object_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTTheoremCFromOriginalRawOrderedUnit.statement_of_originalRawOrderedUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

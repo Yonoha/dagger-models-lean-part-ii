@@ -1,0 +1,24 @@
+{
+  "module": "OrdinarySegalConstantGroupoidSimplexFullyFaithful",
+  "source": "lean/TheoremCStages/OrdinarySegalConstantGroupoidSimplexFullyFaithful.lean",
+  "source_sha256": "e330e680c32987d6de76493102d6125b56211ce87584c6838378ae077c899eaf",
+  "actual_exit": 0,
+  "seconds": 22.388028667017352,
+  "artifact_valid": true,
+  "olean_sha256": "0ca36853f287a4fef6ee0e9496dd62ce3b8e00635ea10d92b96a71e04bb7190b",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalConstantGroupoidSimplexFullyFaithful.log",
+  "log_sha256": "ff88d3cb4f5f0fc6cd430d42fea83e0ed0e5e9ca2c2ef0909c235dc45bc4676c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryGroupoidSimplexCotensorHomotopyInverse": "a1be1d90b9e5456c2c12550618ba65fbb80875551a2628f97d79ead2a29d231f",
+    "OrdinaryGroupoidSimplexCotensorConstantHomotopy": "fc77eff33afdb5fa9925a6dee5851f42a104b1458298f73565659930468adf91",
+    "OrdinarySegalCotensorSegal": "adc0aa7c980fe6d7fbc7ad74f54c7e372027dd5ef785604a0f1d834d04a27d6d",
+    "OrdinarySegalWalkingEvaluationFullyFaithfulAtConstants": "7ff9cf4bb43f27d1a7935c7420ab9017efe5efcf6894660c3e33fc700424253f",
+    "OrdinarySegalOrderedMappingWeakCongruence": "d6bc93a19d04656bca73420a96b6135bb45ac24334f2a1029adc202a3c33cb4a",
+    "OrdinarySegalOrderedMappingRetracts": "4280ee1d2e5debe5037c82bacdba40d8a5301614be08216a600bc8c43845a3ff",
+    "SplitSectionArrowRetract": "9b44c386f5bb260a8f4c4561a8e46fe1c282bde798c90f9042e29334a8eb425d"
+  },
+  "original_receipt_sha256": "973e5da89a1c68f84a766a05e983d87b1d54e3357ee40a5d7d651dc47872d8a1",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

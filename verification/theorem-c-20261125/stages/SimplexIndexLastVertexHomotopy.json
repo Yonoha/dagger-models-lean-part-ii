@@ -1,0 +1,19 @@
+{
+  "module": "SimplexIndexLastVertexHomotopy",
+  "source": "lean/TheoremCStages/SimplexIndexLastVertexHomotopy.lean",
+  "source_sha256": "26b63121cdc79442b7b3373c38d4d1d34bcb4226f69aff325ec2ce4443b27a3e",
+  "actual_exit": 0,
+  "seconds": 12.638337417010916,
+  "artifact_valid": true,
+  "olean_sha256": "118ba39151ad02fcb632b63aa0f2d471c2b4a434c09e2daa858db99e4eae7458",
+  "log": "verification/theorem-c-20261125/stages/SimplexIndexLastVertexHomotopy.log",
+  "log_sha256": "1c2397491e7f57308dab111ff0035457926e32909695b9b90368032ea386f307",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplexIndexLastVertexWeak": "c279d79965e38e03046234d2cda0855e54ac1e2df7fbb0db365858121c7fa565",
+    "NativeRawHomotopyWeakInvariance": "e19cbf967a402add3a1b5cf116ddaaa3d067d15cd6dc67852b8d612537bd4d38"
+  },
+  "original_receipt_sha256": "52502ab4fab6cf0ff9d91504f844376a2ba98fcf79387555afb6ba1132134ee9",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

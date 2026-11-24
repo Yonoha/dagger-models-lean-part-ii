@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryCSSRestrictionQuasicategory",
+  "source": "lean/TheoremCStages/OrdinaryCSSRestrictionQuasicategory.lean",
+  "source_sha256": "bb52175f9fecbc7e5c014fd48e40ceb1f8c85b014cf19459ab438bdefd6ad78d",
+  "actual_exit": 0,
+  "seconds": 13.392261583008803,
+  "artifact_valid": true,
+  "olean_sha256": "4b98722afd77771ce41e633267c5be2bf0693cc9447ea428ff7036570df175d2",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCSSRestrictionQuasicategory.log",
+  "log_sha256": "d1d5684100ed1c058fb743106b4557fb2d1880070576d3171dc989a0010ade82",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSHorizontalRestrictions": "d9446851fef12ef7c5cea096de973e8ed795bf7e06f570363ea464ad2a05a914",
+    "DaggerModelsPartII.DiagramRestrictionLimits": "fd8d87c69bcd826d5753e5297c400ba023e84cbbb0d647a0288832f19e3e9482"
+  },
+  "original_receipt_sha256": "b6be901000f6246753793c30f9e08b52cd007a7b5986a3b4375bd172ea884738",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

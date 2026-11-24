@@ -1,0 +1,23 @@
+{
+  "module": "OrdinaryWalkingPrecompletionExchangeEndpoint",
+  "source": "lean/TheoremCStages/OrdinaryWalkingPrecompletionExchangeEndpoint.lean",
+  "source_sha256": "44305a1c2f035d32a5049d281ae764f4afd363b21fc741e03166998ace332ec6",
+  "actual_exit": 0,
+  "seconds": 15.814125707998755,
+  "artifact_valid": true,
+  "olean_sha256": "32eafc2c9a11d09879ec9acb01baf04e57107971fb28769334239b957dfbcbf5",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingPrecompletionExchangeEndpoint.log",
+  "log_sha256": "c8a28f0d734510f4e0e0ea710863a4724f8f99639c894ddcc425fc644d7698a9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingPrecompletionExchange": "e2d9879bffcf3b307691a781132e425990cf984b28f771f9e494c05c5e4c8888",
+    "OrdinaryCoherentPrecompletionResolution": "b5ea54a00a1da52625d8ee4d97cfe26ff8394d19b4c8678554a5a899df9b7961",
+    "OrdinarySegalCotensorPointEvaluation": "902c0bcaabc09b064ca35ee439501779a5c8f0b1467e73993d15dd1cb36cebe8",
+    "OrdinarySegalCotensorSimplexCalibration": "6f104be2f76fbc96e71b8cb641355b0b326ec66a478d16860b54523f368685bc",
+    "OrdinarySegalVerticalPrecompletionNaturality": "1269c41aca8d75f0e9786e4f90d434758e8e4b71f5cfb04f3e13baf328c536e6",
+    "OrdinarySegalMappingTargetSquares": "85a9a34ac5486fde7a35b1cde8226ca6135f1622494c8b788323d27f9414b438"
+  },
+  "original_receipt_sha256": "498f2fe90b3150a9d942bb16dee178221e2d2b47d01d7f19a5b20b7259427897",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

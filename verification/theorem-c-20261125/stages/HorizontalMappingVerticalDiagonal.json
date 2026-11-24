@@ -1,0 +1,19 @@
+{
+  "module": "HorizontalMappingVerticalDiagonal",
+  "source": "lean/TheoremCStages/HorizontalMappingVerticalDiagonal.lean",
+  "source_sha256": "09b81e5db0effe0f1c679f6d12311a903c26e6c707d2f8308a5aeb73deb3bcde",
+  "actual_exit": 0,
+  "seconds": 10.13764450000599,
+  "artifact_valid": true,
+  "olean_sha256": "40d0439dc4b93f5ac4d3f2eb859de5c1b284f2b17b84574898afdbbfd4000f37",
+  "log": "verification/theorem-c-20261125/stages/HorizontalMappingVerticalDiagonal.log",
+  "log_sha256": "acc1540d3c0e115f02cc1ba26b2ab7120f3cc0be321c52a3a6f7a667c66ac5b9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryDiscreteMapping": "a44dc7eecb6d1bc21a89eb457532bffb6b3b67985323b8ba95898ec3df90dd68",
+    "NativeBisimplicialDiagonal": "ac9b3f0b2335762937b16e547deffafc31130aac311a05b3bb07d98372812834"
+  },
+  "original_receipt_sha256": "345dba39117e2e8e25ec922ca55647d845c65cb0391a2c0a75194da40b4efffd",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

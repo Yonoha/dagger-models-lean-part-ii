@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalEndpointDescentFiber",
+  "source": "lean/TheoremCStages/OrdinarySegalEndpointDescentFiber.lean",
+  "source_sha256": "b384cc897128e99b8d97b7681a55bf00c2b17173169a3fb6b5a0cf9b1141f6de",
+  "actual_exit": 0,
+  "seconds": 12.659439334005583,
+  "artifact_valid": true,
+  "olean_sha256": "f3eed08300a63888b268cab25b3b6042fa6f7a262b650e772883b73846ca5a69",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalEndpointDescentFiber.log",
+  "log_sha256": "932323b16bf817c751f5939d871fd8cfc35271be9c49caa51f7c5655b1bb3b6a",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalEndpointDescentAuxiliary": "f62806e8c2d615cc01afafdfbfd6a04cdc93e5cf01b7665211d4bb00c1c250d3",
+    "SimplicialReplacementChosenHomotopyFiber": "7c6e44d3509a6a662f7556f94fef367481f87e7c7f036a2d4f162d0c4540092e"
+  },
+  "original_receipt_sha256": "b086b55fd88122536939e5984f2d455cdd4d8a35d9d8280a5b0329569928823d",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

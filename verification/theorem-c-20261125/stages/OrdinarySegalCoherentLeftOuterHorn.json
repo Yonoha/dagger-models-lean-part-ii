@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalCoherentLeftOuterHorn",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentLeftOuterHorn.lean",
+  "source_sha256": "d7118b1f764c119c3e099817849c84b55caf53a23ddb159392a2bab20d58b72c",
+  "actual_exit": 0,
+  "seconds": 22.64895175001584,
+  "artifact_valid": true,
+  "olean_sha256": "37d2a96e1fe028c17fcbd3ba373d1ac3872ecad0d0d4f3c289c5637db237ae13",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentLeftOuterHorn.log",
+  "log_sha256": "4015755fb8d115d882b7e399851646ad3fa30006ae324a681c6615c7f4f81ba9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalRelativeLeftOuterHorn": "36f9225dab78a3c5a7d68dbca0fb53d6e164b3b2085dd1d8c1efba4c76dc0b9f",
+    "OrdinarySegalRestrictionTranspose": "518df396927e98e8fd2bd3f0fd3256cad68b1e78898ca2d7ec77a9edd36d0686",
+    "OrdinaryWalkingParameterInvertibleEdge": "4d090b5b2fe6d0b3a505d5782e657956f0857133c7259fcc748d1ee01943a4ea",
+    "NativeSSetFibrationsOverBaseWeakPullbacks": "b9d3f4c33f1317b1ac6400d0e27dbf391f93c467efd66dd83d16a0d9c5539e6b",
+    "DaggerModelsPartII.DiagramMappingPrecompFibration": "85b12ba4a8e4856af4d54ae275399c94297dac22c7f9d0bb4c3d5bb7b6aa6b78"
+  },
+  "original_receipt_sha256": "c9ee2efb3fe0c86f46bee49a37b61634ee3b242377247ba3cf49d9505b330157",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

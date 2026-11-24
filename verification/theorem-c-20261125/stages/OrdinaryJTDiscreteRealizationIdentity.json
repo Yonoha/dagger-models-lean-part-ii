@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryJTDiscreteRealizationIdentity",
+  "source": "lean/TheoremCStages/OrdinaryJTDiscreteRealizationIdentity.lean",
+  "source_sha256": "6ebeec18f30936ce58ede91c15fd9b76ec8f5c8bcace23ced45a1b274d677cb0",
+  "actual_exit": 0,
+  "seconds": 8.331985125027131,
+  "artifact_valid": true,
+  "olean_sha256": "fd9e1f7d049fb8ca69e15b52d3c842d529e09e7c07ce5b6969a213777fd6a2b6",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTDiscreteRealizationIdentity.log",
+  "log_sha256": "89d4202ce47f78a23e62c52a6f3515b954e2b3ac4def12aa7d58f3306dcb2eda",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTConstantRealizationIdentity": "21cd5fce9e9d5bf31feddd6fc42529673cdcbe7e9fb295801470c9446ee4a26c",
+    "OrdinaryJTCurriedAdjunction": "7c8ea8427b52bf90fc5b0f82e6e09f550c755b9ad4e579204f394b597d6a8356",
+    "OrdinaryCSSLocalization": "69c90e956a0841beef3059888d32454551e09b73558d0bfa4f69730810f86a9d"
+  },
+  "original_receipt_sha256": "eea13a156286ec41d3b62c247a3cbbf3dbd0937e56b3cc0cbb41b495b21dafe4",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

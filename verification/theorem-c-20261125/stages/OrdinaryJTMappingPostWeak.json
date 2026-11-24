@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryJTMappingPostWeak",
+  "source": "lean/TheoremCStages/OrdinaryJTMappingPostWeak.lean",
+  "source_sha256": "ee2eae477721acfc0048d19db30e92385faf63f3e2b297e3e2c4a183dbdf1620",
+  "actual_exit": 0,
+  "seconds": 13.114596333994996,
+  "artifact_valid": true,
+  "olean_sha256": "bb1c8346715b3982384715528ef6359584480f9d3cbed8d5d97f657c81cebb95",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTMappingPostWeak.log",
+  "log_sha256": "1505a5d4eeb74294da36c6aa18111c36f0b871261640589507d0d6f23d995e2d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTMappingCornerComparison": "4afade9f2c6526a1f66661ac0812ca359805d7d3f242ca5407a76e8a9e051d58",
+    "DaggerModelsPartII.StrictFrameMappingTargetWeak": "a341be7aa181523a314502bcd77e7d1dbaf8e0e3ba88cd340d4fea5c225c794f"
+  },
+  "original_receipt_sha256": "5c75ffee95c0b87ea569cee8b9cedc4d3d62ae4ecc8b312f334aa98223402b3e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

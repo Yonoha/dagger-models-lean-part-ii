@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryWalkingAlternatingNondegenerate.binaryWord_nonDegenerate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingNondegenerate.binaryWord_zeroFace_nonDegenerate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingNondegenerate.binaryWord_top_not_previous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingNondegenerate.binaryWord_zeroFace_not_previous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

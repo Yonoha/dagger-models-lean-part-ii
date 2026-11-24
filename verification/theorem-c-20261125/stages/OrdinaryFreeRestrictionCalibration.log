@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryFreeRestrictionCalibration.mappingRestrictionIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryFreeRestrictionCalibration.freeDiscreteMappingIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

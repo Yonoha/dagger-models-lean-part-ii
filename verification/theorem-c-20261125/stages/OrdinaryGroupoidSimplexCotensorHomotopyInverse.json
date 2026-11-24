@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryGroupoidSimplexCotensorHomotopyInverse",
+  "source": "lean/TheoremCStages/OrdinaryGroupoidSimplexCotensorHomotopyInverse.lean",
+  "source_sha256": "090b3065adb7cae52a872345130e1b1ef0cc52f7592a07ef860e2e93deedd2e2",
+  "actual_exit": 0,
+  "seconds": 7.130646250036079,
+  "artifact_valid": true,
+  "olean_sha256": "a1be1d90b9e5456c2c12550618ba65fbb80875551a2628f97d79ead2a29d231f",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryGroupoidSimplexCotensorHomotopyInverse.log",
+  "log_sha256": "08600d6b465195654841d17d82cf2710bad247a57327cd6c432aa2221601be0f",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryGroupoidSimplexCoherentContraction": "8cd7d435c56c181d9bddffe8649d39a4b0f65eb6bbc3e88b399aec65ce7d95e0",
+    "OrdinarySegalCotensorParameterHomotopy": "b6b3fdb47eed18f3b7a673cb35305af42d0dae174dbedbeb551a25b34576b63f"
+  },
+  "original_receipt_sha256": "389801c2a00006974f1aa1aa326fd03424c0afd1e1dbe8224031084e5ceb8071",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

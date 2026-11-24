@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalInnerAnodyneMapping",
+  "source": "lean/TheoremCStages/OrdinarySegalInnerAnodyneMapping.lean",
+  "source_sha256": "58b34f2e91e0d8d1979342417089dea19d681e00adfedce20d0a71e3deece3a6",
+  "actual_exit": 0,
+  "seconds": 29.805032707983628,
+  "artifact_valid": true,
+  "olean_sha256": "018b65d61a7459bb67628bd318e38d3f101cefab80fdf92dd7f6ebb47324ed55",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalInnerAnodyneMapping.log",
+  "log_sha256": "6c068855a020e4f046390b6e874fa5f409fb070d7f581e19701da0bb36e21b68",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalHorizontalRestrictions": "814974ba7c4609072024d5c2b6cffb794e2eb299655fa43ea6a9d8e9502d03ce",
+    "OrdinaryDiscreteMapping": "a44dc7eecb6d1bc21a89eb457532bffb6b3b67985323b8ba95898ec3df90dd68",
+    "NativeIhomQuasicategories": "c5dfdf6bfae694423dd2410b2ffa89cc7b39b4f7ecb5f3ea4de324eded6efd48",
+    "NativeStandardSpineInner": "e43e42045af3eb276e3c323c81318d50b2feaefefcfe6dcbdeba5fbb0a0b752b",
+    "NativeBoundaryJoyalMappingWeak": "f3f3967d36fbfdecb9d79464719cd6311d0e53bdac51158bd39dfb5b1d9450b4"
+  },
+  "original_receipt_sha256": "a9881a096047e43faf5f6027485a038b161eec3ca650ce241c33cf25d49ee099",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

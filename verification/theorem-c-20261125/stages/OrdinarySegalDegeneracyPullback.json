@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalDegeneracyPullback",
+  "source": "lean/TheoremCStages/OrdinarySegalDegeneracyPullback.lean",
+  "source_sha256": "25f661c61f53e46b0793beca8e4c4e59549fe41d2524620258b543b993404ba7",
+  "actual_exit": 0,
+  "seconds": 9.83251666702563,
+  "artifact_valid": true,
+  "olean_sha256": "4c14dead12515d1f451d8f3b8c755290445ccf9943d109d0d15c1639759ca06b",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalDegeneracyPullback.log",
+  "log_sha256": "05e84612f6f1c62c101760da8501a6e9803f2893b6aa8a2b29f03c9b42642f66",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSConditions": "d93a3feb58efc0450536578c40483bfece19c3d26c3cbfe2f3ea87cdc6079b59",
+    "DaggerModelsPartII.DiagramMappingPrecompFibration": "85b12ba4a8e4856af4d54ae275399c94297dac22c7f9d0bb4c3d5bb7b6aa6b78",
+    "TopCatModelCategory.ModelCategorySSet": "9f5b1ae2f96d4f71e3775e9a292ca4f9c639279878cc78e44a3ccf13c65ffe7f"
+  },
+  "original_receipt_sha256": "a8a7f35936b2911e091f045747dd278a1f8183389f7e2a2a8b2b60c5c3c208be",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinaryCoherentDiagonalSubcomplex.diagonalInclusion_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentDiagonalSubcomplex.rangeIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentDiagonalSubcomplex.range_le_componentImage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentDiagonalSubcomplex.transition_reflects_coherent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentDiagonalSubcomplex.range_first_vertex_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

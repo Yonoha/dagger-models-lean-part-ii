@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryCoherentReplacementComparison.walkingDiagonal_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentReplacementComparison.coherentComparison_inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentReplacementComparison.coherentComparison_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionExchangeEndpoint.outer_endpoint_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionExchangeEndpoint.diagonal_endpoint_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

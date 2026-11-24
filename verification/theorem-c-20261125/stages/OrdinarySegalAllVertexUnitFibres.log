@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalAllVertexUnitFibres.constantSection_vertexComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalAllVertexUnitFibres.strictTupleComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

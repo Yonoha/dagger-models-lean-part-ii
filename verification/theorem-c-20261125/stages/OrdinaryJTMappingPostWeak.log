@@ -1,0 +1,7 @@
+'DaggerModels.PartII.OrdinaryJTMappingPostWeak.postFunctor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJTMappingPostWeak.mappingPost_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTMappingPostWeak.mappingPost_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

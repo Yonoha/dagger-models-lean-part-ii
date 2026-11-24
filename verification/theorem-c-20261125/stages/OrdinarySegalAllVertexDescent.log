@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalAllVertexDescent.auxiliary_relative_diagonal_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalAllVertexDescent.simplexFiberComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalAllVertexDescent.zeroFiberToChosen_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

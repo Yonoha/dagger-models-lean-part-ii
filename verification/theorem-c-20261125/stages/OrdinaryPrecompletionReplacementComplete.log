@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_coherent_preimage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_coherentComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_complete' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_completeSegalCondition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

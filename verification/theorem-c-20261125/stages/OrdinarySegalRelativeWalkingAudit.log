@@ -1,0 +1,28 @@
+'DaggerModels.PartII.OrdinarySegalRelativeWalkingAudit.originalInput_relative_walking_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingRelativeUnitExtension.edge_extension_over' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RelativeSelectedLeftOuterHornFilling.selected_left_outer_horn_filler_over' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingPushout.stage_attachment_horn_isPushout' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingFirstEdgeCalibration.firstEdge_hornToPrevious' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.NatSubcomplexGluing.ι_desc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinarySegalRestrictionTranspose.simplexUnit_transpose' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingParameterInvertibleEdge.simplexUnit_image_invertible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTUnitCSSWeak.rawTranspose_cssWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTTheoremCFromOriginalRawOrderedUnit.statement_of_originalRawOrderedUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

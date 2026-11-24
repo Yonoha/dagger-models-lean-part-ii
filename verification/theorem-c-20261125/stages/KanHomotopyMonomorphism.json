@@ -1,0 +1,19 @@
+{
+  "module": "KanHomotopyMonomorphism",
+  "source": "lean/TheoremCStages/KanHomotopyMonomorphism.lean",
+  "source_sha256": "bba44f25a2260508928762ecca0b1944fe14e426215fb82157b70dd654878d24",
+  "actual_exit": 0,
+  "seconds": 12.058043041964993,
+  "artifact_valid": true,
+  "olean_sha256": "2967725c66b6cc397919f7d9c1c49f8f74a1635e0763aeb9a93979e1d37be905",
+  "log": "verification/theorem-c-20261125/stages/KanHomotopyMonomorphism.log",
+  "log_sha256": "2b5da99d3eb94fdfc2bfb5b7b6946eab6a23ebb8f02c77d680ad3c4bc4e3eb34",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentEvaluationTrivialFibration": "b07762be22e40ddd371ebb069ee7666d166901bc95f30fe942741ecc6c6b9af5",
+    "Mathlib.CategoryTheory.Limits.Shapes.Pullback.Mono": "425117e6af7a19f97d2559c6c759e6ce89d1b60c8bb7f87854d8071579712d2a"
+  },
+  "original_receipt_sha256": "3187a68eae5c46bc17439f9d11926ea55cdff2d571866086f75c9fc35b9fda8e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

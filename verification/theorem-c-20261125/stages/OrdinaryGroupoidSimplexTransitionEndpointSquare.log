@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryGroupoidSimplexTransitionEndpointSquare.endpointComparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryGroupoidSimplexTransitionEndpointSquare.endpointComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

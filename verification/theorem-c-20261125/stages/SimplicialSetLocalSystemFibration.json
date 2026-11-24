@@ -1,0 +1,20 @@
+{
+  "module": "SimplicialSetLocalSystemFibration",
+  "source": "lean/TheoremCStages/SimplicialSetLocalSystemFibration.lean",
+  "source_sha256": "9780f4aa42901a2f8099824ca1f18291f99915cbe1ddfa5919d1ceb8649f0aef",
+  "actual_exit": 0,
+  "seconds": 8.202930665996973,
+  "artifact_valid": true,
+  "olean_sha256": "96a9240135894589832b0f7b3dcf438967249f8bf7f39317497600c616c5ecd6",
+  "log": "verification/theorem-c-20261125/stages/SimplicialSetLocalSystemFibration.log",
+  "log_sha256": "1f6a06f39139e8641e842aeea371f29d6964e35062508b858f1b77957f80dce1",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplicialSetLocalSystem": "0f6139c6a2f4fc18cc56effee83e9712e7814725ccf493d868b4e7dfe6f39e3b",
+    "NativeSimplexPullbackFibrationDetection": "c4cfd42f633d063a426a83b31ca3c17f3be59c56671d660a9c7e4e7db550da3a",
+    "ActualConstantSimplicialCategory": "6aae01438a4341c5dedb78d415d42e7891922cfb377949dc04a7fc795338feae"
+  },
+  "original_receipt_sha256": "c5d2e16b1f7ea4aab52dc6715e086edadaf7e048425815adc6f61a2381a58bab",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

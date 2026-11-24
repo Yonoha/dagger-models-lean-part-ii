@@ -1,0 +1,19 @@
+{
+  "module": "BisimplicialCommaZeroPointCalibration",
+  "source": "lean/TheoremCStages/BisimplicialCommaZeroPointCalibration.lean",
+  "source_sha256": "6ee7034cbfde58551b81f8ec994bf882327f0549f89d974dc2b7d9d44bd2a217",
+  "actual_exit": 0,
+  "seconds": 9.518245541999931,
+  "artifact_valid": true,
+  "olean_sha256": "7cd2b0bd327cdec73481df3e309a6109c343c0497a80b87af51b0bc6e0c8eaa2",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialCommaZeroPointCalibration.log",
+  "log_sha256": "427597e2bf38b7f22f127c2efc5fd3ba87ba476da51bde2e02718fe5c4e37567",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialCommaParameterProjection": "95a4e6fdc452637236f7a68349bbe22ddc14121ade8f25f7872670cc7f8ac2b0",
+    "SimplicialReplacementChosenHomotopyFiber": "7c6e44d3509a6a662f7556f94fef367481f87e7c7f036a2d4f162d0c4540092e"
+  },
+  "original_receipt_sha256": "f5b3d2d48e3e8cf79b26155f910ad44a2d8a1ba10be7d076dbfa3ce44ed53e44",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

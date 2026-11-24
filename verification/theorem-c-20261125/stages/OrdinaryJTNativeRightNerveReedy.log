@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryJTNativeRightNerveReedy.nativeSpace_obj' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTNativeRightNerveReedy.nativeSpace_map_app' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTNativeRightNerveReedy.nativePlainIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTNativeRightNerveReedy.nativeSpace_reedyFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

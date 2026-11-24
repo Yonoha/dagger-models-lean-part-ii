@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryJTRightNerveSegal",
+  "source": "lean/TheoremCStages/OrdinaryJTRightNerveSegal.lean",
+  "source_sha256": "6f5baa8e6ca564504da4dca8e500bc5ea30c33d5bd4934d67bd52478061e1a8b",
+  "actual_exit": 0,
+  "seconds": 8.613434040977154,
+  "artifact_valid": true,
+  "olean_sha256": "637c53d465810d0d02133ccf9c45cd3e28e8f59c6b76d3da3340ba6eb65e7e10",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTRightNerveSegal.log",
+  "log_sha256": "da4de627b2f05ee0d8cb04826a17d5a247d24098422c0c20cae61c42d3aafa74",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTMappingFrameWeak": "fb42acb6858ada3e60f04aadbcfbea2f3673c49480054aea2dfd6e29cc1b1717",
+    "NativeStandardSpineInner": "e43e42045af3eb276e3c323c81318d50b2feaefefcfe6dcbdeba5fbb0a0b752b"
+  },
+  "original_receipt_sha256": "0b100ba2fe3b37f773d02d670994782e8d34eda090aed05d29da89c3afb392fb",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

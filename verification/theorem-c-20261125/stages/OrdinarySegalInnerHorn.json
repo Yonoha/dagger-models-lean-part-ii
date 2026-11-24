@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalInnerHorn",
+  "source": "lean/TheoremCStages/OrdinarySegalInnerHorn.lean",
+  "source_sha256": "3278d7e434169f0d1e2e732d8a411df5d628590bdef0efd186bdb2ba3ccfa4f7",
+  "actual_exit": 0,
+  "seconds": 8.696737832971849,
+  "artifact_valid": true,
+  "olean_sha256": "e94a533bfff94e0f0ee5416e53d551dc14ab3e48bd9ba61d2ce628d53ad1830e",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalInnerHorn.log",
+  "log_sha256": "fdcc2c2cca3a65054e8ecfd2f187de20eb395e0c9a2636696c6f77a0be30d443",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalOuterFaces": "a0396cbb7d1d4a1c28e5b58f57d115fa79afd589e28c4b69960979131fda8b33",
+    "OrdinaryInnerHornFromOuterFaces": "2fb95c23c69900fe25545b5ae7073b01ca6cfc8ac17c6b0f9cc352594c8acd36"
+  },
+  "original_receipt_sha256": "f95a49da7b4f6d4cdf6a546001610209428363e74408c0f6dd45f6f18e489644",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

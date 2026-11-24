@@ -1,0 +1,3 @@
+'DaggerModels.PartII.AdjunctionLeftIdentityQuillenEquivalence.of_left_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

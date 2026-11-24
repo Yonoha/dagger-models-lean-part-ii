@@ -1,0 +1,19 @@
+{
+  "module": "ReedyTerminalMatching",
+  "source": "lean/TheoremCStages/ReedyTerminalMatching.lean",
+  "source_sha256": "450e4db614152fb3c8534c2b5f60d9a1214c6ee95860e500185764c3905a7998",
+  "actual_exit": 0,
+  "seconds": 3.9654554579756223,
+  "artifact_valid": true,
+  "olean_sha256": "0e5667f870eb92281b0af3c2c3cba48a57df7eef9e28669b436877599163e51f",
+  "log": "verification/theorem-c-20261125/stages/ReedyTerminalMatching.log",
+  "log_sha256": "060471a64d93d5dec62e9d63715329c963bcfa8a38e0bb30734008ef48ccba75",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.ReedyMaps": "9b27d6b92c07aee6b6ad251dbc24f26f5f16a33ae0443863306cd7215afdcf45",
+    "Mathlib.CategoryTheory.Limits.Preserves.FunctorCategory": "f7706b250c58ce9abd4dd93ff9e376175a99177208766419b95b355bdb4f6a93"
+  },
+  "original_receipt_sha256": "bc5ddc5b668955fb08d9da0b486d9fd6842fe0b9ad3e964a4350938591642f0e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

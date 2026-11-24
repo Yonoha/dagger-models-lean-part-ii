@@ -1,0 +1,18 @@
+{
+  "module": "OrdinaryComponentImageDescent",
+  "source": "lean/TheoremCStages/OrdinaryComponentImageDescent.lean",
+  "source_sha256": "b381ff82299bd4f0ddb1278e428ad2efda7c43ec39398c56ca3aad6c29013c51",
+  "actual_exit": 0,
+  "seconds": 10.624420624997583,
+  "artifact_valid": true,
+  "olean_sha256": "3d86a3c3a96ba35825d8d3bad4f986e062cbfee2edc924f99ee023708d5eca54",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryComponentImageDescent.log",
+  "log_sha256": "23bf1f1da6af96a539826cd18ea15301fcd9659d415c556b857660cbad4c95d8",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalComponentImage": "fefadd03dfce9e2ff0588c7f55189508095c089fd38bb9643bed63e86c35296f"
+  },
+  "original_receipt_sha256": "034fb54ff0bab42c5909a2ead715411c7a5525cf5b3d4fbd3f6ad7fe724783ce",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

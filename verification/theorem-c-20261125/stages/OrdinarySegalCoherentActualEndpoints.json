@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCoherentActualEndpoints",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentActualEndpoints.lean",
+  "source_sha256": "7220b974075828cf323fe1a01420cddeaebdd8375addab18d3ea876fbb918161",
+  "actual_exit": 0,
+  "seconds": 6.922814666002523,
+  "artifact_valid": true,
+  "olean_sha256": "3de61fbf596eecc6c9c28eaa482a802eb77c8325bbb2c72f9da3821c863ff4cc",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentActualEndpoints.log",
+  "log_sha256": "eb1f9eb09aa273e951e3e63feb74c47c7b7d3807e39bacf141e39dc4ca3c959b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalRestrictionZeroCalibration": "78228edc5dc309e78115c2d7e5c189fc195a396138bb37217142b54fed272a56",
+    "OrdinarySegalCoherentFixedTriangleSource": "e72890e55650082558cb0ee0bd7f911b9ebafc931450f3f6428db0aed7f1c045",
+    "OrdinaryWalkingCoherentVertexCalibration": "3007b8a861fe0b8b8e1a6c4e637d14f0adddb2c534bf5ccee49b49b658ad1645"
+  },
+  "original_receipt_sha256": "004d0fa07d3532539246a326ea56191eeb58e1b9d5de3720f30af2951b4409ed",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

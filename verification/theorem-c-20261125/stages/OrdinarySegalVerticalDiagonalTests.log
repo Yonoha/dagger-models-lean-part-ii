@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalVerticalDiagonalTests.discreteTest_triangle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalDiagonalTests.discreteTest_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalDiagonalTests.verticalDiagonal_segalCondition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalDiagonalTests.precompletion_segalCondition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

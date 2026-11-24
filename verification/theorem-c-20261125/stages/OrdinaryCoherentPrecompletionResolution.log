@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryCoherentPrecompletionResolution.coherentArrowFunctor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentPrecompletionResolution.endpointResolution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentPrecompletionResolution.evaluationResolution_row_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentPrecompletionResolution.evaluationResolution_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

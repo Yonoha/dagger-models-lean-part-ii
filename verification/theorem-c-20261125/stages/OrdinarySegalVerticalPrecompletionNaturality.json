@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalVerticalPrecompletionNaturality",
+  "source": "lean/TheoremCStages/OrdinarySegalVerticalPrecompletionNaturality.lean",
+  "source_sha256": "a387cc45145a93bd062c9eebd122832e972a137baa01c612b558fa5be4ae843e",
+  "actual_exit": 0,
+  "seconds": 11.729201709007611,
+  "artifact_valid": true,
+  "olean_sha256": "1269c41aca8d75f0e9786e4f90d434758e8e4b71f5cfb04f3e13baf328c536e6",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalVerticalPrecompletionNaturality.log",
+  "log_sha256": "123875c1de0adbce2795e5915606a142bcbd648d8eecef274465ac93f957425b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalVerticalPrecompletion": "0845d1c8a78b42523d262aabc15c3fcd07b5f5a906d83cba9aacf7d3c9e61f2e",
+    "OrdinarySegalRestrictionTargetNaturality": "fea943d6afa5653dc0050e922aabdf8d3679cc28b85cc96dc0c5be716092fd6f",
+    "OrdinarySegalMappingTargetSquares": "85a9a34ac5486fde7a35b1cde8226ca6135f1622494c8b788323d27f9414b438"
+  },
+  "original_receipt_sha256": "6c4701776c4afede93c9aec1172ea0410012a864f8eb46e23d9130593aae98b0",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

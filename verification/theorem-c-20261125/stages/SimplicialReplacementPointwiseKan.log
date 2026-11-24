@@ -1,0 +1,12 @@
+'DaggerModels.PartII.SimplicialReplacementPointwiseKan.changeWeights_row_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementPointwiseKan.diagonalChange_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementPointwiseKan.kanDiagram_map_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementPointwiseKan.kanUnit_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

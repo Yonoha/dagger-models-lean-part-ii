@@ -1,0 +1,12 @@
+'DaggerModels.PartII.SimplicialReplacementProjectionRows.pointInclusion_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementProjectionRows.familyProjection_sigmaDesc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementProjectionRows.familyProjection_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementProjectionRows.projection_row_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

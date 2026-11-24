@@ -1,0 +1,19 @@
+{
+  "module": "RelativeCosliceInnerFibrationLifting",
+  "source": "lean/TheoremCStages/RelativeCosliceInnerFibrationLifting.lean",
+  "source_sha256": "0449af7418882c0e582061af159c0c0be83953a96d344bd4ce0846a192b26ecf",
+  "actual_exit": 0,
+  "seconds": 10.71689174999483,
+  "artifact_valid": true,
+  "olean_sha256": "647fed5732c0788df1a13be6f7247276cfbdc3219f3d055cb9587e3b0620368d",
+  "log": "verification/theorem-c-20261125/stages/RelativeCosliceInnerFibrationLifting.log",
+  "log_sha256": "545094da4af53ce8bd2b43df6d3ade0724a1b46a8499e49cbe849827a9cf7757",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OriginalJoinedBoundarySuffixGluing": "45dcb3ff1eb1d7b9f5346951241aa4bd575fb3b06cc8eae913afd9ce0df89ef5",
+    "NativeInnerHornFactorization": "97fc4922e107b2c80a647745c6f92ed0d2893b37e9c809c0506c7b689dec7e5f"
+  },
+  "original_receipt_sha256": "8f092fa0f697dc60aad69fa2f3628697ed87eb5fa4f2971419b16f5c604d2a84",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

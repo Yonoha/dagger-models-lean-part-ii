@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalCoherentRightFixedTriangleNaturality",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentRightFixedTriangleNaturality.lean",
+  "source_sha256": "7b19641e364f2600a94d9c4850ee9194b6edc966e16a43c011f2b74a1af72171",
+  "actual_exit": 0,
+  "seconds": 15.401352875000157,
+  "artifact_valid": true,
+  "olean_sha256": "04293c69435d335c84c3520be134587bdc8cb4404102c727646c18337d2473ef",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentRightFixedTriangleNaturality.log",
+  "log_sha256": "ca722086526667404656d4bad7c6acf803898d47f667e9e43bf2a49f079eca80",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentRightFixedEdgeNaturality": "e1107e441b81b2b00086457525f0310ec988bb8a1b3620b91a29721a5bb1e400"
+  },
+  "original_receipt_sha256": "4ab905e5169b8c734dfa4c20efedf43354720885135c40f5b503359d05fefe05",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

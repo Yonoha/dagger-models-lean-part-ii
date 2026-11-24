@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalTwoTrianglePasting",
+  "source": "lean/TheoremCStages/OrdinarySegalTwoTrianglePasting.lean",
+  "source_sha256": "2fa62ffc1b175958bafbaa333bcd107da3e796376339811bf3323c3d9196853e",
+  "actual_exit": 0,
+  "seconds": 14.134584083978552,
+  "artifact_valid": true,
+  "olean_sha256": "b373f7cd8989e0fc7abb7e14b9cf91eebe20f4df5c9a52ff915b4b10fedae9af",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalTwoTrianglePasting.log",
+  "log_sha256": "1b2e63b50bd9ccad16b5e1465582c63292cfa627d5a9994b86c5f339c51d187c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalUnitMiddleFibrations": "c6934e032e882618c7fda3f9bb338712391dc7cb04c114d010e386f0d0b8fc86",
+    "OrdinarySegalUnitPullbackWeak": "b68097e085585250dbf3da97c5b1fca38453cd8d2da1fae66e4e2e00c4d06960"
+  },
+  "original_receipt_sha256": "29687115604198c63c7b0ff8250af106e9bc8113ac726887e3d7dede3c9c0c02",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

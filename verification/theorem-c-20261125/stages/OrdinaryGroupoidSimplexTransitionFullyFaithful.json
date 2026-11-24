@@ -1,0 +1,24 @@
+{
+  "module": "OrdinaryGroupoidSimplexTransitionFullyFaithful",
+  "source": "lean/TheoremCStages/OrdinaryGroupoidSimplexTransitionFullyFaithful.lean",
+  "source_sha256": "35fe6e6d9391c458d7787e0f46942bb246df73736c5b8a3c53d360ad9145a5f9",
+  "actual_exit": 0,
+  "seconds": 26.37171125000168,
+  "artifact_valid": true,
+  "olean_sha256": "7d20f26107b12c4de5ff4a344305679ce2cc69330a38e48488729fb2c314022c",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryGroupoidSimplexTransitionFullyFaithful.log",
+  "log_sha256": "b3d457de9738d3d2800a7e49d53d0f81a98d4f34cdc743c4c76cee813850fec5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryGroupoidSimplexCotensorObjectWitness": "658f455a42c82bd608b52183105d7236ee4d013a4733fba13bb09e2f45afd599",
+    "OrdinaryGroupoidSimplexCotensorTransitionHomotopy": "16e808791387dec025cb0ab6fe772b2b1bd8c1faba25f171ac567a6b177dc0d7",
+    "OrdinarySegalCoherentSourceTransport": "3d10e9d8e619404c16120afb9d1caac0fcde380d2f1e70628d48cdec0f863da4",
+    "OrdinarySegalCoherentTargetTransport": "1ae35a4955378b5e7096c1bcf49bd6aaa7bdef2612d34c59f0bfdf64e35ef8e4",
+    "OrdinarySegalConstantGroupoidSimplexFullyFaithful": "0ca36853f287a4fef6ee0e9496dd62ce3b8e00635ea10d92b96a71e04bb7190b",
+    "OrdinarySegalOrderedMappingComposition": "1d1b75c19b2247539f4e38c67545732c73d5247a2014eba91242c45cc18e10eb",
+    "OrdinarySegalOrderedMappingWeakCongruence": "d6bc93a19d04656bca73420a96b6135bb45ac24334f2a1029adc202a3c33cb4a"
+  },
+  "original_receipt_sha256": "999870f8ace0b36395fb2fdc342a27e627b461c12563464c3d97eec767125ce9",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

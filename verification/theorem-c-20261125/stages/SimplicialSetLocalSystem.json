@@ -1,0 +1,19 @@
+{
+  "module": "SimplicialSetLocalSystem",
+  "source": "lean/TheoremCStages/SimplicialSetLocalSystem.lean",
+  "source_sha256": "cd254b20c24876e97a60848a2084c7364eebd976186c201bd46f78b2ed0158f0",
+  "actual_exit": 0,
+  "seconds": 6.462200875001145,
+  "artifact_valid": true,
+  "olean_sha256": "0f6139c6a2f4fc18cc56effee83e9712e7814725ccf493d868b4e7dfe6f39e3b",
+  "log": "verification/theorem-c-20261125/stages/SimplicialSetLocalSystem.log",
+  "log_sha256": "f48ada2847960bb55509d86fb9be89cc48a3e5cf8fc77aeb1d02b3141b3f8d90",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeSimplicialReplacementCells": "ae275066f9479a883d657d1548c66cb52459f853f4597df56e4509a4d6e3e02d",
+    "NativeOverNerveSimplexFamily": "dabdeda1828028b6a1d5db8165a9cc31bb0f3e90e4973302568731373a454271"
+  },
+  "original_receipt_sha256": "68dd22b7c2fec2451b90ca090f632e709e50f34a39a48d2a860d9ccb4d531024",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

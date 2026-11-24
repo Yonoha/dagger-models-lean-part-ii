@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinaryJoyalFibrancy.isFibrant_iff_quasicategory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryWalkingInitialStageCalibration",
+  "source": "lean/TheoremCStages/OrdinaryWalkingInitialStageCalibration.lean",
+  "source_sha256": "e143ca175cf737191bd89f7ce9a4d5ade2d45cdefbc682dec8ccb109e2d8aaa6",
+  "actual_exit": 0,
+  "seconds": 7.0747976250131615,
+  "artifact_valid": true,
+  "olean_sha256": "aacc500e72be208e2cf53fde32e5befdb05b237404506145510f0f40bfc8d828",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingInitialStageCalibration.log",
+  "log_sha256": "0ac12b798ea817377d6d458b570f7c64419eb687e513486efc419281a95d0902",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingInitialStageIso": "2d1b4d78c31fa417d0a03dbc8f1155b4b86666e7de70f225ab37c85804e94565",
+    "OrdinaryWalkingFirstEdgeCalibration": "809ecf8222ed286770ba55a499fd7ddad8f623537439e97095121ec375d64b65"
+  },
+  "original_receipt_sha256": "00e3eb7b4df232ade456de89fe6757032c2ae4e20f533eab168fc70f570515b7",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

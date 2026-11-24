@@ -1,0 +1,10 @@
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionRows.rowLevelEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionRows.rowIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionRows.row_kan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionRows.row_toTerminal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

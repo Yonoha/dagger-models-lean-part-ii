@@ -1,0 +1,18 @@
+{
+  "module": "WeakSpanMorphismTransfer",
+  "source": "lean/TheoremCStages/WeakSpanMorphismTransfer.lean",
+  "source_sha256": "7634096ad2eb0a77c4b186ac33c7962e6a825611e1df62e65ac983d8e14bd85a",
+  "actual_exit": 0,
+  "seconds": 7.323793250019662,
+  "artifact_valid": true,
+  "olean_sha256": "009e4d2019a078df9ca725ebcdf186f46f987b6a75c655bf9dbf2403ba0ae154",
+  "log": "verification/theorem-c-20261125/stages/WeakSpanMorphismTransfer.log",
+  "log_sha256": "b4c27283a74746cd3f601f4bb3085f1a7e5790f356955bf50cdf23ff90e8b193",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "Mathlib.CategoryTheory.MorphismProperty.Composition": "6f104995bd068b098c620adaee3837b88d5bfd654c84571ce70df6164547eda5"
+  },
+  "original_receipt_sha256": "796d7c0c220b7f4f857cf6ba8d540e47e9ebc5f1e4e85b01ed7b867d5aa36a5f",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

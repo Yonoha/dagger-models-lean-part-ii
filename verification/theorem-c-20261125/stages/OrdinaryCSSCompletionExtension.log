@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryCSSCompletionExtension.unit_cssCofibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSCompletionExtension.unit_cssWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSCompletionExtension.exists_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSCompletionExtension.exists_weak_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

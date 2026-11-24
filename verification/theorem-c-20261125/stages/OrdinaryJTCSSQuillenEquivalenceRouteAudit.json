@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryJTCSSQuillenEquivalenceRouteAudit",
+  "source": "lean/TheoremCStages/OrdinaryJTCSSQuillenEquivalenceRouteAudit.lean",
+  "source_sha256": "3bd4e471f315aaf677a90f7871c35ec95df0fd0c837f67600a4e9afd46884f43",
+  "actual_exit": 0,
+  "seconds": 16.70691066602012,
+  "artifact_valid": true,
+  "olean_sha256": "a5df5e180e7f8a61eca23d929bd2a18c9ea8e237e3f4ca8fa8665c0d25316f30",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTCSSQuillenEquivalenceRouteAudit.log",
+  "log_sha256": "093231a17f9906fa4b73bbf1c2d33d9154bdee201a25d2a3e23b3cbf8e14169b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTCSSQuillenEquivalence": "5543cc4b6a76c5204b248bb8b2f736fa76e71b26de9fce16e84514075ac41216",
+    "OrdinaryCSSHorizontalRouteAudit": "e62ed8b875bf5b0397efd8af4a707d6bc0ef6f2d5cc2783b0a9e8b2d5526f528"
+  },
+  "original_receipt_sha256": "5502e9d0dabb29e983692ab90147a36acbe85a85aa7e9e93e4e318581af64418",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

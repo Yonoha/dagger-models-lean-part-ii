@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCotensorPointEvaluation.constantSection_evaluation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorPointEvaluation.evaluation_constantSection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

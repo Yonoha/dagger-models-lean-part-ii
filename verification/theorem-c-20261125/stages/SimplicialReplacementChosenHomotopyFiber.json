@@ -1,0 +1,21 @@
+{
+  "module": "SimplicialReplacementChosenHomotopyFiber",
+  "source": "lean/TheoremCStages/SimplicialReplacementChosenHomotopyFiber.lean",
+  "source_sha256": "69a476813f0e15bda55d0e5cc6fe7e8714c5c37e2389204b934b85c7d3f104df",
+  "actual_exit": 0,
+  "seconds": 13.58083816699218,
+  "artifact_valid": true,
+  "olean_sha256": "7c6e44d3509a6a662f7556f94fef367481f87e7c7f036a2d4f162d0c4540092e",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementChosenHomotopyFiber.log",
+  "log_sha256": "8e327a9c6c1b5ac84b10f8d984402281dce7b9cd3457cffa00e2603bad0af900",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplicialReplacementChosenFiber": "a9af608c991e8fc95ade568b38504087f66cd8bd716aba5e34383f66b353fbc3",
+    "SimplicialReplacementRelativeDiagonalFibration": "f0ecd271aae6e74314e3fbb06ea35ba39e0b18036f39b7589fa21d2a1690ea89",
+    "SimplicialReplacementProjectionRows": "22e88a68cb76cc1b23578ae461f05bdd58bed05995c55aeb91136e7b28b85f57",
+    "NativeRelativeReedyFibreComparisonWeak": "2318eaa72b3e2423127357724b8906de5180bf4496c36232b3e6d16c64e8a496"
+  },
+  "original_receipt_sha256": "9a7ae03249cd8120368dbc9f46492074923124ca32c7e98da6e22bac98329ad5",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

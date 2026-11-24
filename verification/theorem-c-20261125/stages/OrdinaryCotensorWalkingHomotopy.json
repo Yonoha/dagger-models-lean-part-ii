@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryCotensorWalkingHomotopy",
+  "source": "lean/TheoremCStages/OrdinaryCotensorWalkingHomotopy.lean",
+  "source_sha256": "8d5a563f446acb1034b03b78d0ecefef37cefeaa9d0451ac18c7534fd5c1d79f",
+  "actual_exit": 0,
+  "seconds": 21.235688625005423,
+  "artifact_valid": true,
+  "olean_sha256": "24387228f1ac0f13e0c2f15d2e1dcae3a1e6917ccf985eebaf880b216281ab6c",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCotensorWalkingHomotopy.log",
+  "log_sha256": "e6e43bb34112f966d44557b881d1ba72c08f21e6ea089e3dd40f21bb78b55ae7",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryGroupoidSimplexCotensorHomotopyInverse": "a1be1d90b9e5456c2c12550618ba65fbb80875551a2628f97d79ead2a29d231f",
+    "OrdinaryPrecompletionWalkingHomotopy": "61db727cebfd0ac56767f6e2fb1c424b2ea8c9d97bf67b352537cd3a339755c5",
+    "OrdinarySegalCotensorMappingIso": "bd62d6e353c656d9b6130c230ae745d813b979ac3fa6a5e354e47ba46ab12ed7",
+    "Mathlib.CategoryTheory.Monoidal.Cartesian.FunctorCategory": "6c57afeaad52561de8b94f88cf352b7b3ea5bc7c90650d7bc0d084978338f703"
+  },
+  "original_receipt_sha256": "24cfb78a4d1fd31b81561e10af6f70fbb8044ad5153b335c2772c90ae54e6e37",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

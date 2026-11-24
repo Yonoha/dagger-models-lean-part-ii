@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryJTCurriedAdjunction",
+  "source": "lean/TheoremCStages/OrdinaryJTCurriedAdjunction.lean",
+  "source_sha256": "fbd0a39ba3a293bd9dfa0a43fb593bc78c635e68e2dd7074efc30b1f5e8f3325",
+  "actual_exit": 0,
+  "seconds": 9.32759050000459,
+  "artifact_valid": true,
+  "olean_sha256": "7c8ea8427b52bf90fc5b0f82e6e09f550c755b9ad4e579204f394b597d6a8356",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTCurriedAdjunction.log",
+  "log_sha256": "06320bb9b1d7368358ceaa9e5f8f26ead6ed31b0ad69c37230e1b3dbdc228e28",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTNativeRightNerveReedy": "bb6d29fe18920fefd2cf3bfdc6e0e45a14f7108f7b19a9b190aa463283e9fcf3",
+    "DaggerModelsPartII.JTRealizationDiagonal": "bcd3d0fc680edb8f92fe9d8810a0ce375c142daa68650bd0de2fb5e4b6459aa8",
+    "Mathlib.CategoryTheory.Adjunction.Basic": "31880091f8185a90150ab3d44d166a41cb07d69cafcee5093d0462827f1a48c8"
+  },
+  "original_receipt_sha256": "f26672e8696f46de2d6b969b08e38915c89f85d988428c8eec0653e0c3b65247",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

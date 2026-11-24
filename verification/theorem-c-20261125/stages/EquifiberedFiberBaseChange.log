@@ -1,0 +1,9 @@
+'DaggerModels.PartII.EquifiberedFiberBaseChange.fixedPoint_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.EquifiberedFiberBaseChange.comparison_weak_of_transition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.EquifiberedFiberBaseChange.standardSimplexMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

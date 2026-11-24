@@ -1,0 +1,20 @@
+{
+  "module": "BisimplicialBaseSimplexKanFibers",
+  "source": "lean/TheoremCStages/BisimplicialBaseSimplexKanFibers.lean",
+  "source_sha256": "6ee1b1b5524c3f0aa204996a1630ba082fae8aa2a5c18d89c7eef99e3d7cb452",
+  "actual_exit": 0,
+  "seconds": 10.75922237499617,
+  "artifact_valid": true,
+  "olean_sha256": "0c85e8389fa318b4ae08aa24ea47105580b3ef3cb50ac94339fbcd23789a940f",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialBaseSimplexKanFibers.log",
+  "log_sha256": "767ec21741c914a88499a2da6064281483d81b246ca249855ca7d273b4bf3515",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialBaseSimplexFibers": "7002ff38d073cf1fb89df7cc5fdfbffb8985762253cd98798c57c8671915574a",
+    "SimplicialReplacementPointwiseKan": "f3f712aacf0a89868a4eabf7dd4c0f6f8c859b000c78e3ecf35e307bf090388d",
+    "SimplicialReplacementRelativeDiagonalFibration": "f0ecd271aae6e74314e3fbb06ea35ba39e0b18036f39b7589fa21d2a1690ea89"
+  },
+  "original_receipt_sha256": "1f4200d09dde7b2b6084c421be002a3144a53bc32174efc8c22cbb587daaddb0",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

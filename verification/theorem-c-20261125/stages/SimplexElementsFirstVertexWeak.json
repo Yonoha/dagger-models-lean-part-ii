@@ -1,0 +1,21 @@
+{
+  "module": "SimplexElementsFirstVertexWeak",
+  "source": "lean/TheoremCStages/SimplexElementsFirstVertexWeak.lean",
+  "source_sha256": "37fac5debedbf690dc2b3605cdad122defeaf413f89889feddc76363cefba7ee",
+  "actual_exit": 0,
+  "seconds": 14.552441666994127,
+  "artifact_valid": true,
+  "olean_sha256": "4b0bf60c52901c6f36c561ea550252c54bd8288b38beef1df74898b7f4095301",
+  "log": "verification/theorem-c-20261125/stages/SimplexElementsFirstVertexWeak.log",
+  "log_sha256": "a5ace5cf39ed0d20d4fe2c8dc003fde5aff6d77e191e27d649299e8236b9ebd5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplexIndexLastVertexHomotopy": "118ba39151ad02fcb632b63aa0f2d471c2b4a434c09e2daa858db99e4eae7458",
+    "DaggerModelsPartII.SimplicialResolutionFunctor": "b4992304ec72a31ac96041946e25e3d43396540585b896fd6a49d3ce19b9f0ad",
+    "NativeNerveOppositeIso": "9adba793840a95dde46241f04873f67330a30df819fad1aee75e93b8aa8b49ef",
+    "NativeSimplicialOppositeKanWeak": "6b71d44e8d592d5dc5724b550c54a53f8c2d50fa1d6db079a185ebefe4784269"
+  },
+  "original_receipt_sha256": "a8afde9b56ead36dbd054246c1ca8c7764a3563d79b2910c5dbdeea6247f16a5",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

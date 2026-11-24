@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryWalkingAlternatingAttachment.binaryWord_nonzeroFace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingAttachment.alternatingSimplex_nonzeroFace_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingAttachment.horn_le_preimage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

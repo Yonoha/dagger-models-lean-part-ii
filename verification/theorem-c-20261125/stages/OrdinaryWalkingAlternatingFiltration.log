@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryWalkingAlternatingFiltration.walkingCodiscreteIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingFiltration.binaryWord_lastFace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingFiltration.alternatingSimplex_lastFace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingAlternatingFiltration.stage_le_succ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

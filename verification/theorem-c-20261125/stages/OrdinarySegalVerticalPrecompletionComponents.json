@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalVerticalPrecompletionComponents",
+  "source": "lean/TheoremCStages/OrdinarySegalVerticalPrecompletionComponents.lean",
+  "source_sha256": "69a17bafb57c5007188018ef27fcec1be73467035b745f5dc39d3201443968c0",
+  "actual_exit": 0,
+  "seconds": 19.29507404200558,
+  "artifact_valid": true,
+  "olean_sha256": "6b336c19759aac7fcd842adc987c17e5553e9b5b8c0bb16438b9df582a27a2bd",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalVerticalPrecompletionComponents.log",
+  "log_sha256": "528285d418f2aab49231a4e097b6f4ef36c7c5d3f9e25cd678047e72920b1b13",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalVerticalPrecompletion": "0845d1c8a78b42523d262aabc15c3fcd07b5f5a906d83cba9aacf7d3c9e61f2e",
+    "NativeKanRigHomWeakRecognition": "031b568f67b443cfe88229ade1640c0c369b6780b0d801647beac14ef6ff4f68",
+    "Mathlib.CategoryTheory.Types.Basic": "b20e2c4c835bb2a80802ca19c202156b54959a961af658457db5ffc82d61ce2d"
+  },
+  "original_receipt_sha256": "d00fdbc67caa7443d33d71655326a381eb9f5bcd79e57ec8b7cd180cd3b2c850",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

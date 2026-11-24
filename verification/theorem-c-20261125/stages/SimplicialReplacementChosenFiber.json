@@ -1,0 +1,19 @@
+{
+  "module": "SimplicialReplacementChosenFiber",
+  "source": "lean/TheoremCStages/SimplicialReplacementChosenFiber.lean",
+  "source_sha256": "257dca871309a65b495166583b9cab4a88ed0d5349797eacdb19e821e862dd13",
+  "actual_exit": 0,
+  "seconds": 6.7047603339888155,
+  "artifact_valid": true,
+  "olean_sha256": "a9af608c991e8fc95ade568b38504087f66cd8bd716aba5e34383f66b353fbc3",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementChosenFiber.log",
+  "log_sha256": "0aca58ebf557afc77a217389f04bb9c98982baf3476485db6ce6e811f192de29",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeSimplicialReplacement": "820321e08f54312d554e06a7e8e48d1fb66a4796c6afa7449e638ac9fce581f7",
+    "TopCatModelCategory.SSet.Fiber": "11e06dd4048854a50f38eb34603795b19571d4eaabc579594cc4b6cd3010a213"
+  },
+  "original_receipt_sha256": "5384f4b26a056f8e9497776650d5c70a1d41e6fc420bd24303ff49daa43e0857",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

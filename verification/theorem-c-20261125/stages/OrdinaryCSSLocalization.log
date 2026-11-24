@@ -1,0 +1,13 @@
+'DaggerModels.PartII.OrdinaryCSSLocalization.discrete_map_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSLocalization.spineMap_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSLocalization.completenessMap_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSLocalization.localizerArrow_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSLocalization.model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSLocalization.exactClasses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSLocalization.isFibrant_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

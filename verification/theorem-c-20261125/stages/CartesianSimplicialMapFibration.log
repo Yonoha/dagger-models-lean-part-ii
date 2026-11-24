@@ -1,0 +1,6 @@
+'DaggerCartesianSimplicialMapFibration.simplexFamily_isPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerCartesianSimplicialMapFibration.fibration_of_cartesian_naturality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

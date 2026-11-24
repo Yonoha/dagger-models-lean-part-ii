@@ -1,0 +1,22 @@
+{
+  "module": "OrdinaryHorizontalJoyalModel",
+  "source": "lean/TheoremCStages/OrdinaryHorizontalJoyalModel.lean",
+  "source_sha256": "37ce512b300bac8c3cfc73e20190daaca061a4ebd946a289e822a016dcc27021",
+  "actual_exit": 0,
+  "seconds": 12.58423891698476,
+  "artifact_valid": true,
+  "olean_sha256": "eab396e12fdd0597496017f95e39d4e7a5069e38088630352e3aa9e253e0b6dd",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryHorizontalJoyalModel.log",
+  "log_sha256": "c5be796606d9e89660ec0c72b02e94261ec78d8a175c491b4b185c354da38217",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySpaceReedyInjective": "20f8025f1476131ee6bd859821558a425425cb0a97f2b9ee10d92c90b2b514b4",
+    "OrdinaryJTProjectiveQuillen": "896edc7f254637360226a16135dbf3aadd3a01ab95b82695b6de6731a77dbaf9",
+    "OriginalEquivalenceModelTransport": "735a775284d9be6bc87bee8cf77811c839fa14171a287644fdac5eee40649c31",
+    "Mathlib.AlgebraicTopology.ModelCategory.Opposite": "02ae5da91b6996c951e888638d1b6b80daee2cd9d26defa41eac6fa7b78ff312",
+    "Mathlib.CategoryTheory.Functor.Currying": "f6368d1b927e62d63a94bc6fed4e0e1bc903d44ec47c57af67e96ecff3ef6516"
+  },
+  "original_receipt_sha256": "cd154a97af5825243e0ac6603ad11559ebbc7b5d3fb3645aeb4168deda6ac26a",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

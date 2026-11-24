@@ -1,0 +1,7 @@
+'DaggerModels.PartII.OrdinaryJTFirstRowIdentity.firstRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJTFirstRowIdentity.zeroWeightIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTFirstRowIdentity.nerveFirstRowIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

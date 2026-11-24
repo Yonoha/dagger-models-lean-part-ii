@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalRestrictionZeroCalibration.transpose_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalRestrictionZeroCalibration.coherentEdge_transpose_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalRestrictionZeroCalibration.coherentRowEdge_yoneda' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalRestrictionZeroCalibration.coherentRowEdge_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

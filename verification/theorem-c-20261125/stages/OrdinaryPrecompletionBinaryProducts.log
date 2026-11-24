@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryPrecompletionBinaryProducts.precompletion_preservesBinaryProducts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionBinaryProducts.productIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionBinaryProducts.productIso_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionBinaryProducts.productIso_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

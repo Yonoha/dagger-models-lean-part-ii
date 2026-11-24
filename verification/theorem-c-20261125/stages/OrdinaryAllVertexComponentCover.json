@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryAllVertexComponentCover",
+  "source": "lean/TheoremCStages/OrdinaryAllVertexComponentCover.lean",
+  "source_sha256": "303b3084b7b61cf10093b71b8fea090eabe9f57739b1bdc0e2ab5dd4ce0f11f3",
+  "actual_exit": 0,
+  "seconds": 12.04030216600222,
+  "artifact_valid": true,
+  "olean_sha256": "8d310c1f25685ae12fd53645315783ad3907bf42612ecd44752f0f4e12899f50",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryAllVertexComponentCover.log",
+  "log_sha256": "f53881497f405e3ac5460aac6d2aa73e3dd69ce89d84c07dd33697fb899a4aca",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryAllVertexReplacementComparison": "be5d489b6d82053e05ba2b51fe3f231fbe19b34502b8daa0325eaf9019a29fa2",
+    "OrdinarySegalVerticalPrecompletionComponents": "6b336c19759aac7fcd842adc987c17e5553e9b5b8c0bb16438b9df582a27a2bd",
+    "OriginalSimplicialPiZeroWeakEquivalence": "5457700382eccd65025c904b99ff18acca248da31fab7b3706fe5f6d0792f95f"
+  },
+  "original_receipt_sha256": "cec314ffc05f9643136b684b928210958db8995fa04bc88ecdd57170ee3b98e2",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

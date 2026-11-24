@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryFirstRowQuillen.discrete_map_cofibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowQuillen.discrete_map_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowQuillen.isQuillenAdjunction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalResolutionMappingFibers.pointResolution_app' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalResolutionMappingFibers.rowComparison_eq_mappingMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalResolutionMappingFibers.rowComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

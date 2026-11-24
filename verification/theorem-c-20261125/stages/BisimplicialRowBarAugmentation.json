@@ -1,0 +1,21 @@
+{
+  "module": "BisimplicialRowBarAugmentation",
+  "source": "lean/TheoremCStages/BisimplicialRowBarAugmentation.lean",
+  "source_sha256": "1fb4d38daeba55428f2c11c002d1b713465baa41ab11818478263626fc5d15a6",
+  "actual_exit": 0,
+  "seconds": 10.48682641700725,
+  "artifact_valid": true,
+  "olean_sha256": "81d592d0ba854152e790a8b31dc12c49c359cb8a91002f675c79fa3e4e9c6c11",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialRowBarAugmentation.log",
+  "log_sha256": "1992a198800c47c4ebd6c400bca968754ef424f6757cbbf6553d8c70589cde71",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplexElementsFirstVertexWeak": "4b0bf60c52901c6f36c561ea550252c54bd8288b38beef1df74898b7f4095301",
+    "ColumnElementsVerticalNaturality": "87a5d719dbf545529acbf7c6bd624b0cc6f47561fd56d77498967b9a2d3a9303",
+    "NativeBisimplicialDiagonal": "ac9b3f0b2335762937b16e547deffafc31130aac311a05b3bb07d98372812834",
+    "OriginalDiagonalGeometricReconciledRecovered": "a987289cf4fad7fe201c5cb92719bead8c35318617f6601f3755e4bfa010d09a"
+  },
+  "original_receipt_sha256": "def3c48472696e37e2724a33a0e77646a32e53a67f7d26210b809debb67a26ff",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

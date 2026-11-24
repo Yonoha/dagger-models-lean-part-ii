@@ -1,0 +1,19 @@
+{
+  "module": "TheoremCFromOriginalRawOrderedUnit",
+  "source": "lean/TheoremCStages/TheoremCFromOriginalRawOrderedUnit.lean",
+  "source_sha256": "a886c358be32f3da0c8a065ec9d7a12d8c738e99a8b4a07c576352582ddfb233",
+  "actual_exit": 0,
+  "seconds": 12.935905000020284,
+  "artifact_valid": true,
+  "olean_sha256": "735d0f70e773096f22afd89053ec33ff9c6b0216f71d138517b69d7b7dc100a3",
+  "log": "verification/theorem-c-20261125/stages/TheoremCFromOriginalRawOrderedUnit.log",
+  "log_sha256": "b2c32e720ef9439aedb0bcb8982430fec0bf8d0ea6af9ed82cd5604310af7412",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.JTRezkRecognition": "612feefe1ca19d486d1eff2922db3554b4072efbe026564f008df1b0ffdc54be",
+    "DaggerModelsPartII.JTTheoremCFromStrictification": "1c214302c9bc3caa0b2be421e2fc23f3f17aa8284fa7ec988cb4e829527bd4ad"
+  },
+  "original_receipt_sha256": "3df4b354ce1a84b56bacceda45629a754fc986ac3e79ac892cf98c4399f5f8aa",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

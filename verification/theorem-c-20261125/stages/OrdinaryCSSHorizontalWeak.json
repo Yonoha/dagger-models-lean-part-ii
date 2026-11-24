@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryCSSHorizontalWeak",
+  "source": "lean/TheoremCStages/OrdinaryCSSHorizontalWeak.lean",
+  "source_sha256": "5d05ff7fd91294309df607bfce8327fea4900fc68b095ab3ed9eb549c0e52700",
+  "actual_exit": 0,
+  "seconds": 10.509382874995936,
+  "artifact_valid": true,
+  "olean_sha256": "f13badc7ef6ffd4aeb7d5d0a64cc0702f61cf90f6d81f46665ef2a13d36b84c5",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCSSHorizontalWeak.log",
+  "log_sha256": "c5a3945ca9b976db72e4a1f8e2b50ba40b574dbd838f594c11a0f119bbdf56be",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSHorizontalJoyalFibrancy": "e99a0a2983f2307ed3ae33029f847969662b2e6ee4074bb51dddf2ef26586fbd",
+    "OrdinaryCSSConditions": "d93a3feb58efc0450536578c40483bfece19c3d26c3cbfe2f3ea87cdc6079b59",
+    "DaggerModelsPartII.MappingChangeModel": "adff596b06333f190fef6094e719321d380c3b9ae21aafbba0709961fb56951a"
+  },
+  "original_receipt_sha256": "cd9e0c6485580ac445068424826303adbbf5de6ff39268bc1988ad971358bbe1",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

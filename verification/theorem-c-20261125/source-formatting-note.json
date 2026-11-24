@@ -1,0 +1,23 @@
+{
+  "check": "git diff --cached --check",
+  "actual_exit": 2,
+  "findings": [
+    "lean/DaggerModelsPartII/JTActualJointChainCylinder.lean:72: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTBoundedSpanEvaluation.lean:117: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTFiniteSourceResolution.lean:447: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTGraphCoveredPresentationWeak.lean:133: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTGraphSpanFamily.lean:235: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTGraphSpanParameterMap.lean:106: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTJointBeadNormalizedParameter.lean:133: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTJointClippedSideVertices.lean:211: trailing whitespace.",
+    "lean/DaggerModelsPartII/JTJointPairChainDiagram.lean:159: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTJointSubcomplexRelativeLift.lean:194: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTPairedTargetNormalization.lean:145: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTPointNativeLifts.lean:282: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTTargetCommaPullbackSliceProjection.lean:144: new blank line at EOF.",
+    "lean/DaggerModelsPartII/JTTwoFaceUnionWeak.lean:104: new blank line at EOF.",
+    "lean/DaggerModelsPartII/OrderedNecklaceLabelDiagram.lean:140: trailing whitespace.",
+    "lean/TheoremCStages/RelativeHornReversedExtension.lean:112: trailing whitespace."
+  ],
+  "disposition": "Pre-existing whitespace in byte-identical exported sources retained; not a Lean error. No proof source edited for formatting during publication."
+}

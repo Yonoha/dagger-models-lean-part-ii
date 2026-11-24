@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryCoherentArrowEvaluationReflection.walking_extension_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentArrowEvaluationReflection.walking_extension_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentArrowEvaluationReflection.parameterVertex_reflects_walking_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

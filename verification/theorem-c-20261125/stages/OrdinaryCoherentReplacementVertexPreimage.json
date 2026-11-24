@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryCoherentReplacementVertexPreimage",
+  "source": "lean/TheoremCStages/OrdinaryCoherentReplacementVertexPreimage.lean",
+  "source_sha256": "7b57c3e67933aa1aad61e427fd88c68bdcd6ebb589191ec9cae93aa698ec57e0",
+  "actual_exit": 0,
+  "seconds": 12.273750583000947,
+  "artifact_valid": true,
+  "olean_sha256": "3a4b8c3f8eefa888bd92ea4a4e88825dbf7127d0b840ee2c058c201e3db0d4a0",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentReplacementVertexPreimage.log",
+  "log_sha256": "51496fe0ed24045d8f0a19ade1b9843c74c55e7ed0811056f2a1d68086296a04",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCoherentRelativeReflection": "981af0966fd564c629269f597d35f180d574968f4a2987507fa81c8e4b4fda7c",
+    "OrdinaryCoherentReplacementPreimage": "45c396bbc61d5268990c6228624c494547793275309db3ceaa35d613bc2f966b",
+    "OrdinaryCoherentWeakInvariance": "a4c99047df13f62a436c91c77dbc337bb9cae40467a853301f7652e97e70e4da",
+    "OrdinarySegalCotensorFibrant": "d3dd61da025757807a6788c42ca771187f67662eaf004b3d25cf0df069832df1"
+  },
+  "original_receipt_sha256": "e7d235974b925723261c480055d77a47790beb85d5d3fcaccfe124e326492915",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

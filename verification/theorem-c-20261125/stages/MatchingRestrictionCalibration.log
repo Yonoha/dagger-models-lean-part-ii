@@ -1,0 +1,9 @@
+'DaggerModels.PartII.MatchingRestrictionCalibration.matchingRestrictionIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.MatchingRestrictionCalibration.matchingRestrictionIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.MatchingRestrictionCalibration.matchingRestrictionIso_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

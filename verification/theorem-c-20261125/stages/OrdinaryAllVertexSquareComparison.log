@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryAllVertexSquareComparison.vertexComparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexSquareComparison.relativeVertexIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexSquareComparison.vertexComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexSquareComparison.transition_vertexComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

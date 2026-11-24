@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalLocalization",
+  "source": "lean/TheoremCStages/OrdinarySegalLocalization.lean",
+  "source_sha256": "0ad003d24b42d50c080d34bfa06548e91b977523cccc4f016e31179457f966c7",
+  "actual_exit": 0,
+  "seconds": 15.340329792001285,
+  "artifact_valid": true,
+  "olean_sha256": "90c9e3b9509ef49cbbce18b2bb1a0338bf90069e4214f727f702b4c93ab80ec4",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalLocalization.log",
+  "log_sha256": "10c48e715e29c711777ca9eb509f7258b4b524b8e7510106d73818df95d080a8",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSConditions": "d93a3feb58efc0450536578c40483bfece19c3d26c3cbfe2f3ea87cdc6079b59"
+  },
+  "original_receipt_sha256": "b67cbee67b563d5fbaac87574f66650100d67be1275d481a30389307164bf8d5",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

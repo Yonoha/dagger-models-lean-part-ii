@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCoherentRightFixedEdgeNaturality",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentRightFixedEdgeNaturality.lean",
+  "source_sha256": "dcb29d80b6abfd2b8b0c8a60de834b16e2b3c7602f4b7db1e68a2ce815fc3178",
+  "actual_exit": 0,
+  "seconds": 9.2402066249997,
+  "artifact_valid": true,
+  "olean_sha256": "e1107e441b81b2b00086457525f0310ec988bb8a1b3620b91a29721a5bb1e400",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentRightFixedEdgeNaturality.log",
+  "log_sha256": "4d22d5267ee58d90d9e80641d01cacbf279a8a497734ef008d5a668608a615c5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalMappingTargetSquares": "85a9a34ac5486fde7a35b1cde8226ca6135f1622494c8b788323d27f9414b438",
+    "OrdinarySegalCoherentRightFixedTriangle": "acaa7a5cc9d8de92c00a15b6b3c6efd90b343c9caca855ea26e936090b4bd0a7",
+    "OrdinarySegalCoherentFixedEdgeNaturality": "5559442b63915efe486ccb6d154cd0100dc99ca41c30c66b44bf7f031172083b"
+  },
+  "original_receipt_sha256": "fd86f7d22648c4f33cc814924bff338dfb708f1f251da4e74d212ffab18b7340",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

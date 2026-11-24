@@ -1,0 +1,18 @@
+{
+  "module": "OrdinaryPrecompletionCSSReplacement",
+  "source": "lean/TheoremCStages/OrdinaryPrecompletionCSSReplacement.lean",
+  "source_sha256": "90e3c816ab14d0caae9b2d1cf1bab69776add423f62ad6b2757f5c4501d71d2a",
+  "actual_exit": 0,
+  "seconds": 13.247972666998976,
+  "artifact_valid": true,
+  "olean_sha256": "858ceec8b82efe841df7c971bf5ee6298342a24cd29c3b9d389d5edf413ec979",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryPrecompletionCSSReplacement.log",
+  "log_sha256": "9c667b2baab05ecf80cdc5456e1bf7f95171d0d99eaef3186718291ad71ca3a2",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryPrecompletionReplacementComplete": "bcfc03b56fd2d86d5c9dec3f77929c8e1706f92a1f73b04ae1e0c7d88dbb4722"
+  },
+  "original_receipt_sha256": "4ab4b9a0bb25d3fb2f8a2b55a7368e6dade7015e77ec286812b39377eae6f3e8",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

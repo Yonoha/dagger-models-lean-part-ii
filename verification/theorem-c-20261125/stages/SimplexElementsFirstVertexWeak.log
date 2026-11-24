@@ -1,0 +1,18 @@
+'DaggerModels.PartII.SimplexElementsFirstVertexWeak.elementsToLifted_isEquivalence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexElementsFirstVertexWeak.lastVertexElements_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexElementsFirstVertexWeak.lastVertexElements_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexElementsFirstVertexWeak.reverseElementsEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexElementsFirstVertexWeak.firstVertexElements_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplexElementsFirstVertexWeak.firstVertexNatural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinaryAllVertexReplacementComparison.vertexBaseMap_weak_of_rowZero_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexReplacementComparison.replacementChosenMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexReplacementComparison.replacement_tupleMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexReplacementComparison.vertexComparison_weak_of_tupleMaps' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexReplacementComparison.replacement_vertexComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

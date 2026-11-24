@@ -1,0 +1,31 @@
+name: Manual Part II verification
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_lean:
+        description: Run the longer Lean source build after checking saved evidence
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Check saved source and evidence hashes
+        run: python3 scripts/verify_snapshot.py
+      - name: Install Lean and build the original C target
+        if: ${{ inputs.run_lean }}
+        shell: bash
+        run: |
+          curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o "$RUNNER_TEMP/elan-init.sh"
+          sh "$RUNNER_TEMP/elan-init.sh" -y --default-toolchain none
+          export PATH="$HOME/.elan/bin:$PATH"
+          lake update
+          lake build MainTheoremCPartII
+          lake env lean lean/MainTheoremCPartII.lean

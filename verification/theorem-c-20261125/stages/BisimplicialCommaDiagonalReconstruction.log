@@ -1,0 +1,15 @@
+'DaggerModels.PartII.BisimplicialCommaDiagonalReconstruction.bar_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaDiagonalReconstruction.parameterBarMap_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaDiagonalReconstruction.reconstruction_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaDiagonalReconstruction.totalReconstruction_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaDiagonalReconstruction.baseReconstruction_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryInnerHornFromOuterFaces",
+  "source": "lean/TheoremCStages/OrdinaryInnerHornFromOuterFaces.lean",
+  "source_sha256": "5d0dcfea66744e429465523e9f82801dbbdf4f5f82e1d5f96be287d27b3ae565",
+  "actual_exit": 0,
+  "seconds": 7.202145292016212,
+  "artifact_valid": true,
+  "olean_sha256": "2fb95c23c69900fe25545b5ae7073b01ca6cfc8ac17c6b0f9cc352594c8acd36",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryInnerHornFromOuterFaces.log",
+  "log_sha256": "1d55f6b0932ec33b385582e52364b9ba008fa63096c067a16a956d9a0164849f",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeHornAsPartialFaceUnion": "4f570db0610401eecb743944f1061e0a603f137883dcd07a9040b39a14e74439",
+    "NativePartialFaceAttachmentAnodyne": "b1fa5b3206b4442678011c49cf0d44bf4b55cb4b2fddd6843de6bff21ad3d290",
+    "DaggerModelsPartII.ReversalOuterFaceLocality": "aa23d5e55a4f483f38375d25bd22bd90e8a5f3c7b399839a129c640bad8c9d5d"
+  },
+  "original_receipt_sha256": "f856f9adc8c3d95c51e49fbbb0e58b46491739fd5b7e358270892feb10582127",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

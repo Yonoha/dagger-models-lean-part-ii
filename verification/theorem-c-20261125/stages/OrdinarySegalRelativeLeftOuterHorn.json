@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalRelativeLeftOuterHorn",
+  "source": "lean/TheoremCStages/OrdinarySegalRelativeLeftOuterHorn.lean",
+  "source_sha256": "df75aaead378d524f15a166cad3104497550dbbf18a7f23ac0786a01ffd30c0f",
+  "actual_exit": 0,
+  "seconds": 13.85894562501926,
+  "artifact_valid": true,
+  "olean_sha256": "36f9225dab78a3c5a7d68dbca0fb53d6e164b3b2085dd1d8c1efba4c76dc0b9f",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalRelativeLeftOuterHorn.log",
+  "log_sha256": "35828a215de4b99f36b894abf0232d7a543a2e4860ebe25850c5d9a9eb5b87fb",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalRelativeOuterHorn": "6663a648d3145254b9f91b20a4ca8cdb167aaf7fe15c29c2489013acf560933c",
+    "RelativeSelectedLeftOuterHornFilling": "ae53561ad25931e411ff8bd90e57b74daa34a1077077b33ba1dd0f023156dfa3"
+  },
+  "original_receipt_sha256": "0e25b6b03c8556733c09dbcb802d64ed6c44d3ee20f77cbfa6046cc006f76273",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

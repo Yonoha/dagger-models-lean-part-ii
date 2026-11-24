@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryJoyalFibrancy",
+  "source": "lean/TheoremCStages/OrdinaryJoyalFibrancy.lean",
+  "source_sha256": "575d05871ad01f1cb63e4f7830bc593a2a3aad8b5ebf1735febf05bc7c1dcc00",
+  "actual_exit": 0,
+  "seconds": 11.98069687501993,
+  "artifact_valid": true,
+  "olean_sha256": "3055baf194e9bb524134a22c96ac40a228686e684e74094c09a61add1eb70e55",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJoyalFibrancy.log",
+  "log_sha256": "52ed79ba365e4364f691170d173ad353d836879889d652e5c4fa7e139df4d5ba",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTProjectiveQuillen": "896edc7f254637360226a16135dbf3aadd3a01ab95b82695b6de6731a77dbaf9",
+    "NativeInnerQuasicategoryWeakReplacement": "a5c5ed67cfb878e0bb745af8c73cbd986262b37b663c6dd74722a2ba27b212a8"
+  },
+  "original_receipt_sha256": "f4833471805f48ea03d0fce90f5d9220557beae749e8110c1f7fa24ee7755c83",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCotensorRestrictions",
+  "source": "lean/TheoremCStages/OrdinarySegalCotensorRestrictions.lean",
+  "source_sha256": "a4c990dd18de77295ba696d11df15dcbaa57de72c6ea485d08ec941f1dbdf858",
+  "actual_exit": 0,
+  "seconds": 11.638935416005552,
+  "artifact_valid": true,
+  "olean_sha256": "7e1ad7f53ff45b9448cca6c464c9e7fd1355ea7cd971e87f645818fa0ad54f63",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCotensorRestrictions.log",
+  "log_sha256": "527a37d075292f9b5d75631c6339bf60a12b4173e15772043b687aa995255a56",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalHorizontalCotensor": "ef729f41bda8fe56a20faa496f9d3cc0209a533cb5dd83e7c84a805dbb24157e",
+    "DaggerModelsPartII.DiagramMappingPrecompFibration": "85b12ba4a8e4856af4d54ae275399c94297dac22c7f9d0bb4c3d5bb7b6aa6b78",
+    "DaggerModelsPartII.JTSimplexUnitKan": "2fbe9cb4142bed33ce3e2631245abecf12a028a6d798aa8f50d83263f7fb562c"
+  },
+  "original_receipt_sha256": "b60d12573288620ed944bc1225f03fab96bc5b358235315228f2d92f78c287ca",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

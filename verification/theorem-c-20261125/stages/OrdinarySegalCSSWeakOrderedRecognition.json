@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCSSWeakOrderedRecognition",
+  "source": "lean/TheoremCStages/OrdinarySegalCSSWeakOrderedRecognition.lean",
+  "source_sha256": "5ea1ec4fd283d11d9c28199d702119c59333af91af6915cc4bcf8f339a40a633",
+  "actual_exit": 0,
+  "seconds": 11.836961542008794,
+  "artifact_valid": true,
+  "olean_sha256": "1248d1b16113a92e3f9698cd7c3b7c126f47bedd63dee9f7fe3c4a9e35184560",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCSSWeakOrderedRecognition.log",
+  "log_sha256": "b462f4e4d8cded2ea85293666b24e4d4d049601f0b67e6f7920d2ce827b5895f",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSCompletionExtension": "3e9a26fe56b65e91872266969e758523829ce09d6a8e20a50b5327102095b9aa",
+    "OrdinaryCSSFibrantOrderedRecognition": "0630e3e5f4de41d090f4b43f281c10937456c0a22101072f352b53541f3d66e6",
+    "OrdinaryCompletedUnitChosenMap": "6bb7694f75d64fcc2c37a63815de8aee65b6b1435a1f90c4869e876c834d6c69"
+  },
+  "original_receipt_sha256": "f36c4ca958b9ab24e1a73b6b8d03f52acb6d512aea2877d8e7bd61303e60fd90",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,18 @@
+'DaggerModels.PartII.OrdinarySegalOrderedMappingFibres.endpointArrow_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingFibres.endpointArrow_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingFibres.endpointArrow_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingFibres.endpointPoint_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingFibres.endpointPoint_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOrderedMappingFibres.mappingFiber_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

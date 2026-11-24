@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalVerticalPrecompletionDerivedUnit",
+  "source": "lean/TheoremCStages/OrdinarySegalVerticalPrecompletionDerivedUnit.lean",
+  "source_sha256": "bf9391ff46e2bacdf19ee429337ea425aa57e94bae86a831979c4f357da8ce88",
+  "actual_exit": 0,
+  "seconds": 13.139281374998973,
+  "artifact_valid": true,
+  "olean_sha256": "8b69d1279e7b2021fca50874866da4dd06eae75877383cc72498e9cc78336488",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalVerticalPrecompletionDerivedUnit.log",
+  "log_sha256": "004bc1197a53d8c98ffbf797823ba4b3aed5686db62c9bc52354bc9f6a2771a1",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalVerticalPrecompletionDerivedMapping": "e1871c4148d3f3b6caee34f7b32bc8984e65a0bf951d3b06fc564488ac4d757b",
+    "OrdinarySegalVerticalPrecompletionUnitAudit": "bd596616c8a797fba0b533c0ff0472a52c6c7a06cd60f20998fb44786db2ebff"
+  },
+  "original_receipt_sha256": "25642744cb481f1446bc288ac088b5ed57250367e49beae85899daf292da0221",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

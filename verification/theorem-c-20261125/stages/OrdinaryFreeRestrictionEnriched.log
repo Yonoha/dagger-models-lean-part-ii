@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryFreeRestrictionEnriched.mappingRestrictionIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryFreeRestrictionEnriched.inputRestrictionIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryFreeRestrictionEnriched.freeDiscreteMappingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

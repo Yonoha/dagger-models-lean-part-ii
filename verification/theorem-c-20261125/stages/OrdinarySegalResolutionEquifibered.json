@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalResolutionEquifibered",
+  "source": "lean/TheoremCStages/OrdinarySegalResolutionEquifibered.lean",
+  "source_sha256": "27d8b760d2495f88d8c59dd5e364598f111c150c8eca6376a68fe8b48244a2e3",
+  "actual_exit": 0,
+  "seconds": 34.281329457997344,
+  "artifact_valid": true,
+  "olean_sha256": "9d3f01dec613f07319776b136a0006fd6849eaff68fc5fba8007e70630dc3423",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalResolutionEquifibered.log",
+  "log_sha256": "ef42a582c3701e6582a960dbeaa909319ca239c82010723e6312b18315d64efa",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialEquifibered": "ca8e4ef2b1291d135d9e16613f5f0e5195c748d138a809a5c12ac518839827bf",
+    "OrdinarySegalResolutionMappingFibers": "21b53456f4ea1a96a330c60a8686ae9e79d09f61fa85a7bcc88a583f83f4f303",
+    "OrdinaryGroupoidSimplexTransitionEndpointSquare": "04d0e4fd48af274172ca089e9364e60065d0a4995919c73bd9854e79ef00c216",
+    "OrdinarySegalResolutionRelativeReedy": "906f8d1e857f1ce12a9c1d78b279b00e6d79ed863e560d6cefb22c7edfc11727",
+    "Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts": "53f2792fc00155bdc77014ca3edfc8cf5c356696177897bd37f8636458303c91"
+  },
+  "original_receipt_sha256": "8fa39db8507f378d03f4d16f2408230ca8c48f2fbcd370aa56cee75c18443513",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

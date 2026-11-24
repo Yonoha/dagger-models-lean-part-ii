@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalConstantIntervalFullyFaithful",
+  "source": "lean/TheoremCStages/OrdinarySegalConstantIntervalFullyFaithful.lean",
+  "source_sha256": "1fd6491fe55bc14d36271675247ea23073fcca436d1ec13104fc83a0407a8d18",
+  "actual_exit": 0,
+  "seconds": 12.369397667003796,
+  "artifact_valid": true,
+  "olean_sha256": "2e4fdf90eac13b5397368c0ab7954aa44f8d16bca775be11dec5cce014c39d0f",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalConstantIntervalFullyFaithful.log",
+  "log_sha256": "94bb8056e6324debb2fe1f5bb685e4847eeb8a86d2b137fdf0da2bb48261f56c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryIntervalPrismTwoTriangleSquare": "e5283474d82a2aa39e2b3773df98519a7592f94e4f4b98c6539bbbfb7926b983",
+    "OrdinarySegalTwoTrianglePasting": "b373f7cd8989e0fc7abb7e14b9cf91eebe20f4df5c9a52ff915b4b10fedae9af",
+    "OrdinarySegalOrderedMappingMaps": "13ee6f4a95212941e5db5473d0137ddb970c8041aab5f136eec67df7c5696594",
+    "OrdinarySegalCotensorFibrant": "d3dd61da025757807a6788c42ca771187f67662eaf004b3d25cf0df069832df1"
+  },
+  "original_receipt_sha256": "cd443c29a7355d66ae142fd8bae500fae1587a7e7b4a717981cf03d712c6bdf2",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

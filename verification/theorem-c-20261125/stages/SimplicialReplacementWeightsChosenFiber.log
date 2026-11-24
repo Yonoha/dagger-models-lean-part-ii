@@ -1,0 +1,15 @@
+'DaggerModels.PartII.SimplicialReplacementWeightsChosenFiber.diagonalInclusion_changeWeights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementWeightsChosenFiber.chosenValue_isPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementWeightsChosenFiber.valueFiberIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementWeightsChosenFiber.valueFiberIso_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementWeightsChosenFiber.valueFiberIso_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalEndpointSquareFiberwiseRecognition.comparison_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalEndpointSquareFiberwiseRecognition.comparison_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalEndpointSquareFiberwiseRecognition.comparison_weak_of_mappingMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

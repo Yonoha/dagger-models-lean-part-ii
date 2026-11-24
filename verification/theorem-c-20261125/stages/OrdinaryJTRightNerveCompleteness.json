@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryJTRightNerveCompleteness",
+  "source": "lean/TheoremCStages/OrdinaryJTRightNerveCompleteness.lean",
+  "source_sha256": "a6aa4d67f0562316772b40074efc26d1ecff1189a8ed3f697d86175dd8f54139",
+  "actual_exit": 0,
+  "seconds": 9.963746124994941,
+  "artifact_valid": true,
+  "olean_sha256": "47b96d2595a23ff507aefb8f53d3b016aa432b3f469f8de70bb3b059103bcbcf",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTRightNerveCompleteness.log",
+  "log_sha256": "eae6e470c2b8804bc271a292ee426be069d2c06cfee321e3a65b71ccc3d7120e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTRightNerveSegal": "637c53d465810d0d02133ccf9c45cd3e28e8f59c6b76d3da3340ba6eb65e7e10",
+    "DaggerModelsPartII.JTParameterContraction": "036bb38df0fc9b1000bcbd466b84d4a91f0e77afecb449f2dee71ac2fe84ab8f"
+  },
+  "original_receipt_sha256": "e43c3a4324554cf8f9d52307cd40aead056eb5b13634b51eeaa050fcba5ea11a",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

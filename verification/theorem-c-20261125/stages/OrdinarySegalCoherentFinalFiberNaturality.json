@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCoherentFinalFiberNaturality",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentFinalFiberNaturality.lean",
+  "source_sha256": "0e9b87085dadda0183c5cf1fe89a084c0a87902a8cecd6df87736382bc938dd0",
+  "actual_exit": 0,
+  "seconds": 8.567872625018936,
+  "artifact_valid": true,
+  "olean_sha256": "587b214ef6340077117df88a5921f626c82f8e3c46cbc69a3cd179fd13c00eb6",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentFinalFiberNaturality.log",
+  "log_sha256": "b37365fa6ce5c7980b17ca73093593b48c4bfa4a151ca1e0e7917bd19cd14445",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentCompositeFiberNaturality": "6b0db2bf903cd2c298105d8240caa7abf0e2c43025b15cfd15d639bd78f412e1",
+    "OrdinarySegalCoherentFixedSpine": "5b3d336c6a7215ddbeab3362ce58af4a9e4ceb69cf9e9b4c1415b2bdd6111034",
+    "OrdinarySegalCoherentActualEndpoints": "3de61fbf596eecc6c9c28eaa482a802eb77c8325bbb2c72f9da3821c863ff4cc"
+  },
+  "original_receipt_sha256": "f32d069b7d8dece386393cbef5b5bb67ae34116dccdcc88370de8286b6e73d21",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

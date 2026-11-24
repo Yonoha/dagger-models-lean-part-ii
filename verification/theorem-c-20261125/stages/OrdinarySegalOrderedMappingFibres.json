@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalOrderedMappingFibres",
+  "source": "lean/TheoremCStages/OrdinarySegalOrderedMappingFibres.lean",
+  "source_sha256": "27f26e24cee2cc159b238e6b889815b0d6c50ea1855e4bd1f8391d7b40348c75",
+  "actual_exit": 0,
+  "seconds": 15.979200000001583,
+  "artifact_valid": true,
+  "olean_sha256": "a5e33d982b3e21f5a32f5975ef7d1fecb2250d4dd6fd5e60c196caf1b54fb36c",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalOrderedMappingFibres.log",
+  "log_sha256": "aeec6c62a8d21118431a9baf4140109db4fe463177d2408d8f3a59121077cb2e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalWalkingEvaluation": "3638efb2a5b4daa5f7134ce5639f1cc393c754a020232ea55edcf7bd0f155d25",
+    "DaggerModelsPartII.DiagramMappingLimits": "e77dad4306bc62b99b802e2af82720799697fb49e9aa1720f86cabb6b53534e6",
+    "DaggerModelsPartII.DiagramMappingPrecompFibration": "85b12ba4a8e4856af4d54ae275399c94297dac22c7f9d0bb4c3d5bb7b6aa6b78",
+    "TopCatModelCategory.ModelCategorySSet": "9f5b1ae2f96d4f71e3775e9a292ca4f9c639279878cc78e44a3ccf13c65ffe7f",
+    "Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts": "53f2792fc00155bdc77014ca3edfc8cf5c356696177897bd37f8636458303c91"
+  },
+  "original_receipt_sha256": "0880a7140c9674eb8a201420b01616995283adafc4c96484f4c08d34b7e19a8f",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

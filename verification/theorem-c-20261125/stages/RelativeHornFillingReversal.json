@@ -1,0 +1,20 @@
+{
+  "module": "RelativeHornFillingReversal",
+  "source": "lean/TheoremCStages/RelativeHornFillingReversal.lean",
+  "source_sha256": "412272630c4e3e4a8a57c12427e2bc81cc7b32fd7c1c4730ddeaf12af3cb6f3b",
+  "actual_exit": 0,
+  "seconds": 6.098650124971755,
+  "artifact_valid": true,
+  "olean_sha256": "418bf0bcd50a9b74c36628a9c59b89a6696d00b69cb0202ff1b00dc08fe92d8c",
+  "log": "verification/theorem-c-20261125/stages/RelativeHornFillingReversal.log",
+  "log_sha256": "5054cf1c77ee3ad0f99e5a22af1dcbc799121100612b69ddedeecc262621c26b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OriginalHornFillingReversal": "e9b9bab8fdb170bcb3b1f6665ba770bf644e344e934ffffa9af597d38d20731e",
+    "OriginalInnerHornFillersReversal": "a33e21fec7e17b9ea3748f02e425e06c2245d4bca80056a3bb77251dfd995b10",
+    "NativeInnerHornFactorization": "97fc4922e107b2c80a647745c6f92ed0d2893b37e9c809c0506c7b689dec7e5f"
+  },
+  "original_receipt_sha256": "dc1a75f3d408d62ec7c4e9a5052101e62ee527b053b30570434eb67f9b661cd1",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

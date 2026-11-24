@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalVertexTupleFibres.vertexInclusion_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVertexTupleFibres.mappingVertexMap_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVertexTupleFibres.vertexMap_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

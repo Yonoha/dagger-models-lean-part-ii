@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalCoherentRightFixedHornTargetIso",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentRightFixedHornTargetIso.lean",
+  "source_sha256": "cc22014b4fe29b180e270130067440917282609c819aba602f988cc1e1a48b47",
+  "actual_exit": 0,
+  "seconds": 8.522065999975894,
+  "artifact_valid": true,
+  "olean_sha256": "ab7fbea15a4ff504bcec3e4bf8c429071b61556ad57b89da59b745502c3b62bb",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentRightFixedHornTargetIso.log",
+  "log_sha256": "8fdc3291105c8d362338ef0d3011911aee318da37c2e8561244b081558796b74",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentRightOuterHornRow": "6dee2d9b4fa86509da387241e042ea6c18504f15ad51194884fe9d9ad2e73c93",
+    "Mathlib.CategoryTheory.Limits.Shapes.Pullback.Pasting": "74edaf0dc21f690f08938515634eba1252a0ecb54ee216129df6e7cdcb2c82c4"
+  },
+  "original_receipt_sha256": "92de3d587dfa009b54f48c2696cc807dd59b5d3151608c4087ec08c8b47fdbf1",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

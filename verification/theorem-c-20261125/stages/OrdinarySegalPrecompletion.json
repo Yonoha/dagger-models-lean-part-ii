@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalPrecompletion",
+  "source": "lean/TheoremCStages/OrdinarySegalPrecompletion.lean",
+  "source_sha256": "2a92797b29142e667ec2c106a8a09582af0f12bf71769bcd6f63fd6fc8767a44",
+  "actual_exit": 0,
+  "seconds": 72.36121537501458,
+  "artifact_valid": true,
+  "olean_sha256": "e26f7ecbd5271948c3287e944d2cb1ee3f3d3fb549df02cd67a0db37de4a8b5c",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalPrecompletion.log",
+  "log_sha256": "07dfafde825c9b79d3cb8290f8ccc9accad18407ec450d9c3a787cd8ee53a8be",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalHorizontalCotensorPoint": "017958658ecea98fa0297f67cf99e484ab9f533f9e4b8ab65c25c8a2e39cdaaa",
+    "Mathlib.CategoryTheory.Functor.Currying": "f6368d1b927e62d63a94bc6fed4e0e1bc903d44ec47c57af67e96ecff3ef6516"
+  },
+  "original_receipt_sha256": "d93ae6ab2b3e1663e43a1cb44c3cc67fb201c01a4276e1da6115987d96a969c8",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

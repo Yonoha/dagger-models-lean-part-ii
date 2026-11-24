@@ -1,0 +1,23 @@
+{
+  "module": "OrdinaryCSSHorizontalJoyalFibrancy",
+  "source": "lean/TheoremCStages/OrdinaryCSSHorizontalJoyalFibrancy.lean",
+  "source_sha256": "759022bc896ff7d6447f2a746203f6fe3e0fb2f3cfa628c7051502ddcf8ccbd2",
+  "actual_exit": 0,
+  "seconds": 14.947819584049284,
+  "artifact_valid": true,
+  "olean_sha256": "e99a0a2983f2307ed3ae33029f847969662b2e6ee4074bb51dddf2ef26586fbd",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCSSHorizontalJoyalFibrancy.log",
+  "log_sha256": "c89bf8c69145f0a7890c4fbeea4bce51809dd8cce3f92974b239e5d9438050ad",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryHorizontalJoyalModel": "eab396e12fdd0597496017f95e39d4e7a5069e38088630352e3aa9e253e0b6dd",
+    "OrdinaryJoyalIsofibrationRecognition": "43716eae755066ca50021a7e46480993508d04a042196357a0cb7620149fe130",
+    "MatchingRestrictionCalibration": "a2e7b14093f885cc8c11e0d39cdfca767d2c6fedee13857af47a0e4186c5eda3",
+    "OrdinaryCSSRestrictionQuasicategory": "4b98722afd77771ce41e633267c5be2bf0693cc9447ea428ff7036570df175d2",
+    "OrdinaryWalkingParameterCalibration": "57073c32f7576efe6a28b1f110a1ace7f5959a952abf801419f06d8bba3d49a2",
+    "DaggerModelsPartII.ReedyFibrantDiagrams": "d67bc0143bf669494709652a6f5458a743eabfd72e194301bd9024707fb3fa3a"
+  },
+  "original_receipt_sha256": "a214e73270d32215351a342528dfcf1d88a08ee0f27de9356e6eea0ffebddec1",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

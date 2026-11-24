@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryPrecompletionConstantSectionWeak",
+  "source": "lean/TheoremCStages/OrdinaryPrecompletionConstantSectionWeak.lean",
+  "source_sha256": "45bf885c484e5008ce161cf672dd635be8a74520f3e004ff6751360e62538d04",
+  "actual_exit": 0,
+  "seconds": 10.305394541006535,
+  "artifact_valid": true,
+  "olean_sha256": "47cd0534a8accbe57936c015c204ac43f1eee80552880524938b4c1068628413",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryPrecompletionConstantSectionWeak.log",
+  "log_sha256": "eab1b74739d12d7a57b0404029e468d0a788d71f7fa16f57c7ef3a7827069341",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCotensorWalkingHomotopy": "24387228f1ac0f13e0c2f15d2e1dcae3a1e6917ccf985eebaf880b216281ab6c",
+    "OrdinaryPrecompletionCategoricalEquivalence": "12a0c1f1cac6329175d246c0b13ce353ca24eeb1f0de8e356f676ae023f6dc37"
+  },
+  "original_receipt_sha256": "3fc9e8d3ffcda60aefac28d536844054d80a04230e147b51bd6babb5496e61ad",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

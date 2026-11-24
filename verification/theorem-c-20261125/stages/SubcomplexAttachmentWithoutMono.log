@@ -1,0 +1,3 @@
+'DaggerModels.PartII.SubcomplexAttachmentWithoutMono.attachment_isPushout' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

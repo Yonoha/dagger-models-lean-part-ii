@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinaryFreeRestrictionMapping.levelEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

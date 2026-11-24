@@ -1,0 +1,20 @@
+{
+  "module": "BisimplicialEquifibered",
+  "source": "lean/TheoremCStages/BisimplicialEquifibered.lean",
+  "source_sha256": "3638e960eecc17ceb734c61dae6c37c1883790e52ccb140c695573b5fffb2364",
+  "actual_exit": 0,
+  "seconds": 16.521703082995373,
+  "artifact_valid": true,
+  "olean_sha256": "ca8e4ef2b1291d135d9e16613f5f0e5195c748d138a809a5c12ac518839827bf",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialEquifibered.log",
+  "log_sha256": "0977159f0fa9e3cfae5e95bdd400e8b519a3b824d284f7ae9b6e13b97d5d13fe",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SSetWeakPullbackComparison": "622002b0b377d5158f1b3382649cdaf0dbfe5b6b1931fce0145ddd430ab9fddc",
+    "NativeReedyRelativeReplacement": "167c922c3023949ef27e17107a69c58671c3d8511ff823f034ba0866c0399e73",
+    "NativeReedyRowFibrations": "433277c236b49646b84a0fb51e16a846d8201c06e5a47387ab03c66aa6e79b7c"
+  },
+  "original_receipt_sha256": "61a9e7f056b99be5ea039a48e9238043f49490aa7e8927435aed354648aac8b0",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

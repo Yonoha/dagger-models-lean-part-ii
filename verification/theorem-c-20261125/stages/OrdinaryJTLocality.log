@@ -1,0 +1,11 @@
+'DaggerModels.PartII.OrdinaryJTLocality.right_obj_base_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTLocality.mappingIso_natural' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJTLocality.mappingPrecomp_weak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJTLocality.right_obj_localObject' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTLocality.right_obj_css_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

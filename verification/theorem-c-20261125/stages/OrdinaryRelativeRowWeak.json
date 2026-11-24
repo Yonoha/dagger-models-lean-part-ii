@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryRelativeRowWeak",
+  "source": "lean/TheoremCStages/OrdinaryRelativeRowWeak.lean",
+  "source_sha256": "6e48c7505b3feedabfc215244a50d188375cf91d881008b42b0961bdfff75a4d",
+  "actual_exit": 0,
+  "seconds": 18.449667332999525,
+  "artifact_valid": true,
+  "olean_sha256": "3e04622b765ef824a914f31867e02222c3e36997d2e701f84d8aab8883a285ce",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryRelativeRowWeak.log",
+  "log_sha256": "bff8a751638ddea2e2abcb2d4cfc3adda4e4def0ce72ef92c8f749e7b90bdebf",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryRelativeRows": "974273ce44eee54e5858c931265406fe858c9721087064a4c55cb9167fbdb1d5",
+    "OrdinaryRelativeSegal": "eef60b598c043c017c41579bb798d141af8bb95872396ebf606ad41d415a216b",
+    "OrdinarySegalRowWeakRecognition": "0e94d8e63d5f9554915182972bfb89fc387c06e1aa269ae735753361d06d51f9",
+    "OrdinaryGroupoidSimplexTransitionFullyFaithful": "7d20f26107b12c4de5ff4a344305679ce2cc69330a38e48488729fb2c314022c"
+  },
+  "original_receipt_sha256": "95cc5f3fd13f0c2264b045df619470232eadb27f4589ab2c523ebf12bca4b030",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

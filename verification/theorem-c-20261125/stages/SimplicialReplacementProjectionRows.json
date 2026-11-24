@@ -1,0 +1,21 @@
+{
+  "module": "SimplicialReplacementProjectionRows",
+  "source": "lean/TheoremCStages/SimplicialReplacementProjectionRows.lean",
+  "source_sha256": "d42bef2ee03dafb45a51b967aa61c029b875affe37babfda2b165b4898f0d3fa",
+  "actual_exit": 0,
+  "seconds": 14.50563291599974,
+  "artifact_valid": true,
+  "olean_sha256": "22e88a68cb76cc1b23578ae461f05bdd58bed05995c55aeb91136e7b28b85f57",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementProjectionRows.log",
+  "log_sha256": "25c4ff957f954ded322b6752b983c0e5b65c5141008cbc492f274c80ec3b1223",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeCoproductDescFibration": "ac98b16b9e55510cefc41bbf4872db1794b6dde7bbfb9e7f53cacb4ceafb7f37",
+    "CartesianSimplicialMapFibration": "2d58ca57f56c678c7c5367d13aa61dc6d6967cb53e4cdb052127b19a0cf6bdad",
+    "NativeSimplicialReplacement": "820321e08f54312d554e06a7e8e48d1fb66a4796c6afa7449e638ac9fce581f7",
+    "NativeFamilyLoopAction": "3c8cf8d09b04d71059df14e50581978594cce6efa3078524e3dd8f27b39079eb"
+  },
+  "original_receipt_sha256": "f09d71c9f6305123544e7e8b24f48d4c9288a034aeebaf869cf89f49c53b0270",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

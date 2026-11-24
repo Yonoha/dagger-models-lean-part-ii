@@ -1,0 +1,18 @@
+'DaggerModels.PartII.OrdinaryJTOrdinaryInputReedy.standardMappingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTOrdinaryInputReedy.boundaryMappingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTOrdinaryInputReedy.ordinaryBoundaryArrowIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTOrdinaryInputReedy.freeBoundaryArrowIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTOrdinaryInputReedy.ordinaryInput_reedyFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTOrdinaryInputReedy.ordinaryInput_injectiveFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

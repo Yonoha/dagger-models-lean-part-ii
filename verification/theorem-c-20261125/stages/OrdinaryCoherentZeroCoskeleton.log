@@ -1,0 +1,12 @@
+'_private.OrdinaryCoherentZeroCoskeleton.0.DaggerModels.PartII.OrdinaryCoherentZeroCoskeleton.unit_vertices_bijective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentZeroCoskeleton.unit_discrete_zero_isIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentZeroCoskeleton.unit_precomp_coskeleton_isIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentZeroCoskeleton.walking_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

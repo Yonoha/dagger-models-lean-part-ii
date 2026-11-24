@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpineIso.fixedSpineIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpineIso.firstEdgeFiber_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

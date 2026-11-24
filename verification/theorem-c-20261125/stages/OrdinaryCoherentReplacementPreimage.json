@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryCoherentReplacementPreimage",
+  "source": "lean/TheoremCStages/OrdinaryCoherentReplacementPreimage.lean",
+  "source_sha256": "cd67bb0b460b327a6debcb4a3d02dc352f67f6ab1e52d75e8b9456e905fc2600",
+  "actual_exit": 0,
+  "seconds": 11.52568412500841,
+  "artifact_valid": true,
+  "olean_sha256": "45c396bbc61d5268990c6228624c494547793275309db3ceaa35d613bc2f966b",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentReplacementPreimage.log",
+  "log_sha256": "89a9145019c6e2ebaa78b65eeeb226639af2a59f8fc722529080c50cedef301e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCoherentReplacementComparison": "54d3c2a208aad6a5818102fe472416da822e87b076d099a57d5b5778afa00490",
+    "NativeSubcomplexWeakRestriction": "c6ac54732a31f70c4eb3a877ffe71671227f6e65dd091c0d8dd6ce94d2aa8005"
+  },
+  "original_receipt_sha256": "d32833cac0405567882193b4ad0aeaf497f27e0d66d40adc25a71753dadc0c14",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

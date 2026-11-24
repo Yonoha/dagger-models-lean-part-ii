@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCotensorParameterNaturality.rowIso_natural_parameter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorParameterNaturality.mappingIso_natural_parameter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

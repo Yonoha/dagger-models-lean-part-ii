@@ -1,0 +1,6 @@
+'_private.OrdinaryJTCSSQuillenEquivalence.0.DaggerModels.PartII.OrdinaryJTCSSQuillenEquivalence.composite_isQuillenAdjunction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTCSSQuillenEquivalence.isQuillenEquivalence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

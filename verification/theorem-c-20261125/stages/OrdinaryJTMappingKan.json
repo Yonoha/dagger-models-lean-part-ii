@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryJTMappingKan",
+  "source": "lean/TheoremCStages/OrdinaryJTMappingKan.lean",
+  "source_sha256": "f91ef9445b7640081b383ee40d522f95313f05a6b271c49357b85e4300d0f65f",
+  "actual_exit": 0,
+  "seconds": 12.518938916968182,
+  "artifact_valid": true,
+  "olean_sha256": "1161de98ffd3540d82a69b05d8b3cef752115844d7911a140ad4e4beaa833204",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTMappingKan.log",
+  "log_sha256": "f2bc35f9021b36da94770bde5e4fecd68d07185e93701b3022b88f066814a97b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.JTOrdinaryEndpointFibration": "a5560a4c7125757fc2e5d44338dfdd494da3d85e0931c278b46dd4ce1a9447e2",
+    "StrictFrameMappingKan": "f777e81945a57f176c331bfc6b147d32435f88af5a4f71a916b4965005cad5a9",
+    "OrdinaryJTMappingFrameWeak": "fb42acb6858ada3e60f04aadbcfbea2f3673c49480054aea2dfd6e29cc1b1717"
+  },
+  "original_receipt_sha256": "feeaeb8baccc6ceaaa4ae59ce03d774c41ff4855546e8266367b40787eaf0b24",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

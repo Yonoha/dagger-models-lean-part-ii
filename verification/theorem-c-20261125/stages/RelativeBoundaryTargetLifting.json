@@ -1,0 +1,20 @@
+{
+  "module": "RelativeBoundaryTargetLifting",
+  "source": "lean/TheoremCStages/RelativeBoundaryTargetLifting.lean",
+  "source_sha256": "821b0f14983fab275caf275948e93a48400844da3250ada247daef8099931a70",
+  "actual_exit": 0,
+  "seconds": 6.887806749960873,
+  "artifact_valid": true,
+  "olean_sha256": "3824f09ca0a0159f7ac1033a3fdb1b82288cf26a2d389fac3f46c3ede2e8fcec",
+  "log": "verification/theorem-c-20261125/stages/RelativeBoundaryTargetLifting.log",
+  "log_sha256": "d1aa5c2e8e11f1bf928c1b54bb46affe2f75ad4d5e84ccbee63e765b17f98064",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RelativeCosliceRestrictionLifting": "0f0a73e08caac4399aac378bf044fc5b1aad5d952a5e5682c51e042c2b297b42",
+    "OriginalAllPrefixBoundaryInvertibleLifting": "f7e1a09ed0b2a9ca636aaf60ff4712660664bc1ae7122fcbf9a0c7e0c7e57a55",
+    "OriginalVertexCosliceLeftLifting": "91a8575743a9bf15bd000f4f9941a97ac4e8a1d0db8e201639282b4117cfbf39"
+  },
+  "original_receipt_sha256": "396ac330dcd1c40afe01dbc8e7d9a95b0d041a9295bd557e3f3edc3a112cc883",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

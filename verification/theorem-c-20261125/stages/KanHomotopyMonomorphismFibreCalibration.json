@@ -1,0 +1,18 @@
+{
+  "module": "KanHomotopyMonomorphismFibreCalibration",
+  "source": "lean/TheoremCStages/KanHomotopyMonomorphismFibreCalibration.lean",
+  "source_sha256": "1da3b16485176cd00b23c5f0277bab3500cfdae25258d7c54f5602a909bffd0c",
+  "actual_exit": 0,
+  "seconds": 20.56301112496294,
+  "artifact_valid": true,
+  "olean_sha256": "42dfa9594f1f22db5a8c0c028a3b024ccdefee25084fc768029d374f0b71320e",
+  "log": "verification/theorem-c-20261125/stages/KanHomotopyMonomorphismFibreCalibration.log",
+  "log_sha256": "5332415faca12bd2513123437710c45c611512b6784df91347e9247ef4037c33",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "KanHomotopyMonomorphismFibre": "864bc4a8c24a4209f403deceb7aa00e11189a85e3ab7bbc261bb4e6f689c4833"
+  },
+  "original_receipt_sha256": "574173f4672a2318aa5235352625ee83c29e346f856150b4c7cc5c05a772ee49",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

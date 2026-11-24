@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCotensorUnitEndpointDiagonal",
+  "source": "lean/TheoremCStages/OrdinarySegalCotensorUnitEndpointDiagonal.lean",
+  "source_sha256": "42510ebce7b1ecb2b7f717248cdea64f64fb1e28d3c26d836f5fb0fdf2251e92",
+  "actual_exit": 0,
+  "seconds": 9.83407395798713,
+  "artifact_valid": true,
+  "olean_sha256": "021f3ab8d175a334daf3328dad65afbeaf4d8170cc33ef4f83688e138ff87ad1",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCotensorUnitEndpointDiagonal.log",
+  "log_sha256": "472e7189b58d48e7e7aff5e9bf678f1e13d6eb53b19ac222a1ab65ae661dd109",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "KanHomotopyMonomorphism": "2967725c66b6cc397919f7d9c1c49f8f74a1635e0763aeb9a93979e1d37be905",
+    "OrdinarySegalCotensorRowSwitch": "e3d963d81e96ae86e4153c55ae2863c26d202ecb8affdee46afee228c1047fac",
+    "OrdinarySegalCotensorSegal": "adc0aa7c980fe6d7fbc7ad74f54c7e372027dd5ef785604a0f1d834d04a27d6d"
+  },
+  "original_receipt_sha256": "d4337dd1ad75018eb24cf39262c9ad8ff5a7eb551500ad3d86f96053b57ca59c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryPrecompletionWalkingHomotopy",
+  "source": "lean/TheoremCStages/OrdinaryPrecompletionWalkingHomotopy.lean",
+  "source_sha256": "1f7dacc19ea1e383b19b6a07db4f9d5bbdf4e7e5dfd89382625ef7db6b0dbbb2",
+  "actual_exit": 0,
+  "seconds": 15.528953417000594,
+  "artifact_valid": true,
+  "olean_sha256": "61db727cebfd0ac56767f6e2fb1c424b2ea8c9d97bf67b352537cd3a339755c5",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryPrecompletionWalkingHomotopy.log",
+  "log_sha256": "da2b04905646257dd760df7c8851407c4d171f4407f0d47977d57f5f9b80d42d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryPrecompletionBinaryProducts": "3b28bcdb76d7503a112ddafc95aa4f9e044bb7f2a82c193dcdb557bab040bd9f",
+    "OrdinaryWalkingPrecompletionRows": "a810020b6e8b2f8015ca52dc1a06e44b13985bc40b5056b6d3c824b82c75b08b"
+  },
+  "original_receipt_sha256": "c456b15524e1c77720488a91c071a47d5f1c0b0f6ad0f58d8625e472d356a327",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

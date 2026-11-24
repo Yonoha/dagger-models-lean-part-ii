@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalIteratedOrderedFiberIso",
+  "source": "lean/TheoremCStages/OrdinarySegalIteratedOrderedFiberIso.lean",
+  "source_sha256": "a1d2804ef256a7afc57544e0e596b5758c6cd4acb618e76d169c81dcdbf43674",
+  "actual_exit": 0,
+  "seconds": 9.696839292009827,
+  "artifact_valid": true,
+  "olean_sha256": "537609be8c653d31c5ec5165f8aab20ddcac375ed6ea68bfded5bb538b45c117",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalIteratedOrderedFiberIso.log",
+  "log_sha256": "9e442f02e372ff9345a9f12d022cf8d6027f799964a161e28b99694e98dadda8",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalOrderedMappingFibres": "a5e33d982b3e21f5a32f5975ef7d1fecb2250d4dd6fd5e60c196caf1b54fb36c"
+  },
+  "original_receipt_sha256": "72d88e686ea5bad8af25e9ba99ef971fbd13b00ab3944d1fbdc8f3452075369b",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

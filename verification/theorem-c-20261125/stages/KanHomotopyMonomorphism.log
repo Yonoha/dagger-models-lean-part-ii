@@ -1,0 +1,9 @@
+'DaggerModels.PartII.KanHomotopyMonomorphism.selfPullback_of_mono_factor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.KanHomotopyMonomorphism.diagonal_weak_of_trivialFibration_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.KanHomotopyMonomorphism.edgeEvaluation_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

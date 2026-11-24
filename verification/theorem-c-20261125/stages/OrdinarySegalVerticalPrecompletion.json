@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalVerticalPrecompletion",
+  "source": "lean/TheoremCStages/OrdinarySegalVerticalPrecompletion.lean",
+  "source_sha256": "20ba536a95698c009afed92aecf68cc3c03acbfe24758bbaad43b629b67b9807",
+  "actual_exit": 0,
+  "seconds": 9.906983541994123,
+  "artifact_valid": true,
+  "olean_sha256": "0845d1c8a78b42523d262aabc15c3fcd07b5f5a906d83cba9aacf7d3c9e61f2e",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalVerticalPrecompletion.log",
+  "log_sha256": "d0cde8f0e684c5a3ebb842a5736b38dbc6c87ba6b3fea973eb1fd6f5941ec1ab",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalPrecompletion": "e26f7ecbd5271948c3287e944d2cb1ee3f3d3fb549df02cd67a0db37de4a8b5c",
+    "DaggerModelsPartII.JTParameterZero": "1c6ab114c82764a68c391ca5a4d5ab71f874473491ae04bec36615b11ecf0d8b",
+    "NativeBisimplicialDiagonal": "ac9b3f0b2335762937b16e547deffafc31130aac311a05b3bb07d98372812834"
+  },
+  "original_receipt_sha256": "73b73df03e1918cf6df5a3c8f6f3d77a7dfa554ed1651aa1e1470cce2ad1c624",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

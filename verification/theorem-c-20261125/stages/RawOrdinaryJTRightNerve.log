@@ -1,0 +1,12 @@
+'DaggerModels.PartII.RawOrdinaryJTRightNerve.rawTarget_quasicategory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTRightNerve.rawTarget_row_kan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTRightNerve.rawTarget_spine_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTRightNerve.rawTarget_walking_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

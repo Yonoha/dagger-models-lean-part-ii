@@ -1,0 +1,20 @@
+{
+  "module": "SimplicialReplacementColumnElements",
+  "source": "lean/TheoremCStages/SimplicialReplacementColumnElements.lean",
+  "source_sha256": "9797d2f96ba7f5a801eb7e5f3ec8d20d867d535b3d1fe2e50a0d07769eb881a8",
+  "actual_exit": 0,
+  "seconds": 15.319418208004208,
+  "artifact_valid": true,
+  "olean_sha256": "f6029b4d46bee84f43c80b026603694e3ef5e5a594852fbb1a09681820b082af",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementColumnElements.log",
+  "log_sha256": "f3acdc562e38d7debfc2a058f87c1dcf9b9b7dea4f54bd8c72f80a6627f1aef6",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplicialSetLocalSystemElements": "d5e7ba898f275559c510464a93a5191ae7f1dbfb29b5493ad92b7ebec4a0d390",
+    "NativeSimplicialReplacementWeightsChange": "32830911e51f9b46a5825e5096d7b92e55ac2ec90db6fd50a5cde583e787edde",
+    "NativeSimplicialReplacementReindex": "d8684d9f57e16520aaf410563a3c0e72bb737ce6cc62b24446fa20964dc3a383"
+  },
+  "original_receipt_sha256": "78e7c708167d2b3a5d57deecc1b9d55219cb7450c64f111fdb195309a5aa5ae5",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

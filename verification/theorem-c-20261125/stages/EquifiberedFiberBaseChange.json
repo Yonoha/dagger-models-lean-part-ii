@@ -1,0 +1,20 @@
+{
+  "module": "EquifiberedFiberBaseChange",
+  "source": "lean/TheoremCStages/EquifiberedFiberBaseChange.lean",
+  "source_sha256": "113236e05881cad2f970f2bce88eade5b3e9dc55c07adf49f5a6ab2a6fe2045d",
+  "actual_exit": 0,
+  "seconds": 10.900566166994395,
+  "artifact_valid": true,
+  "olean_sha256": "27b4faf8d57fb70f56112b794b4d1d57b4b723f06dbc38a376f9f42656f14e0c",
+  "log": "verification/theorem-c-20261125/stages/EquifiberedFiberBaseChange.log",
+  "log_sha256": "7023397f2775f4e5562b5145f6816e883f36c5b411d9b00f5dfccfee529d5dae",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialEquifibered": "ca8e4ef2b1291d135d9e16613f5f0e5195c748d138a809a5c12ac518839827bf",
+    "SSetWeakPullbackComparison": "622002b0b377d5158f1b3382649cdaf0dbfe5b6b1931fce0145ddd430ab9fddc",
+    "NativeFibrationWeakFromVertexFibres": "444884a9d88b0b6e5d701f6338090bf5dc1fb458213f596f8cccbf73470a3f25"
+  },
+  "original_receipt_sha256": "dff0399b124ab2816b99142403b0fd9cc29ec408cb096edf889a1ad2276fb61e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

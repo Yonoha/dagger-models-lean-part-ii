@@ -1,0 +1,3 @@
+'DaggerSSetFamilyBasedPi.familyPiEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerSSetFamilyBasedPi.familyPiEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerSSetFamilyBasedPi.familyTotalPiEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]

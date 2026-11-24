@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryJTRelativeMappingFrame",
+  "source": "lean/TheoremCStages/OrdinaryJTRelativeMappingFrame.lean",
+  "source_sha256": "28707ab1401bff598f20baebf3b49a94860d0078ef0d270b0277c1f23f722a17",
+  "actual_exit": 0,
+  "seconds": 15.343826708034612,
+  "artifact_valid": true,
+  "olean_sha256": "afc96f9b47f4bad28c2f74ddaecfe3af3d65c3d4bdbeae7c33dd2bb22787982a",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTRelativeMappingFrame.log",
+  "log_sha256": "5ec129b7e29dd8b86a3bf510292c9f6b73e8c5dc895315faa09f6ad244c15b2e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTArrowTensor": "29bb1bf966dba6ab0c04499b6ace1de3c13e11dc2f5162633205c65724dae9bd",
+    "OrdinaryJTMappingFrameWeak": "fb42acb6858ada3e60f04aadbcfbea2f3673c49480054aea2dfd6e29cc1b1717",
+    "ReedyTerminalMatching": "0e5667f870eb92281b0af3c2c3cba48a57df7eef9e28669b436877599163e51f",
+    "DaggerModelsPartII.ReedyCoefficientChange": "90c2dd3095852e62a73309280748a70e6a3616415f0b64ed5e50560261ce79ad"
+  },
+  "original_receipt_sha256": "97f505fe0694087042b57d5b70e66286b4fb95a30ce05106c391b7916864835d",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

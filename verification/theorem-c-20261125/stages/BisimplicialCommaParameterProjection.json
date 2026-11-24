@@ -1,0 +1,21 @@
+{
+  "module": "BisimplicialCommaParameterProjection",
+  "source": "lean/TheoremCStages/BisimplicialCommaParameterProjection.lean",
+  "source_sha256": "da6e5e9fcc990b0160f97fa0f6f0d1a538dc81579829a4a17660883566fafd2f",
+  "actual_exit": 0,
+  "seconds": 17.91633224999532,
+  "artifact_valid": true,
+  "olean_sha256": "95a4e6fdc452637236f7a68349bbe22ddc14121ade8f25f7872670cc7f8ac2b0",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialCommaParameterProjection.log",
+  "log_sha256": "2a53c6122a99c8179b01940ff934150413ea2a778aa816c452abfa1e67800ea9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialCommaDiagonalReconstruction": "f46f21d21ebf67c849fdb517e446d7db01015d341f9c1a30485185aded3a376d",
+    "BisimplicialBaseSimplexKanFibers": "0c85e8389fa318b4ae08aa24ea47105580b3ef3cb50ac94339fbcd23789a940f",
+    "NativeSimplexIndexResolution": "4bbae8723b474c4ec8dafd1217b253608bbac54be476855f071646d87573a067",
+    "SimplicialReplacementChosenHomotopyFiber": "7c6e44d3509a6a662f7556f94fef367481f87e7c7f036a2d4f162d0c4540092e"
+  },
+  "original_receipt_sha256": "44d8d9da50e0aa06c6866ea479bbe9a0d2e9a2403ef57eeff63974afc121ec17",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

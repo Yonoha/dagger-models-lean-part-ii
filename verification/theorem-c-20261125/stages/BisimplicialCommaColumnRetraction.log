@@ -1,0 +1,21 @@
+'DaggerModels.PartII.BisimplicialCommaColumnRetraction.forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaColumnRetraction.sectionPoint_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaColumnRetraction.sectionObject_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaColumnRetraction.sectionPoint_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaColumnRetraction.sectionIndexMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaColumnRetraction.sectionPoint_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaColumnRetraction.section_forget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'DaggerModels.PartII.OrdinarySegalCotensorZeroIso.mappingIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorZeroIso.constantSection_mappingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

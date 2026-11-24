@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryCSSLocalization",
+  "source": "lean/TheoremCStages/OrdinaryCSSLocalization.lean",
+  "source_sha256": "43dfb83c2ff5f9278a75accfdc7bcf2fedd921d83d7c48840ebd77ef3ab7e153",
+  "actual_exit": 0,
+  "seconds": 17.320799416978844,
+  "artifact_valid": true,
+  "olean_sha256": "69c90e956a0841beef3059888d32454551e09b73558d0bfa4f69730810f86a9d",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCSSLocalization.log",
+  "log_sha256": "1c754309ab938310bb477c63712e087c5b3fddf90df6784a75d26ee718548a81",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.InjectiveLocalizationModel": "0d13579666cf928871e83670cfffd486e1fe789b7dcf0e49f7d66edb501f7763",
+    "DaggerModelsPartII.SegalLocalizers": "fb36057438675c1caaa1b7b7aec3bddabcea9bc047f205e44dcb237a69b07dbb",
+    "DaggerModelsPartII.JTParameterContraction": "036bb38df0fc9b1000bcbd466b84d4a91f0e77afecb449f2dee71ac2fe84ab8f",
+    "DaggerModelsPartII.JTParameterVertexKan": "86d0c0beb48e327b8cfa472f2d267719a6059e3167c480d19b9e73fe215512fc"
+  },
+  "original_receipt_sha256": "f02c91b1b2691d616fc0ebec4c96f3f0b166c4f52d46f9931aad0df8bb0f54df",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

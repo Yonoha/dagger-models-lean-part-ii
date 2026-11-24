@@ -1,0 +1,18 @@
+{
+  "module": "OrdinaryJTCurriedTranspose",
+  "source": "lean/TheoremCStages/OrdinaryJTCurriedTranspose.lean",
+  "source_sha256": "87fa91639982b3360ddc368759b4300f4458f9e365711b24bb530a600d1e5720",
+  "actual_exit": 0,
+  "seconds": 7.628476042009424,
+  "artifact_valid": true,
+  "olean_sha256": "827245e8b3cd29a14a18f1f776b56d7e41d34562847918f18290b6c4d0a36bd8",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTCurriedTranspose.log",
+  "log_sha256": "d592ada550017c410598812526decbb05153a7db4875f267554e808b09798428",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTCurriedAdjunction": "7c8ea8427b52bf90fc5b0f82e6e09f550c755b9ad4e579204f394b597d6a8356"
+  },
+  "original_receipt_sha256": "34b3da553d08c7334a99c3d2d0a914bac2b5378e5b59c53bacd2bf551ec2179b",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

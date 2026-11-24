@@ -1,0 +1,10 @@
+'DaggerModels.PartII.TheoremCOriginalFourLinksAudit.partI' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalFourLinksAudit.constantVertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalFourLinksAudit.reversalIdentity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalFourLinksAudit.indexChange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

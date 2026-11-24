@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedHornTargetIso.lastEdgeInclusion_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedHornTargetIso.hornTargetIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

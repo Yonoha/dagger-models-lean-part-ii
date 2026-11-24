@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryJTMappingFunctor.mappingFunctor_obj' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTMappingFunctor.mappingFunctor_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTMappingFunctor.mappingFunctor_preservesLimits' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

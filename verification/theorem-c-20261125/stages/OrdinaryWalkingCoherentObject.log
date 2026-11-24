@@ -1,0 +1,5 @@
+'DaggerModels.PartII.OrdinaryWalkingCoherentObject.objectIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentObject.objectMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentObject.objectArrow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

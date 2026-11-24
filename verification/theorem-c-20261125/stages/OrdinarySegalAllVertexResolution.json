@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalAllVertexResolution",
+  "source": "lean/TheoremCStages/OrdinarySegalAllVertexResolution.lean",
+  "source_sha256": "eec1d0ce80ad3b8ad53abc3f9a6af44d94355302037687d2f9359abf568fcfa3",
+  "actual_exit": 0,
+  "seconds": 12.836795791998156,
+  "artifact_valid": true,
+  "olean_sha256": "1d66f5c67c16d51bdf083daf71af71bff4439b2ad8bbcd99deb9a6a4b7cc798e",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalAllVertexResolution.log",
+  "log_sha256": "e2d6545e9a3f52d016a5d4d6d34ae7772a6339d6373c6f3b7b7706cee24ef35c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryAllVertexSquareComparison": "432d1ee00dd18bc08c4ef3531f82d827ec51aa634f5506b53e89eca03e808818",
+    "OrdinarySegalResolutionMappingFibers": "21b53456f4ea1a96a330c60a8686ae9e79d09f61fa85a7bcc88a583f83f4f303",
+    "OrdinarySegalRestrictionTargetNaturality": "fea943d6afa5653dc0050e922aabdf8d3679cc28b85cc96dc0c5be716092fd6f",
+    "BisimplicialEquifibered": "ca8e4ef2b1291d135d9e16613f5f0e5195c748d138a809a5c12ac518839827bf"
+  },
+  "original_receipt_sha256": "225e99de9381c3072e200428cf7fb180ee9cb51382bc3d083831f9bfab6bf4cd",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

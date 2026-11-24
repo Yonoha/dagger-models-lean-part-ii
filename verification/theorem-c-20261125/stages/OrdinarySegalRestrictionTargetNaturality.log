@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalRestrictionTargetNaturality.mappingIso_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalRestrictionTargetNaturality.transpose_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalRestrictionTargetNaturality.transpose_symm_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalRestrictionTargetNaturality.simplexMappingIso_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

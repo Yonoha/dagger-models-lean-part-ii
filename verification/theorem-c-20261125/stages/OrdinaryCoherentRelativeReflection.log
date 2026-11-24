@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryCoherentRelativeReflection.relative_weak_reflects' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentRelativeReflection.replacement_reflects' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

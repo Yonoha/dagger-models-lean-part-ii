@@ -1,0 +1,5 @@
+'DaggerModels.PartII.OrdinarySegalOuterFaces.spine_weak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOuterFaces.outerFace_weak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinarySegalOuterFaces.outerFace_trivialCofibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

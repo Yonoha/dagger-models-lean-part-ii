@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalCotensorEvaluationNaturality",
+  "source": "lean/TheoremCStages/OrdinarySegalCotensorEvaluationNaturality.lean",
+  "source_sha256": "36e8a576bab4b06a36aab794ce77c70d50a3736a7bef9f2c0393859a101f66e4",
+  "actual_exit": 0,
+  "seconds": 126.50191520800581,
+  "artifact_valid": true,
+  "olean_sha256": "7868c9a65633e3a018aa03fb30f6c562e6a40b83fe493fa4f9ff6a7bf5a51d21",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCotensorEvaluationNaturality.log",
+  "log_sha256": "46b16042e9366300c7de9d7b1e13e2a4243b4f6a906f2a9b15ca088f1d3a69bd",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCotensorPointEvaluation": "902c0bcaabc09b064ca35ee439501779a5c8f0b1467e73993d15dd1cb36cebe8"
+  },
+  "original_receipt_sha256": "452ab7ccb9eb067a1a804b24f51fe4c5819bf7b5258e28f3f08fff596ed41d5c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

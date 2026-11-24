@@ -1,0 +1,12 @@
+'DaggerModels.PartII.SimplicialSetLocalSystemMorphismFibration.mapSystem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialSetLocalSystemMorphismFibration.fiberTransport' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialSetLocalSystemMorphismFibration.simplexFamily_isPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialSetLocalSystemMorphismFibration.mapSystem_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

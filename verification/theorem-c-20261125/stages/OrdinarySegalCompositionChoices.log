@@ -1,0 +1,21 @@
+'DaggerModels.PartII.OrdinarySegalCompositionChoices.fiberEdge_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCompositionChoices.fiberEdge_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCompositionChoices.pairToComposable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCompositionChoices.forgetChoice_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCompositionChoices.compositeEdge_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCompositionChoices.compositeEdge_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCompositionChoices.composite_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,23 @@
+{
+  "module": "OrdinaryCompletedUnitChosenMap",
+  "source": "lean/TheoremCStages/OrdinaryCompletedUnitChosenMap.lean",
+  "source_sha256": "008ba8d4b022977a720c971c2f14b86ce43ce8329bbf647fb402dfdfbfe76740",
+  "actual_exit": 0,
+  "seconds": 16.73090791600407,
+  "artifact_valid": true,
+  "olean_sha256": "6bb7694f75d64fcc2c37a63815de8aee65b6b1435a1f90c4869e876c834d6c69",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCompletedUnitChosenMap.log",
+  "log_sha256": "833bcfbb291647c4ceb4972c49a66c82974f2ac39a8b44c766bb5a5507f8f90d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RawOrdinaryJTChosenMapCalibration": "aea469037b62b4582db333df16caa1c29a08a52b0d358f62ea8ea7c3a5481402",
+    "OrdinarySegalVerticalPrecompletionDerivedUnit": "8b69d1279e7b2021fca50874866da4dd06eae75877383cc72498e9cc78336488",
+    "DaggerModelsPartII.DiagonalRecognition": "22762c206f29020e1cd520f36424583e21f5e02976360a75a5b519d939a9200d",
+    "OriginalSimplicialTrivialFibrationTensor": "135fff6fc1508684ffbfac0a5bd3d95d4457f17c74894bdb95d3a900caecbf2b",
+    "SSetProductGeometric": "3475caf6454e1817272d8ff4c6494d1c3e14b4c0d0778ca4f9d6e74cba205cb5",
+    "NativeAllCofibrantLocalizationSaturation": "2a0c1cfd2624862a22631477d0205f35df7d7f3ff0cd818c105d4ec97cad22e9"
+  },
+  "original_receipt_sha256": "f2306f07a946784bcc0a4bee53ef0f391abe5b34114d62ff6c2c6d5ef8dd49fd",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

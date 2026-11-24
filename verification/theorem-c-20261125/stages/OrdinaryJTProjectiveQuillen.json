@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryJTProjectiveQuillen",
+  "source": "lean/TheoremCStages/OrdinaryJTProjectiveQuillen.lean",
+  "source_sha256": "3e26069a4c817e54123a1f2b67ae6ac97dea18bcc4c96fe082521e06b7ce1666",
+  "actual_exit": 0,
+  "seconds": 12.218660541984718,
+  "artifact_valid": true,
+  "olean_sha256": "896edc7f254637360226a16135dbf3aadd3a01ab95b82695b6de6731a77dbaf9",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTProjectiveQuillen.log",
+  "log_sha256": "0961b7b6b1110e095420bc5e9f9f4b88b452fcf72b3c12f73a674e685688ca20",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTNativeMapReedy": "c84c04a7866bb14e23ce61160f0aad43f6d0d48fee7610c6920e7a00c22602c3",
+    "OrdinaryJTMappingPostWeak": "bb1c8346715b3982384715528ef6359584480f9d3cbed8d5d97f657c81cebb95",
+    "DaggerModelsPartII.ProjectiveKanDiagram": "e2017525c6ff37ec59d85d2a209537770ad6f8472a097cc0d51821e530539697"
+  },
+  "original_receipt_sha256": "2ae700b9c2454e9d1b1e28a7a421821be5386ef3ba9a47c314b6fbc27a5f75e3",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

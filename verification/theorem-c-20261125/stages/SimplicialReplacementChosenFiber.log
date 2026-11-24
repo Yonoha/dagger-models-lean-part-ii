@@ -1,0 +1,4 @@
+'DaggerSimplicialReplacementChosenFiber.diagonalInclusion_isPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerSimplicialReplacementChosenFiber.chosenFiberIso' depends on axioms: [propext, Classical.choice, Quot.sound]

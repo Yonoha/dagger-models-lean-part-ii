@@ -1,0 +1,22 @@
+{
+  "module": "OrdinaryCoherentCotensorEvaluationReflection",
+  "source": "lean/TheoremCStages/OrdinaryCoherentCotensorEvaluationReflection.lean",
+  "source_sha256": "9c118dac19fec151fa13facc4ee4d70deb1a0f1d6ee56f8e3b0809bcedd14341",
+  "actual_exit": 0,
+  "seconds": 11.11308504200133,
+  "artifact_valid": true,
+  "olean_sha256": "9ebd5c51c22cff272b1fda38011a06d1782f4edf6144f304dadaf101aa2e4868",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentCotensorEvaluationReflection.log",
+  "log_sha256": "9f662233b12e1283dce2958d604b38e1d22f43c100a18d2446953ae648125a96",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCoherentArrowVertexRecognition": "d334547a2d0007a74f1b3921f9653bf4c29cf20012d07d541d94c5da40ce0409",
+    "OrdinaryCoherentArrowEvaluationReflection": "caa4f287f5f2923fe43f9b96e89fdfb9b6977c0f63758939f1205391a0aa5777",
+    "OrdinarySegalCotensorParameterNaturality": "9187b478553e8324f03670c0e23de76e9919f095b4bc40d6a02a006c761e929f",
+    "OrdinarySegalCotensorFibrant": "d3dd61da025757807a6788c42ca771187f67662eaf004b3d25cf0df069832df1",
+    "OrdinarySegalCotensorPointEvaluation": "902c0bcaabc09b064ca35ee439501779a5c8f0b1467e73993d15dd1cb36cebe8"
+  },
+  "original_receipt_sha256": "e3fc070bc0ad63dcd4ecc43a081c2f18ab07463def52b77e93d137c5680c87d4",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

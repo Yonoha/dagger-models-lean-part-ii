@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalEndpointZeroTotalUnit",
+  "source": "lean/TheoremCStages/OrdinarySegalEndpointZeroTotalUnit.lean",
+  "source_sha256": "67e7db9cfb751a365f04ef0888940d900addd73fbc7219e838f8546030101db8",
+  "actual_exit": 0,
+  "seconds": 14.548603874995024,
+  "artifact_valid": true,
+  "olean_sha256": "f1ffb89f8b66e21850763ed7f3fe7b68dc2fbbaffc10d56d0e181f4427afd9e0",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalEndpointZeroTotalUnit.log",
+  "log_sha256": "a263bf6b752dbe48c8a23c958ca95f678d4d2a9bb097fc19eada15ba862049f9",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialCommaZeroTotalReconstruction": "84262cda4d20deafbf0b9df61a58ffeaa07e96dc05ea8109546cfe852536f89c",
+    "OrdinarySegalVerticalPrecompletionFiberComparison": "68bada4b32007f71da5e525e2b49d26f278aceec3541d1fde096a60b140b54ef"
+  },
+  "original_receipt_sha256": "38a5de55c9ee8dab7b0951e0f361870caa546e67249eb525838678ef25d2a618",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

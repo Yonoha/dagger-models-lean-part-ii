@@ -1,0 +1,24 @@
+{
+  "module": "OrdinarySegalCotensorFibrant",
+  "source": "lean/TheoremCStages/OrdinarySegalCotensorFibrant.lean",
+  "source_sha256": "15bb5033b07aea6f30f0c8d028e8604475179db5081ffe731483bc345dcba989",
+  "actual_exit": 0,
+  "seconds": 8.863345833029598,
+  "artifact_valid": true,
+  "olean_sha256": "d3dd61da025757807a6788c42ca771187f67662eaf004b3d25cf0df069832df1",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCotensorFibrant.log",
+  "log_sha256": "bc32a5475657607db0d50eb45c7065e5f9f2b79fd23836ffdb8fdfea1fb6ef96",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalHorizontalCotensor": "ef729f41bda8fe56a20faa496f9d3cc0209a533cb5dd83e7c84a805dbb24157e",
+    "OrdinaryJTOrdinaryInputReedy": "6a682d19df3e60cb4cc19c75a495050db08e5bdae4112d63afa11bf336aee9bb",
+    "OrdinarySpaceReedyInjective": "20f8025f1476131ee6bd859821558a425425cb0a97f2b9ee10d92c90b2b514b4",
+    "DaggerModelsPartII.StandardSimplexFrame": "908bae9d6707c2f765c2b012f40874d58f3ee8736bde5e739bd973c7079b3ef1",
+    "DaggerModelsPartII.ReedyFibrantDiagrams": "d67bc0143bf669494709652a6f5458a743eabfd72e194301bd9024707fb3fa3a",
+    "DaggerModelsPartII.DiagramMappingPrecompFibration": "85b12ba4a8e4856af4d54ae275399c94297dac22c7f9d0bb4c3d5bb7b6aa6b78",
+    "NativeIhomRelativeSectionsWeak": "69433466dab1558509d418a34b87d97e597f16f8094ee7b06c7afb785654db48"
+  },
+  "original_receipt_sha256": "616e9fb74cdd39758ec3a5f4f2ee6864ac2e760e7a87101d036a11d3e5d9fd1b",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

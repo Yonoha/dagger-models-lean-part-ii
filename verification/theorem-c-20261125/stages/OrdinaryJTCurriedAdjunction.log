@@ -1,0 +1,10 @@
+'DaggerModels.PartII.OrdinaryJTCurriedAdjunction.curryEquivalence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTCurriedAdjunction.adjunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJTCurriedAdjunction.right_map_app_app' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTCurriedAdjunction.right_obj_reedyFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

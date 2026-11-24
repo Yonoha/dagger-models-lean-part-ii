@@ -1,0 +1,3 @@
+'DaggerModels.PartII.RawOrdinaryJTTargetCSSFibrant.rawTarget_cssFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

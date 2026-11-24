@@ -1,0 +1,23 @@
+{
+  "module": "OrdinarySegalCoherentEvaluationTrivialFibration",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentEvaluationTrivialFibration.lean",
+  "source_sha256": "38ccd9ff1cd17feefecb4a9f0ec3706c99940b842d5bc21bac507c6a4580eb71",
+  "actual_exit": 0,
+  "seconds": 11.334817875002045,
+  "artifact_valid": true,
+  "olean_sha256": "b07762be22e40ddd371ebb069ee7666d166901bc95f30fe942741ecc6c6b9af5",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentEvaluationTrivialFibration.log",
+  "log_sha256": "5f0750f1394ef7e30941087830f262a259c981a8f952518675f7c50d40883d78",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentArrowImage": "6ebce9891c91b8a693254b345a44501ce30d2fbc96bebbd5b525924fe9976216",
+    "OrdinarySegalRestrictionTranspose": "518df396927e98e8fd2bd3f0fd3256cad68b1e78898ca2d7ec77a9edd36d0686",
+    "OrdinarySegalHorizontalRestrictions": "814974ba7c4609072024d5c2b6cffb794e2eb299655fa43ea6a9d8e9502d03ce",
+    "OrdinaryWalkingRelativeUnitExtension": "237051d7a6e7770433b3ffc5bcc23f2899e1dec3139f79c0227f23220d954f45",
+    "OrdinaryWalkingParameterInvertibleEdge": "4d090b5b2fe6d0b3a505d5782e657956f0857133c7259fcc748d1ee01943a4ea",
+    "NativeBoundaryJoyalMappingWeak": "f3f3967d36fbfdecb9d79464719cd6311d0e53bdac51158bd39dfb5b1d9450b4"
+  },
+  "original_receipt_sha256": "f135fc1f17fbb9b9b3f835dfdf346106f3c39fbaf869cb2e19a29d30acfc0f71",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalWalkingEvaluation.simplexMappingIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalWalkingEvaluation.walkingMapping_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalWalkingEvaluation.row_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalWalkingEvaluation.edgeEvaluation_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalWalkingEvaluation.edgeEvaluation_vertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,12 @@
+'DaggerModels.PartII.BisimplicialBaseSimplexFibers.fiberDiagram' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialBaseSimplexFibers.totalProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialBaseSimplexFibers.simplexProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialBaseSimplexFibers.fiberMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

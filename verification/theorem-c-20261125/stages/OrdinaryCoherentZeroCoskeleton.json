@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryCoherentZeroCoskeleton",
+  "source": "lean/TheoremCStages/OrdinaryCoherentZeroCoskeleton.lean",
+  "source_sha256": "0f5caa8ff6818a33a5caf3c436ac259d5c48cf0a3302dc8eaf1935142fb65a8f",
+  "actual_exit": 0,
+  "seconds": 23.760981499988702,
+  "artifact_valid": true,
+  "olean_sha256": "ca34d1b5b5c67c955afa2c45b2b1c202bccebf9c92686c480c1168eacb1e251d",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentZeroCoskeleton.log",
+  "log_sha256": "f2966311b0fed8744f1b1edf3ad0f7da2917016f47ef0f98cef7b8e532aaf34d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryZeroCoskeletonMapping": "5ba63af29820ba8f35f3a8cf3b2f2374676238bd77d3d5b3e844c1a4f5477006",
+    "OrdinarySegalCoherentArrowImage": "6ebce9891c91b8a693254b345a44501ce30d2fbc96bebbd5b525924fe9976216",
+    "DaggerModelsPartII.DiagramTensorMappingAdjunction": "0a4835f98391dd03f4f522fa6bfcbed3ac3330d29a11a03448fd53fedf1f5895",
+    "DaggerModelsPartII.JTParameterVertexKan": "86d0c0beb48e327b8cfa472f2d267719a6059e3167c480d19b9e73fe215512fc"
+  },
+  "original_receipt_sha256": "e6e10c949c3fb664658b3090cdd0dd77a7d04f47681b06d827bdad2b4179c07a",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,9 @@
+'DaggerNativeOrdinaryInnerIsoRelativeCylinder.positive_boundary_lifting' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerNativeOrdinaryInnerIsoRelativeCylinder.zero_boundary_lifting' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerNativeOrdinaryInnerIsoRelativeCylinder.mono_pushout_zero_lifting' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

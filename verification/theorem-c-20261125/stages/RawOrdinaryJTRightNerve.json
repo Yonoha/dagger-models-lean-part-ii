@@ -1,0 +1,21 @@
+{
+  "module": "RawOrdinaryJTRightNerve",
+  "source": "lean/TheoremCStages/RawOrdinaryJTRightNerve.lean",
+  "source_sha256": "08fe6b39fb9a8b70974736e60f97cab67aa718a9f5836b884c2d4ee356371cfb",
+  "actual_exit": 0,
+  "seconds": 23.173934207996354,
+  "artifact_valid": true,
+  "olean_sha256": "6278446c9f9f3fb582d0abbeac5b24fb87770ddc65e3f950d8f0662b09b9b730",
+  "log": "verification/theorem-c-20261125/stages/RawOrdinaryJTRightNerve.log",
+  "log_sha256": "9c8ab1ea7f7dd278dc1cc261294983c45c059b37541b766f9022c19dde83ec0a",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTRightNerveKan": "029c0c52c69ae18cefb172fa2991ed2085bde22d0da3344e14f1e034597680d5",
+    "OrdinaryJTRightNerveSegal": "637c53d465810d0d02133ccf9c45cd3e28e8f59c6b76d3da3340ba6eb65e7e10",
+    "OrdinaryJTRightNerveCompleteness": "47b96d2595a23ff507aefb8f53d3b016aa432b3f469f8de70bb3b059103bcbcf",
+    "DaggerModelsPartII.JTRawOrdinaryAdjoint": "ac20074c86e9e446b24f74dea3a351d4009a8bd033fd8af409304466fe0c8979"
+  },
+  "original_receipt_sha256": "95d6d5a51fe15aa9efd33e67eaf9ea0528c5f711b465bb12a427e8430cd5222e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

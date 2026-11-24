@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryFreeRestrictionMapping",
+  "source": "lean/TheoremCStages/OrdinaryFreeRestrictionMapping.lean",
+  "source_sha256": "bc8719e8eaddc492baa51148d583d13b6d19a0f4540dfc355aa8676a3c517228",
+  "actual_exit": 0,
+  "seconds": 11.107028374972288,
+  "artifact_valid": true,
+  "olean_sha256": "c402a6fe9a963fbc38affeef0a325cf462c035253cf9aad0777493d42b168aa2",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryFreeRestrictionMapping.log",
+  "log_sha256": "2f92fff750696127783dbd02855bd63ab4d80c2b2db2d5045e0cafcdb75b11b6",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryFreeDiscreteKan": "db0ebd261f1e86a2e653801f1b4271c3fbc99dd99f191a8c13611712e18a0ff7",
+    "DaggerModelsPartII.DiagramMappingSpace": "8be33a8b965799472c9c730da12842897c9c70adc051369089ef2d16c6a6fa38",
+    "DaggerModelsPartII.IndexKanExtensions": "fdd638c69f427e7631b2df825db3f784ea5259858d9bbec9955613ef4d9185ea"
+  },
+  "original_receipt_sha256": "8db60d5720ccc6d02713e3efab49b495c5f50a8a8fbd91048d261efae23b3c44",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

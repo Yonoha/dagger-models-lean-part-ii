@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryJTNativeMapReedy.nativePlainIso_naturality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTNativeMapReedy.rightPlainMapArrowIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTNativeMapReedy.right_map_relativeReedyFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

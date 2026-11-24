@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinaryCompletedUnitChosenMap.prodMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCompletedUnitChosenMap.replacementChosenMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCompletedUnitChosenMap.chosenMappingMap_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCompletedUnitChosenMap.completedUnitChosenMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryWalkingRelativeTower",
+  "source": "lean/TheoremCStages/OrdinaryWalkingRelativeTower.lean",
+  "source_sha256": "f52ca7d8b1c90f1f43e0dccb1d19a48f7f40f4beb9b76b0fbf23bbd770b7a522",
+  "actual_exit": 0,
+  "seconds": 11.113525375025347,
+  "artifact_valid": true,
+  "olean_sha256": "37fc63c1766ddc3a307103d5337354d04ee4ccf32759bf15a70c6f01c9643112",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingRelativeTower.log",
+  "log_sha256": "873a9720ea01f91eaf68fb550cd07036fcef0bba2f7e66aa94539e26214fc0e5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingRelativeExtension": "3e5baa4de10a0b8cf6dab411d0efdced0e6491fef03f44681871a4c9dcd3e343",
+    "OrdinaryWalkingFirstEdgeCalibration": "809ecf8222ed286770ba55a499fd7ddad8f623537439e97095121ec375d64b65",
+    "NatSubcomplexGluing": "02b8051906d23841a8817e5c10461d7657150a60797179bf9c0e97455174d398"
+  },
+  "original_receipt_sha256": "8d1fc907ae14bc880b72329856a39e38fa70d3e8ae26169c91e21b148c6648eb",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

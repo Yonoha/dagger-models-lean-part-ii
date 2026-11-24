@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryWalkingAlternatingExhaustion",
+  "source": "lean/TheoremCStages/OrdinaryWalkingAlternatingExhaustion.lean",
+  "source_sha256": "02723212125ff8a04c701c38b04f4020480a8317f080266e94dfb4670a5a283f",
+  "actual_exit": 0,
+  "seconds": 11.189747750002425,
+  "artifact_valid": true,
+  "olean_sha256": "1b193812c32f0b7b5c0a210244012b4e0e269bbea20bd7f164462924357a9368",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingAlternatingExhaustion.log",
+  "log_sha256": "75037715bdd030e75244277e662801b29debb88af5da9fe43317398fd4eecd90",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingAlternatingFiltration": "9783486be8c506e055181ac614b5e600f05b8f731639d4a2f83768ee4656ca05",
+    "Mathlib.AlgebraicTopology.SimplicialSet.StdSimplex": "1050c8d37c1d2ff4e287a67ec75760c21782c85847e678bfe28ad240d02d673d"
+  },
+  "original_receipt_sha256": "e2224aecd1d985ae7bb31a795503602bfb11d64eb1e7690e75f6cf1a9e2042f1",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

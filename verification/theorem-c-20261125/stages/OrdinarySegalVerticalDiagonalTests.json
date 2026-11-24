@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalVerticalDiagonalTests",
+  "source": "lean/TheoremCStages/OrdinarySegalVerticalDiagonalTests.lean",
+  "source_sha256": "801e61b2c7267ca31c7f030432fcba51dddf2026a7cb1ba8af288b10ff4a1b2f",
+  "actual_exit": 0,
+  "seconds": 12.706812417003675,
+  "artifact_valid": true,
+  "olean_sha256": "afe61d652bfbf1ff21487cff51f4b9a7c32bd83928d8653a96e0ed59791ccb55",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalVerticalDiagonalTests.log",
+  "log_sha256": "fb83e68370c443667385f4a4da88277f171defa335d1ac46386f776d1008dd15",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "HorizontalMappingVerticalDiagonal": "40d0439dc4b93f5ac4d3f2eb859de5c1b284f2b17b84574898afdbbfd4000f37",
+    "OrdinarySegalCotensorSegal": "adc0aa7c980fe6d7fbc7ad74f54c7e372027dd5ef785604a0f1d834d04a27d6d",
+    "OrdinarySegalVerticalPrecompletion": "0845d1c8a78b42523d262aabc15c3fcd07b5f5a906d83cba9aacf7d3c9e61f2e",
+    "NativeBisimplicialDiagonalWeak": "26fd2f3337aa3170dcb9ee7a7b05e8c4209a2be9453d92eb429283cd67968a5c"
+  },
+  "original_receipt_sha256": "3edb3afd12d4bd949ace3870d1ceb5f59b5c0d05b861f5ab8e0ef8811703a904",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

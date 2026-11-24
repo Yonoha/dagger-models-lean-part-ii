@@ -1,0 +1,19 @@
+{
+  "module": "SSetFamilyBasedPi",
+  "source": "lean/TheoremCStages/SSetFamilyBasedPi.lean",
+  "source_sha256": "279a342c66aa1faf41ad9558a3dc1874d5f9e8e4bd748b406a68d864ec8d7b8d",
+  "actual_exit": 0,
+  "seconds": 26.824820124995313,
+  "artifact_valid": true,
+  "olean_sha256": "23a6d06db3b2c9a18a9b6a27eeaa6bfaaa1dedaae32166b275f38a39e0fe944b",
+  "log": "verification/theorem-c-20261125/stages/SSetFamilyBasedPi.log",
+  "log_sha256": "3763ffb23d55fb7a1ce1604da55e6cee18dc07b6348cc3c4e7a43eafd932d2ec",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeCoproductHomotopy": "b2db23bf4a4e7c1824b568c082429155fcbf77c53ef2282d62f1df1b2253abb6",
+    "NativeTotalBasedPiFunctor": "4f964135f0b03c005a3f2e1a6bae2d06e65983c9d44e5c853564b07159429fb4"
+  },
+  "original_receipt_sha256": "c85ea427dc048418d261753e2174b38ac961cb97a3d0f9414bddd33015709444",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

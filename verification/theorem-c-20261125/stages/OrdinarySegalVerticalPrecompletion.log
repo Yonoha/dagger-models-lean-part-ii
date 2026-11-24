@@ -1,0 +1,10 @@
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletion.precompletion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletion.unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletion.unit_app_app' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletion.unit_verticalZero_isIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

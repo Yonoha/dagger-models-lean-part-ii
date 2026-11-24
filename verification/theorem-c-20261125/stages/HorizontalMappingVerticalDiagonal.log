@@ -1,0 +1,15 @@
+'DaggerModels.PartII.HorizontalMappingVerticalDiagonal.horizontalMappingFunctor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.HorizontalMappingVerticalDiagonal.horizontalPreNatural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.HorizontalMappingVerticalDiagonal.horizontalMappingDiagonalIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.HorizontalMappingVerticalDiagonal.horizontalPre_triangle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.HorizontalMappingVerticalDiagonal.diagramMappingDiagonalIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

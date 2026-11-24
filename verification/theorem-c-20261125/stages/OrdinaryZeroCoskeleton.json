@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryZeroCoskeleton",
+  "source": "lean/TheoremCStages/OrdinaryZeroCoskeleton.lean",
+  "source_sha256": "ab40968d527622119c5108c5f0e0badfbd9b8bf27c2eb9c30f9dfd499fd415f6",
+  "actual_exit": 0,
+  "seconds": 26.32921704200271,
+  "artifact_valid": true,
+  "olean_sha256": "bfa5fc9d5106652177cf1687bf2b20b8c3c925a7f2f29c055ad888c52e20d352",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryZeroCoskeleton.log",
+  "log_sha256": "b6bfc4280e5dc8cc78b89a9613a44cf4bc6ec5580c0b636c28a968cb1d4a3533",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSConditions": "d93a3feb58efc0450536578c40483bfece19c3d26c3cbfe2f3ea87cdc6079b59",
+    "Mathlib.CategoryTheory.Adjunction.Evaluation": "b398052fddea384328bb6d5b3d9ab4d8e7aabc5e100e73aa6fb5593ce042d659",
+    "Mathlib.CategoryTheory.Limits.Types.Pushouts": "d90c7962c867bd9cca115d37133c535f4f31803c2c088775bb77f46e37314f1a"
+  },
+  "original_receipt_sha256": "f6aac43b2c7d56ad18678687717cff097202f9acb934f8af4c472d3319839714",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

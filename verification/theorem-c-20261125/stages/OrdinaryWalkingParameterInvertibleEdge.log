@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryWalkingParameterInvertibleEdge.simplexUnit_image_invertible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingParameterInvertibleEdge.simplexUnit_image_invertible_of_inner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

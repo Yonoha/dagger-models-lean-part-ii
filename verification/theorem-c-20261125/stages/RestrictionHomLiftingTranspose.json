@@ -1,0 +1,18 @@
+{
+  "module": "RestrictionHomLiftingTranspose",
+  "source": "lean/TheoremCStages/RestrictionHomLiftingTranspose.lean",
+  "source_sha256": "d38959874598991bcaab3e6b4e536db2eb9a9ea80f51f6d55751f0dc83931ac1",
+  "actual_exit": 0,
+  "seconds": 5.248368291999213,
+  "artifact_valid": true,
+  "olean_sha256": "bc67e3c907bac692ea135ca2cb63c9a66dc833bc6b609017d854e259449b2d16",
+  "log": "verification/theorem-c-20261125/stages/RestrictionHomLiftingTranspose.log",
+  "log_sha256": "d160cf1a670ef72529281088f2b5d4e5743692b39171e40f751968ea93fb420d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.DiagramHomPrecompLifting": "ff5303519bc5afafc60638e92214efffdca6dbc206a5ef5e8cf021408a591b64"
+  },
+  "original_receipt_sha256": "ff1717b8cc3dff1c2742d5be084d79c8351cff1e92a7ad2a33df2fdcaae93b1e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

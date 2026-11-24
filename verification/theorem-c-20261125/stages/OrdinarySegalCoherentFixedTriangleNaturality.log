@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalCoherentFixedTriangleNaturality.hornComposite_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentFixedTriangleNaturality.hornComposite_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentFixedTriangleNaturality.fixedHornTarget_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentFixedTriangleNaturality.fixedTriangleMap_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentFixedTriangleNaturality.fullTriangle_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

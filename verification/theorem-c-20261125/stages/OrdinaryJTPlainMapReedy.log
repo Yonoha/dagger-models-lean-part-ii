@@ -1,0 +1,10 @@
+'DaggerModels.PartII.OrdinaryJTPlainMapReedy.mappingPostNat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJTPlainMapReedy.matchingBoundaryMappingIso_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTPlainMapReedy.relativeMatchingCornerIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTPlainMapReedy.plainMap_relativeReedyFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

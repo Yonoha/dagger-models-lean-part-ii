@@ -1,0 +1,19 @@
+{
+  "module": "KanBinaryUnitPullback",
+  "source": "lean/TheoremCStages/KanBinaryUnitPullback.lean",
+  "source_sha256": "1544565867a0deaf00bd5249ff7e2d3a526d28b6fa822f7a1b0baf5b06b1d159",
+  "actual_exit": 0,
+  "seconds": 9.212490584002808,
+  "artifact_valid": true,
+  "olean_sha256": "70c632feff167b4fb0147d1859dc35e2f2383aa136505d0ddd1ff62937082c37",
+  "log": "verification/theorem-c-20261125/stages/KanBinaryUnitPullback.log",
+  "log_sha256": "ea50ed467813aa46c6e6edd1b7595b825f23cebcf991b473d4b8ec36f5a06d6f",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "TopCatModelCategory.ModelCategorySSet": "9f5b1ae2f96d4f71e3775e9a292ca4f9c639279878cc78e44a3ccf13c65ffe7f",
+    "TopCatModelCategory.SSet.Fiber": "11e06dd4048854a50f38eb34603795b19571d4eaabc579594cc4b6cd3010a213"
+  },
+  "original_receipt_sha256": "6d30de518c376fc7e3fea63ed894dd61f919f4d9e158e888f9e3a9788141a8fb",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

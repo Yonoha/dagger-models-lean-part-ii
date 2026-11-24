@@ -1,0 +1,19 @@
+{
+  "module": "NativeKanTrivialFibrationRelativeWalkingPath",
+  "source": "lean/TheoremCStages/NativeKanTrivialFibrationRelativeWalkingPath.lean",
+  "source_sha256": "cb5fe87c9e278c05efbe84411b27b463d443cb4ab21044da02cdf4937939f96a",
+  "actual_exit": 0,
+  "seconds": 7.728904415969737,
+  "artifact_valid": true,
+  "olean_sha256": "bdd3650747066db8b1980b964770f16a114caf415f2f38064bba88fc5a9ea8da",
+  "log": "verification/theorem-c-20261125/stages/NativeKanTrivialFibrationRelativeWalkingPath.log",
+  "log_sha256": "cdbef7cde9bb7c054a4872d062c2dcacba03d415792c4155b7ff363633484f50",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeHoIsoWalkingExtension": "0b2566e2ba5a5e7635f122b175c9558108bb4ffb55255fc603b243069b2cb28c",
+    "TopCatModelCategory.SSet.FundamentalGroupoid": "fa57ab10e89b76eabf4434f53536b989d60e9f1b1d92e6eff6f852aed9ba9285"
+  },
+  "original_receipt_sha256": "9ce1483daebdcd8090161f4d6165ed89efac64dd8b6862542e5dc3d887046f47",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

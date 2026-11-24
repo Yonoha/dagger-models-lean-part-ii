@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalAllVertexDiagonalCalibration",
+  "source": "lean/TheoremCStages/OrdinarySegalAllVertexDiagonalCalibration.lean",
+  "source_sha256": "b1b3621c333304188f97af0dc51ecf1564dffcebd1f0e6cdfce3a7f1507a8fd4",
+  "actual_exit": 0,
+  "seconds": 8.063757249998162,
+  "artifact_valid": true,
+  "olean_sha256": "cf5635156593184a1eaa0a9be2dbf851d2968a2d71a080f50f0ca6076fe4de6c",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalAllVertexDiagonalCalibration.log",
+  "log_sha256": "c3ad3b14b6902fc95ce96f8cedce6f67e1923a09b174aeef4b3d2892b61aeeb1",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalAllVertexDiagonal": "caed856ddc478000d48b782afc585f83a39c34cb4021ab66b871346df5561e57"
+  },
+  "original_receipt_sha256": "17609803fa6d5105504d066c2e8a440d4c8466e8225865aff82b971b53383cbc",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

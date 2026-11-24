@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalCotensorSegal",
+  "source": "lean/TheoremCStages/OrdinarySegalCotensorSegal.lean",
+  "source_sha256": "841373d6439ce7436a54ba359a2b78fc5ed871b601c4ae07cd89742be7acc50a",
+  "actual_exit": 0,
+  "seconds": 12.125739249982871,
+  "artifact_valid": true,
+  "olean_sha256": "adc0aa7c980fe6d7fbc7ad74f54c7e372027dd5ef785604a0f1d834d04a27d6d",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCotensorSegal.log",
+  "log_sha256": "cab6543a0f372daf028a3f22da80a70313fb5dc96b970d0a1e5311fe63443e2c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCotensorMappingIso": "bd62d6e353c656d9b6130c230ae745d813b979ac3fa6a5e354e47ba46ab12ed7",
+    "OrdinarySegalCotensorFibrant": "d3dd61da025757807a6788c42ca771187f67662eaf004b3d25cf0df069832df1",
+    "OrdinarySegalInnerAnodyneMapping": "018b65d61a7459bb67628bd318e38d3f101cefab80fdf92dd7f6ebb47324ed55",
+    "OrdinarySegalLocalization": "90c9e3b9509ef49cbbce18b2bb1a0338bf90069e4214f727f702b4c93ab80ec4",
+    "OrdinarySegalCoherentEvaluationTrivialFibration": "b07762be22e40ddd371ebb069ee7666d166901bc95f30fe942741ecc6c6b9af5"
+  },
+  "original_receipt_sha256": "6b11b0cb50cef0f8113150cff07838b722c2023abe7c194e8f71dac694e84aac",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalEndpointDescentAuxiliary.endpoint_auxiliary_relative_diagonal_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalEndpointDescentAuxiliary.originalInput_auxiliary_relative_diagonal_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

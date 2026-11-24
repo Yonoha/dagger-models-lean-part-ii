@@ -1,0 +1,2 @@
+'DaggerModels.PartII.NatSubcomplexGluing.desc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.NatSubcomplexGluing.ι_desc' depends on axioms: [propext, Classical.choice, Quot.sound]

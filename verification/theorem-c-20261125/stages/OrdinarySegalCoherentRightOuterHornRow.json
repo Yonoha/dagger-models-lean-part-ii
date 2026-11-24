@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalCoherentRightOuterHornRow",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentRightOuterHornRow.lean",
+  "source_sha256": "c08601533e6795e6865ea6724c61ca1b1e5183b22c850b1880b29ec2b1296fe1",
+  "actual_exit": 0,
+  "seconds": 14.69605120900087,
+  "artifact_valid": true,
+  "olean_sha256": "6dee2d9b4fa86509da387241e042ea6c18504f15ad51194884fe9d9ad2e73c93",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentRightOuterHornRow.log",
+  "log_sha256": "0b1acc98592364ea4faf5cdd3bc888f9d892359dc5fb64d2d2c577974179ca4d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentRightOuterHorn": "0f81e7131fcf7fcd8a97adc23bdd5dd3f4c89808f107f671f38bc0af5f98e678",
+    "OrdinarySegalUnitMiddleFibrations": "c6934e032e882618c7fda3f9bb338712391dc7cb04c114d010e386f0d0b8fc86",
+    "DaggerModelsPartII.DiagramMappingPushout": "8476fa23a99a12b479832f1cf6688cae572260753634750021743409de2cd8ec",
+    "Mathlib.AlgebraicTopology.SimplicialSet.HornColimits": "32a46c35f1a656463d8a40d6a8e4b9c33f17f04eb6f62b3c9c4f2511aeef421c"
+  },
+  "original_receipt_sha256": "c758f4e7cd64138033fab5257332f9840dd6c049bff74cb47b74307d1604efe6",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,18 @@
+{
+  "module": "OrdinaryJTMappingCornerComparison",
+  "source": "lean/TheoremCStages/OrdinaryJTMappingCornerComparison.lean",
+  "source_sha256": "0a0710212a7e888a62455d7a7c736d6f1d342f339118ef68e25513017cb3354d",
+  "actual_exit": 0,
+  "seconds": 10.963744541979395,
+  "artifact_valid": true,
+  "olean_sha256": "4afade9f2c6526a1f66661ac0812ca359805d7d3f242ca5407a76e8a9e051d58",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTMappingCornerComparison.log",
+  "log_sha256": "51b80163f8dc88666c785a192133ba547fcc4c1988d09de89624a74ef89c2614",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTMappingCornerFibration": "7398ab14418c0b5cae46e92c244ad3047603617e35164dc7b5dde0e9aa84493d"
+  },
+  "original_receipt_sha256": "b03c5c31ddd034c9a89f2adfc016fdad0ba28131e11b64642511252af5ee0d32",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

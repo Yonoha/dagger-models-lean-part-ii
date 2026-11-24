@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCoherentTargetTransport",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentTargetTransport.lean",
+  "source_sha256": "43ae7d16c12c153f0fe1d21933a5977efc1638d9af664c3e5a14bbae0aed8a4d",
+  "actual_exit": 0,
+  "seconds": 10.741449042005115,
+  "artifact_valid": true,
+  "olean_sha256": "1ae35a4955378b5e7096c1bcf49bd6aaa7bdef2612d34c59f0bfdf64e35ef8e4",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentTargetTransport.log",
+  "log_sha256": "d157b66c2835e7d2aa5016252b6efac2fdcd5cb13c5e7183cb55929e0d8c274c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentRightFiberNaturality": "32b1871ce0ac40b131df3acef0ffb0c1c03fe09e29800fb148cb28085dbb1112",
+    "OrdinarySegalCoherentRightFixedSpineIso": "1aa634231ff2ed50045426fe2dbd6802cceef64cd243cd8e867d1ffe3b195fb3",
+    "WeakSpanMorphismTransfer": "009e4d2019a078df9ca725ebcdf186f46f987b6a75c655bf9dbf2403ba0ae154"
+  },
+  "original_receipt_sha256": "8dce97bc4843db290b7b6ee33caa4a70eaca9fded01572b1a9160195a8dc6223",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

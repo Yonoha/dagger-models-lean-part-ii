@@ -1,0 +1,21 @@
+{
+  "module": "RelativeCosliceRestrictionLifting",
+  "source": "lean/TheoremCStages/RelativeCosliceRestrictionLifting.lean",
+  "source_sha256": "c2689615b91e8e1d29f02f873a8f650c8ee14c4e1d48eb51b775f4714f4eba85",
+  "actual_exit": 0,
+  "seconds": 7.2927051250007935,
+  "artifact_valid": true,
+  "olean_sha256": "0f0a73e08caac4399aac378bf044fc5b1aad5d952a5e5682c51e042c2b297b42",
+  "log": "verification/theorem-c-20261125/stages/RelativeCosliceRestrictionLifting.log",
+  "log_sha256": "8600b2a6b840aa4b5fb1ffce308b679b9393c815134c26ef1734e8629569a2f4",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RelativeCosliceInnerFibrationLifting": "647fed5732c0788df1a13be6f7247276cfbdc3219f3d055cb9587e3b0620368d",
+    "OriginalLeftMappingFunctoriality": "9208b0848cf6ab030eb57c598195297c61d4eb5b73abdbb57bea04dafc4eacf4",
+    "OriginalCosliceLeftHornLifting": "b393af7f4bc480c61c4b87436cf90e8ee3da583f146d10749a864d06d1484780",
+    "OriginalCosliceOneHornLifting": "9e0f0e3d97738a596559c013b65a0afcfeb0a2ddb470e2d9e28be056828c0165"
+  },
+  "original_receipt_sha256": "55e941564b5f1dc24330611cc1ac59ef3c14b2a03d7b098efa8fadc10eb34ed9",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryJTMappingFunctor",
+  "source": "lean/TheoremCStages/OrdinaryJTMappingFunctor.lean",
+  "source_sha256": "a8262ce332d174739cce635394231b582118094c8194e09f01049e3a2bcc1955",
+  "actual_exit": 0,
+  "seconds": 7.137177708966192,
+  "artifact_valid": true,
+  "olean_sha256": "2ca58a267a23261ec29e04ccb7889746df6ee1a3d107bd8a61349cd36bb23e4a",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTMappingFunctor.log",
+  "log_sha256": "10b0ee17fb12f91dea3230a6ebbf3087d679fef082e1024a025e75cbe85ffe02",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTMappingFibration": "68ec6e723b825b7fbab9ce46ae2840643c5f90d7cf3ffee7ce279baa404f951a",
+    "Mathlib.CategoryTheory.Limits.Yoneda": "07558938cad9e16ca17b88ec9240f7580a49d2e71fa2bac5935dd5ae09bf42a6",
+    "Mathlib.CategoryTheory.Monoidal.Limits.Preserves": "3a98e5320728c54028acb3a4d51883ca0f26c1de555fab5cd059f195836dd238"
+  },
+  "original_receipt_sha256": "36b8a709e15487f39366d129ff4704b62c2ad39b6020957c0b56c456d6d50256",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

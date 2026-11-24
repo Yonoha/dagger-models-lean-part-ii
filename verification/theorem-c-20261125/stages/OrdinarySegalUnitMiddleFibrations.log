@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalUnitMiddleFibrations.leftHornPair_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalUnitMiddleFibrations.firstCommon_isPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalUnitMiddleFibrations.firstCommonFace_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

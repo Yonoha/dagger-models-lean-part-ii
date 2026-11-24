@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryAllVertexReplacementSegalReduction.replacement_vertexComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexReplacementSegalReduction.replacement_relativeComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexReplacementSegalReduction.replacement_relativeTarget_segal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

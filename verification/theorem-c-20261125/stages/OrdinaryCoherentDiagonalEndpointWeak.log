@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinaryCoherentDiagonalEndpointWeak.diagonalEndpoint_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

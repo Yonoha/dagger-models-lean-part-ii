@@ -1,0 +1,30 @@
+'DaggerModels.PartII.OrdinarySegalWalkingFullFaithfulnessAudit.originalInput_constantWalking_mappingMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorSimplexCalibration.mappingIso_simplex_hom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorRelativeEndpointFibration.relativeEndpoint_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorOrderedMappingFibration.mappingMap_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.KanHomotopyMonomorphismFibre.pairedBase_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.KanHomotopyMonomorphismFibreCalibration.exactFibreMap_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.KanHomotopyMonomorphismSpecifiedFibre.fibreMap_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorUnitMappingDiagonal.unit_mappingMap_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalConstantWalkingFullyFaithful.mappingMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTTheoremCFromOriginalRawOrderedUnit.statement_of_originalRawOrderedUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

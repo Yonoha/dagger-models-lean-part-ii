@@ -1,0 +1,19 @@
+{
+  "module": "OrdinarySegalVertexTupleFibres",
+  "source": "lean/TheoremCStages/OrdinarySegalVertexTupleFibres.lean",
+  "source_sha256": "e51d6cddb92d98459e2bbf39579d5bfe0fdf33bb1206a395efb4e188fcd0f84f",
+  "actual_exit": 0,
+  "seconds": 10.057439249998424,
+  "artifact_valid": true,
+  "olean_sha256": "7274464490a11bcf1a6688de358112708a83afe1cf33e26432a4f867a723e64c",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalVertexTupleFibres.log",
+  "log_sha256": "0968c004f86515cb7a1c4cc5f0a0da3b77f17a5e2a467a5303fdd7ef86965e24",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalWalkingEvaluation": "3638efb2a5b4daa5f7134ce5639f1cc393c754a020232ea55edcf7bd0f155d25",
+    "DaggerModelsPartII.ConstantDaggerSource": "67bfc68c70f35a1b551c07e9466d20eb7152ec4dca9fa0455bc92a886276ec74"
+  },
+  "original_receipt_sha256": "67c1dca1c7c70a4e2415dcd50df77dc2ae57b2692b827a47bb74c9dd8a8b36ea",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

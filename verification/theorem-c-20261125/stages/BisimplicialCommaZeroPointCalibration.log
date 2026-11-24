@@ -1,0 +1,15 @@
+'DaggerModels.PartII.BisimplicialCommaZeroPointCalibration.zeroTo_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaZeroPointCalibration.outerConstantPoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaZeroPointCalibration.constantBarPoint_reconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaZeroPointCalibration.zeroPoint_parameterBarMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaZeroPointCalibration.zeroPoint_baseReconstruction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

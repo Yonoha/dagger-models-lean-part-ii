@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryZeroCoskeletonMapping",
+  "source": "lean/TheoremCStages/OrdinaryZeroCoskeletonMapping.lean",
+  "source_sha256": "94b42c1e21269a4ca010b4768eadbf1944c1753e28d6a0bb054baac55f56cc26",
+  "actual_exit": 0,
+  "seconds": 8.08063070900971,
+  "artifact_valid": true,
+  "olean_sha256": "5ba63af29820ba8f35f3a8cf3b2f2374676238bd77d3d5b3e844c1a4f5477006",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryZeroCoskeletonMapping.log",
+  "log_sha256": "ee714cb42cc7d6593ad6f5542f93c21458644e14cda380e238f0b640b8865170",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryZeroCoskeleton": "bfa5fc9d5106652177cf1687bf2b20b8c3c925a7f2f29c055ad888c52e20d352",
+    "DaggerModelsPartII.DiagramTensorMappingAdjunction": "0a4835f98391dd03f4f522fa6bfcbed3ac3330d29a11a03448fd53fedf1f5895"
+  },
+  "original_receipt_sha256": "1bc2beed3c4676e17a28bf8f784c1db69085e352162350788a9d7aba5599a6c5",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

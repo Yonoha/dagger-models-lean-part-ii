@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalSpineTwoPullback",
+  "source": "lean/TheoremCStages/OrdinarySegalSpineTwoPullback.lean",
+  "source_sha256": "c5fa02e4b592882ed3363ede887421fb5d654cc75346bfd5143c5628daac86e6",
+  "actual_exit": 0,
+  "seconds": 8.714278124971315,
+  "artifact_valid": true,
+  "olean_sha256": "5d487961957bbd042b7c5455729b281dd08295c9dc76e4efbb0ded440e7fd503",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalSpineTwoPullback.log",
+  "log_sha256": "a1fffca405a3881575fb2da55fed9a2696117569e7b759ade52e5279df99ee8e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalDegeneracyPullback": "4c14dead12515d1f451d8f3b8c755290445ccf9943d109d0d15c1639759ca06b",
+    "DaggerModelsPartII.SpineOuterFacePushout": "3ea724bc98a7f05305802f3fc4a6ef5aa48fa8453715332696968fee29c2111a",
+    "DaggerModelsPartII.OuterFaceSpineGeometry": "337717197741375ef45022cbe0b032d70339e27e9ae5aba3dde7bd360eb86b10",
+    "DaggerModelsPartII.DiagramMappingPushout": "8476fa23a99a12b479832f1cf6688cae572260753634750021743409de2cd8ec",
+    "Mathlib.AlgebraicTopology.SimplicialSet.SubcomplexColimits": "e4e0ba7b7575269ae8ee6a8734901fc80be1e6cd4dc14a06d08a49a5470449d6"
+  },
+  "original_receipt_sha256": "d27202944a96de129be4d6944b3e9554cd22742219edd2d6b4159b356fd7cfc2",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

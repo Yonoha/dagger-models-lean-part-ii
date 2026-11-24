@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionDerivedUnit.unitChosenMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionDerivedUnit.unitImage_strictInclusion_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionDerivedUnit.originalInput_unitChosenMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

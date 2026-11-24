@@ -1,0 +1,7 @@
+'DaggerModels.PartII.OrdinaryHorizontalJoyalModel.model' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryHorizontalJoyalModel.weak_iff_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryHorizontalJoyalModel.cofibrations_eq_monomorphisms' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryPrecompletionCategoricalEquivalence.weak_of_two_composites' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionCategoricalEquivalence.precompletionMap_row_weak_of_walkingInverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

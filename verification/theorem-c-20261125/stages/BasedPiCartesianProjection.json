@@ -1,0 +1,19 @@
+{
+  "module": "BasedPiCartesianProjection",
+  "source": "lean/TheoremCStages/BasedPiCartesianProjection.lean",
+  "source_sha256": "7c752deed44affd3e2fb6fb093de0a1c3b83676517273f48585a9c96570f0c20",
+  "actual_exit": 0,
+  "seconds": 11.357976792001864,
+  "artifact_valid": true,
+  "olean_sha256": "eec79f847f0844a7488d77f920b2f1042b160fa41023773274c683b566c82805",
+  "log": "verification/theorem-c-20261125/stages/BasedPiCartesianProjection.log",
+  "log_sha256": "1ee9fa282c42442fb83139e8b80d7437ecc6b06ddc3d75887ca5573a792a4305",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "CartesianSimplicialMapFibration": "2d58ca57f56c678c7c5367d13aa61dc6d6967cb53e4cdb052127b19a0cf6bdad",
+    "BasedPiOperatorWeakTransfer": "c1d8af7f6800f2fd96fe62a39594def1f4fb1ed2a5fd657f2f14ed3e8efa1521"
+  },
+  "original_receipt_sha256": "24829e2eb7b7abbb089aa57bb8e3fad7860fb57617d3e5e25264c8ef73fb088e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

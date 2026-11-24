@@ -1,0 +1,19 @@
+{
+  "module": "BasedPiOperatorWeakTransfer",
+  "source": "lean/TheoremCStages/BasedPiOperatorWeakTransfer.lean",
+  "source_sha256": "8a0faba8b80485dae45f7d22ef94be61819ce415d6a01a7c535a22b4a0c9c974",
+  "actual_exit": 0,
+  "seconds": 9.116345041999011,
+  "artifact_valid": true,
+  "olean_sha256": "c1d8af7f6800f2fd96fe62a39594def1f4fb1ed2a5fd657f2f14ed3e8efa1521",
+  "log": "verification/theorem-c-20261125/stages/BasedPiOperatorWeakTransfer.log",
+  "log_sha256": "12ec583ec490fbcdfa2bd2d1c3fffa0b862d068b252d2403cd4e04206b1916bd",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeBasedPiWeakPullback": "8c1c8fa01556825d7ef552587a79dde6065d58701f63f45d64a1a9348608586f",
+    "TopCatModelCategory.SSet.KanComplexW": "3dc28a5d8d739f42fac751bc1cd6e991487bfd01e4d729bf37dad8cdb7c6d654"
+  },
+  "original_receipt_sha256": "e7ea223eb5735561030bd252acece047190d0e1ff62a6f0456f3e5314fcd8702",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryWalkingRelativeUnitExtension",
+  "source": "lean/TheoremCStages/OrdinaryWalkingRelativeUnitExtension.lean",
+  "source_sha256": "19bd70f6a4c44a2965dfec828ded68a7090cd6d91f1f827f0118b9c625f464e2",
+  "actual_exit": 0,
+  "seconds": 10.361031249980442,
+  "artifact_valid": true,
+  "olean_sha256": "237051d7a6e7770433b3ffc5bcc23f2899e1dec3139f79c0227f23220d954f45",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingRelativeUnitExtension.log",
+  "log_sha256": "1d7ee1f527dc9ff408f29fa0dc8a62be35ad3eca0bb60183204f089d7203ff86",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingRelativeTower": "37fc63c1766ddc3a307103d5337354d04ee4ccf32759bf15a70c6f01c9643112",
+    "OrdinaryWalkingInitialStageCalibration": "aacc500e72be208e2cf53fde32e5befdb05b237404506145510f0f40bfc8d828"
+  },
+  "original_receipt_sha256": "0ec35099f2363ca7eaee9e56daa8458ec95adf0aa4da0e38df841644c16dd6c0",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

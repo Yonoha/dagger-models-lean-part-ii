@@ -1,0 +1,7 @@
+'DaggerModels.PartII.OrdinaryCSSConditions.completeSegalCondition_iff_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSConditions.localObject_iff_strict' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSConditions.isFibrant_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

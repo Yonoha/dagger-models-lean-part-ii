@@ -1,0 +1,12 @@
+'_private.OrdinaryWalkingPrecompletionExchange.0.DaggerModels.PartII.OrdinaryWalkingPrecompletionExchange.zeroIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'_private.OrdinaryWalkingPrecompletionExchange.0.DaggerModels.PartII.OrdinaryWalkingPrecompletionExchange.targetIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionExchange.outerExchangeIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionExchange.diagonalExchangeIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

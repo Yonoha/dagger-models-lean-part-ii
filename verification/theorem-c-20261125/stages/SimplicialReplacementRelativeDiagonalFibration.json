@@ -1,0 +1,22 @@
+{
+  "module": "SimplicialReplacementRelativeDiagonalFibration",
+  "source": "lean/TheoremCStages/SimplicialReplacementRelativeDiagonalFibration.lean",
+  "source_sha256": "a715b9b26223fdec754bd300e5797a3eb916855d13d11464b004422b38b010b5",
+  "actual_exit": 0,
+  "seconds": 14.229027416993631,
+  "artifact_valid": true,
+  "olean_sha256": "f0ecd271aae6e74314e3fbb06ea35ba39e0b18036f39b7589fa21d2a1690ea89",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementRelativeDiagonalFibration.log",
+  "log_sha256": "c40d464ff503d48c78402e5d1e115d9c7c0d2f4900d176f0e1febe9e55f3cee8",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplicialReplacementBasedPiOperators": "b20b7ea45e5527eeaa4d90ed024a9e5531aeeba2d40aea2be6772cc6058e0b89",
+    "SimplicialReplacementComponents": "01cda95aeee8f3bc35a1755ade1d7b6db68318c345cdd5508793a44f922592bd",
+    "BasedPiCartesianProjection": "eec79f847f0844a7488d77f920b2f1042b160fa41023773274c683b566c82805",
+    "NativePiKanReedyDiagonal": "4844545c443391953bde2540e94d84e779469a214db79c0db410df3b4a9f849a",
+    "NativeReedyRelativeComponentFibration": "248e211f19c635a1549c7f00d6e0ca403ad989c729846219a128bf64653e90c1"
+  },
+  "original_receipt_sha256": "8503638a8b31dcdd039990ef75cd887e1369b545194bb09bff5ba7078c33909e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,22 @@
+{
+  "module": "OrdinaryWalkingParameterInvertibleEdge",
+  "source": "lean/TheoremCStages/OrdinaryWalkingParameterInvertibleEdge.lean",
+  "source_sha256": "0438f58fbc8b3955ca303b7816d37651232720d5d4a6535ef9d33f2d2f475add",
+  "actual_exit": 0,
+  "seconds": 8.548824790981598,
+  "artifact_valid": true,
+  "olean_sha256": "4d090b5b2fe6d0b3a505d5782e657956f0857133c7259fcc748d1ee01943a4ea",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingParameterInvertibleEdge.log",
+  "log_sha256": "0ac4a375f8dba43d2d7ca8f4f49a899206d8d546a83fc21079827b0bf31db8fe",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.GroupoidSimplex": "311ec803ac88509bb3f274b7167139b27e7c38dc089b814a12cc4a199e4dcf43",
+    "DaggerModelsPartII.JTCylinderCEComparison": "353fb31567d3b01351c445a7a6af2bc4848a40c1af2ac64ba8fba17665e825b8",
+    "NativeKanSourceOriginalCoreFactor": "5cf885558a39471750ce8199d317baf3a70f48806995b6c683d3904da51adbd3",
+    "OriginalOrdinaryKanCoreEdgeMaximality": "89d95d19c2038d4efd8e971909719a1c3287d4104b51ace0594bbfd7f7a1d10a",
+    "OriginalInnerHornFillers": "bcdbbb2483938bcb5266d1cc926df3327056bcf3fb677c37092218645f9c91c1"
+  },
+  "original_receipt_sha256": "25c11808d0704a29c3af5e2dce3037bcd4d81840cf35e17042ff668f63a07b63",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

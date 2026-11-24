@@ -1,0 +1,2 @@
+'DaggerModels.PartII.SplitSectionArrowRetract.sectionRetract' depends on axioms: [propext, Quot.sound]
+'DaggerModels.PartII.SplitSectionArrowRetract.property_section' depends on axioms: [propext, Quot.sound]

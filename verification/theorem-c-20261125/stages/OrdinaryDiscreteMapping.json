@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryDiscreteMapping",
+  "source": "lean/TheoremCStages/OrdinaryDiscreteMapping.lean",
+  "source_sha256": "8cb438a0de3b933d071ebd1eadad6da5cdf3a75d403fd605ac403857ecd85348",
+  "actual_exit": 0,
+  "seconds": 12.42163083399646,
+  "artifact_valid": true,
+  "olean_sha256": "a44dc7eecb6d1bc21a89eb457532bffb6b3b67985323b8ba95898ec3df90dd68",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryDiscreteMapping.log",
+  "log_sha256": "fbaacf444ae7538537cd7f48336c8bdbea7e028a8293930d8d3d8267694695a1",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSLocalization": "69c90e956a0841beef3059888d32454551e09b73558d0bfa4f69730810f86a9d",
+    "DaggerModelsPartII.DiagramMappingSpace": "8be33a8b965799472c9c730da12842897c9c70adc051369089ef2d16c6a6fa38",
+    "NativeBisimplicialHorizontalMapping": "b968e941bde60ea26169c0bc883f058c9f030722df6ab5f23b2e28b66675ade7"
+  },
+  "original_receipt_sha256": "a91cfadcb3a0923a5939bce6c73d9ec7613830360c16f926a2a2a02f96d03b01",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

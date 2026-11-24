@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryJoyalIsofibrationRecognition",
+  "source": "lean/TheoremCStages/OrdinaryJoyalIsofibrationRecognition.lean",
+  "source_sha256": "5ac4773c0935d5f15d4c485943c549b0c03c0da9d568e9d77b1f3db0d0a42f99",
+  "actual_exit": 0,
+  "seconds": 9.973786625021603,
+  "artifact_valid": true,
+  "olean_sha256": "43716eae755066ca50021a7e46480993508d04a042196357a0cb7620149fe130",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJoyalIsofibrationRecognition.log",
+  "log_sha256": "cd3d8e52f874d27e2e3cb08bda709b6d0b6dbb7ac1ddf96086e7dd37d6f48c3f",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryInnerIsoRelativeCylinder": "2d22fb93acd2b634df111250aa0dd4fe79ea48cb4d2aa8f51e415fabdf7df67a",
+    "NativeWeakMonoRelativeWalkingHomotopy": "6879469ee16703d4662099394a37432a22bb517f417d55fd32660760abd22d6f",
+    "NativeWeakMonoQuasicategoryExtension": "b136a89294a91cfdde318e169e6b9a0b40d55baf450a6411d48268d8d8219f3a",
+    "NativeOriginalJoyalSmithModelData": "a60f60a2065c2c3c5bf23c360f1ef10e55ab42ed246311efcadbd5c0ea830619"
+  },
+  "original_receipt_sha256": "c2856a256075556552881cf1241f299bcc5a3aee5e40e9b7f2ba4d3ab205abaa",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

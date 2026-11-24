@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalCotensorEndpointCalibration.boundaryEndpointIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorEndpointCalibration.boundaryEndpointIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

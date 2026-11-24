@@ -1,0 +1,19 @@
+{
+  "module": "SimplicialReplacementNerveChosenFiber",
+  "source": "lean/TheoremCStages/SimplicialReplacementNerveChosenFiber.lean",
+  "source_sha256": "5b36ed75cf6b7a8b1fb0effc1a7e09e4c0e1365fb49a62fd871d0a998370c955",
+  "actual_exit": 0,
+  "seconds": 11.732415624996065,
+  "artifact_valid": true,
+  "olean_sha256": "3476cd88c00026c132af9deb65414307142287e861f533695c9b3cc45d1cb513",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementNerveChosenFiber.log",
+  "log_sha256": "f9130e18e89c922f0dda1adce82ae9a4c7d8ba709aa51723b245ae783cd2c04b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplicialReplacementValueChosenFiber": "6e907ca0b9556b7c8b36142d5205721c9f4beef3e10652645ee26b74fff9a29d",
+    "SSetWeakPullbackComparison": "622002b0b377d5158f1b3382649cdaf0dbfe5b6b1931fce0145ddd430ab9fddc"
+  },
+  "original_receipt_sha256": "0d6ea2e25b41967a2bd7489e0f66824eed7691b84116dc3dbe5451745de48fc6",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

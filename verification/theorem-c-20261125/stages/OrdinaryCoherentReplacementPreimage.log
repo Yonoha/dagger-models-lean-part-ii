@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryCoherentReplacementPreimage.diagonalInclusion_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCoherentReplacementPreimage.coherentComparison_weak_of_preimage' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

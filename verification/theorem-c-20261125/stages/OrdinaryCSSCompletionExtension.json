@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryCSSCompletionExtension",
+  "source": "lean/TheoremCStages/OrdinaryCSSCompletionExtension.lean",
+  "source_sha256": "a18aca13354a524a0b6a1e131b3b1c1c9ed4f2fdf1a348316e01c5a72a358e44",
+  "actual_exit": 0,
+  "seconds": 27.420101958996383,
+  "artifact_valid": true,
+  "olean_sha256": "3e9a26fe56b65e91872266969e758523829ce09d6a8e20a50b5327102095b9aa",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCSSCompletionExtension.log",
+  "log_sha256": "9963b3229d19142e6a06249d03366d6eab3f8da7cd004d3f8148f86a7b900afc",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryChosenCSSCompletion": "e9f0bee82a5d9bf7299be44c685c5f6a55580f8a9694d59f232160b94eec4ce9",
+    "OrdinaryPrecompletionUnitCSSWeak": "7b070312d6ccbb6f779457f0bea37cb5fe688808d89b0ab1d168aa22726c5b5c"
+  },
+  "original_receipt_sha256": "d663db79f09dc102ff71ff33d682ac998a3f68e0af5d6ac1a635bffc495a78c9",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

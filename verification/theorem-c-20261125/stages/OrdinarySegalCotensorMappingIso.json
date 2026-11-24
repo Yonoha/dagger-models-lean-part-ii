@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCotensorMappingIso",
+  "source": "lean/TheoremCStages/OrdinarySegalCotensorMappingIso.lean",
+  "source_sha256": "f609a6457bb6bce4334ad27b0b186c80ab3e81dd9ecf3b19ac8ea128cc647e11",
+  "actual_exit": 0,
+  "seconds": 9.978825959027745,
+  "artifact_valid": true,
+  "olean_sha256": "bd62d6e353c656d9b6130c230ae745d813b979ac3fa6a5e354e47ba46ab12ed7",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCotensorMappingIso.log",
+  "log_sha256": "02d1474552ae5fa2532f4f40817ff9cfca7b387eed2d95fbd34f5fb864d6b4e5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalHorizontalCotensor": "ef729f41bda8fe56a20faa496f9d3cc0209a533cb5dd83e7c84a805dbb24157e",
+    "OrdinaryDiscreteMapping": "a44dc7eecb6d1bc21a89eb457532bffb6b3b67985323b8ba95898ec3df90dd68",
+    "NativeEndomorphismSimplexMaps": "ff11d30c05dc36964a17bfeb3de3e2ba30907ab42b6d7c34deb96087427e7e18"
+  },
+  "original_receipt_sha256": "04f548cf3c1c5ef3e68de1d4f41b2cbfec59fd1ff92683a2ad7dac49ba65866e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

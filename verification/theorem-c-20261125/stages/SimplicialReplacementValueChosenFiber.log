@@ -1,0 +1,6 @@
+'DaggerModels.PartII.SimplicialReplacementValueChosenFiber.valueToChosen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementValueChosenFiber.valueToChosen_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

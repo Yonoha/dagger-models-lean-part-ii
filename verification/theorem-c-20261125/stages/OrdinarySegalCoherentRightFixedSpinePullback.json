@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalCoherentRightFixedSpinePullback",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentRightFixedSpinePullback.lean",
+  "source_sha256": "13b719109a0038e2ed56c254f555e69ecb43b416047e296ab811a886ad66d1ba",
+  "actual_exit": 0,
+  "seconds": 12.392592249998415,
+  "artifact_valid": true,
+  "olean_sha256": "6a71433ca1cb30884bd3db62e7b14869a4e6cd15e702b0961f6e7c44c4bf89ea",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentRightFixedSpinePullback.log",
+  "log_sha256": "1a56d58937d1d6fe4f2e15a9f2e8feaa545bc1b6c14d87237b7168fd58f2f7dd",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentRightFixedSpine": "420410e4ed1d10320d2a5651db235ba1fb131e459ff0f951f24f45ee6d96dfc7"
+  },
+  "original_receipt_sha256": "bb521325ae98c9496fa4d07d5b43568e746119b22f212b343449d4d10afcc262",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

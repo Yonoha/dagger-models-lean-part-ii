@@ -1,0 +1,18 @@
+{
+  "module": "OrdinarySegalComponentImage",
+  "source": "lean/TheoremCStages/OrdinarySegalComponentImage.lean",
+  "source_sha256": "6276fb7986358b404b1c18ae899d08c683288e684368f246d93610994ddba7c9",
+  "actual_exit": 0,
+  "seconds": 5.717550792032853,
+  "artifact_valid": true,
+  "olean_sha256": "fefadd03dfce9e2ff0588c7f55189508095c089fd38bb9643bed63e86c35296f",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalComponentImage.log",
+  "log_sha256": "915522a944feee282291c655fcedd4baef4b7fe113cff4af107aaeb3102560f4",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalComponentSubcomplex": "926da7994a79e55921ebab267e041fcb02ddd8474294461e3f5120f4151a2c93"
+  },
+  "original_receipt_sha256": "1699fe72eec72f1b08571348afc7c130ec2ee0bee947c5a353dbf06d03a74e86",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

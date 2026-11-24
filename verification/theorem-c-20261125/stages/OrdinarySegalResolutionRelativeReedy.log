@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySegalResolutionRelativeReedy.endpointResolution_row_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalResolutionRelativeReedy.diagonalComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,13 @@
+'DaggerModels.PartII.OrdinaryReedyVerticalConstancy.rowIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryReedyVerticalConstancy.rowIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryReedyVerticalConstancy.vertexRestriction_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryReedyVerticalConstancy.collapse_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryReedyVerticalConstancy.verticalOperator_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

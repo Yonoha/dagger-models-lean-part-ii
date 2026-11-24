@@ -1,0 +1,8 @@
+{
+  "kind": "Source-inventory hash negative control; not Comparator or theorem-statement correspondence",
+  "negative_exit": 1,
+  "rejected": "Incorrect expected hash for original final-proof source",
+  "restored_positive_exit": 0,
+  "manifest_restored_byte_identically": true,
+  "proof_source_never_changed": true
+}

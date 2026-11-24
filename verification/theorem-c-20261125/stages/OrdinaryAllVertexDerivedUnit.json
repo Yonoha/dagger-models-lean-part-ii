@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryAllVertexDerivedUnit",
+  "source": "lean/TheoremCStages/OrdinaryAllVertexDerivedUnit.lean",
+  "source_sha256": "70af51126ea110d91c0cfc68b5899a75475e13b4c87c19e0c3112546ab766992",
+  "actual_exit": 0,
+  "seconds": 19.02060508298746,
+  "artifact_valid": true,
+  "olean_sha256": "bf23f4863805a29518127afe6d6f70795715c860a5c2062d99a010b8bdfd6207",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryAllVertexDerivedUnit.log",
+  "log_sha256": "1eb91baef958ff75fea3a0e32cabbfa7257664b5246b9a1f6f555356e1d4e843",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryAllVertexPointReconstruction": "4d01872e7a0c77c6aaa8365c2bf1ba49bf1eea230be1bffe6aba1f37c5582a71",
+    "BisimplicialCommaZeroFiberComparison": "5eba7d1a6720ace4b034079e4944dd54a8b8aea95cd2cee0eefba0113c073e0f",
+    "DaggerModelsPartII.ChosenHomotopyFiberFunctor": "0916c8621778b789e1cafdd723d7e7ed052a9bbfe09725f6c271cc680b224620"
+  },
+  "original_receipt_sha256": "cdc0278ed1b81c2d269955c795fca19a9e616fc3d6e99a41e696b6214408766c",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

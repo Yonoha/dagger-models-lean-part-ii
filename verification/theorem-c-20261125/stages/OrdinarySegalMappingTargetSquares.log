@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalMappingTargetSquares.pre_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalMappingTargetSquares.hornRestriction_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalMappingTargetSquares.firstEdgeRestriction_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalMappingTargetSquares.fullFirstEdge_post' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

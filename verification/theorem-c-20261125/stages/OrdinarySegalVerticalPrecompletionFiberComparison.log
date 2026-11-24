@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionFiberComparison.endpoint_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionFiberComparison.point_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionFiberComparison.strictUnitFiberComparison_eq_mappingMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalVerticalPrecompletionFiberComparison.mappingMap_unit_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

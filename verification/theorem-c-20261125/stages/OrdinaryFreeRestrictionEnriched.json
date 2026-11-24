@@ -1,0 +1,23 @@
+{
+  "module": "OrdinaryFreeRestrictionEnriched",
+  "source": "lean/TheoremCStages/OrdinaryFreeRestrictionEnriched.lean",
+  "source_sha256": "25de427ad03c72e781ed1c421c70068338097a23cb8dcb765341947af886c2e5",
+  "actual_exit": 0,
+  "seconds": 10.02190741704544,
+  "artifact_valid": true,
+  "olean_sha256": "b3c6d7bcbd020f9ec6efffdfacfdaed262e014d8ae6d2c08d1b39969cf6172d9",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryFreeRestrictionEnriched.log",
+  "log_sha256": "1650407cc8185b33fcbcaf85c853af279488185a55fa1d71652aefcca5c7d412",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryFreeRestrictionMapping": "c402a6fe9a963fbc38affeef0a325cf462c035253cf9aad0777493d42b168aa2",
+    "DaggerModelsPartII.DiagramMappingLimits": "e77dad4306bc62b99b802e2af82720799697fb49e9aa1720f86cabb6b53534e6",
+    "DaggerModelsPartII.DiagramTensorMappingAdjunction": "0a4835f98391dd03f4f522fa6bfcbed3ac3330d29a11a03448fd53fedf1f5895",
+    "DaggerModelsPartII.JTReversalInput": "2c9985e6d691ba8d138f44b8cdccf79f6abad0d08e36508bf506d99facdc8529",
+    "DaggerModelsPartII.JTRealizationDiagonal": "bcd3d0fc680edb8f92fe9d8810a0ce375c142daa68650bd0de2fb5e4b6459aa8",
+    "DaggerModelsPartII.JTProjectiveOrderedFiberComparison": "d6d1362df3acdaddcff0008c776b5ca1200dc687ce0b509121244af2cb6bb956"
+  },
+  "original_receipt_sha256": "ac735cd8770225c7a16bb98ec1f7e2336f18db43b51217a106c4ce9e93a6ac14",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

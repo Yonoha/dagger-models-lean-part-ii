@@ -1,0 +1,19 @@
+{
+  "module": "SSetWeakPullbackComparison",
+  "source": "lean/TheoremCStages/SSetWeakPullbackComparison.lean",
+  "source_sha256": "b17202f844565677b3e83916ab536040c84d0d719c827fa22be3353183218e2c",
+  "actual_exit": 0,
+  "seconds": 22.597353082994232,
+  "artifact_valid": true,
+  "olean_sha256": "622002b0b377d5158f1b3382649cdaf0dbfe5b6b1931fce0145ddd430ab9fddc",
+  "log": "verification/theorem-c-20261125/stages/SSetWeakPullbackComparison.log",
+  "log_sha256": "bd0c2bd62206dccbc7afa635f4ca888eade2d258bd4980768d7a1e39636e73db",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeSSetFibrationSquareFibreWeak": "2aeec0cf3f789a04f077f548df35aef8e787c659bd925bee3644b84e0c9a9a2c",
+    "Mathlib.CategoryTheory.Limits.Shapes.Pullback.Pasting": "74edaf0dc21f690f08938515634eba1252a0ecb54ee216129df6e7cdcb2c82c4"
+  },
+  "original_receipt_sha256": "aebac760923acba507a89f741317b9f875c9b443d8d6339d6bcb8d79a03e31b9",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

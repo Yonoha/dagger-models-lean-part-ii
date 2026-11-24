@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalUnitSquares",
+  "source": "lean/TheoremCStages/OrdinarySegalUnitSquares.lean",
+  "source_sha256": "05d2665261a58b18e0e38186b104a7f98442aa45c550ec3486bfcf6de7ce890a",
+  "actual_exit": 0,
+  "seconds": 7.8711624999996275,
+  "artifact_valid": true,
+  "olean_sha256": "a997831c57fecba12ed8f45c949c898397302ebf7a5e467c745a74de70937b2e",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalUnitSquares.log",
+  "log_sha256": "1542b131dc0a29a166a1440b54327ca9f2a8b8c9ee246364d5ac3230e238298e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalSpineTwoPullback": "5d487961957bbd042b7c5455729b281dd08295c9dc76e4efbb0ded440e7fd503",
+    "OrdinarySegalWalkingEvaluation": "3638efb2a5b4daa5f7134ce5639f1cc393c754a020232ea55edcf7bd0f155d25",
+    "DaggerModelsPartII.DiagramMappingLimits": "e77dad4306bc62b99b802e2af82720799697fb49e9aa1720f86cabb6b53534e6"
+  },
+  "original_receipt_sha256": "ff40a44e151e6954394a51fe581831095bc48448a11df378bca48485d6e4f685",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

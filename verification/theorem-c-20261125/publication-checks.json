@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "module": "TheoremCOriginalCompletionProof",
+      "actual_exit": 0,
+      "seconds": 53.11721916600072,
+      "source": "lean/TheoremCStages/TheoremCOriginalCompletionProof.lean",
+      "source_sha256": "80cac142b34987f4a9f2ab5b93a68e4780897858668a1f4cdea6cbb7bb00cc66",
+      "artifact_valid": true,
+      "imported_artifact_sha256": {
+        "OrdinarySegalCSSWeakOrderedRecognition": "1248d1b16113a92e3f9698cd7c3b7c126f47bedd63dee9f7fe3c4a9e35184560",
+        "RawOrdinaryJTTargetCSSFibrant": "ade693b9002aaa1463fa929eebe108ff0e78bface8d8f36dd730301ba5cede94",
+        "RawOrdinaryJTUnitCSSWeak": "8ee80ba09d3a7fc4d9278bef133d76b7e76ba58d95c9af5c9788edc34e22c966",
+        "RawOrdinaryJTChosenMapCalibration": "aea469037b62b4582db333df16caa1c29a08a52b0d358f62ea8ea7c3a5481402",
+        "OrdinaryJTOrdinaryInputSegal": "1862a87235be9279e986a7160b62f8cbef9928ffabded90996cf0ae122035477",
+        "OrdinaryJTOrdinaryInputReedy": "6a682d19df3e60cb4cc19c75a495050db08e5bdae4112d63afa11bf336aee9bb",
+        "TheoremCFromOriginalRawOrderedUnit": "735d0f70e773096f22afd89053ec33ff9c6b0216f71d138517b69d7b7dc100a3"
+      },
+      "log": "verification/theorem-c-20261125/publication-TheoremCOriginalCompletionProof.log",
+      "log_sha256": "ef8b54108f970a10434355cb7efb5236333a9ec425b5febf24d819cb32b23659",
+      "olean_sha256": "e82272e7fd7ac43c7ab59c71ce5c40169a755f4cd5b2a1476f3b868359b15a59"
+    },
+    {
+      "module": "TheoremCOriginalFourLinksAudit",
+      "actual_exit": 0,
+      "seconds": 45.22169374999066,
+      "source": "lean/TheoremCStages/TheoremCOriginalFourLinksAudit.lean",
+      "source_sha256": "52700a2f220959baccd477ad0a0c68f85126b9564ffb4de757df479bf279941d",
+      "artifact_valid": true,
+      "imported_artifact_sha256": {
+        "TheoremCOriginalCompletionProof": "e82272e7fd7ac43c7ab59c71ce5c40169a755f4cd5b2a1476f3b868359b15a59"
+      },
+      "log": "verification/theorem-c-20261125/publication-TheoremCOriginalFourLinksAudit.log",
+      "log_sha256": "152729234a273288052dc5f3dd1f5eb3bf0a37c7a587114b2c74ce634972d732",
+      "olean_sha256": "595078c58e008faa9b69cb8d892b3f7d1c0aa57a7250a0b8605e79e9183476cc"
+    },
+    {
+      "module": "MainTheoremCPartII",
+      "actual_exit": 0,
+      "seconds": 52.896802792005474,
+      "source": "lean/MainTheoremCPartII.lean",
+      "source_sha256": "27ff5054aee56105c290613138dd785c0840102bd8231bd1a03792c7b07fd2f6",
+      "artifact_valid": true,
+      "imported_artifact_sha256": {
+        "TheoremCOriginalFourLinksAudit": "595078c58e008faa9b69cb8d892b3f7d1c0aa57a7250a0b8605e79e9183476cc"
+      },
+      "log": "verification/theorem-c-20261125/publication-MainTheoremCPartII.log",
+      "log_sha256": "dbeed2cf98e0cdce659651a03ab476c81bc0519a54657915fa33912ccb4a8405",
+      "olean_sha256": "16711218ca5fe6b1db25eca090b1ac288adc1c2b3176d937f4bc87746e1088da"
+    }
+  ],
+  "lake_configuration_loaded": true,
+  "part_i_source_hashes_checked_against_original_used_closure": true,
+  "used_existing_verified_import_cache": true,
+  "fresh_separate_repository_full_build": false,
+  "original_C_source_bytes_unchanged": true,
+  "standard_transitive_axioms_only": true,
+  "private_receipt_sha256": "4dea33b5decc19a15131878b8fe698edf6a54a9ca95ea9a5ca1b4c6fd4bf1cda",
+  "command_kind": "lake env lean, original stage roots and new public alias source root",
+  "scope": "Fresh final-module compilation in separate layout, against accepted original imports; not cold build, CI or Comparator"
+}

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryWalkingPrecompletionLabels",
+  "source": "lean/TheoremCStages/OrdinaryWalkingPrecompletionLabels.lean",
+  "source_sha256": "86444ac11dff436db664b07283224783e21aaaee2059e6327b1087433cf268c1",
+  "actual_exit": 0,
+  "seconds": 9.082487167004729,
+  "artifact_valid": true,
+  "olean_sha256": "96e88075cbe667568e59565ab73bdb1402fcd27b2fba2666f0799b8ef47de6c5",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingPrecompletionLabels.log",
+  "log_sha256": "9db11b001b928ce274103479f6a4bae68519b3a310c284965cbef6df220565fc",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.GroupoidSimplex": "311ec803ac88509bb3f274b7167139b27e7c38dc089b814a12cc4a199e4dcf43",
+    "OrdinaryDiscreteMapping": "a44dc7eecb6d1bc21a89eb457532bffb6b3b67985323b8ba95898ec3df90dd68",
+    "Mathlib.CategoryTheory.HomCongr": "affaab44534add915278d678ffd76e5169202b94d622cd8e824a373bccdff90d"
+  },
+  "original_receipt_sha256": "77b806cbef0484059ca9774b9c7a03662c8454983b14533efa2e2ad4d36a33c2",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

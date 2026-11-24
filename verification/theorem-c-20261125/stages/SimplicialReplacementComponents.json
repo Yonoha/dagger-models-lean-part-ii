@@ -1,0 +1,23 @@
+{
+  "module": "SimplicialReplacementComponents",
+  "source": "lean/TheoremCStages/SimplicialReplacementComponents.lean",
+  "source_sha256": "fe3336fb0e2dee269ffbc708d05f9f2e66c6659ba459cbbb4885cc53df4d81b9",
+  "actual_exit": 0,
+  "seconds": 7.727851375006139,
+  "artifact_valid": true,
+  "olean_sha256": "01cda95aeee8f3bc35a1755ade1d7b6db68318c345cdd5508793a44f922592bd",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementComponents.log",
+  "log_sha256": "778b550f5e41094908f6eba1bded0424428bc98bbe8bf62571d648378d2cc530",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "NativeSimplicialReplacement": "820321e08f54312d554e06a7e8e48d1fb66a4796c6afa7449e638ac9fce581f7",
+    "NativePiZeroFamilyEquivalence": "bd9efdb552f6fcc583fc537c9598ed9c3f2004e86dad3fec8a49f5db1b0d11f2",
+    "NativeRowwiseWeakEvaluation": "997cb331ac97d8e1e1e0d6ec03e81f156ee00fb624af120948caa369001e2f9e",
+    "OriginalUnitaryDiscreteConstantRecovered": "a99315bbd6a5743173d3b39f2e521403f0e429ddc4acf85d65d8d06b8b4c4dfb",
+    "OriginalSimplicialPiZeroWeakEquivalence": "5457700382eccd65025c904b99ff18acca248da31fab7b3706fe5f6d0792f95f",
+    "SimplicialSetLocalSystemFibration": "96a9240135894589832b0f7b3dcf438967249f8bf7f39317497600c616c5ecd6"
+  },
+  "original_receipt_sha256": "98cf0c80b87d204d30318a70110ffdf199c9a9e2cab382768e6d41af53439620",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

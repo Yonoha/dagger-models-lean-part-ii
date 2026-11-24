@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryFreeDiscreteKan",
+  "source": "lean/TheoremCStages/OrdinaryFreeDiscreteKan.lean",
+  "source_sha256": "c5b3872378928105e861ce708378c83fd51c90979476255402a3a440af33cf8e",
+  "actual_exit": 0,
+  "seconds": 7.002497792011127,
+  "artifact_valid": true,
+  "olean_sha256": "db0ebd261f1e86a2e653801f1b4271c3fbc99dd99f191a8c13611712e18a0ff7",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryFreeDiscreteKan.log",
+  "log_sha256": "36bc36d91d5bc7f3bcf97b32508ced9e659855e21080b24a1a997c36fadf2cca",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSLocalization": "69c90e956a0841beef3059888d32454551e09b73558d0bfa4f69730810f86a9d",
+    "DaggerModelsPartII.IndexKanExtensions": "fdd638c69f427e7631b2df825db3f784ea5259858d9bbec9955613ef4d9185ea",
+    "DaggerModelsPartII.ReversalDiscreteFreeColimits": "5bfb9c7de0a4447133c5b43e72aa1d0faac25e1c5bb938b6c5cd80d0aa941ed3"
+  },
+  "original_receipt_sha256": "8ccf07564bc5ff4dd765526d8a781d3749a7d1f8a68dd9825c47bb1b97f0044b",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

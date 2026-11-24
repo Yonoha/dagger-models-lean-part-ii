@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySegalFullTupleDescent",
+  "source": "lean/TheoremCStages/OrdinarySegalFullTupleDescent.lean",
+  "source_sha256": "968968860f4c1e10db9da596950770849731ac2b1cf31c54478562df099cb3e3",
+  "actual_exit": 0,
+  "seconds": 18.952181417000247,
+  "artifact_valid": true,
+  "olean_sha256": "26e44555dc0bc1f7790b27f6d974f6b9fad1d2ff5734cbf257dbf22ce37a0818",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalFullTupleDescent.log",
+  "log_sha256": "62f1ea142f923dffea90eaaeaa4425c26445e7cfa16ce12b15984f4177b25888",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalSurjectiveObjectDescent": "519c2511d2322f4c380fe97242a24a4ed82d264bfff85dcba9283d5790d0e9ea",
+    "OrdinaryRelativeSegal": "eef60b598c043c017c41579bb798d141af8bb95872396ebf606ad41d415a216b",
+    "OrdinaryAllVertexSquareComparison": "432d1ee00dd18bc08c4ef3531f82d827ec51aa634f5506b53e89eca03e808818",
+    "OriginalSimplicialPiZeroWeakEquivalence": "5457700382eccd65025c904b99ff18acca248da31fab7b3706fe5f6d0792f95f"
+  },
+  "original_receipt_sha256": "60058bab3cf037655bb8d64ee17d26fcc4f488b01621b39c812738cea4699617",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

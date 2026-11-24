@@ -1,0 +1,21 @@
+{
+  "module": "OrdinaryJTConstantRealizationIdentity",
+  "source": "lean/TheoremCStages/OrdinaryJTConstantRealizationIdentity.lean",
+  "source_sha256": "782ff1be3786f7183304808fd2b9b337da794956452bf69c451c621409fb914e",
+  "actual_exit": 0,
+  "seconds": 6.574983500002418,
+  "artifact_valid": true,
+  "olean_sha256": "21cd5fce9e9d5bf31feddd6fc42529673cdcbe7e9fb295801470c9446ee4a26c",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTConstantRealizationIdentity.log",
+  "log_sha256": "9a8f10d3e07315563c78495020e64585f944ac3e16b2554c2bbe466229288e4b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTFirstRowIdentity": "a886862c5569bebb53059584aa481f1e5c21307d0d24a5ae81d407c37851b71c",
+    "Mathlib.CategoryTheory.Adjunction.Whiskering": "4261245ce0ce8c04eab4b0a34e28f141127167fc86ecec5a5ed4ed17ab54881d",
+    "Mathlib.CategoryTheory.Adjunction.Opposites": "0f3c6617237af84121f61acfe97aec97b2d1129c879a9c89d2bd3891f3df0b8c",
+    "Mathlib.CategoryTheory.Adjunction.Unique": "daf6914faaa38a4fb5588e17c0a12ae283b7817fad711d824178b7eed2bd7a29"
+  },
+  "original_receipt_sha256": "d8cf666628437066eb05ecc11d4982e9447a325aef84c429cdc21270187ccdc6",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

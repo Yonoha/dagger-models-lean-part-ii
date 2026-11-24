@@ -1,0 +1,21 @@
+{
+  "module": "OrdinarySSetRelativeLatchingMono",
+  "source": "lean/TheoremCStages/OrdinarySSetRelativeLatchingMono.lean",
+  "source_sha256": "49a5a0b0dfaaefe43ac398ec9644ff6ddccaa885344bf9b181676b5b6273925a",
+  "actual_exit": 0,
+  "seconds": 4.32711874996312,
+  "artifact_valid": true,
+  "olean_sha256": "8fbe3f87346252dc4fb188fb2cbd5113f2abd34ea93b815acf20fc9d0cc57826",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySSetRelativeLatchingMono.log",
+  "log_sha256": "4fa6c17a22bf081415703b7d07291892cf834b2d8d72c0dbb4bdf471c8010fe5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySSetLatchingMono": "7d6982c6a02348ed88a660b1bffaf4f8df836ee2020dbd3a742eebbe709d5d1c",
+    "DaggerModelsPartII.ReedyMaps": "9b27d6b92c07aee6b6ad251dbc24f26f5f16a33ae0443863306cd7215afdcf45",
+    "Mathlib.CategoryTheory.Limits.Types.Pushouts": "d90c7962c867bd9cca115d37133c535f4f31803c2c088775bb77f46e37314f1a",
+    "Mathlib.AlgebraicTopology.SimplicialSet.Degenerate": "ece4f0b47ca9ce9bbb4b9013cb0a7fa59c3b6e5c65658688383c4b297b6b2a6a"
+  },
+  "original_receipt_sha256": "d06bd4b431067766d75eac506d09b195b5d87c0538d67463c2eab68cbc0cc97a",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

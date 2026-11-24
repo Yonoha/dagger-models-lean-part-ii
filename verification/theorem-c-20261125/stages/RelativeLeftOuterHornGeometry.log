@@ -1,0 +1,9 @@
+'DaggerModels.PartII.RelativeLeftOuterHornGeometry.firstEdgeInclusion_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RelativeLeftOuterHornGeometry.reverse_firstEdgeHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RelativeLeftOuterHornGeometry.reversed_edge_ambient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,15 @@
+'DaggerModels.PartII.RawOrdinaryJTEndpointCalibration.input_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTEndpointCalibration.target_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTEndpointCalibration.transpose_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTEndpointCalibration.input_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTEndpointCalibration.target_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

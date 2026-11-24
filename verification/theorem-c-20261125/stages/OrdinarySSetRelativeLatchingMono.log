@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinarySSetRelativeLatchingMono.latching_square_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySSetRelativeLatchingMono.relativeLatchingMap_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

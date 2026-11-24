@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryWalkingParameterCalibration",
+  "source": "lean/TheoremCStages/OrdinaryWalkingParameterCalibration.lean",
+  "source_sha256": "44e81d3c567c86ed4f8e8db454470e00057f1db3f55ea89e1054efed9d373692",
+  "actual_exit": 0,
+  "seconds": 9.222935917030554,
+  "artifact_valid": true,
+  "olean_sha256": "57073c32f7576efe6a28b1f110a1ace7f5959a952abf801419f06d8bba3d49a2",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingParameterCalibration.log",
+  "log_sha256": "d6e70e1adf40991428d31d2ef9249e6ab9e11dd8bd852eb13b4de7db66a0043b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSWalkingRestrictions": "79187aab95812221f6a61f1d77f828be76d6b82adb3e056e8bc5fc3810af4248",
+    "ActualFreeWalkingIsoIntegerObstructionReconciled": "a8c38bc7ff5c97023418cd8fb2c0a09186cf32c3f935f5d416dc351f00b035df",
+    "ActualWalkingIsoCategoricalCylinder": "2f550749e029208b479da51b9a6402b59f096459b7e6b89647889af6794caa8b"
+  },
+  "original_receipt_sha256": "a35ec40764251cf4a2153982cf90b703fd572f8026b306ddaab1bbafd588d9c3",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

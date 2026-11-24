@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalVerticalPrecompletionFiberComparison",
+  "source": "lean/TheoremCStages/OrdinarySegalVerticalPrecompletionFiberComparison.lean",
+  "source_sha256": "db45954060ae59cb6d4d2ea09e85fb13d982f78c2e20474f827ebe48a8a8ad4f",
+  "actual_exit": 0,
+  "seconds": 33.61097324998991,
+  "artifact_valid": true,
+  "olean_sha256": "68bada4b32007f71da5e525e2b49d26f278aceec3541d1fde096a60b140b54ef",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalVerticalPrecompletionFiberComparison.log",
+  "log_sha256": "e0fcb7f3b7dfabbf76ecb2d938f1c1ae65e71d8bb21a466ad5699fd50662d588",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalResolutionMappingFibers": "21b53456f4ea1a96a330c60a8686ae9e79d09f61fa85a7bcc88a583f83f4f303",
+    "NativeBisimplicialDiagonalWeak": "26fd2f3337aa3170dcb9ee7a7b05e8c4209a2be9453d92eb429283cd67968a5c",
+    "Mathlib.CategoryTheory.Limits.Preserves.Shapes.BinaryProducts": "53f2792fc00155bdc77014ca3edfc8cf5c356696177897bd37f8636458303c91"
+  },
+  "original_receipt_sha256": "7d1841b84a7907b26af9bdbbd9e1cc662a799d6f7d3130b7e8639a66a88078f9",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinaryGroupoidSimplexCotensorConstantHomotopy.constantSection_homotopy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

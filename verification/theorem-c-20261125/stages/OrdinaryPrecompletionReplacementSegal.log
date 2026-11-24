@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinaryPrecompletionReplacementSegal.replacement_segal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

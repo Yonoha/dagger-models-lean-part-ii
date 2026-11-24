@@ -1,0 +1,22 @@
+{
+  "module": "OrdinaryJTLocality",
+  "source": "lean/TheoremCStages/OrdinaryJTLocality.lean",
+  "source_sha256": "a6bf23a19e0a94e565b46a41b2bb99c7d8feffea5b571a2024d2951f6f38ec63",
+  "actual_exit": 0,
+  "seconds": 15.052653458027635,
+  "artifact_valid": true,
+  "olean_sha256": "8f4c3fe5240fed19d4a7b5d01515934d34fddc8d93554ae56ab1da11a66cd4eb",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTLocality.log",
+  "log_sha256": "5989bae9852a7aeabbe7e95db4f874fceebc414620e9426f111d2989ec985d82",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSConditions": "d93a3feb58efc0450536578c40483bfece19c3d26c3cbfe2f3ea87cdc6079b59",
+    "OrdinaryDiscreteMapping": "a44dc7eecb6d1bc21a89eb457532bffb6b3b67985323b8ba95898ec3df90dd68",
+    "OrdinaryJTHorizontalMapping": "d16b90721450bb8d363093827f28f8ac7f58bb06f7e0d19a283192850c683ca0",
+    "OrdinarySpaceReedyInjective": "20f8025f1476131ee6bd859821558a425425cb0a97f2b9ee10d92c90b2b514b4",
+    "OrdinaryJTRightNerveCompleteness": "47b96d2595a23ff507aefb8f53d3b016aa432b3f469f8de70bb3b059103bcbcf"
+  },
+  "original_receipt_sha256": "9b8e26004bedd2ede655bd446d579662f014b760e0116c45b5dcbfd2cb3b9a02",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryWalkingCoherentEssentialSurjectivity.endpoint_one_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentEssentialSurjectivity.endpoint_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentEssentialSurjectivity.coherent_object_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

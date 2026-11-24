@@ -1,0 +1,6 @@
+'DaggerModels.PartII.SimplicialReplacementNerveChosenFiber.nerveValueToChosen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementNerveChosenFiber.nerveValueToChosen_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalCoherentFixedSpine",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentFixedSpine.lean",
+  "source_sha256": "b78fca4c8b3cf446ffac3c49e1500f2cec7d8263a140eaa7b37959352b3d462a",
+  "actual_exit": 0,
+  "seconds": 15.763354792026803,
+  "artifact_valid": true,
+  "olean_sha256": "5b3d336c6a7215ddbeab3362ce58af4a9e4ceb69cf9e9b4c1415b2bdd6111034",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentFixedSpine.log",
+  "log_sha256": "bb7c85f3337bec437ffb8ea59ca3e9ac67c006333a69fe17c9851d7eb2f5e2c1",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentFixedTriangleSourceCoordinates": "ca039250414939130e3941356149382cf39f7947e3d3dce8bfedb4500daaf3cb",
+    "OrdinarySegalBinaryComparison": "f8c86f57850f6d1e5ef3bb0902196c689286fc7b7307a585b66df3e514aff30d",
+    "OrdinarySegalOrderedMappingFibres": "a5e33d982b3e21f5a32f5975ef7d1fecb2250d4dd6fd5e60c196caf1b54fb36c"
+  },
+  "original_receipt_sha256": "de1ec11a486ddfb8d92857388d84cdfa03a2e1f9d0f70ba93e3a42a00ea31f31",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

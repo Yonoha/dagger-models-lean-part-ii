@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpine.fullTriangle_last' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpine.firstEdge_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpine.firstEdge_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpine.firstEdgeFiber_edge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCoherentRightFixedSpine.firstEdgeFiber_point' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

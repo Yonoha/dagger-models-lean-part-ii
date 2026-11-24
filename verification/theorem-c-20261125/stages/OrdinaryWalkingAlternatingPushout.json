@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryWalkingAlternatingPushout",
+  "source": "lean/TheoremCStages/OrdinaryWalkingAlternatingPushout.lean",
+  "source_sha256": "e067ca931c7d97ec7174ada90964e0b12286efaef9a9d5f454ced3f58e46d71e",
+  "actual_exit": 0,
+  "seconds": 8.819327208970208,
+  "artifact_valid": true,
+  "olean_sha256": "a089e340875e001a0bc03f77d858dd19511015aefdafb4effa51b8976ca77e7d",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingAlternatingPushout.log",
+  "log_sha256": "7fbddd17f1715b2f857b0cd97e24cb8fc7b7a6d431dcaedf2f1a36f360f636e0",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryWalkingAlternatingOffHornInjective": "61565ea93aa71447ec661645f32cd2fc4f480cd30689d6adc661506dd4add319",
+    "SubcomplexAttachmentWithoutMono": "099ce19c4650604b46753beb9084947a52012ecbc1ba16fc78408f2d8ca2f4ba"
+  },
+  "original_receipt_sha256": "9106c73e5e0ad48737e55449dcb96a354f804696bedaa2dc1cdf10f4230c9118",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

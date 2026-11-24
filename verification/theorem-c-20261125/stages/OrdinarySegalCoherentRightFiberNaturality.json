@@ -1,0 +1,22 @@
+{
+  "module": "OrdinarySegalCoherentRightFiberNaturality",
+  "source": "lean/TheoremCStages/OrdinarySegalCoherentRightFiberNaturality.lean",
+  "source_sha256": "cc89e626590d1f75c4e3341953735828384b8964dc0d8d7430f585afa7027391",
+  "actual_exit": 0,
+  "seconds": 18.518330541002797,
+  "artifact_valid": true,
+  "olean_sha256": "32b1871ce0ac40b131df3acef0ffb0c1c03fe09e29800fb148cb28085dbb1112",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalCoherentRightFiberNaturality.log",
+  "log_sha256": "cc3e868936c44e499e7e2cfddb6b30b819abba6257597019cb6f22721bb2cd36",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalCoherentVertexNaturality": "37ff841dfc88f6f371c3171aa75f6a22ce0f1fa5b639031a9be1e19da1338c61",
+    "OrdinarySegalCoherentRightFixedTriangleNaturality": "04293c69435d335c84c3520be134587bdc8cb4404102c727646c18337d2473ef",
+    "OrdinarySegalCoherentRightFixedSpineIso": "1aa634231ff2ed50045426fe2dbd6802cceef64cd243cd8e867d1ffe3b195fb3",
+    "OrdinarySegalCoherentActualEndpoints": "3de61fbf596eecc6c9c28eaa482a802eb77c8325bbb2c72f9da3821c863ff4cc",
+    "OrdinarySegalOrderedMappingTransportCoordinates": "99e5084ebba7471c09623eef69b5fd3daaa4785beda0a70ad89331437c56d3f5"
+  },
+  "original_receipt_sha256": "e361e12b606d2873111927770624833e4107be4aee94328e48add1902930a553",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

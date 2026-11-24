@@ -1,0 +1,21 @@
+{
+  "module": "BisimplicialCommaZeroFiberComparison",
+  "source": "lean/TheoremCStages/BisimplicialCommaZeroFiberComparison.lean",
+  "source_sha256": "e523fe76961c79a9172c4776922a1ac7165021cdef1b87d2452da872812d9a63",
+  "actual_exit": 0,
+  "seconds": 19.14139829100168,
+  "artifact_valid": true,
+  "olean_sha256": "5eba7d1a6720ace4b034079e4944dd54a8b8aea95cd2cee0eefba0113c073e0f",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialCommaZeroFiberComparison.log",
+  "log_sha256": "aa26757006549839fe05e722de216b8d33588926b70b99206476ff3a4ba945b5",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialCommaChosenFiberSpan": "a8b11a5ca4ed0921ed4f407f98a02d78e4c7c928e8367f7997b281c9a51bcb9a",
+    "SimplicialReplacementWeightsChosenFiber": "c495bc9f1d53615871f5e4218daa16804440d910cd37cd4f0bdbea284d1d1a4f",
+    "SimplicialReplacementNerveChosenFiber": "3476cd88c00026c132af9deb65414307142287e861f533695c9b3cc45d1cb513",
+    "DaggerModelsPartII.ChosenHomotopyFiberTriangle": "90f4cfafb2fcf0965b9e7598115b0eda928f6099fa550286fa4848e70afd5de4"
+  },
+  "original_receipt_sha256": "6374d64423b0ed5c5d37c1904d24f1c89a878e5ba37761b7692371e6d75561f8",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

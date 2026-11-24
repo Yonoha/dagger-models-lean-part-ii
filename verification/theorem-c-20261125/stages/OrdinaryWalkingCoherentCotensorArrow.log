@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryWalkingCoherentCotensorArrow.arrow_rowIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentCotensorArrow.arrow_first_tensor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingCoherentCotensorArrow.arrow_second_tensor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

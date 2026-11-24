@@ -1,0 +1,21 @@
+{
+  "module": "SimplicialReplacementBasedPi",
+  "source": "lean/TheoremCStages/SimplicialReplacementBasedPi.lean",
+  "source_sha256": "16b8f9d11147df02865d9423f278a3318f499bce93ace0a1ce0bd0780e09ff86",
+  "actual_exit": 0,
+  "seconds": 12.568607082997914,
+  "artifact_valid": true,
+  "olean_sha256": "3b8e77434d4a692391973dced7dc59e5c99e97f2152a76e7f31f236cddcc927c",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementBasedPi.log",
+  "log_sha256": "3ff11334d8298a0ba65e850657b854134647b3653efdca6b72eaeaf141d8218e",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SSetFamilyBasedPi": "23a6d06db3b2c9a18a9b6a27eeaa6bfaaa1dedaae32166b275f38a39e0fe944b",
+    "SimplicialSetLocalSystemMorphismFibration": "f4d36db109759a9af135c4cca4c1759360b15493a7907f06a3390882f477a964",
+    "NativeBasedPiWeakPullback": "8c1c8fa01556825d7ef552587a79dde6065d58701f63f45d64a1a9348608586f",
+    "NativeSimplicialReplacement": "820321e08f54312d554e06a7e8e48d1fb66a4796c6afa7449e638ac9fce581f7"
+  },
+  "original_receipt_sha256": "d1b243205a975f5f9001392ae4af0e7a801b862c89f1b14b7152f881cbb15a19",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

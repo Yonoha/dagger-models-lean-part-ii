@@ -1,0 +1,21 @@
+{
+  "module": "RelativeLeftOuterHornGeometry",
+  "source": "lean/TheoremCStages/RelativeLeftOuterHornGeometry.lean",
+  "source_sha256": "24ae76121d996f6a5497771f433b795327ddce5aa22b86d65860edc9e9e24827",
+  "actual_exit": 0,
+  "seconds": 6.534938250028063,
+  "artifact_valid": true,
+  "olean_sha256": "baece8a2ae5870f15dbbc7f6e1a75dfc20f35d380a1bfcab50bc56fc758a1514",
+  "log": "verification/theorem-c-20261125/stages/RelativeLeftOuterHornGeometry.log",
+  "log_sha256": "fb708b795f588fd3de76bc70b1cfd771e31f094ea5ad63f754bca29302adb648",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RelativeHornFillingReversal": "418bf0bcd50a9b74c36628a9c59b89a6696d00b69cb0202ff1b00dc08fe92d8c",
+    "OriginalRightOuterHornInclusions": "7bb43eccf79c3b92833375d011dc8bd9c4b60a5febab4541dd72b5bcc4ad078f",
+    "OriginalHomotopyCategoryOppositeComparison": "3664e2f0d9543744703ee7cf4c1dcbbf369fc38dc5aa781d8d03495dd63c8717",
+    "OriginalOrdinaryKanCoreEdgeMembership": "2d404308001d2003715c3e82981cb80291c63933cc94c7fe363ae62de71abf58"
+  },
+  "original_receipt_sha256": "0797e1da5e2ad0c511842f2852c99f6c5e93cf9a2a54aaab75af81364ee9c973",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

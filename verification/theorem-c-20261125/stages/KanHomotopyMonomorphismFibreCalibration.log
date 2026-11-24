@@ -1,0 +1,9 @@
+'DaggerModels.PartII.KanHomotopyMonomorphismFibreCalibration.selfPullbackIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.KanHomotopyMonomorphismFibreCalibration.diagonal_calibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.KanHomotopyMonomorphismFibreCalibration.exactFibreMap_diagonal_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinarySegalOrderedMappingRetracts",
+  "source": "lean/TheoremCStages/OrdinarySegalOrderedMappingRetracts.lean",
+  "source_sha256": "4914649a1f03a8d2faf401f4de9e2833bed454013bca242e201125b88dd91352",
+  "actual_exit": 0,
+  "seconds": 16.481037333025597,
+  "artifact_valid": true,
+  "olean_sha256": "4280ee1d2e5debe5037c82bacdba40d8a5301614be08216a600bc8c43845a3ff",
+  "log": "verification/theorem-c-20261125/stages/OrdinarySegalOrderedMappingRetracts.log",
+  "log_sha256": "be42f0795314dea6aecf4a46ff87cd14da3a43a6632bb8dd07deaf4b673d6364",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalOrderedMappingEndpointTransport": "be8209cb1c7732143687181f9d07ceb005b87da9b07ff74a938a8aae2aa993a8",
+    "OrdinarySegalOrderedMappingIdentity": "b11515d5d892d89cad39c61685c398ed69bd6b2cb02a9b8e0428fadd65a871bb",
+    "Mathlib.CategoryTheory.MorphismProperty.Retract": "a134f3632390e7ddddf5ffdd5341f659142c1283a701c41a643575386fa4c874"
+  },
+  "original_receipt_sha256": "eb5f1f78204ee9617bf2d80b8ad727af8a029fec105e1ea5b0b5491be6e51df3",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

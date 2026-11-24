@@ -1,0 +1,9 @@
+'DaggerModels.PartII.ColumnElementsVerticalNaturality.localSystemElementsIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ColumnElementsVerticalNaturality.columnIso_vertical_naturality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ColumnElementsVerticalNaturality.columnsIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

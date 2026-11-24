@@ -1,0 +1,12 @@
+'DaggerModels.PartII.BisimplicialCommaChosenFiberSpan.original_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaChosenFiberSpan.auxiliary_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaChosenFiberSpan.originalFiberComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialCommaChosenFiberSpan.auxiliaryFiberComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

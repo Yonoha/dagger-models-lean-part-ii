@@ -1,0 +1,3 @@
+'DaggerModels.PartII.OrdinarySegalConstantGroupoidSimplexFullyFaithful.mappingMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

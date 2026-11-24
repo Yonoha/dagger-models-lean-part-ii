@@ -1,0 +1,65 @@
+'DaggerModels.PartII.OrdinaryCSSRestrictionQuasicategory.emptyRestriction_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSRestrictionQuasicategory.restriction_quasicategory' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerNativeOrdinaryInnerIsoRelativeCylinder.positive_boundary_lifting' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerNativeOrdinaryInnerIsoRelativeCylinder.zero_boundary_lifting' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerNativeOrdinaryInnerIsoRelativeCylinder.mono_pushout_zero_lifting' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.NativeWeakMonoRelativeWalkingHomotopy.exists_relative_homotopy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJoyalIsofibrationRecognition.candidateFibration_of_inner_and_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJoyalIsofibrationRecognition.originalJoyal_fibration_of_inner_and_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.MatchingRestrictionCalibration.matchingRestrictionIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.MatchingRestrictionCalibration.matchingRestrictionIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.MatchingRestrictionCalibration.matchingRestrictionIso_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalJoyalFibrancy.restriction_joyalFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalJoyalFibrancy.matching_joyalFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalJoyalFibrancy.flip_reedyFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalJoyalFibrancy.horizontal_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalWeak.horizontal_weak_le_css' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSHorizontalWeak.weak_of_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowAdjunction.firstRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowAdjunction.adjunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowAdjunction.counit_app_app' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowQuillen.discrete_map_cofibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowQuillen.discrete_map_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowQuillen.isQuillenAdjunction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTLeftWeak.left_map_weak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryFirstRowCounitWeak.counit_weak' depends on axioms: [propext, Classical.choice, Quot.sound]

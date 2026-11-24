@@ -1,0 +1,16 @@
+'DaggerModels.PartII.OrdinarySegalCotensorMappingIso.rowIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorMappingIso.rowIso_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorMappingIso.rowFamilyIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorMappingIso.closedMappingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorMappingIso.mappingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorMappingIso.mappingIso_natural_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

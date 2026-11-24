@@ -1,0 +1,4 @@
+'DaggerModels.PartII.OrdinaryJTArrowTensor.preservesColimits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.OrdinaryJTArrowTensor.projective_of_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

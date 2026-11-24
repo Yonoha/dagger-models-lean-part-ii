@@ -1,0 +1,22 @@
+{
+  "module": "OrdinaryCoherentPrecompletionResolution",
+  "source": "lean/TheoremCStages/OrdinaryCoherentPrecompletionResolution.lean",
+  "source_sha256": "41ad598a38ca39012dcaee08dd532d2e0d2db6e8a5a9ba8002f2587795550dfd",
+  "actual_exit": 0,
+  "seconds": 21.217036249989178,
+  "artifact_valid": true,
+  "olean_sha256": "b5ea54a00a1da52625d8ee4d97cfe26ff8394d19b4c8678554a5a899df9b7961",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentPrecompletionResolution.log",
+  "log_sha256": "e48d6196a660bced6ef35a900f0fea855ad5da20525b00b77505dd1fc5f773ae",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCoherentCompletenessCriterion": "5c659fae1edd81c9daf4ab4f3d11dc9464833defca61b21ca23546ace79431fb",
+    "OrdinarySegalCotensorSegal": "adc0aa7c980fe6d7fbc7ad74f54c7e372027dd5ef785604a0f1d834d04a27d6d",
+    "OrdinarySegalVerticalPrecompletion": "0845d1c8a78b42523d262aabc15c3fcd07b5f5a906d83cba9aacf7d3c9e61f2e",
+    "OrdinarySegalResolutionMappingFibers": "21b53456f4ea1a96a330c60a8686ae9e79d09f61fa85a7bcc88a583f83f4f303",
+    "NativeBisimplicialDiagonalWeak": "26fd2f3337aa3170dcb9ee7a7b05e8c4209a2be9453d92eb429283cd67968a5c"
+  },
+  "original_receipt_sha256": "1333b642382b5f3dc8f213167c9627550e4b9016fac6c611f734fe1fff2203bc",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

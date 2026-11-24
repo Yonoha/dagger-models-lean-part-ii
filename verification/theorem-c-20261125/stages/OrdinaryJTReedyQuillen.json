@@ -1,0 +1,18 @@
+{
+  "module": "OrdinaryJTReedyQuillen",
+  "source": "lean/TheoremCStages/OrdinaryJTReedyQuillen.lean",
+  "source_sha256": "140c269ac8c5950bec1775a70d41aee8454fe21ed6dcbbda2b87bb3cc42c549b",
+  "actual_exit": 0,
+  "seconds": 16.006557125016116,
+  "artifact_valid": true,
+  "olean_sha256": "17b155ecc5a1a12ca624010508dd49f113e51d9d5ded51cc04c9d533d6a62d03",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTReedyQuillen.log",
+  "log_sha256": "b8a5610133b284e7fe2b15e168b4ceb57227e1cea8ca8d8db7e864572325b985",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTProjectiveQuillen": "896edc7f254637360226a16135dbf3aadd3a01ab95b82695b6de6731a77dbaf9"
+  },
+  "original_receipt_sha256": "5b39b832328a13c89df05f835547000bedcb1a2b1fb398e046033a510c57ed58",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

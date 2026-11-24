@@ -1,0 +1,12 @@
+'DaggerModels.PartII.OrdinarySegalInnerAnodyneMapping.tensor_innerAnodyne' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalInnerAnodyneMapping.horizontalPre_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalInnerAnodyneMapping.mappingPrecomp_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalInnerAnodyneMapping.tensor_spine_mapping_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryJTReedyQuillen.right_map_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTReedyQuillen.right_map_trivialFibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTReedyQuillen.isQuillenAdjunction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryChosenCSSCompletion",
+  "source": "lean/TheoremCStages/OrdinaryChosenCSSCompletion.lean",
+  "source_sha256": "301e4308ff5923917f849b92666c70b450a99a6703ac3cc365bb09e55de6cd30",
+  "actual_exit": 0,
+  "seconds": 25.708240666994243,
+  "artifact_valid": true,
+  "olean_sha256": "e9f0bee82a5d9bf7299be44c685c5f6a55580f8a9694d59f232160b94eec4ce9",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryChosenCSSCompletion.log",
+  "log_sha256": "c1acb7d7b695516472b4b27c7398969b3f5005a90c6f1264b1a0c87b0763c8ff",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryPrecompletionCSSReplacement": "858ceec8b82efe841df7c971bf5ee6298342a24cd29c3b9d389d5edf413ec979",
+    "OrdinaryCoherentWeakInvariance": "a4c99047df13f62a436c91c77dbc337bb9cae40467a853301f7652e97e70e4da"
+  },
+  "original_receipt_sha256": "130df06bcda84781107455b571f1df20037bea8f45406bf2915ec22ec6373f58",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

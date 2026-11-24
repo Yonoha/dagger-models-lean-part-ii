@@ -1,0 +1,6 @@
+'DaggerModels.PartII.OrdinaryWalkingInitialStageCalibration.stageAttachmentLift_one_eq_initialStageIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingInitialStageCalibration.stageAttachmentLift_one_inv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryIntervalPrismMappingIso",
+  "source": "lean/TheoremCStages/OrdinaryIntervalPrismMappingIso.lean",
+  "source_sha256": "29cb2796893866c4a3f2b4d110e3c788e297cb8577e79812f973bf21669a5ab3",
+  "actual_exit": 0,
+  "seconds": 10.995421500003431,
+  "artifact_valid": true,
+  "olean_sha256": "7af5bef90e4bd238693b9bf695301f9b6c36eddb36910ff7390b688ca887885e",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryIntervalPrismMappingIso.log",
+  "log_sha256": "16491e88ab3d2c76a98fd46ed56bb2ebb56533df45d33bdf328e45201d20c272",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinarySegalHorizontalCotensorPoint": "017958658ecea98fa0297f67cf99e484ab9f533f9e4b8ab65c25c8a2e39cdaaa",
+    "DaggerModelsPartII.DiagramMappingPushout": "8476fa23a99a12b479832f1cf6688cae572260753634750021743409de2cd8ec",
+    "TopCatModelCategory.SSet.Square": "d1d230de4c6d2cf4c0c756ce7b4a5ebac737b41c6cc2e63092fd941a3cd558e7"
+  },
+  "original_receipt_sha256": "2f709e984db783f96acd3766f8161ad190394cee70b576835da3e6591e6535e3",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

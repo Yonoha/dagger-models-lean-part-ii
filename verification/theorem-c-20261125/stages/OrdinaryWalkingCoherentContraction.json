@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryWalkingCoherentContraction",
+  "source": "lean/TheoremCStages/OrdinaryWalkingCoherentContraction.lean",
+  "source_sha256": "ee3e34daf2bc73cb5541ea2f9e0cc969b789f58cab0f8838695a2568e47cbbfa",
+  "actual_exit": 0,
+  "seconds": 8.686176749994047,
+  "artifact_valid": true,
+  "olean_sha256": "a7276b067b7d22629241972e2797d4efd02ac455821828b92612024c12dc066b",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryWalkingCoherentContraction.log",
+  "log_sha256": "fea27659a7fbc0ae5a6223afb1bcb0638f719650bbfacdf10b63de4fdb2e2444",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.JTParameterContraction": "036bb38df0fc9b1000bcbd466b84d4a91f0e77afecb449f2dee71ac2fe84ab8f",
+    "Mathlib.CategoryTheory.Monoidal.Closed.Cartesian": "f83bb607fcea360d92477d879dedc3d127f170578c7e1b700aba8fc39f885faa"
+  },
+  "original_receipt_sha256": "27f770c6dcce628fc2740e8e30962f2dda52fa3dabc02e34c594d602f2e367f7",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

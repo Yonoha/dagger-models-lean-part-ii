@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryCSSFibrantOrderedRecognition",
+  "source": "lean/TheoremCStages/OrdinaryCSSFibrantOrderedRecognition.lean",
+  "source_sha256": "d05fe5d7084951a64bd6f77952fd4073978125e3499cea84eae1a555c5433d0d",
+  "actual_exit": 0,
+  "seconds": 10.978862457996001,
+  "artifact_valid": true,
+  "olean_sha256": "0630e3e5f4de41d090f4b43f281c10937456c0a22101072f352b53541f3d66e6",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCSSFibrantOrderedRecognition.log",
+  "log_sha256": "fa504567b060b4a2652c76bbeaf686dd7fd36a1f48b2b252b115cb5e27b4b03d",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "RawOrdinaryJTChosenMapCalibration": "aea469037b62b4582db333df16caa1c29a08a52b0d358f62ea8ea7c3a5481402",
+    "OrdinaryCSSConditions": "d93a3feb58efc0450536578c40483bfece19c3d26c3cbfe2f3ea87cdc6079b59",
+    "DaggerModelsPartII.DiagonalRecognition": "22762c206f29020e1cd520f36424583e21f5e02976360a75a5b519d939a9200d"
+  },
+  "original_receipt_sha256": "8d592469226c7c04938da9db9b718bb4953f90b6961dba0ad3be887c10bf592d",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

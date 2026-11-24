@@ -1,0 +1,27 @@
+'DaggerModels.PartII.OrdinaryIntervalPrismMappingIso.discreteSquarePushout' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryIntervalPrismMappingIso.squareMappingPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryIntervalPrismMappingIso.rowSquarePullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryIntervalPrismMappingIso.mappingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryIntervalPrismMappingIso.mappingIso_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryIntervalPrismMappingIso.mappingIso_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryIntervalPrismMappingIso.intervalZeroIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryIntervalPrismMappingIso.interval_source_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryIntervalPrismMappingIso.interval_target_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,9 @@
+'DaggerModels.PartII.BisimplicialEquifibered.transitionComparison_natural' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialEquifibered.transfer_equifibered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BisimplicialEquifibered.relative_replacement_equifibered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,19 @@
+{
+  "module": "OrdinaryCSSInnerHorn",
+  "source": "lean/TheoremCStages/OrdinaryCSSInnerHorn.lean",
+  "source_sha256": "a7faee294b57f8c45f76c5f70661fda72868d513b08d46cdba8e83fc938342f8",
+  "actual_exit": 0,
+  "seconds": 8.351266208046582,
+  "artifact_valid": true,
+  "olean_sha256": "90944b488a569f7ca59e2d1cbfcb7475594e98b48029dc3f7f77c9faef4fea54",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCSSInnerHorn.log",
+  "log_sha256": "97b5796bd4145c652f59077f03b4ff318b94cd65f9301cb4462726c2a8639a3c",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCSSOuterFaces": "140dc42e48d07e5a7400048b5b67ca6e69bcf5286467c0de4e52c16f153e605a",
+    "OrdinaryInnerHornFromOuterFaces": "2fb95c23c69900fe25545b5ae7073b01ca6cfc8ac17c6b0f9cc352594c8acd36"
+  },
+  "original_receipt_sha256": "22bd4215d2a0a8dfb4b97e8f0aa44f45ddb34fdaedd5ccdb2321bfde0efcdc69",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionLabels.homEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionLabels.homEquiv_pre' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionLabels.parameterVertexEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionLabels.walkingHomEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryWalkingPrecompletionLabels.walkingHomEquiv_pre' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

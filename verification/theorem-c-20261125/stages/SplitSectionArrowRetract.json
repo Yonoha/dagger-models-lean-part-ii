@@ -1,0 +1,18 @@
+{
+  "module": "SplitSectionArrowRetract",
+  "source": "lean/TheoremCStages/SplitSectionArrowRetract.lean",
+  "source_sha256": "b633969778c9289cb4781489b4d0ec5427ecc7864bcaf853b828c97607e31be1",
+  "actual_exit": 0,
+  "seconds": 3.3374497499899007,
+  "artifact_valid": true,
+  "olean_sha256": "9b44c386f5bb260a8f4c4561a8e46fe1c282bde798c90f9042e29334a8eb425d",
+  "log": "verification/theorem-c-20261125/stages/SplitSectionArrowRetract.log",
+  "log_sha256": "ff1227a35ce32e9eafd542aae8e231b8b3c9f8d736db1e440f97ef68fa0d1d94",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "Mathlib.CategoryTheory.MorphismProperty.Retract": "a134f3632390e7ddddf5ffdd5341f659142c1283a701c41a643575386fa4c874"
+  },
+  "original_receipt_sha256": "51b685237027914ad99d760545e2770eff1d42fd2c51bd688854e959f870ef2f",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

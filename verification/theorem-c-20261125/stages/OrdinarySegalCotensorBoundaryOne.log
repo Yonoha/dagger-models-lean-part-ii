@@ -1,0 +1,15 @@
+'DaggerModels.PartII.OrdinarySegalCotensorBoundaryOne.boundaryMappingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorBoundaryOne.boundaryMappingIso_fst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorBoundaryOne.boundaryMappingIso_snd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorBoundaryOne.boundaryMappingIso_natural_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCotensorBoundaryOne.endpointTargetIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

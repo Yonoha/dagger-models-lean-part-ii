@@ -1,0 +1,12 @@
+'DaggerModels.PartII.SimplicialReplacementBasedPi.basedRowsIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementBasedPi.vertexRowsIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementBasedPi.basedProjection_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SimplicialReplacementBasedPi.basedProjection_fibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryCoherentRelativeReflection",
+  "source": "lean/TheoremCStages/OrdinaryCoherentRelativeReflection.lean",
+  "source_sha256": "0d0f9a9a8cf76ddba979b2a014ec5288f4752d5c385f58333910cb44d9ac48e8",
+  "actual_exit": 0,
+  "seconds": 11.963496166994446,
+  "artifact_valid": true,
+  "olean_sha256": "981af0966fd564c629269f597d35f180d574968f4a2987507fa81c8e4b4fda7c",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryCoherentRelativeReflection.log",
+  "log_sha256": "0156019cc483cccd6878c6f37a7c4f6cb3af5e19c23668ad3e53b635b7638247",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryCoherentZeroProjection": "122017eed1cd3f10d8cc2700986e03535ba86c9a5e2fc41355879263efa2b25d",
+    "OrdinaryCoherentWeakInvariance": "a4c99047df13f62a436c91c77dbc337bb9cae40467a853301f7652e97e70e4da",
+    "OrdinaryAllVertexReplacementSegalReduction": "81746e767e8dc02161951a0cfbe12618fc31256905478ea0468165fc23220605"
+  },
+  "original_receipt_sha256": "a7e5f5d055f53ef365819ae676baa8a27a36b78af57afa8fab13b6e2297ce30b",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

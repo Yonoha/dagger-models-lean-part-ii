@@ -1,0 +1,19 @@
+{
+  "module": "SimplicialReplacementBasedPiOperators",
+  "source": "lean/TheoremCStages/SimplicialReplacementBasedPiOperators.lean",
+  "source_sha256": "7bbba3f0e1fac0625ac9e0c8b83466af29d9a47abdd99507be308e60884c7bce",
+  "actual_exit": 0,
+  "seconds": 14.921763209000346,
+  "artifact_valid": true,
+  "olean_sha256": "b20b7ea45e5527eeaa4d90ed024a9e5531aeeba2d40aea2be6772cc6058e0b89",
+  "log": "verification/theorem-c-20261125/stages/SimplicialReplacementBasedPiOperators.log",
+  "log_sha256": "0a7f03438c2e085fc41d93575b127930ea9299151dc66c6de20ad5388a9f119b",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "SimplicialReplacementBasedPi": "3b8e77434d4a692391973dced7dc59e5c99e97f2152a76e7f31f236cddcc927c",
+    "NativeFamilyLoopAction": "3c8cf8d09b04d71059df14e50581978594cce6efa3078524e3dd8f27b39079eb"
+  },
+  "original_receipt_sha256": "56833f0bd647b3d9cd71ecd4220cf07b41b83d912fb79f196506802411359215",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

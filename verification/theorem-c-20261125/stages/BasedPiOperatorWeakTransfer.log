@@ -1,0 +1,4 @@
+'DaggerBasedPiOperatorWeakTransfer.operator_mapπ_bijective_at_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerBasedPiOperatorWeakTransfer.operator_mapπ_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]

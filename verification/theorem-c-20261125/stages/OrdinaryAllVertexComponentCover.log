@@ -1,0 +1,9 @@
+'DaggerModels.PartII.OrdinaryAllVertexComponentCover.unit_discrete_vertices_bijective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexComponentCover.unit_tuple_components_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryAllVertexComponentCover.replacement_tuple_components_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,20 @@
+{
+  "module": "OrdinaryJTNativeMapReedy",
+  "source": "lean/TheoremCStages/OrdinaryJTNativeMapReedy.lean",
+  "source_sha256": "d8719459433ba791acf4b6bb2f5e6be8a74eb1bc3576cc852511740491892b02",
+  "actual_exit": 0,
+  "seconds": 21.605277792026754,
+  "artifact_valid": true,
+  "olean_sha256": "c84c04a7866bb14e23ce61160f0aad43f6d0d48fee7610c6920e7a00c22602c3",
+  "log": "verification/theorem-c-20261125/stages/OrdinaryJTNativeMapReedy.log",
+  "log_sha256": "529a8f5446c749358d21a01082f625cdd7b9cc1fe67d4d47eeb9e13e63ab2c11",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "OrdinaryJTCurriedAdjunction": "7c8ea8427b52bf90fc5b0f82e6e09f550c755b9ad4e579204f394b597d6a8356",
+    "OrdinaryJTPlainMapReedy": "74e94085b00004e3ca9738d5fa11dbb1705595208d97e99273b860b947222007",
+    "DaggerModelsPartII.RelativeArrows": "2937cd2640f7494ea434320a76d719cafa8c9d6be9c7496a2cd1603d71b0d548"
+  },
+  "original_receipt_sha256": "6f3c61d1c57e7eb7ea95dfffdf0a8bf31048d05d3ee6a17d3c00c551d95b9527",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

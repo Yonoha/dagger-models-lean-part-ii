@@ -1,0 +1,21 @@
+{
+  "module": "BisimplicialCommaBarReconstruction",
+  "source": "lean/TheoremCStages/BisimplicialCommaBarReconstruction.lean",
+  "source_sha256": "3faab99e14cdfb75c7b3e7b8d150f2a4cf70a4e0f8c3debddb8e0acb2b06a1fb",
+  "actual_exit": 0,
+  "seconds": 12.731438125003478,
+  "artifact_valid": true,
+  "olean_sha256": "5e17b69a678af058f386d9a53760c6171ca9a328918a4adec47f48bbcf3bb203",
+  "log": "verification/theorem-c-20261125/stages/BisimplicialCommaBarReconstruction.log",
+  "log_sha256": "0f35afa09353d1020ba4b3997564c70e038a8d5fbc23964570d3d566b71a6af1",
+  "source_unchanged": true,
+  "imports_unchanged_during_build": true,
+  "imported_artifact_sha256": {
+    "BisimplicialCommaColumnDeformation": "4606422e05179f344b312b9a51c9aff65db7de423de036e6163254e839cc8c40",
+    "SimplicialReplacementColumnElements": "f6029b4d46bee84f43c80b026603694e3ef5e5a594852fbb1a09681820b082af",
+    "NativeBisimplicialDiagonal": "ac9b3f0b2335762937b16e547deffafc31130aac311a05b3bb07d98372812834",
+    "OriginalDiagonalGeometricReconciledRecovered": "a987289cf4fad7fe201c5cb92719bead8c35318617f6601f3755e4bfa010d09a"
+  },
+  "original_receipt_sha256": "18fb94363cdf6f861c5688759ceae968a96674dcd2442034ccf64ecd13e0e37e",
+  "export_note": "Normalized public receipt; private paths and original command omitted. Source and log bytes are unchanged. Original receipt hash is retained."
+}

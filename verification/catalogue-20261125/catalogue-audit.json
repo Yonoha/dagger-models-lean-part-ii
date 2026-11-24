@@ -1,0 +1,1093 @@
+{
+  "date": "2026-11-25",
+  "actual_exit": 0,
+  "seconds": 324.6241714580101,
+  "artifact_valid": true,
+  "grouped_results": 49,
+  "main_theorems": 3,
+  "selected_declarations": 166,
+  "source_hashes": {
+    "lean/DaggerModelsPartII/LengthStageAttaching.lean": "943114a3a0e81b3633d0cb3ac4b9bb678da4f0855c09419c2b311c80f6ddf213",
+    "lean/DaggerModelsPartII/JTSegalFrameLocality.lean": "3d942e112b10f389b6ed38c377439c8c3d2c4f3ac0f74394c0dd9a8cac6e6909",
+    "lean/TheoremCStages/OrdinaryPrecompletionReplacementComplete.lean": "d500e52cfa5fcdc560334da11ec8591bd9a49082a6a0b9280f615443dab60b10",
+    "lean/DaggerModelsPartII/ResolutionLocalSolutionSet.lean": "fd17655e094451761ba63b31d6072d99b50f4bb39c0c5ddead7fd6c0b2634164",
+    "lean/DaggerModelsPartII/JTRezkRecognition.lean": "4eb464d1a1a21fab3978fa0bb55dfcdacc0d20830c61556b5814281154f13757",
+    "lean/DaggerModelsPartII/JTCoendComparison.lean": "8a480e09ea12fa7c38744eafbbe026c659dd08f0e76997763d932ba673a1f20a",
+    "lean/DaggerModelsPartII/JTBarProjectiveCofibrancy.lean": "4e8a49e708d2378e6e9dcbd9d044f190d9bda5a146c852c8a1fca85ac595fe11",
+    "lean/TheoremCStages/RawOrdinaryJTTargetCSSFibrant.lean": "d47a1b18e41562e80f5fdd88ae2b63590d134e7c8402ed7cf51b1336e22cf0ea",
+    "lean/DaggerModelsPartII/ResolutionAdjunction.lean": "862e73cec27c45c006b6e5d2758b7408c9ddf69ae8f89d26fd1563b1a642a0e4",
+    "lean/DaggerModelsPartII/JTRelativeReedyFrame.lean": "0c6b3d2f02c9e24cc4940f2fbe4919e94dcb9320ebe08e126696173328b97791",
+    "lean/DaggerModelsPartII/ProofTheoremB.lean": "827e2d67a6370bdd6b131cfe99a8d6624bc08c17f295fb77b32b506ed2b336bc",
+    "lean/DaggerModelsPartII/JTStrictTransport.lean": "8a19acd79654f07f14cfcf72e9bc458fcedb45ea84468c6e087bbe7f82007801",
+    "lean/DaggerModelsPartII/DiscreteBorelTheorem.lean": "3c2bcc1012330a8692a289fefc8e61e074fbfa098e02cd6640ad6558cf35f9a8",
+    "lean/DaggerModelsPartII/DaggerNerveLengthFiltration.lean": "84b3346b26651a14fbbbf40272294667794f8adf813bffc39a2efac9b65a368b",
+    "lean/TheoremCStages/OrdinaryJTCSSQuillenEquivalence.lean": "fdc657f3cd06302bd0e3bf7b8af9c5a2ec3bdcd49a5e44f56857890d29c7421b",
+    "lean/DaggerModelsPartII/ResolutionLocalComparison.lean": "a1dab3aa2de41e358d1744844f29eb2b94d24db6de5e59a97ecc35431c800086",
+    "lean/DaggerModelsPartII/PresheafMonoGenerationZorn.lean": "f3d97e0efc4182ccde48515958d5ed4c27f50ea9c4056f66639320f49abebca3",
+    "lean/MainTheoremsPartII.lean": "ab5df214eca8fb20c85bc4a59ef829a62ccaba04a755798278560ed15abe0ba8",
+    "lean/DaggerModelsPartII/DaggerJTRealization.lean": "9fae52b6db1a129fb373f2278e81c9bf6a868d147a0d8825df721b37d5abc892",
+    "lean/DaggerModelsPartII/FreeDaggerPathChains.lean": "779df574be1e70caa7168328228a28cabd46ddb7d72adf7097a9bb5461bf59e4",
+    "lean/DaggerModelsPartII/ClassifyingTheorem.lean": "477962aab7833c194d33542d7b66a4655f8a5aa8b3e75472e2731b12ba17dbde",
+    "lean/DaggerModelsPartII/ActualInjectiveSegalLocalization.lean": "7aed29b9c021814582fe4158084a5e01f8a75bbf63bde60faf21d6f8cad967a2",
+    "lean/DaggerModelsPartII/LengthCellLocality.lean": "677c64be2963efa6bdfac5dc426cd67a586843413b6adad4aa25236bf556de6e",
+    "lean/DaggerModelsPartII/JTSpineWeak.lean": "dddf02757dba3ab1564389190dd840b4bb09a06bc630f4647fea6ef75bc56d7e",
+    "lean/DaggerModelsPartII/DaggerJTFrameUnderlying.lean": "731e40ae68804a8f6cca45f7adca68738433b0339186c8adfe4e3eb8337c59af",
+    "lean/DaggerModelsPartII/ResolutionLocalizedModel.lean": "2b0fd7adf3264beb698c3d36628644f94b155175a7c3b86b6532cb704a54912b",
+    "lean/DaggerModelsPartII/DiscreteBorelDiagram.lean": "59200772c4a4daa5837f586f516aab7f1172446acadc5a4cda426214020d96ca",
+    "lean/DaggerModelsPartII/ResolutionLocality.lean": "d725c50482e44df0dfb80d4228d7b22dd1d74e169d9cc728119ed9c4557090e1",
+    "lean/DaggerModelsPartII/ResolutionGenerators.lean": "f6e933e47b7e18ad12b2a53cfbff100e10c698b26c81efcfa7d7595ef889efd8",
+    "lean/DaggerModelsPartII/DiagramSimplicialEnrichment.lean": "5051c7fcb185fee4838905fdff382e17f611ced5181fa28c7ab16bd97c79ccaa",
+    "lean/DaggerModelsPartII/JTRelativeReedyFrameProperties.lean": "4d5ba7c82b49ffcc6f5d0463b1356111424d1b23be646464550129089ce3ee29",
+    "lean/DaggerModelsPartII/ReversalOuterFaceSubobject.lean": "b4d93de7580bc6a244aa7e531d68ce153896ffc8cc48624c3a6898532a098915",
+    "lean/DaggerModelsPartII/RigidifiedJTFrames.lean": "0113c80fdaf2c492f876d89c24ecfac49176e315a30219d879c6583801b76687",
+    "lean/DaggerModelsPartII/JTProjectiveComparisonWeak.lean": "03b135059976e4389ee60f8026b8edc29d3310ed533ebda3d894aaab5a75f099",
+    "lean/DaggerModelsPartII/InjectiveKanModel.lean": "a48e4e2b9371948528b9822ee457cd297810d5818840f8f562067bb3215fcf32",
+    "lean/DaggerModelsPartII/LengthFiltrationColimit.lean": "ce0de82f4f826fed494124ad974717b24b645fa6422d093306ffecf054d38fc0",
+    "lean/DaggerModelsPartII/ReversalOuterFaceQuotient.lean": "63a830a93bf80fb761314f53847f8fe0130e457b7f815477a8beed1a2ea15b9d",
+    "lean/DaggerModelsPartII/JTCoendEssentialSurjectivity.lean": "3477b0e7b40af0a3a9da8f4bc3ae09ce965a2a79d9818c3ec97ee546d823dc79",
+    "lean/TheoremCStages/TheoremCOriginalCompletionProof.lean": "80cac142b34987f4a9f2ab5b93a68e4780897858668a1f4cdea6cbb7bb00cc66",
+    "lean/DaggerModelsPartII/JTFrameQuillen.lean": "afde1547e4b2c21a60b040cd74e613822253e801363e2165e55b1f85f85bfe65",
+    "lean/DaggerModelsPartII/DaggerJTAdjunction.lean": "46069f5652235f4b68ba1cb951e739ae2b7fd344e63271957c9d54482a1624b8",
+    "lean/TheoremCStages/OrdinarySegalCSSWeakOrderedRecognition.lean": "5ea1ec4fd283d11d9c28199d702119c59333af91af6915cc4bcf8f339a40a633",
+    "lean/MainTheoremCPartII.lean": "27ff5054aee56105c290613138dd785c0840102bd8231bd1a03792c7b07fd2f6",
+    "lean/DaggerModelsPartII/InjectiveSegalLocality.lean": "6721e153c1cb4982e878dafd98adcd6e91880222cf86afa5474168546c7bd1bc",
+    "lean/DaggerModelsPartII/SegalSpaceConditions.lean": "b8bcb1b085b3b0666f5228cabe4414b24533be2a613da6ab93912124689ebe3b",
+    "lean/DaggerModelsPartII/CharacteristicInterior.lean": "0a8405992fcbaa40b689efb3425a5697fedf84e0461e3d228bc9bbeec08a2965",
+    "lean/TheoremCStages/OrdinaryPrecompletionUnitCSSWeak.lean": "385cd00663178f356343eeb300a82d5aa2199917ea838447b1e2497e3bfb5066",
+    "lean/DaggerModelsPartII/DaggerJTRepresentedFrames.lean": "3f19f5a71eb6d9d067290ad6406f1af7f9e579e8cf5cbeda4910df9c703e062e",
+    "lean/DaggerModelsPartII/InjectiveKanDiagramGeneration.lean": "24d1efd908b0f845ac221d4f2272e10dcd0bb6ad4cb35bb4855dc2fd6e63dbca",
+    "lean/DaggerModelsPartII/ProjectiveInjectiveComparison.lean": "1b9eec5f74599c19074585fa289e2e66260fb7b7f86be7cce97d7db24a2a52de",
+    "lean/TheoremCStages/RawOrdinaryJTUnitCSSWeak.lean": "1759ea1de88cc698404ae051b8c31356519b6200f1bea4f37ae088250111d404",
+    "lean/DaggerModelsPartII/ReedyModelComparison.lean": "fc8b3edab60f909d657868edf86f1a0a78f41e8d5ffeed9a995f97c553e38d44",
+    "lean/DaggerModelsPartII/CharacteristicComposite.lean": "77df172b64c082f2e66217918218d9d335f4d8b5cd7ca973ec7a4227cea2546a",
+    "lean/DaggerModelsPartII/CofibrantUnit.lean": "2551060a0dad4bf7278195f0a4d3d54fd7115d4a8974574956b2eadf04e5c772",
+    "lean/DaggerModelsPartII/ResolutionModel.lean": "dbd14b1454861ddf85ef75e9c62ab8398628f6e61abe3b05097c544ad3612156",
+    "lean/DaggerModelsPartII/JTBarComparison.lean": "cc10abba40ce3657b845cdf0b9603cc2ba6168588d5014ce275afc7e418bd254",
+    "lean/DaggerModelsPartII/ReedyCombinatorial.lean": "45ae526b059f73af82d72e526accb6995c56a813af39e7afa2bf0453dccfaa0a",
+    "lean/DaggerModelsPartII/ChainPathCoverage.lean": "7cd97b0a37a7dcaf0d12a117af610ec3d72bcc7f1bc8c71d623bf8559336510f",
+    "lean/TheoremCStages/OrdinaryChosenCSSCompletion.lean": "301e4308ff5923917f849b92666c70b450a99a6703ac3cc365bb09e55de6cd30",
+    "lean/TheoremCStages/TheoremCOriginalFourLinksAudit.lean": "52700a2f220959baccd477ad0a0c68f85126b9564ffb4de757df479bf279941d",
+    "lean/DaggerModelsPartII/ReedyProperties.lean": "62133693e90bc2433672f989fd86d5773f936dc334b1be8bae9558baaf765b28",
+    "lean/DaggerModelsPartII/JTBarDensityWeak.lean": "1d172a2943dda18e0f9b8ca23d09ff6d111f1a233be9a52b2318ede4f85c9752",
+    "lean/DaggerModelsPartII/DaggerSimplexPartIIndex.lean": "03085fb4400e741d067ef20c862546cec7cf046312a32c6d1ae16d0e7284841b",
+    "lean/DaggerModelsPartII/ActualLocalizedQuillen.lean": "9ee0475de984177675e3da62d3bf4054826df847f1ae28097a28cb5fa8dbda71",
+    "lean/DaggerModelsPartII/JTWalkingUnitaryWeak.lean": "ee699297e17e683858ae5e851875b43ddcea972f8d55d6e46fa425ad7a51032d",
+    "lean/DaggerModelsPartII/ResolutionLocalCharacterization.lean": "e369a5f277791db694ec0410e3b15142d8bbe46c4bf22863aa7111c22e4d6806",
+    "lean/DaggerModelsPartII/ActualLocalizedEquivalence.lean": "aae4038223742a74387eab3db8c68569d14f447616a303aae13b4c4abf19468f",
+    "lean/DaggerModelsPartII/CharacteristicFiber.lean": "d4588874a10faee62a524ddb8deaa537ee46f355ef8a4c619211281a9808c15f",
+    "lean/DaggerModelsPartII/JTFrameAdjunction.lean": "4c365d9f56c39e08fe01ddcf1c7be4469d95af82a8550a5db4630f247822ebdc",
+    "lean/DaggerModelsPartII/ReversalRepresentableFixedPoints.lean": "0864a8ae571334b89fee2ce7f9d637679d71a7ffa55a36925f9a9979f17f0316",
+    "lean/DaggerModelsPartII/BorelPushoutCollapse.lean": "ceeda6858c8379239e5008879f369212aa1a5793615ae2453240a847fa1f8c87",
+    "lean/DaggerModelsPartII/SegalLocalizationModels.lean": "feb4c195982aaa86b1fe61f5ca2c962d10e82e1e2fcc35adc803e59db760535b",
+    "lean/DaggerModelsPartII/ConstantVertexReflection.lean": "332c71b15e7e08abbfc3e7c6164c97a9f040b99c8fce77eb8bead7c619787776",
+    "lean/DaggerModelsPartII/ProofTheoremA.lean": "980c60e5eefd734fde1dca0a61323d5064ecd64e48a098d1b82aace30e58e299",
+    "lean/TheoremCStages/OrdinaryCSSCompletionExtension.lean": "a18aca13354a524a0b6a1e131b3b1c1c9ed4f2fdf1a348316e01c5a72a358e44",
+    "lean/DaggerModelsPartII/ProjectiveKanDiagram.lean": "93565680f5fcfc61a0ad9e587af479b4c048a2b8199652484d493a484492ebbe",
+    "lean/DaggerModelsPartII/ResolutionLocalizationSmith.lean": "63d00ef54d9fd91b8049f0015045cbd0ca550db96eacf2686a56f5bc50b382cc",
+    "lean/DaggerModelsPartII/ActualSegalLocalization.lean": "04c993aa697ede69ae9831eb3211e800b7507c890aec1a956ca5d8b5feefa132",
+    "lean/DaggerModelsPartII/ProjectiveWeakAccessibility.lean": "2cfe3030d5bae3f7ea9e185aad1f97ff76552abe7e9fffdc8bf23454bb7afda7",
+    "lean/DaggerModelsPartII/JTActualCosimplicialFrame.lean": "54c828145f23136b423986b3587ed7c337834f44ea16c1dd190824363b69f69b"
+  },
+  "catalogue": "docs/formalization-companion/results.json",
+  "catalogue_sha256": "726b4b60fa1acee297274a3b5c7540f3aff48ff8cf051ae05f4932c80d0d519d",
+  "audit_source": "verification/catalogue-20261125/CheckCatalogueAxioms.lean",
+  "audit_source_sha256": "96956215827c37859e2b30644711ef4aa6bb88c1c04264c623eaf0adf2dfb773",
+  "log": "verification/catalogue-20261125/catalogue-axioms.log",
+  "log_sha256": "5e8d66a8e0e812a6a46a4fda818f96c16f7d7dd1cc73e8e517556c66465b912f",
+  "transitive_axioms": {
+    "DaggerModels.PartII.ActualIndexProjectiveModel.actualInjectiveSegalModel_pushoutProduct_sm7": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ActualIndexProjectiveModel.actualLeftAdjunction_localized_isQuillen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ActualIndexProjectiveModel.actualRestriction_reflectsLocalizedWeakEquivalences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalIdentity_isQuillenEquivalence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_combinatorial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_isFibrant_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_leftProper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModels_weakEquivalences_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ActualLocalizedEquivalence.actualLeftAdjunction_isQuillenEquivalence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ActualLocalizedEquivalence.actualRestriction_weakEquivalence_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.BorelDiscreteOrbits.actualEC2_pushoutCollapse_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ChainPathCoverage.characteristic_covers_chain": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.CharacteristicComposite.interior_images_determine_wordOrbit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.CharacteristicFiber.characteristic_interior_fiber_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.CharacteristicInterior.characteristic_totalLength_eq_iff_interior": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ClassifyingTheorem.actualRepresentableUnit_trivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ClassifyingTheorem.lengthStage_trivialCofibration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.CofibrantUnit.actualUnit_trivial_of_localizedProjectiveCofibrant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.CofibrantUnit.actualUnit_trivial_of_projectiveCofibrant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ConstantVertexAdjunction.row_weak_of_vertex_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ConstantVertexAdjunction.vertex_reflects_weak_between_fibrant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerJTAdjunction.adjunction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerJTFrameUnderlying.frameUnderlyingIso": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerJTFrameUnderlying.reversalSimplexFreeIso": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerJTRealization.daggerRealization_underlying": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerJTRealization.toOpposite_fixedVertices": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerJTRealization.toOpposite_generator_app": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerJTRealization.toOpposite_twice": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerJTRepresentedFrames.frameRepresentation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerNerveLengthFiltration.lengthFiltration_exhaustive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerNerveLengthFiltration.totalLength_extensionMap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_faithful": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_map_conjugation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_obj_bijective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DaggerSimplexPartIIndex.pathEquivalence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DiagramSimplicialEnrichment.homComparison_ordinary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DiscreteBorelDiagram.actualEC2_diagramPushoutCollapse_pointwiseWeak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DiscreteBorelTheorem.nativeStrictOrbitInclusion_localTrivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DiscreteBorelTheorem.reversal_strictOrbitInclusion_localTrivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.DiscreteBorelTheorem.strictOrbitInclusion_localTrivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.FreeDaggerPathChains.letterChain_adjacent_length": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.FreeDaggerPathChains.letterChain_composite": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.InjectiveKanDiagram.combinatorial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.InjectiveKanDiagram.model_cofibrations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.InjectiveKanDiagram.model_isCofibrant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.InjectiveKanDiagram.model_leftProper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.InjectiveKanDiagram.model_tensorMapping_isQuillen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.InjectiveKanDiagram.model_weakEquivalences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.InjectiveKanDiagram.quotientGeneratedCofibrations_eq_cofibrations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTActualCosimplicialFrame.GammaOuter_map_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTActualCosimplicialFrame.augmentation_component_daggerDK": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTBarComparison.beta_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTBarDensityWeak.beta_daggerDK": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTBarDensityWeak.frameRealization_barAugmentation_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTBarProjectiveCofibrancy.barOnDagger_cofibrant_and_augmentation_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTBarProjectiveCofibrancy.barSkeletonMap_cofibration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTCoendComparison.presheafComparison_fac_app_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTCoendComparison.presheafComparison_unique": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTCoendEssentialSurjectivity.comparison_ess": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTFrameAdjunction.adjunction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTFrameAdjunction.frameNerveEvaluationIso": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTFrameQuillen.frameNerve_preservesFibrations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTFrameQuillen.frameNerve_preservesTrivialFibrations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTFrameQuillen.isQuillenAdjunction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTProjectiveComparisonWeak.comparison_daggerDK_of_isCofibrant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTRelativeReedyFrame.GammaOuter_op_isFibrant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTRelativeReedyFrame.comparisonOpposite_relativeLatching": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTRelativeReedyFrame.comparison_component_daggerDK": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTRelativeReedyFrame.comparison_zero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTRezkRecognition.weak_of_ordered_fibers_and_components": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTSegalFrameLocality.frameNerve_literal_localObject": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTSegalFrameLocality.frameRealization_localizerResolution_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTSegalFrameLocality.localized_isQuillenAdjunction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTSpineWeak.spineFree_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTStrictTransport.Omega_inv_mate": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTStrictTransport.Theta_hom": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.JTWalkingUnitaryWeak.frameRealization_completeness_resolution_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.LengthCellLocality.boundaryToCell_localTrivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.LengthFiltrationColimit.discreteLengthTransfiniteComposition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.LengthFiltrationColimit.lengthSequenceIsColimit": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.LengthStageAttaching.lengthStage_discrete_isPushout": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.LengthStageAttaching.lengthStage_isPushout": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinaryCSSCompletionExtension.exists_extension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinaryCSSCompletionExtension.exists_weak_extension": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinaryCSSCompletionExtension.unit_cssCofibration": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinaryCSSCompletionExtension.unit_cssWeak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinaryChosenCSSCompletion.completion_cssFibrant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinaryJTCSSQuillenEquivalence.isQuillenEquivalence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_coherentComparison_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_completeSegalCondition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinaryPrecompletionUnitCSSWeak.unit_cssWeak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinaryPrecompletionUnitCSSWeak.unit_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.OrdinarySegalCSSWeakOrderedRecognition.cssWeak_chosenMappingMap_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.PresheafMonoGeneration.PartialLift.mono_hasLiftingProperty_of_cyclic": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ProjectiveInjectiveComparison.cofibrations_le": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ProjectiveInjectiveComparison.localEquivalences_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ProjectiveKanDiagram.boundaryGenerators_smallObjectArgument": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ProjectiveKanDiagram.combinatorial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ProjectiveKanDiagram.hornGenerators_smallObjectArgument": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ProjectiveKanDiagram.model_fibrations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ProjectiveKanDiagram.model_weakEquivalences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ProjectiveKanDiagram.weakArrow_inclusion_isAccessible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ProjectiveKanDiagram.weakArrow_isAccessible": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ProjectiveKanDiagram.weakSolutionSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.RawOrdinaryJTTargetCSSFibrant.rawTarget_cssFibrant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.RawOrdinaryJTUnitCSSWeak.rawTranspose_cssWeak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ReversalOuterFaceQuotient.discreteOuterFaceInclusion_localTrivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ReversalOuterFaceQuotient.outerFaceNativeStrictOrbitInclusion_localTrivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ReversalOuterFaceQuotient.outerFaceStrictOrbitInclusion_localTrivial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ReversalOuterFaceSubobject.fixed_mem_outerFaceSubpresheafAt": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ReversalRepresentableFixedPoints.fixed_iff_middle_constant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.ReversalRepresentableFixedPoints.no_fixed_of_odd": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.RigidifiedJTFrames.A_isCofibrant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.RigidifiedJTFrames.XiUnderlyingIso": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.RigidifiedJTFrames.XiZeroIso": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.injectiveLocalObject_iff_strict": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_combinatorial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_isFibrant_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_leftProper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_pushoutProduct_sm7": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.projectiveLocalObject_iff_derived": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.projectiveLocalObject_iff_strict_replacement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.projectiveSegalModel_isFibrant_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.segalCondition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.segalIdentity_isQuillenEquivalence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.unitarilyCompleteSegalCondition_iff_family": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.SegalLocalizers.unitaryCompletenessCondition": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.TheoremCOriginalCompletionProof.originalRawOrderedUnitWeak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.TheoremCOriginalCompletionProof.original_statement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.TheoremCOriginalCompletionProof.rawChosenFiberMapAtP_weak": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.TheoremCOriginalFourLinksAudit.constantVertex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.TheoremCOriginalFourLinksAudit.indexChange": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.TheoremCOriginalFourLinksAudit.partI": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.TheoremCOriginalFourLinksAudit.reversalIdentity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.constantDiagramIsoExternalTensorZero": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.constantEvaluation_isQuillenEquivalence_of_exactClasses": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.constantEvaluation_localEquivalence_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.evaluationAdjunction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.evaluationAdjunction_isQuillen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.externalTensorAdjunction": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionCounit_levelwise_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalEquivalence_iff_evalZero_of_local": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalEquivalence_iff_reedyWeak_of_local": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalObject_iff_allOperators": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalObject_iff_homotopicallyConstant": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalSolutionSet": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalizationSmithData": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalizedModelCategory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalized_cofibrations": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalized_combinatorial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalized_constantEvaluation": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalized_isFibrant_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalized_isFibrant_iff_local": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalized_leftProper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionLocalized_weakEquivalences": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionReedyModelCategory": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionReedy_combinatorial": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.resolutionReedy_leftProper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.tensorCollapseTests_iff_allOperators": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.theoremA": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.theoremB": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.theoremBSimplicialStructure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModels.PartII.weak_of_resolutionTestObjects": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModelsPartIICompanion.mainA": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModelsPartIICompanion.mainB": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "DaggerModelsPartIICompanion.mainC": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "imported_artifact_sha256": {
+    "DaggerModelsPartII.ActualInjectiveSegalLocalization": "614f382207801222c6878df80a7b254e6bd262a0d7036b9326139b557bd7cc75",
+    "DaggerModelsPartII.ActualLocalizedEquivalence": "1ce3a09cf5653fd61cd0b9a1d6db83300f34796f22b62265a83cce9a2dc07ff3",
+    "DaggerModelsPartII.ActualLocalizedQuillen": "9fadde0f067fcc7c6f266d848503f6aee0da2e9aeb502c5ef928c095343aefd7",
+    "DaggerModelsPartII.ActualSegalLocalization": "5100661776dc366bed853a30028923d1b75687230b2b67916694d1202d746683",
+    "DaggerModelsPartII.BorelPushoutCollapse": "5becd6318dcb2253aace0929941fe28c6a9752ef56fdf37bc719aaaf36dbe995",
+    "DaggerModelsPartII.ChainPathCoverage": "7f6556d8ed1859fbb5eb1e6c16b13f26da64fc8a36fc186158130bcb6f97ed5b",
+    "DaggerModelsPartII.CharacteristicComposite": "58e98822320544b6e4fb10f93e51c0a88bb740725169c54412438839ffe4e754",
+    "DaggerModelsPartII.CharacteristicFiber": "47129dab533d18f372bc0cd18dcd8c40ceeb72120b4f547cc697421cad77127b",
+    "DaggerModelsPartII.CharacteristicInterior": "9551214acc436ddb59656f2ae5213961c2459bd037eaee53d760771f63e095cc",
+    "DaggerModelsPartII.ClassifyingTheorem": "6e1bb82b432a3e624f95c1a9004a4009724087c38eb019b51e057625450aa16f",
+    "DaggerModelsPartII.CofibrantUnit": "7e42999f8faa49209e9d820013875e27d2def178796305013cf33d8b5a7a7e2b",
+    "DaggerModelsPartII.ConstantVertexReflection": "7e34685c715f5ff6050f0f295c552dcfa4df05fb499c7d5796adf0bd7b4fe52b",
+    "DaggerModelsPartII.DaggerJTAdjunction": "07c2a0224b84e61723365ed88dac68f9a4a8eaa081961654894c1ac87204c2b7",
+    "DaggerModelsPartII.DaggerJTFrameUnderlying": "0722a9990938cece7319f3e2cc6d4619d302ac037250fd64ca8537d55379fd56",
+    "DaggerModelsPartII.DaggerJTRealization": "c5eedf0fa105da40c767f8d7145cd5fee2466a1a2984253079191af459d24a07",
+    "DaggerModelsPartII.DaggerJTRepresentedFrames": "b695e51aa62c136217694723517bef58e45f92907a1adde0bfc73f33987de200",
+    "DaggerModelsPartII.DaggerNerveLengthFiltration": "7cd036d035ad099857126bbaee1c672977d4147c0e93aa4f4f42031ad8d3c8b5",
+    "DaggerModelsPartII.DaggerSimplexPartIIndex": "3d2beb7828d5de9e8479616c5ee0105178670d1db096734f9862c6932cf2589a",
+    "DaggerModelsPartII.DiagramSimplicialEnrichment": "2e51bd2b85d6d1bae8f210852f6f4409ff072c9e6059548fa46dc236bdcb69bc",
+    "DaggerModelsPartII.DiscreteBorelDiagram": "4723a93271472c3ab29f861bdda2bd93a201c1a68a1182d023df0984061b0627",
+    "DaggerModelsPartII.DiscreteBorelTheorem": "122781ef9fa6047187c2cccb475c90e9576ac2aa5555c3b3c186b68ee455add4",
+    "DaggerModelsPartII.FreeDaggerPathChains": "259861f5b7e3aa1c638d87d59b6d733adcd4d505e8bf95b4462fff9eec82d1ca",
+    "DaggerModelsPartII.InjectiveKanDiagramGeneration": "96de5b5abe972a40a454ace4c5964081a14e306f3bfb18737ec3e9fd294cb99b",
+    "DaggerModelsPartII.InjectiveKanModel": "48053e09ae8a90906e2fa6334014a5ea64918605e9726274b4280a76a177d971",
+    "DaggerModelsPartII.InjectiveSegalLocality": "e114ee36130d858d3ab2a5d1bcca944cfd093a25c5b973f668c18330f18b61b8",
+    "DaggerModelsPartII.JTActualCosimplicialFrame": "22e3404468337a34323168af4b849e1aac19d5d2069086ba1d8176cb2ae1766e",
+    "DaggerModelsPartII.JTBarComparison": "d49f4e00f0928f3bbedfd6840e37e9eb6b3daf18e96cc71d356a2df61d6be322",
+    "DaggerModelsPartII.JTBarDensityWeak": "093cbf531398943300dbecad462f8cc2cd38f0995cca2eaee6f6f787eccfee03",
+    "DaggerModelsPartII.JTBarProjectiveCofibrancy": "902df9f16e6c6431bd81e709c04eee024e1b6b77ac028a1126c2090d8ae2c1d2",
+    "DaggerModelsPartII.JTCoendComparison": "24cb7ef2ce5c89ec4b835ce790ceab9e8f4a0e174b09a35d8ee6fbe3db44a800",
+    "DaggerModelsPartII.JTCoendEssentialSurjectivity": "5c255655e4d15fbc57478e3aaa5118955cd4a71cf06a391b431a1c3c0386a62f",
+    "DaggerModelsPartII.JTFrameAdjunction": "ea13d7fcb66e45931bd7eaf24463733a51ffd8bbb4b22afa62254db1becb7a3c",
+    "DaggerModelsPartII.JTFrameQuillen": "12e46f30925f74a205af7972a3b3d9095f30eef7ac7a46eeb9069f1569f0eeeb",
+    "DaggerModelsPartII.JTProjectiveComparisonWeak": "b58f0db770b10eb3f2f6569b475a93830853388430bd858929ce788b4da9ccd7",
+    "DaggerModelsPartII.JTRelativeReedyFrame": "43f9d2c78259dd95a0193fe3257872d3ef4366a208f9e297bf0dbd10d99c8fb6",
+    "DaggerModelsPartII.JTRelativeReedyFrameProperties": "d6a35152d039a61ef2669eedef11554c1bd9c542b2f1b7a1e4ac6c4c9dba4319",
+    "DaggerModelsPartII.JTRezkRecognition": "612feefe1ca19d486d1eff2922db3554b4072efbe026564f008df1b0ffdc54be",
+    "DaggerModelsPartII.JTSegalFrameLocality": "6bf17b9e1e9a266641a014deeaa500b4edc36b7d0f5dcaac11e73fb02524e621",
+    "DaggerModelsPartII.JTSpineWeak": "fa36ba9ae2ced14e0d618ed47704c97b0859411b09e868d41d0f8abc2fdd82bd",
+    "DaggerModelsPartII.JTStrictTransport": "1633c8cb6ea2a9e3f47a3c2e16f2267abe6844436babbe8d678f6a72fcb657a4",
+    "DaggerModelsPartII.JTWalkingUnitaryWeak": "a315fbcb0c06f2e549ca3c1b7bc5b63fc7a5e0438518b13c9e86331e02cbe218",
+    "DaggerModelsPartII.LengthCellLocality": "f668d4599b47f06b34b5e9d3ee0dee0ba41243421ce1522b356eb1670d007255",
+    "DaggerModelsPartII.LengthFiltrationColimit": "3e5d8801f6336e55010c8520aaea46fa26d16ef2600917a58f14fbdb7376337e",
+    "DaggerModelsPartII.LengthStageAttaching": "643b744dc84afaeca116e22a2572d6303ad60222c659d0c232eb95bfbf1ed6fc",
+    "DaggerModelsPartII.PresheafMonoGenerationZorn": "f979db398081513306cee4412f34de3c1e74da070466e7022ca14afbe5f5b336",
+    "DaggerModelsPartII.ProjectiveInjectiveComparison": "7d2660c7f0a21e5b187672143401f89268ef0cfa77fe6d5c1036753941a91ff6",
+    "DaggerModelsPartII.ProjectiveKanDiagram": "e2017525c6ff37ec59d85d2a209537770ad6f8472a097cc0d51821e530539697",
+    "DaggerModelsPartII.ProjectiveWeakAccessibility": "542678dad50eee39625368f5b23a30511180669d2b246cdff9865f5dc6ce6335",
+    "DaggerModelsPartII.ProofTheoremA": "546532c01985630e8ce6e1451a9c70191d0d2e83e02b19612c78bd44833ad19d",
+    "DaggerModelsPartII.ProofTheoremB": "07a77fd76cec59408e49805964b0ecc4b2bbf1c48ee2c944fc73d7d9ca3a7dab",
+    "DaggerModelsPartII.ReedyCombinatorial": "b887b4732fb08deeeb41bf62702e073b7a2a932f1d797ed5c3078335a25722f2",
+    "DaggerModelsPartII.ReedyModelComparison": "07c89a5003bb92607b8c291029fd8d0092ff66dbfed632385cb0baaa12229aaf",
+    "DaggerModelsPartII.ReedyProperties": "987acf668569c872c403f7b549ebce3231f6c48aedf16ef77c32b503de4b2df8",
+    "DaggerModelsPartII.ResolutionAdjunction": "96e3b6dc838955e3099bda940576db2bd95406251a1af4074c3e59ad8cc97cd8",
+    "DaggerModelsPartII.ResolutionGenerators": "1ef83c1ec5ff2da9a4087b01f0ad8f0de8d1c04a31f9ed67b2cb0ae3083c0202",
+    "DaggerModelsPartII.ResolutionLocalCharacterization": "97255ef33d5dc8fbabf6d49ae33b49759595a51510db1fd4c71deb62c86b38ae",
+    "DaggerModelsPartII.ResolutionLocalComparison": "27a3490265fa28e0b878aaf8559585bf5704f3fce5ebd4426539ce5d7a6d80bc",
+    "DaggerModelsPartII.ResolutionLocalSolutionSet": "2096366356175e3ac7956abc385025d6437418a9e44d026dbf6584f1713dbf7b",
+    "DaggerModelsPartII.ResolutionLocality": "63fc72b79d4dc1e46882e2d3a515fef646716d9bd4d813d9446bc4734cbc89ce",
+    "DaggerModelsPartII.ResolutionLocalizationSmith": "b00894694e0b51c59b766f2f25cf8bf53b9c0918d48ccbee4dffa9be497a68de",
+    "DaggerModelsPartII.ResolutionLocalizedModel": "9b012fbfb7485f270a0c4af3cad94f28e98c516f360079f261b747483fd92d0b",
+    "DaggerModelsPartII.ResolutionModel": "68d9b1a2a1f6e2f9f0bdb3629d34502975b10150e5c5aaf1d4a9dddc1c720153",
+    "DaggerModelsPartII.ReversalOuterFaceQuotient": "adf510922fcef5fd1a8d624f656c11276991b73dcfb8562e34b087562e6c5f09",
+    "DaggerModelsPartII.ReversalOuterFaceSubobject": "d435bb9d33aecea563d4c568e6b7063934a7725c8ff01596e6addbf6f32f1647",
+    "DaggerModelsPartII.ReversalRepresentableFixedPoints": "68272f812aa04e3d62da5102cd2f21b16420a49c228d03226437c17c63573015",
+    "DaggerModelsPartII.RigidifiedJTFrames": "3091ef4a1ff44d1ff77fb64cc806f55bb7b2f98d97de1b5a3b45c95e6f4c2683",
+    "DaggerModelsPartII.SegalLocalizationModels": "36a5238a2e536e69fc9fbb6e496910658b88ab12658644b7fbd3651dd956ec08",
+    "DaggerModelsPartII.SegalSpaceConditions": "0db5dd6cefbd3753d146f3f3d951dbfff3635385fed6bcd34473afb506c18381",
+    "MainTheoremCPartII": "16711218ca5fe6b1db25eca090b1ac288adc1c2b3176d937f4bc87746e1088da",
+    "MainTheoremsPartII": "233cc86bc52869738300cd94d170bf580c50fca732ffa5f438f40ca068516003",
+    "OrdinaryCSSCompletionExtension": "3e9a26fe56b65e91872266969e758523829ce09d6a8e20a50b5327102095b9aa",
+    "OrdinaryChosenCSSCompletion": "e9f0bee82a5d9bf7299be44c685c5f6a55580f8a9694d59f232160b94eec4ce9",
+    "OrdinaryJTCSSQuillenEquivalence": "5543cc4b6a76c5204b248bb8b2f736fa76e71b26de9fce16e84514075ac41216",
+    "OrdinaryPrecompletionReplacementComplete": "bcfc03b56fd2d86d5c9dec3f77929c8e1706f92a1f73b04ae1e0c7d88dbb4722",
+    "OrdinaryPrecompletionUnitCSSWeak": "7b070312d6ccbb6f779457f0bea37cb5fe688808d89b0ab1d168aa22726c5b5c",
+    "OrdinarySegalCSSWeakOrderedRecognition": "1248d1b16113a92e3f9698cd7c3b7c126f47bedd63dee9f7fe3c4a9e35184560",
+    "RawOrdinaryJTTargetCSSFibrant": "ade693b9002aaa1463fa929eebe108ff0e78bface8d8f36dd730301ba5cede94",
+    "RawOrdinaryJTUnitCSSWeak": "8ee80ba09d3a7fc4d9278bef133d76b7e76ba58d95c9af5c9788edc34e22c966",
+    "TheoremCOriginalCompletionProof": "e82272e7fd7ac43c7ab59c71ce5c40169a755f4cd5b2a1476f3b868359b15a59",
+    "TheoremCOriginalFourLinksAudit": "595078c58e008faa9b69cb8d892b3f7d1c0aa57a7250a0b8605e79e9183476cc"
+  },
+  "native_owner_freshness_gate": {
+    "actual_exit": 0,
+    "seconds": 11.826173082998139,
+    "owner_roots": [
+      "DaggerModelsPartII.ActualInjectiveSegalLocalization",
+      "DaggerModelsPartII.ActualLocalizedEquivalence",
+      "DaggerModelsPartII.ActualLocalizedQuillen",
+      "DaggerModelsPartII.ActualSegalLocalization",
+      "DaggerModelsPartII.BorelPushoutCollapse",
+      "DaggerModelsPartII.ChainPathCoverage",
+      "DaggerModelsPartII.CharacteristicComposite",
+      "DaggerModelsPartII.CharacteristicFiber",
+      "DaggerModelsPartII.CharacteristicInterior",
+      "DaggerModelsPartII.ClassifyingTheorem",
+      "DaggerModelsPartII.CofibrantUnit",
+      "DaggerModelsPartII.ConstantVertexReflection",
+      "DaggerModelsPartII.DaggerJTAdjunction",
+      "DaggerModelsPartII.DaggerJTFrameUnderlying",
+      "DaggerModelsPartII.DaggerJTRealization",
+      "DaggerModelsPartII.DaggerJTRepresentedFrames",
+      "DaggerModelsPartII.DaggerNerveLengthFiltration",
+      "DaggerModelsPartII.DaggerSimplexPartIIndex",
+      "DaggerModelsPartII.DiagramSimplicialEnrichment",
+      "DaggerModelsPartII.DiscreteBorelDiagram",
+      "DaggerModelsPartII.DiscreteBorelTheorem",
+      "DaggerModelsPartII.FreeDaggerPathChains",
+      "DaggerModelsPartII.InjectiveKanDiagramGeneration",
+      "DaggerModelsPartII.InjectiveKanModel",
+      "DaggerModelsPartII.InjectiveSegalLocality",
+      "DaggerModelsPartII.JTActualCosimplicialFrame",
+      "DaggerModelsPartII.JTBarComparison",
+      "DaggerModelsPartII.JTBarDensityWeak",
+      "DaggerModelsPartII.JTBarProjectiveCofibrancy",
+      "DaggerModelsPartII.JTCoendComparison",
+      "DaggerModelsPartII.JTCoendEssentialSurjectivity",
+      "DaggerModelsPartII.JTFrameAdjunction",
+      "DaggerModelsPartII.JTFrameQuillen",
+      "DaggerModelsPartII.JTProjectiveComparisonWeak",
+      "DaggerModelsPartII.JTRelativeReedyFrame",
+      "DaggerModelsPartII.JTRelativeReedyFrameProperties",
+      "DaggerModelsPartII.JTRezkRecognition",
+      "DaggerModelsPartII.JTSegalFrameLocality",
+      "DaggerModelsPartII.JTSpineWeak",
+      "DaggerModelsPartII.JTStrictTransport",
+      "DaggerModelsPartII.JTWalkingUnitaryWeak",
+      "DaggerModelsPartII.LengthCellLocality",
+      "DaggerModelsPartII.LengthFiltrationColimit",
+      "DaggerModelsPartII.LengthStageAttaching",
+      "DaggerModelsPartII.PresheafMonoGenerationZorn",
+      "DaggerModelsPartII.ProjectiveInjectiveComparison",
+      "DaggerModelsPartII.ProjectiveKanDiagram",
+      "DaggerModelsPartII.ProjectiveWeakAccessibility",
+      "DaggerModelsPartII.ProofTheoremA",
+      "DaggerModelsPartII.ProofTheoremB",
+      "DaggerModelsPartII.ReedyCombinatorial",
+      "DaggerModelsPartII.ReedyModelComparison",
+      "DaggerModelsPartII.ReedyProperties",
+      "DaggerModelsPartII.ResolutionAdjunction",
+      "DaggerModelsPartII.ResolutionGenerators",
+      "DaggerModelsPartII.ResolutionLocalCharacterization",
+      "DaggerModelsPartII.ResolutionLocalComparison",
+      "DaggerModelsPartII.ResolutionLocalSolutionSet",
+      "DaggerModelsPartII.ResolutionLocality",
+      "DaggerModelsPartII.ResolutionLocalizationSmith",
+      "DaggerModelsPartII.ResolutionLocalizedModel",
+      "DaggerModelsPartII.ResolutionModel",
+      "DaggerModelsPartII.ReversalOuterFaceQuotient",
+      "DaggerModelsPartII.ReversalOuterFaceSubobject",
+      "DaggerModelsPartII.ReversalRepresentableFixedPoints",
+      "DaggerModelsPartII.RigidifiedJTFrames",
+      "DaggerModelsPartII.SegalLocalizationModels",
+      "DaggerModelsPartII.SegalSpaceConditions"
+    ],
+    "scope": "Original current source rehash/no-build; not fresh full build"
+  },
+  "all_1392_exported_native_part_ii_sources_match_original": true,
+  "fresh_main_a_b_c_alias_compilation": true,
+  "main_alias_log": "verification/catalogue-20261125/main-a-b-c.log",
+  "main_alias_log_sha256": "1e1e59832f534ecb537f4730afceb24c6fd0edbcb798ae368b5ae2a2d8b60b5f",
+  "normalized_public_receipt": true,
+  "original_private_receipt_sha256": "432e1da36b72820547f6ce51318a535d8b7c89a115c9702d666e75fe9bc09e66",
+  "scope": "Selected-root kernel compilation and transitive axiom audit against checked existing imports, current native owner source rehash/no-build; not cold full build, hosted Linux CI, Comparator or human review"
+}

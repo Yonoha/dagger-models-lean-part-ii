@@ -1,57 +1,90 @@
-format: "part-ii-companion-v1"
-name: "Models for dagger categories II: Theorem C"
+format: part-ii-companion-v1
+name: 'Models for dagger categories II: Theorems A, B, C and major results'
 authors:
-  - "Keima Akasaka"
-repository: "https://github.com/Yonoha/dagger-models-lean-part-ii"
+- Keima Akasaka
+repository: https://github.com/Yonoha/dagger-models-lean-part-ii
 paper:
-  title: "Models for dagger (infinity,1)-categories II: Dagger complete Segal spaces and the dagger Joyal--Tierney equivalence"
-  manuscript_labels: ["Theorem C", "jt.thm.main", "jt.cor.goal"]
+  title: 'Models for dagger (infinity,1)-categories II: Dagger complete Segal spaces and the dagger Joyal--Tierney
+    equivalence'
+  manuscript_labels:
+  - Theorem C
+  - jt.thm.main
+  - jt.cor.goal
 ai_assistance:
   formalization: true
   prose_and_english_catalogue: true
-  disclosure: "README and opening page of the PDF"
+  disclosure: README and opening page of the PDF
 dependencies:
-  lean: "leanprover/lean4:v4.27.0"
+  lean: leanprover/lean4:v4.27.0
   part_i:
-    repository: "https://github.com/Yonoha/dagger-models-lean"
-    commit: "9ee62295a79ef61269259e27216afc0292458931"
-  mathlib: "a3a10db0e9d66acbebf76c5e6a135066525ac900"
-main_result:
-  declaration: "DaggerModelsPartIICompanion.mainC"
-  original_target: "DaggerModels.PartII.TheoremCStatement.statement"
-  original_proof: "DaggerModels.PartII.TheoremCOriginalCompletionProof.original_statement"
-  file: "lean/MainTheoremCPartII.lean"
-  statement_file: "lean/DaggerModelsPartII/TheoremCStatement.lean"
-  literal_target_audit: "lean/TheoremCStages/TheoremCOriginalFourLinksAudit.lean"
-  status: "Locally kernel checked; original four-link target with no added hypotheses"
-  universe_scope: "Original value universe zero"
-  original_input_completeness_assumed: false
-  axioms: ["propext", "Classical.choice", "Quot.sound"]
+    repository: https://github.com/Yonoha/dagger-models-lean
+    commit: 9ee62295a79ef61269259e27216afc0292458931
+  mathlib: a3a10db0e9d66acbebf76c5e6a135066525ac900
 verification:
-  summary: "verification/theorem-c-20261125/summary.json"
-  source_inventory: "SOURCE_MANIFEST.json"
+  summary: verification/theorem-c-20261125/summary.json
+  source_inventory: SOURCE_MANIFEST.json
   used_named_stages: 359
   used_stage_printed_standard_axiom_reports: 1182
   direct_project_import_roots_rehashed: 156
   original_transitive_project_source_modules: 3081
   saved_local_kernel_checks: true
-  new_repository_final_module_checks: "See verification/theorem-c-20261125/publication-checks.json"
+  new_repository_final_module_checks: See verification/theorem-c-20261125/publication-checks.json
   fresh_separate_repository_full_build: false
   new_hosted_linux_ci: false
   independent_human_review: false
-  agent_correspondence_review: "No concrete mismatch found; AI review only"
+  agent_correspondence_review: Three bounded inventories and separate cross-agent checks of six sensitive groups;
+    AI review only
   comparator:
-    status: "Pending"
+    status: Pending
     independent_mathlib_only_challenge: false
     real_linux_replay_and_negative_controls: false
-    note: "Literal target audit is not an independent Challenge or a Comparator pass"
+    note: Literal target audit is not an independent Challenge or a Comparator pass
+  catalogue:
+    receipt: verification/catalogue-20261125/catalogue-audit.json
+    audit: verification/catalogue-20261125/CheckCatalogueAxioms.lean
+    selected_declarations: 166
+    owner_modules: 80
+    native_owner_roots_rehashed: 68
+    main_aliases_compiled_together: true
+    standard_transitive_axioms_only: true
 catalogue:
-  pdf: "docs/formalization-companion/part2-theorem-c-companion-en.pdf"
-  source: "docs/formalization-companion/main.tex"
-  grouped_results: 9
-  major_supporting_propositions: 8
-  notation: "Part II; each of the four adjoints is displayed in its original direction"
+  pdf: docs/formalization-companion/part2-lean-formalization-companion-en.pdf
+  source: docs/formalization-companion/main.tex
+  grouped_results: 49
+  major_supporting_propositions: 46
+  notation: Part II; each assumption, universe and actual adjoint direction retained
+  result_index: docs/formalization-companion/results.json
+  main_theorems: 3
+  distinct_declaration_roots: 166
 publication:
-  release_candidate: "v0.1.0-rc1"
-  scope: "Local checked proof and saved evidence; no new Linux CI, Comparator or human certification"
+  release_candidate: v0.1.0-rc2
+  scope: Local checked proof and saved evidence; no new Linux CI, Comparator or human certification
   part_i_releases_unchanged: true
+main_results:
+- declaration: DaggerModelsPartIICompanion.mainA
+  original_target: DaggerModels.PartII.TheoremAStatement.statement
+  original_proof: DaggerModels.PartII.theoremA
+  file: lean/MainTheoremsPartII.lean
+  statement_file: lean/DaggerModelsPartII/TheoremAStatement.lean
+  universe_scope: Original universe parameter u
+  axioms: &id001
+  - propext
+  - Classical.choice
+  - Quot.sound
+- declaration: DaggerModelsPartIICompanion.mainB
+  original_target: DaggerModels.PartII.FullTheoremBStatement.fullStatement
+  original_proof: DaggerModels.PartII.theoremB
+  file: lean/MainTheoremsPartII.lean
+  statement_file: lean/DaggerModelsPartII/FullTheoremBStatement.lean
+  universe_scope: Value universe zero; full literal simplicial structure included
+  axioms: *id001
+- declaration: DaggerModelsPartIICompanion.mainC
+  original_target: DaggerModels.PartII.TheoremCStatement.statement
+  original_proof: DaggerModels.PartII.TheoremCOriginalCompletionProof.original_statement
+  file: lean/MainTheoremCPartII.lean
+  statement_file: lean/DaggerModelsPartII/TheoremCStatement.lean
+  literal_target_audit: lean/TheoremCStages/TheoremCOriginalFourLinksAudit.lean
+  status: Locally kernel checked; original four-link target with no added hypotheses
+  universe_scope: Original value universe zero
+  original_input_completeness_assumed: false
+  axioms: *id001

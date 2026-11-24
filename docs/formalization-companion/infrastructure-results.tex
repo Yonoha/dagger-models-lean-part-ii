@@ -1,0 +1,136 @@
+\section{Generation, Borel comparison and word cells}
+
+These substantial construction theorems explain the model-category and word-cell infrastructure used by the change-of-index proof. Their standing hypotheses are retained; they do not claim new mathematical novelty for reused foundations.
+
+\begin{resultblock}
+\begin{proposition}[Small generation and accessible weak-equivalence classes]
+\label{catalogue:I1}
+For $C:\mathrm{Type}_u$ with a category structure in universe $u$, cyclic intersections of subfunctors suffice to test right lifting against every monomorphism of set-valued diagrams.
+After currying simplicial-set diagrams, a small family of quotient-subobject inclusions generates exactly their monomorphisms as a weak-factorization left class.
+Separately, the full subcategory of objectwise Kan weak-equivalence arrows and its inclusion are accessible, yielding a Smith solution set for every small family of diagram arrows.
+These are construction inputs for the injective model, not additional assumptions on a chosen localizer.
+\end{proposition}
+
+\Source{DaggerModels.PartII.PresheafMonoGeneration.PartialLift.mono_hasLiftingProperty_of_cyclic;
+DaggerModels.PartII.InjectiveKanDiagram.quotientGeneratedCofibrations_eq_cofibrations;
+DaggerModels.PartII.ProjectiveKanDiagram.weakArrow_isAccessible;
+DaggerModels.PartII.ProjectiveKanDiagram.weakArrow_inclusion_isAccessible;
+DaggerModels.PartII.ProjectiveKanDiagram.weakSolutionSet}{lean/DaggerModelsPartII/PresheafMonoGenerationZorn.lean;
+lean/DaggerModelsPartII/InjectiveKanDiagramGeneration.lean;
+lean/DaggerModelsPartII/ProjectiveWeakAccessibility.lean}
+\CatalogueNote{Scope}{Generic C : Type u with Category.\{u\} C and SSet.\{u\}; presheaf lifting uses the corresponding set-valued functor universes.}
+\CatalogueNote{Manuscript context}{h1.lem.proj-rev, h1.lem.proj-dag}
+\CatalogueNote{Construction and reuse}{Native Part II small-generation and accessibility proofs. B2--B3 state the resulting model structures; this group records their distinct construction theorems.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Borel collapse and strict-orbit comparison]
+\label{catalogue:I2}
+Let $X\in\Fun(C,\Set)$ carry an involution, and let $A\subseteq X$ be an invariant subdiagram containing every fixed element.
+For a small family of monomorphism localizers, assume that the pointwise discrete inclusion induced by $A\subseteq X$ is a weak equivalence in the associated injective localization.
+The actual simplicial $EC_2$ makes the Borel pushout-collapse map a componentwise Kan weak equivalence;
+the comparison then proves that the inclusion of categorical strict orbits is a localized trivial cofibration.
+The Borel inclusion's localized triviality is derived, not an extra premise.
+The theorem applies to discrete presentations, not arbitrary simplicial diagrams merely equivalent to discrete ones.
+\end{proposition}
+
+\Source{DaggerModels.PartII.BorelDiscreteOrbits.actualEC2_pushoutCollapse_weak;
+DaggerModels.PartII.DiscreteBorelDiagram.actualEC2_diagramPushoutCollapse_pointwiseWeak;
+DaggerModels.PartII.DiscreteBorelTheorem.strictOrbitInclusion_localTrivial;
+DaggerModels.PartII.DiscreteBorelTheorem.nativeStrictOrbitInclusion_localTrivial;
+DaggerModels.PartII.DiscreteBorelTheorem.reversal_strictOrbitInclusion_localTrivial}{lean/DaggerModelsPartII/BorelPushoutCollapse.lean;
+lean/DaggerModelsPartII/DiscreteBorelDiagram.lean;
+lean/DaggerModelsPartII/DiscreteBorelTheorem.lean}
+\CatalogueNote{Scope}{The generic diagram theorem uses C : Type u, Category.\{u\} C, X : C functor to Type u and SSet.\{u\}; the reversal specialization uses u = 0.}
+\CatalogueNote{Manuscript context}{h1.lem.borel}
+\CatalogueNote{Construction and reuse}{Native Part II Borel and orbit constructions reuse the actual simplicial EC2 and the generic injective localization; no model structure on the action category is assumed.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Reversal fixed points and outer-face orbit cells]
+\label{catalogue:I3}
+The involution on a reversal representable acts by postcomposition with reversal of the target ordinal.
+No map into $[n]$ with odd $n$ is fixed;
+for even $n$, the fixed maps are exactly the constants at the middle vertex.
+For every length $\ell\geq2$, such fixed maps lie in the union of the two outer-face Yoneda images.
+That union includes into the representable by a localized trivial cofibration, and its strict-orbit quotient inclusion is again a localized trivial cofibration in the actual injective Segal model.
+The quotient statement has no additional local-equivalence premise because the outer-face inclusion is proved first.
+\end{proposition}
+
+\Source{DaggerModels.PartII.ReversalRepresentableFixedPoints.no_fixed_of_odd;
+DaggerModels.PartII.ReversalRepresentableFixedPoints.fixed_iff_middle_constant;
+DaggerModels.PartII.ReversalOuterFaceSubobject.fixed_mem_outerFaceSubpresheafAt;
+DaggerModels.PartII.ReversalOuterFaceQuotient.discreteOuterFaceInclusion_localTrivial;
+DaggerModels.PartII.ReversalOuterFaceQuotient.outerFaceStrictOrbitInclusion_localTrivial;
+DaggerModels.PartII.ReversalOuterFaceQuotient.outerFaceNativeStrictOrbitInclusion_localTrivial}{lean/DaggerModelsPartII/ReversalRepresentableFixedPoints.lean;
+lean/DaggerModelsPartII/ReversalOuterFaceSubobject.lean;
+lean/DaggerModelsPartII/ReversalOuterFaceQuotient.lean}
+\CatalogueNote{Scope}{The fixed-point calculation is for finite reversal simplices; the localized quotient theorem is at SSet.\{0\}.}
+\CatalogueNote{Manuscript context}{h1.lem.outer, h1.lem.fix, h1.prop.classifying}
+\CatalogueNote{Construction and reuse}{Native Part II fixed-point and outer-face proofs specialize the conditional Borel theorem after proving its local-equivalence premise.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Word-length filtration and characteristic maps]
+\label{catalogue:I4}
+For the native nerve of a free dagger simplex, the total number of letters in a chain defines subpresheaves $X_\ell$.
+Every reversal-simplex operator is length nonincreasing, so these subpresheaves are functorial;
+they form an increasing exhaustive filtration.
+The free dagger paths are unreduced words, including empty paths and immediate backtracking.
+For each word $p$, its letter chain has adjacent arrows of length one and composite exactly $p$, defining an actual characteristic map.
+Every native chain is the value of the characteristic map of its full composite word at the parameter determined by prefix lengths.
+\end{proposition}
+
+\Source{DaggerModels.PartII.DaggerNerveLengthFiltration.totalLength_extensionMap;
+DaggerModels.PartII.DaggerNerveLengthFiltration.lengthFiltration_exhaustive;
+DaggerModels.PartII.FreeDaggerPathChains.letterChain_composite;
+DaggerModels.PartII.FreeDaggerPathChains.letterChain_adjacent_length;
+DaggerModels.PartII.ChainPathCoverage.characteristic_covers_chain}{lean/DaggerModelsPartII/DaggerNerveLengthFiltration.lean;
+lean/DaggerModelsPartII/FreeDaggerPathChains.lean;
+lean/DaggerModelsPartII/ChainPathCoverage.lean}
+\CatalogueNote{Scope}{The free dagger simplex index is finite; the set-valued filtration and its discrete simplicial realization use universe 0.}
+\CatalogueNote{Manuscript context}{h1.lem.nerve, h1.prop.classifying}
+\CatalogueNote{Construction and reuse}{Native Part II filtration and path constructions; no cancellation or reduced-word quotient is introduced.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Exact interior fibers of word cells]
+\label{catalogue:I5}
+For an unreduced free dagger path $p$ of positive length and two interior reversal-simplex parameters $\varphi,\psi$, equality of their images under the characteristic map holds exactly when $\varphi=\psi$, or when the full arrow $p$ equals its dagger and $\psi$ is the reversal flip of $\varphi$.
+Equality of full arrows includes equality of the endpoint objects.
+The result does not assume that $p$ is palindromic;
+it identifies precisely when reversal creates a second representative.
+Images of cells belonging to different dagger-orbits of words therefore have disjoint interiors, which is the injectivity input for the attaching pushout.
+\end{proposition}
+
+\Source{DaggerModels.PartII.CharacteristicFiber.characteristic_interior_fiber_iff;
+DaggerModels.PartII.CharacteristicComposite.interior_images_determine_wordOrbit;
+DaggerModels.PartII.CharacteristicInterior.characteristic_totalLength_eq_iff_interior}{lean/DaggerModelsPartII/CharacteristicFiber.lean;
+lean/DaggerModelsPartII/CharacteristicComposite.lean;
+lean/DaggerModelsPartII/CharacteristicInterior.lean}
+\CatalogueNote{Scope}{Finite free dagger simplices and reversal simplices, in universe 0.}
+\CatalogueNote{Manuscript context}{h1.lem.nerve, h1.prop.classifying}
+\CatalogueNote{Construction and reuse}{Native Part II interior-fiber classification for unreduced paths, used by the actual cell-attachment proof.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Actual word-cell pushouts and boundary locality]
+\label{catalogue:I6}
+For every free dagger simplex indexed by $m$ and every stage $\ell\geq2$, the square attaching the fixed-length word cells along their outer-face boundaries is an actual pushout of reversal presheaves;
+its discrete simplicial-set image is also a pushout.
+The cells are indexed by dagger-orbits of words, with separate ordinary and palindromic orbit types.
+Their boundary inclusion is a localized trivial cofibration, using the ordinary outer-face result and the strict-orbit quotient result.
+The full discrete native nerve is the colimit of its finite-length stages, supplying the countable transfinite-composition witness used later for the representable-unit theorem.
+\end{proposition}
+
+\Source{DaggerModels.PartII.LengthStageAttaching.lengthStage_isPushout;
+DaggerModels.PartII.LengthStageAttaching.lengthStage_discrete_isPushout;
+DaggerModels.PartII.LengthCellLocality.boundaryToCell_localTrivial;
+DaggerModels.PartII.LengthFiltrationColimit.lengthSequenceIsColimit;
+DaggerModels.PartII.LengthFiltrationColimit.discreteLengthTransfiniteComposition}{lean/DaggerModelsPartII/LengthStageAttaching.lean;
+lean/DaggerModelsPartII/LengthCellLocality.lean;
+lean/DaggerModelsPartII/LengthFiltrationColimit.lean}
+\CatalogueNote{Scope}{The word-cell and discrete reversal-diagram constructions are at SSet.\{0\}, with m, ell : natural numbers and hypothesis 2 \ensuremath{\leq} ell for each attaching stage.}
+\CatalogueNote{Manuscript context}{h1.prop.classifying}
+\CatalogueNote{Construction and reuse}{Native Part II word-orbit cell construction. This group records the pushout and local boundary inputs, without repeating the final representable-unit theorem catalogued in B9.}
+\end{resultblock}

@@ -1,0 +1,396 @@
+'DaggerModels.PartII.ActualIndexProjectiveModel.actualInjectiveSegalModel_pushoutProduct_sm7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ActualIndexProjectiveModel.actualLeftAdjunction_localized_isQuillen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ActualIndexProjectiveModel.actualRestriction_reflectsLocalizedWeakEquivalences' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalIdentity_isQuillenEquivalence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_combinatorial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_isFibrant_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_leftProper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModels_weakEquivalences_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ActualLocalizedEquivalence.actualLeftAdjunction_isQuillenEquivalence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ActualLocalizedEquivalence.actualRestriction_weakEquivalence_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.BorelDiscreteOrbits.actualEC2_pushoutCollapse_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ChainPathCoverage.characteristic_covers_chain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.CharacteristicComposite.interior_images_determine_wordOrbit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.CharacteristicFiber.characteristic_interior_fiber_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.CharacteristicInterior.characteristic_totalLength_eq_iff_interior' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ClassifyingTheorem.actualRepresentableUnit_trivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ClassifyingTheorem.lengthStage_trivialCofibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.CofibrantUnit.actualUnit_trivial_of_localizedProjectiveCofibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.CofibrantUnit.actualUnit_trivial_of_projectiveCofibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ConstantVertexAdjunction.row_weak_of_vertex_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ConstantVertexAdjunction.vertex_reflects_weak_between_fibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerJTAdjunction.adjunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.DaggerJTFrameUnderlying.frameUnderlyingIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerJTFrameUnderlying.reversalSimplexFreeIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerJTRealization.daggerRealization_underlying' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerJTRealization.toOpposite_fixedVertices' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerJTRealization.toOpposite_generator_app' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerJTRealization.toOpposite_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.DaggerJTRepresentedFrames.frameRepresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerNerveLengthFiltration.lengthFiltration_exhaustive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerNerveLengthFiltration.totalLength_extensionMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_faithful' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_map_conjugation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_obj_bijective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DaggerSimplexPartIIndex.pathEquivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.DiagramSimplicialEnrichment.homComparison_ordinary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DiscreteBorelDiagram.actualEC2_diagramPushoutCollapse_pointwiseWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DiscreteBorelTheorem.nativeStrictOrbitInclusion_localTrivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DiscreteBorelTheorem.reversal_strictOrbitInclusion_localTrivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.DiscreteBorelTheorem.strictOrbitInclusion_localTrivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.FreeDaggerPathChains.letterChain_adjacent_length' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.FreeDaggerPathChains.letterChain_composite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.InjectiveKanDiagram.combinatorial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.InjectiveKanDiagram.model_cofibrations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.InjectiveKanDiagram.model_isCofibrant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.InjectiveKanDiagram.model_leftProper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.InjectiveKanDiagram.model_tensorMapping_isQuillen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.InjectiveKanDiagram.model_weakEquivalences' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.InjectiveKanDiagram.quotientGeneratedCofibrations_eq_cofibrations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTActualCosimplicialFrame.GammaOuter_map_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTActualCosimplicialFrame.augmentation_component_daggerDK' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTBarComparison.beta_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.JTBarDensityWeak.beta_daggerDK' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.JTBarDensityWeak.frameRealization_barAugmentation_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTBarProjectiveCofibrancy.barOnDagger_cofibrant_and_augmentation_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTBarProjectiveCofibrancy.barSkeletonMap_cofibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTCoendComparison.presheafComparison_fac_app_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTCoendComparison.presheafComparison_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTCoendEssentialSurjectivity.comparison_ess' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTFrameAdjunction.adjunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.JTFrameAdjunction.frameNerveEvaluationIso' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTFrameQuillen.frameNerve_preservesFibrations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTFrameQuillen.frameNerve_preservesTrivialFibrations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTFrameQuillen.isQuillenAdjunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.JTProjectiveComparisonWeak.comparison_daggerDK_of_isCofibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTRelativeReedyFrame.GammaOuter_op_isFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTRelativeReedyFrame.comparisonOpposite_relativeLatching' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTRelativeReedyFrame.comparison_component_daggerDK' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTRelativeReedyFrame.comparison_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.JTRezkRecognition.weak_of_ordered_fibers_and_components' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTSegalFrameLocality.frameNerve_literal_localObject' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTSegalFrameLocality.frameRealization_localizerResolution_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTSegalFrameLocality.localized_isQuillenAdjunction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.JTSpineWeak.spineFree_weak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.JTStrictTransport.Omega_inv_mate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.JTStrictTransport.Theta_hom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.JTWalkingUnitaryWeak.frameRealization_completeness_resolution_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.LengthCellLocality.boundaryToCell_localTrivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.LengthFiltrationColimit.discreteLengthTransfiniteComposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.LengthFiltrationColimit.lengthSequenceIsColimit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.LengthStageAttaching.lengthStage_discrete_isPushout' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.LengthStageAttaching.lengthStage_isPushout' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSCompletionExtension.exists_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSCompletionExtension.exists_weak_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSCompletionExtension.unit_cssCofibration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryCSSCompletionExtension.unit_cssWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryChosenCSSCompletion.completion_cssFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryJTCSSQuillenEquivalence.isQuillenEquivalence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_coherentComparison_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_completeSegalCondition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionUnitCSSWeak.unit_cssWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinaryPrecompletionUnitCSSWeak.unit_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.OrdinarySegalCSSWeakOrderedRecognition.cssWeak_chosenMappingMap_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.PresheafMonoGeneration.PartialLift.mono_hasLiftingProperty_of_cyclic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ProjectiveInjectiveComparison.cofibrations_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ProjectiveInjectiveComparison.localEquivalences_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ProjectiveKanDiagram.boundaryGenerators_smallObjectArgument' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ProjectiveKanDiagram.combinatorial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.ProjectiveKanDiagram.hornGenerators_smallObjectArgument' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ProjectiveKanDiagram.model_fibrations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.ProjectiveKanDiagram.model_weakEquivalences' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ProjectiveKanDiagram.weakArrow_inclusion_isAccessible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ProjectiveKanDiagram.weakArrow_isAccessible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ProjectiveKanDiagram.weakSolutionSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTTargetCSSFibrant.rawTarget_cssFibrant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RawOrdinaryJTUnitCSSWeak.rawTranspose_cssWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ReversalOuterFaceQuotient.discreteOuterFaceInclusion_localTrivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ReversalOuterFaceQuotient.outerFaceNativeStrictOrbitInclusion_localTrivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ReversalOuterFaceQuotient.outerFaceStrictOrbitInclusion_localTrivial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ReversalOuterFaceSubobject.fixed_mem_outerFaceSubpresheafAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ReversalRepresentableFixedPoints.fixed_iff_middle_constant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.ReversalRepresentableFixedPoints.no_fixed_of_odd' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.RigidifiedJTFrames.A_isCofibrant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.RigidifiedJTFrames.XiUnderlyingIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.RigidifiedJTFrames.XiZeroIso' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.injectiveLocalObject_iff_strict' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_combinatorial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_isFibrant_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_leftProper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_pushoutProduct_sm7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.projectiveLocalObject_iff_derived' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.projectiveLocalObject_iff_strict_replacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.projectiveSegalModel_isFibrant_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.segalCondition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.segalIdentity_isQuillenEquivalence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.unitarilyCompleteSegalCondition_iff_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.SegalLocalizers.unitaryCompletenessCondition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalCompletionProof.originalRawOrderedUnitWeak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalCompletionProof.original_statement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalCompletionProof.rawChosenFiberMapAtP_weak' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalFourLinksAudit.constantVertex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalFourLinksAudit.indexChange' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalFourLinksAudit.partI' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.TheoremCOriginalFourLinksAudit.reversalIdentity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.constantDiagramIsoExternalTensorZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.constantEvaluation_isQuillenEquivalence_of_exactClasses' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.constantEvaluation_localEquivalence_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.evaluationAdjunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.evaluationAdjunction_isQuillen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.externalTensorAdjunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionCounit_levelwise_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalEquivalence_iff_evalZero_of_local' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.resolutionLocalEquivalence_iff_reedyWeak_of_local' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.resolutionLocalObject_iff_allOperators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalObject_iff_homotopicallyConstant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'DaggerModels.PartII.resolutionLocalSolutionSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalizationSmithData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalizedModelCategory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalized_cofibrations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalized_combinatorial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalized_constantEvaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalized_isFibrant_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalized_isFibrant_iff_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalized_leftProper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionLocalized_weakEquivalences' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionReedyModelCategory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionReedy_combinatorial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.resolutionReedy_leftProper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.tensorCollapseTests_iff_allOperators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.theoremA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.theoremB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.theoremBSimplicialStructure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModels.PartII.weak_of_resolutionTestObjects' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModelsPartIICompanion.mainA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModelsPartIICompanion.mainB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModelsPartIICompanion.mainC' depends on axioms: [propext, Classical.choice, Quot.sound]

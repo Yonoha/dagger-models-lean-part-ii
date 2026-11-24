@@ -1,0 +1,15 @@
+{
+  "pdf": "docs/formalization-companion/part2-lean-formalization-companion-en.pdf",
+  "pdf_sha256": "9875cb35f8c605f6069ade80226d8963635c4ea9f6b33398eb9a41fff27cba0e",
+  "pages": 27,
+  "grouped_results": 49,
+  "selected_declarations": 166,
+  "source_links": 94,
+  "all_source_links_valid_local_paths": true,
+  "all_27_pages_rendered_and_visually_reviewed": true,
+  "ai_disclosure_on_first_page": true,
+  "fonts": "Latin Modern and standard LaTeX mathematics",
+  "layout_font_reference_warnings": 0,
+  "review_note": "AI agent visual review of pages1-25; root review of26-27; no clipping/overlap/missing glyphs in final rendering",
+  "latest_compile_all_page_renders_match_reviewed_images": true
+}

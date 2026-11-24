@@ -1,0 +1,1437 @@
+{
+  "format_version": 1,
+  "release_tag": "v0.1.0-rc2",
+  "ai_generated_prose": true,
+  "scope": "Grouped theorem/proposition-level formalized results across Part II. Not every auxiliary lemma or every manuscript claim is advertised.",
+  "sections": [
+    {
+      "id": "main",
+      "title": "The three main theorems",
+      "intro_tex": "The three statements below are proved with their existing hypotheses and model choices. Theorem B means the full statement with literal simplicial structure, not only its earlier seven-clause core."
+    },
+    {
+      "id": "resolution",
+      "title": "Resolution models and homotopical constancy",
+      "intro_tex": "These results construct and characterize the resolution presentation $\\sSpace^{\\dag\\vee}_{\\CSS}$. Its $\\CSS$ subscript is the manuscript notation for the homotopically constant resolution model; it is distinct from the ordinary complete-Segal-space model used later."
+    },
+    {
+      "id": "models",
+      "title": "Dagger Segal models and actual change of index",
+      "intro_tex": "Generic diagram-model results are distinguished from their universe-zero applications to the actual reversal and free-dagger-simplex indices. Strict mapping-space tests and projective derived fibrancy are kept separate."
+    },
+    {
+      "id": "infrastructure",
+      "title": "Generation, Borel comparison and word cells",
+      "intro_tex": "These substantial construction theorems explain the model-category and word-cell infrastructure used by the change-of-index proof. Their standing hypotheses are retained; they do not claim new mathematical novelty for reused foundations."
+    },
+    {
+      "id": "frames",
+      "title": "Frames, realization, density and recognition",
+      "intro_tex": "The results use the actual reversal-natural frames and specified comparison maps. Sufficient recognition criteria and reflection theorems retain their explicit hypotheses; a contextual manuscript label is not a claim to formalize every clause of that labelled assertion."
+    },
+    {
+      "id": "completion",
+      "title": "Ordinary completion and the final raw ordered unit",
+      "intro_tex": "These eight previously checked groups close the original raw ordered-unit input without imposing completeness on the original Segal source. Their ordinary constructions are auxiliary inputs to the dagger comparison, with the exact endpoint calibration retained."
+    }
+  ],
+  "groups": [
+    {
+      "id": "MainA",
+      "title": "Theorem A: the homotopically constant resolution model",
+      "summary_tex": "There is a left proper combinatorial model structure\n$\\sSpace^{\\dag\\vee}_{\\CSS}:=L_{S_h}\\sSpace^{\\dag\\vee}_{\\Reedy}$.\nIts cofibrations are exactly the Reedy cofibrations and its weak equivalences are exactly the $S_h$-local equivalences.\nIts fibrant objects are precisely the Reedy fibrant diagrams $W$ for which the canonical counit $\\ell_W:cW_0\\to W$ is a levelwise dagger Joyal weak equivalence.\nThe constant--evaluation adjunction is a Quillen equivalence\n\\begin{align}\n c:\\sSet^{\\dag}_{\\Joyal}\\rightleftarrows\\sSpace^{\\dag\\vee}_{\\CSS}:\\ev_0.\n\\end{align}\nThe same existential model structure satisfies all these clauses.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.theoremA",
+          "module": "DaggerModelsPartII.ProofTheoremA"
+        },
+        {
+          "name": "DaggerModelsPartIICompanion.mainA",
+          "module": "MainTheoremsPartII"
+        }
+      ],
+      "manuscript_labels": [
+        "Theorem A",
+        "cs.def.Sh",
+        "cs.thm.resolution",
+        "cs.thm.equivalence"
+      ],
+      "universe": "Arbitrary original value-universe parameter u.",
+      "provenance": "Existing original theorem and public alias; original hypotheses and statement retained.",
+      "kind": "theorem",
+      "section": "main"
+    },
+    {
+      "id": "MainB",
+      "title": "Theorem B: dagger complete Segal models and change of index",
+      "summary_tex": "The injective localization $L_{S_{\\rev}}\\sSpace^{\\dag}_{\\rev,\\inj}$ is left proper, combinatorial and simplicial for the literal mapping spaces and tensor.\nIts fibrant objects are exactly the injectively fibrant unitarily complete dagger Segal spaces.\nThe projective localization has the levelwise Kan diagrams satisfying the corresponding derived Segal and unitary completeness conditions as its fibrant objects.\nThe actual-index projective localization has precisely the levelwise Kan diagrams whose restriction along $u$ satisfies that derived condition.\nThe actual adjunction\n\\begin{align}\n u_!:L_{\\widetilde S_{\\rev}}\\sSpace^{\\dag}_{\\rev,\\proj}\n \\rightleftarrows L_{u_!(\\widetilde S_{\\rev})}\\sSpace^{\\dag}_{\\proj}:u^*\n\\end{align}\nis a Quillen equivalence.\nThe full Lean theorem also supplies the native simplicial enrichment, its natural comparison with the literal Hom bifunctor, ordinary-morphism normalization, parameterized tensor and cotensor adjunctions, and natural exponential laws.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.theoremB",
+          "module": "DaggerModelsPartII.ProofTheoremB"
+        },
+        {
+          "name": "DaggerModelsPartIICompanion.mainB",
+          "module": "MainTheoremsPartII"
+        }
+      ],
+      "manuscript_labels": [
+        "Theorem B",
+        "h1.lem.rev-models",
+        "h1.prop.fibrant",
+        "h1.thm.main"
+      ],
+      "universe": "The assembled theorem, including its actual localized models and literal simplicial structure, has value universe zero.",
+      "provenance": "Existing original theorem and public alias; original hypotheses and statement retained.",
+      "kind": "theorem",
+      "section": "main"
+    },
+    {
+      "id": "MainC",
+      "title": "Theorem C: the original four-link comparison",
+      "summary_tex": "The following four adjunctions are Quillen equivalences.\nEach line displays its left adjoint first, with the exact original models and directions:\n\\begin{align}\n \\frakC_{\\dag}:\\sSet^{\\dag}_{\\Joyal}\n &\\rightleftarrows\\sCat^{\\dag}_{\\Bergner}:\\N_{\\dag},\\\\\n \\delta:\\sSet^{\\dag}_{\\Joyal}\n &\\rightleftarrows L_{S_{\\rev}}\\sSpace^{\\dag}_{\\rev,\\inj}:i_0^*,\\\\\n \\mathrm{id}:L_{\\widetilde S_{\\rev}}\\sSpace^{\\dag}_{\\rev,\\proj}\n &\\rightleftarrows L_{S_{\\rev}}\\sSpace^{\\dag}_{\\rev,\\inj}:\\mathrm{id},\\\\\n u_!:L_{\\widetilde S_{\\rev}}\\sSpace^{\\dag}_{\\rev,\\proj}\n &\\rightleftarrows L_{u_!(\\widetilde S_{\\rev})}\\sSpace^{\\dag}_{\\proj}:u^*.\n\\end{align}\nIn the manuscript's left-to-right zigzag, the first and third rightward arrows instead display the right adjoints.\nThe original fixed Lean target has no additional assumptions; in particular ordinary completeness of the original input is not imposed.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.TheoremCOriginalCompletionProof.original_statement",
+          "module": "TheoremCOriginalCompletionProof"
+        },
+        {
+          "name": "DaggerModelsPartIICompanion.mainC",
+          "module": "MainTheoremCPartII"
+        },
+        {
+          "name": "DaggerModels.PartII.TheoremCOriginalFourLinksAudit.partI",
+          "module": "TheoremCOriginalFourLinksAudit"
+        },
+        {
+          "name": "DaggerModels.PartII.TheoremCOriginalFourLinksAudit.constantVertex",
+          "module": "TheoremCOriginalFourLinksAudit"
+        },
+        {
+          "name": "DaggerModels.PartII.TheoremCOriginalFourLinksAudit.reversalIdentity",
+          "module": "TheoremCOriginalFourLinksAudit"
+        },
+        {
+          "name": "DaggerModels.PartII.TheoremCOriginalFourLinksAudit.indexChange",
+          "module": "TheoremCOriginalFourLinksAudit"
+        }
+      ],
+      "manuscript_labels": [
+        "Theorem C",
+        "jt.thm.main",
+        "jt.cor.goal"
+      ],
+      "universe": "Original four-link statement at value universe zero.",
+      "provenance": "Existing original theorem and public alias; original hypotheses and statement retained.",
+      "kind": "theorem",
+      "section": "main"
+    },
+    {
+      "id": "A1",
+      "title": "External tensor and evaluation Quillen adjunctions",
+      "summary_tex": "For $A\\in\\sSet^{\\dag}$, $K\\in\\sSet$, and $W\\in\\sSpace^{\\dag\\vee}$, the external tensor and mapping simplicial set satisfy a natural bijection $\\Hom(A\\boxtimes K,W)\\cong\\Hom(K,\\Map(A,W))$. For every $n\\geq0$, specializing to $K=\\Delta^n$ gives $(-)\\boxtimes\\Delta^n\\dashv\\ev_n$. With the Part I dagger Joyal model on the coefficient category and the Reedy model on simplicial diagrams, each of these evaluation adjunctions is Quillen. The constant-diagram functor is naturally isomorphic to $(-)\\boxtimes\\Delta^0$.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.externalTensorAdjunction",
+          "module": "DaggerModelsPartII.ResolutionAdjunction"
+        },
+        {
+          "name": "DaggerModels.PartII.evaluationAdjunction",
+          "module": "DaggerModelsPartII.ResolutionAdjunction"
+        },
+        {
+          "name": "DaggerModels.PartII.evaluationAdjunction_isQuillen",
+          "module": "DaggerModelsPartII.ReedyModelComparison"
+        },
+        {
+          "name": "DaggerModels.PartII.constantDiagramIsoExternalTensorZero",
+          "module": "DaggerModelsPartII.ResolutionAdjunction"
+        }
+      ],
+      "manuscript_labels": [
+        "cs.lem.adjunction",
+        "cs.cor.evk",
+        "cs.lem.evaluation-quillen"
+      ],
+      "universe": "arbitrary u",
+      "provenance": "Project-specific external tensor and adjunction, combined with the project Reedy model and Part I coefficient model.",
+      "kind": "proposition",
+      "section": "resolution"
+    },
+    {
+      "id": "A2",
+      "title": "Left proper combinatorial Reedy model",
+      "summary_tex": "The category $\\Fun(\\prism^{\\mathrm{op}},\\sSet^{\\dag})$ has a Reedy model structure whose weak equivalences are the levelwise weak equivalences of the Part I dagger Joyal model. Pushout along a Reedy cofibration preserves those weak equivalences. The diagram category is locally presentable, and the two weak factorization systems have small generating families obtained from the Part I free dagger boundary and Smith generators. These families admit the small object argument, so the Reedy structure is combinatorial.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.resolutionReedyModelCategory",
+          "module": "DaggerModelsPartII.ReedyProperties"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionReedy_leftProper",
+          "module": "DaggerModelsPartII.ReedyModelComparison"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionReedy_combinatorial",
+          "module": "DaggerModelsPartII.ReedyCombinatorial"
+        }
+      ],
+      "manuscript_labels": [
+        "cs.lem.reedy"
+      ],
+      "universe": "arbitrary u",
+      "provenance": "Specializes the project's generic simplicial Reedy construction; left properness and explicit small generators are assembled for the Part I dagger Joyal coefficients.",
+      "kind": "proposition",
+      "section": "resolution"
+    },
+    {
+      "id": "A3",
+      "title": "Collapse maps detect all simplicial operators",
+      "summary_tex": "Let $G_{\\dag}$ consist of the free dagger boundaries and free dagger simplices, and let $S_h$ consist of their external tensors with the collapse maps $\\Delta^k\\to\\Delta^0$ for $k\\geq1$. For a morphism property containing identities and satisfying two-out-of-three, the collapse tests for a fixed coefficient object are equivalent to tests on all ordinary simplex operators. Consequently, for a Reedy fibrant diagram $W$, locality with respect to the literal family $S_h$ is equivalent to the corresponding derived mapping-space tests for every simplex operator.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.tensorCollapseTests_iff_allOperators",
+          "module": "DaggerModelsPartII.ResolutionGenerators"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalObject_iff_allOperators",
+          "module": "DaggerModelsPartII.ResolutionLocality"
+        }
+      ],
+      "manuscript_labels": [
+        "cs.not.Gh",
+        "cs.thm.resolution"
+      ],
+      "universe": "arbitrary u",
+      "provenance": "Project-specific reduction for the manuscript's literal localization maps; two-out-of-three is the abstract input.",
+      "kind": "proposition",
+      "section": "resolution"
+    },
+    {
+      "id": "A4",
+      "title": "Free dagger generators detect weak equivalences",
+      "summary_tex": "Suppose $X$ and $Y$ are fibrant in the Part I dagger Joyal model and $f:X\\to Y$ is a morphism. If, for every $n\\geq0$, the derived mapping simplicial sets from both the free dagger boundary of $\\Delta^n$ and the free dagger simplex $\\Delta^n$ send $f$ to a Kan weak equivalence, then $f$ is a dagger Joyal weak equivalence. The proof uses the actual Part I generating cofibrations and their cofibrant endpoints; it supplies the converse direction of the resolution-locality characterization.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.weak_of_resolutionTestObjects",
+          "module": "DaggerModelsPartII.ResolutionLocalCharacterization"
+        }
+      ],
+      "manuscript_labels": [
+        "cs.thm.resolution"
+      ],
+      "universe": "arbitrary u",
+      "provenance": "Project-specific specialization of a generic derived-mapping detection argument to the actual Part I free dagger boundary and simplex generators.",
+      "kind": "proposition",
+      "section": "resolution"
+    },
+    {
+      "id": "A5",
+      "title": "Local and fibrant objects are homotopically constant",
+      "summary_tex": "For a simplicial dagger diagram $W$, locality with respect to $S_h$ is equivalent to Reedy fibrancy together with a levelwise Part I dagger Joyal weak equivalence $\\ell_W:cW_0\\to W$. After constructing the exact localized model, its fibrant objects satisfy precisely this same condition. Thus the characterization applies to the specified localization itself, without an additional hypothesis that $W$ is local. The levelwise counit condition is also equivalent to requiring every simplicial structure map of $W$ to be a weak equivalence.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.resolutionLocalObject_iff_homotopicallyConstant",
+          "module": "DaggerModelsPartII.ResolutionLocalCharacterization"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalized_isFibrant_iff_local",
+          "module": "DaggerModelsPartII.ResolutionModel"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalized_isFibrant_iff",
+          "module": "DaggerModelsPartII.ResolutionModel"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionCounit_levelwise_iff",
+          "module": "DaggerModelsPartII.ResolutionAdjunction"
+        }
+      ],
+      "manuscript_labels": [
+        "cs.thm.resolution"
+      ],
+      "universe": "arbitrary u",
+      "provenance": "Project-specific detection using the literal $S_h$ family, then applied to the constructed local model; the final structure-map equivalence uses two-out-of-three.",
+      "kind": "proposition",
+      "section": "resolution"
+    },
+    {
+      "id": "A6",
+      "title": "Local equivalences between local objects are detected at zero",
+      "summary_tex": "If $W$ and $V$ are $S_h$-local Reedy fibrant diagrams and $f:W\\to V$, then $f$ is an $S_h$-local equivalence if and only if its zero component $f_0:W_0\\to V_0$ is a weak equivalence in the Part I dagger Joyal model. More precisely, local equivalence first agrees with Reedy weak equivalence between local objects, and homotopical constancy then reduces the levelwise condition to degree zero. The statement does not assert this zero-degree criterion for arbitrary diagrams without local replacement.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.resolutionLocalEquivalence_iff_reedyWeak_of_local",
+          "module": "DaggerModelsPartII.ResolutionLocalComparison"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalEquivalence_iff_evalZero_of_local",
+          "module": "DaggerModelsPartII.ResolutionLocalComparison"
+        }
+      ],
+      "manuscript_labels": [
+        "cs.thm.equivalence"
+      ],
+      "universe": "arbitrary u",
+      "provenance": "Project-specific comparison of exact local and Reedy weak classes; derived mapping-space and two-out-of-three results are supporting inputs.",
+      "kind": "proposition",
+      "section": "resolution"
+    },
+    {
+      "id": "A7",
+      "title": "Existence and exact classes of the resolution localization",
+      "summary_tex": "For the literal small family $S_h$ of free dagger collapse maps, the exact local weak-equivalence class admits a small solution set relative to the Reedy generating cofibrations. Smith recognition therefore constructs a model structure on simplicial dagger diagrams whose cofibrations are exactly the Reedy cofibrations and whose weak equivalences are exactly the $S_h$-local equivalences. Pushouts along cofibrations preserve local equivalences, and the localized model is locally presentable with two small generating families satisfying the small object argument. Hence the specified resolution localization is left proper and combinatorial.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.resolutionLocalSolutionSet",
+          "module": "DaggerModelsPartII.ResolutionLocalSolutionSet"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalizationSmithData",
+          "module": "DaggerModelsPartII.ResolutionLocalizationSmith"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalizedModelCategory",
+          "module": "DaggerModelsPartII.ResolutionModel"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalized_cofibrations",
+          "module": "DaggerModelsPartII.ResolutionModel"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalized_weakEquivalences",
+          "module": "DaggerModelsPartII.ResolutionModel"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalized_leftProper",
+          "module": "DaggerModelsPartII.ResolutionModel"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalized_combinatorial",
+          "module": "DaggerModelsPartII.ResolutionModel"
+        }
+      ],
+      "manuscript_labels": [
+        "cs.def.Sh"
+      ],
+      "universe": "arbitrary u",
+      "provenance": "New Part II solution-set and exact-class assembly using the project's generic Smith machinery and the Part I dagger Joyal coefficient model.",
+      "kind": "proposition",
+      "section": "resolution"
+    },
+    {
+      "id": "A8",
+      "title": "Constant diagrams and evaluation form a Quillen equivalence",
+      "summary_tex": "Equip $\\sSet^{\\dag}$ with the Part I dagger Joyal model and $\\sSpace^{\\dag\\vee}$ with the specified $S_h$-localized Reedy model. The adjunction $c\\dashv\\ev_0$ between constant diagrams and degree-zero evaluation is a Quillen equivalence. Its proof uses the exact Reedy cofibrations and local weak equivalences of the constructed model, the characterization of its fibrant objects, and the comparison identifying local equivalences into a local target with weak equivalences of the adjunct map in degree zero.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.constantEvaluation_localEquivalence_iff",
+          "module": "DaggerModelsPartII.ResolutionLocalComparison"
+        },
+        {
+          "name": "DaggerModels.PartII.constantEvaluation_isQuillenEquivalence_of_exactClasses",
+          "module": "DaggerModelsPartII.ResolutionLocalizedModel"
+        },
+        {
+          "name": "DaggerModels.PartII.resolutionLocalized_constantEvaluation",
+          "module": "DaggerModelsPartII.ResolutionModel"
+        }
+      ],
+      "manuscript_labels": [
+        "cs.thm.equivalence"
+      ],
+      "universe": "arbitrary u",
+      "provenance": "Project-specific Quillen-equivalence criterion and application to the concrete localized model, relying on the Part I coefficient structure.",
+      "kind": "proposition",
+      "section": "resolution"
+    },
+    {
+      "id": "B1",
+      "title": "The actual free dagger simplex index",
+      "summary_tex": "The category of Part I free dagger simplices retains every enriched dagger functor between its objects. It is equivalent to the explicit finite-path category of free dagger simplices. The actual index functor $u$ from reversal simplices is bijective on objects and faithful; on each reversal simplex map, its enriched dagger functor is the path-substitution map conjugated by the canonical comparison isomorphisms. These statements identify the index used by the change-of-index adjunction with the manuscript's actual free-object index, rather than a subcategory having only monotone maps.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.DaggerSimplexPartIIndex.pathEquivalence",
+          "module": "DaggerModelsPartII.DaggerSimplexPartIIndex"
+        },
+        {
+          "name": "DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_map_conjugation",
+          "module": "DaggerModelsPartII.DaggerSimplexPartIIndex"
+        },
+        {
+          "name": "DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_obj_bijective",
+          "module": "DaggerModelsPartII.DaggerSimplexPartIIndex"
+        },
+        {
+          "name": "DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_faithful",
+          "module": "DaggerModelsPartII.DaggerSimplexPartIIndex"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.lem.adjoints"
+      ],
+      "universe": "The actual index and its comparison are constructed at the Part I free-simplex universe 0.",
+      "provenance": "Native Part II index construction; the Part I free dagger simplex objects are imported through the pinned dependency.",
+      "kind": "proposition",
+      "section": "models"
+    },
+    {
+      "id": "B2",
+      "title": "The projective Kan model on diagram categories",
+      "summary_tex": "For $C:\\mathrm{Type}_u$ with a category structure in universe $u$, the category $\\Fun(C,\\sSet)$ has a projective model structure. Fibrations and weak equivalences are detected at every object of $C$. The generating cofibrations and generating trivial cofibrations arise by applying the evaluation left adjoints to simplicial boundaries and horns, respectively; the corresponding small-object arguments are established. Projective cofibrations are objectwise monomorphisms. The model is combinatorial, and the arrow category of objectwise weak equivalences is accessible with a Smith solution set for every small family of arrows.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.ProjectiveKanDiagram.model_fibrations",
+          "module": "DaggerModelsPartII.ProjectiveKanDiagram"
+        },
+        {
+          "name": "DaggerModels.PartII.ProjectiveKanDiagram.model_weakEquivalences",
+          "module": "DaggerModelsPartII.ProjectiveKanDiagram"
+        },
+        {
+          "name": "DaggerModels.PartII.ProjectiveKanDiagram.boundaryGenerators_smallObjectArgument",
+          "module": "DaggerModelsPartII.ProjectiveKanDiagram"
+        },
+        {
+          "name": "DaggerModels.PartII.ProjectiveKanDiagram.hornGenerators_smallObjectArgument",
+          "module": "DaggerModelsPartII.ProjectiveKanDiagram"
+        },
+        {
+          "name": "DaggerModels.PartII.ProjectiveKanDiagram.combinatorial",
+          "module": "DaggerModelsPartII.ProjectiveKanDiagram"
+        },
+        {
+          "name": "DaggerModels.PartII.ProjectiveKanDiagram.weakArrow_isAccessible",
+          "module": "DaggerModelsPartII.ProjectiveWeakAccessibility"
+        },
+        {
+          "name": "DaggerModels.PartII.ProjectiveKanDiagram.weakSolutionSet",
+          "module": "DaggerModelsPartII.ProjectiveWeakAccessibility"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.lem.proj-rev",
+        "h1.lem.proj-dag"
+      ],
+      "universe": "Generic statement for C : Type u with Category.{u} C and SSet.{u}; Theorem B specializes to u = 0.",
+      "provenance": "Native Part II model construction, using the pinned Part I Kan model and Mathlib evaluation adjunctions.",
+      "kind": "proposition",
+      "section": "models"
+    },
+    {
+      "id": "B3",
+      "title": "The injective Kan model and its generators",
+      "summary_tex": "For the same small category $C$, the category $\\Fun(C,\\sSet)$ has an injective model structure whose cofibrations are exactly diagram monomorphisms and whose weak equivalences are objectwise Kan weak equivalences. A small family of quotient-subobject inclusions generates all monomorphisms as a weak-factorization left class. The model is combinatorial and left proper, and every diagram is cofibrant. For each fixed diagram, pointwise tensor and the literal mapping space form a Quillen adjunction; maps into an injectively fibrant diagram give Kan mapping spaces.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.InjectiveKanDiagram.quotientGeneratedCofibrations_eq_cofibrations",
+          "module": "DaggerModelsPartII.InjectiveKanDiagramGeneration"
+        },
+        {
+          "name": "DaggerModels.PartII.InjectiveKanDiagram.model_cofibrations",
+          "module": "DaggerModelsPartII.InjectiveKanModel"
+        },
+        {
+          "name": "DaggerModels.PartII.InjectiveKanDiagram.model_weakEquivalences",
+          "module": "DaggerModelsPartII.InjectiveKanModel"
+        },
+        {
+          "name": "DaggerModels.PartII.InjectiveKanDiagram.combinatorial",
+          "module": "DaggerModelsPartII.InjectiveKanModel"
+        },
+        {
+          "name": "DaggerModels.PartII.InjectiveKanDiagram.model_isCofibrant",
+          "module": "DaggerModelsPartII.InjectiveKanModel"
+        },
+        {
+          "name": "DaggerModels.PartII.InjectiveKanDiagram.model_leftProper",
+          "module": "DaggerModelsPartII.InjectiveKanModel"
+        },
+        {
+          "name": "DaggerModels.PartII.InjectiveKanDiagram.model_tensorMapping_isQuillen",
+          "module": "DaggerModelsPartII.InjectiveKanModel"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.lem.proj-rev",
+        "h1.lem.proj-dag"
+      ],
+      "universe": "Generic statement for C : Type u with Category.{u} C and SSet.{u}; Theorem B specializes to u = 0.",
+      "provenance": "Native Part II injective model construction; its quotient-subobject generation is proved rather than assumed.",
+      "kind": "proposition",
+      "section": "models"
+    },
+    {
+      "id": "B4",
+      "title": "Literal Segal and walking-unitary tests",
+      "summary_tex": "For a reversal-indexed simplicial-set diagram $W$, the strict Segal condition requires every map induced by a spine inclusion in degree $n\\geq2$ to be a Kan weak equivalence on literal mapping spaces. The strict unitary completeness condition uses the selected zero vertex of the actual walking-unitary diagram. Their conjunction is equivalent to testing every arrow of the manuscript's family $S_{\\mathrm{rev}}$ by precomposition into $W$. Injective fibrancy is a separate hypothesis when these strict tests are interpreted as the manuscript's unitarily complete dagger Segal space condition.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.segalCondition",
+          "module": "DaggerModelsPartII.SegalSpaceConditions"
+        },
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.unitaryCompletenessCondition",
+          "module": "DaggerModelsPartII.SegalSpaceConditions"
+        },
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.unitarilyCompleteSegalCondition_iff_family",
+          "module": "DaggerModelsPartII.SegalSpaceConditions"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.not.S",
+        "h1.def.segal-complete"
+      ],
+      "universe": "Strict test definitions and the family equivalence are stated for ReverseDaggerSpace.{u}; the localized Theorem B models use u = 0.",
+      "provenance": "Native Part II mapping-space formulation of the manuscript's spine and walking-unitary family.",
+      "kind": "proposition",
+      "section": "models"
+    },
+    {
+      "id": "B5",
+      "title": "Strict and derived fibrancy of complete dagger Segal spaces",
+      "summary_tex": "In the injective localization at $S_{\\mathrm{rev}}$, a diagram is fibrant exactly when it is injectively fibrant before localization and satisfies the literal Segal and unitary completeness tests. In the projective localization, a diagram is fibrant exactly when it is objectwise Kan and admits an objectwise weak equivalence to an injectively fibrant diagram satisfying those strict tests. For a projectively fibrant source, the same criterion may be checked on any chosen injectively fibrant replacement along an objectwise weak equivalence. Thus the projective claim is a derived condition, not a strict test on an arbitrary diagram.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.injectiveLocalObject_iff_strict",
+          "module": "DaggerModelsPartII.InjectiveSegalLocality"
+        },
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.projectiveLocalObject_iff_derived",
+          "module": "DaggerModelsPartII.InjectiveSegalLocality"
+        },
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.projectiveLocalObject_iff_strict_replacement",
+          "module": "DaggerModelsPartII.InjectiveSegalLocality"
+        },
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_isFibrant_iff",
+          "module": "DaggerModelsPartII.SegalLocalizationModels"
+        },
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.projectiveSegalModel_isFibrant_iff",
+          "module": "DaggerModelsPartII.SegalLocalizationModels"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.lem.local-objects",
+        "h1.lem.rev-models"
+      ],
+      "universe": "The strict/derived localization and fibrancy theorems are stated at SSet.{0}.",
+      "provenance": "Native Part II comparison of injective and projective derived mapping tests.",
+      "kind": "proposition",
+      "section": "models"
+    },
+    {
+      "id": "B6",
+      "title": "Reversal localizations and the identity Quillen equivalence",
+      "summary_tex": "The projective and injective Kan models on reversal-indexed diagrams have the same objectwise weak equivalences, and every projective cofibration is an injective cofibration. Localization at the manuscript's Segal and walking-unitary family, using functorial projective cofibrant resolutions on the projective side, yields left proper combinatorial model structures with the same localized weak equivalences. Their identity adjunction is a Quillen equivalence. The injective localization satisfies the literal pushout-product axiom for diagram cofibrations and cofibrations of simplicial sets, with a weak-equivalence conclusion when either input morphism is a weak equivalence.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.ProjectiveInjectiveComparison.cofibrations_le",
+          "module": "DaggerModelsPartII.ProjectiveInjectiveComparison"
+        },
+        {
+          "name": "DaggerModels.PartII.ProjectiveInjectiveComparison.localEquivalences_eq",
+          "module": "DaggerModelsPartII.ProjectiveInjectiveComparison"
+        },
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.segalIdentity_isQuillenEquivalence",
+          "module": "DaggerModelsPartII.SegalLocalizationModels"
+        },
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_combinatorial",
+          "module": "DaggerModelsPartII.SegalLocalizationModels"
+        },
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_leftProper",
+          "module": "DaggerModelsPartII.SegalLocalizationModels"
+        },
+        {
+          "name": "DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_pushoutProduct_sm7",
+          "module": "DaggerModelsPartII.SegalLocalizationModels"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.lem.rev-models",
+        "h1.lem.localized-simplicial"
+      ],
+      "universe": "The underlying projective/injective comparison is generic in u; the reversal Segal localization is at SSet.{0}.",
+      "provenance": "Native Part II localizations; projective resolution and literal localizer weak classes are identified before the Quillen comparison.",
+      "kind": "proposition",
+      "section": "models"
+    },
+    {
+      "id": "B7",
+      "title": "Localization on the actual free dagger simplex index",
+      "summary_tex": "The actual-index localizing family consists of the literal left Kan images of the chosen functorial projective resolutions of $S_{\\mathrm{rev}}$. Its projective localization is left proper and combinatorial. An actual-index diagram is fibrant there precisely when every value is Kan and its restriction along $u$ satisfies derived unitary completeness and Segal conditions. Localizing the injective actual-index model at the same family gives a left proper combinatorial model with the same localized weak equivalences; the identity is a Quillen equivalence. The injective localization also satisfies the actual diagram pushout-product axiom.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_isFibrant_iff",
+          "module": "DaggerModelsPartII.ActualSegalLocalization"
+        },
+        {
+          "name": "DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_combinatorial",
+          "module": "DaggerModelsPartII.ActualSegalLocalization"
+        },
+        {
+          "name": "DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_leftProper",
+          "module": "DaggerModelsPartII.ActualSegalLocalization"
+        },
+        {
+          "name": "DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModels_weakEquivalences_eq",
+          "module": "DaggerModelsPartII.ActualInjectiveSegalLocalization"
+        },
+        {
+          "name": "DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalIdentity_isQuillenEquivalence",
+          "module": "DaggerModelsPartII.ActualInjectiveSegalLocalization"
+        },
+        {
+          "name": "DaggerModels.PartII.ActualIndexProjectiveModel.actualInjectiveSegalModel_pushoutProduct_sm7",
+          "module": "DaggerModelsPartII.ActualInjectiveSegalLocalization"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.def.model",
+        "h1.prop.fibrant",
+        "h1.thm.projection"
+      ],
+      "universe": "The actual free dagger simplex localization is constructed at SSet.{0}.",
+      "provenance": "Native Part II actual-index construction; its localizing maps are the named Kan images of resolved manuscript maps.",
+      "kind": "proposition",
+      "section": "models"
+    },
+    {
+      "id": "B8",
+      "title": "Localized change of index and weak-equivalence detection",
+      "summary_tex": "For the actual functor $u$ from reversal simplices to Part I free dagger simplices, left Kan extension and restriction form a Quillen adjunction between the specified projective Segal localizations. Restriction reflects localized weak equivalences between fibrant actual-index diagrams. A subsequent theorem strengthens this to every arrow: an actual-index map is a localized weak equivalence exactly when its restriction is one. Combining this detection with the cofibrant-unit result proves that the same actual adjunction is a Quillen equivalence. The assertion concerns these localizations and this fixed $u$, not arbitrary changes of index.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.ActualIndexProjectiveModel.actualLeftAdjunction_localized_isQuillen",
+          "module": "DaggerModelsPartII.ActualLocalizedQuillen"
+        },
+        {
+          "name": "DaggerModels.PartII.ActualIndexProjectiveModel.actualRestriction_reflectsLocalizedWeakEquivalences",
+          "module": "DaggerModelsPartII.ActualLocalizedQuillen"
+        },
+        {
+          "name": "DaggerModels.PartII.ActualLocalizedEquivalence.actualRestriction_weakEquivalence_iff",
+          "module": "DaggerModelsPartII.ActualLocalizedEquivalence"
+        },
+        {
+          "name": "DaggerModels.PartII.ActualLocalizedEquivalence.actualLeftAdjunction_isQuillenEquivalence",
+          "module": "DaggerModelsPartII.ActualLocalizedEquivalence"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.thm.adjunction",
+        "h1.thm.conservative",
+        "h1.thm.main"
+      ],
+      "universe": "The actual localized adjunction and detection theorem are at SSet.{0}.",
+      "provenance": "Native Part II comparison for the literal Part I free-object index functor.",
+      "kind": "proposition",
+      "section": "models"
+    },
+    {
+      "id": "B9",
+      "title": "Representable units and all projectively cofibrant units",
+      "summary_tex": "For every reversal representable indexed by $m$, the unit of the actual left Kan extension--restriction adjunction is a trivial cofibration in the injective Segal localization. The proof constructs a length filtration of the native free dagger nerve and establishes local triviality at each stage of length at least two. The unit theorem then extends to every diagram cofibrant in either the original or localized projective model. This is the specific cofibrant-input statement needed for the derived unit of the localized adjunction; it does not assert the strict unit is a local equivalence for arbitrary input.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.ClassifyingTheorem.lengthStage_trivialCofibration",
+          "module": "DaggerModelsPartII.ClassifyingTheorem"
+        },
+        {
+          "name": "DaggerModels.PartII.ClassifyingTheorem.actualRepresentableUnit_trivial",
+          "module": "DaggerModelsPartII.ClassifyingTheorem"
+        },
+        {
+          "name": "DaggerModels.PartII.CofibrantUnit.actualUnit_trivial_of_projectiveCofibrant",
+          "module": "DaggerModelsPartII.CofibrantUnit"
+        },
+        {
+          "name": "DaggerModels.PartII.CofibrantUnit.actualUnit_trivial_of_localizedProjectiveCofibrant",
+          "module": "DaggerModelsPartII.CofibrantUnit"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.prop.classifying",
+        "h1.lem.unit-cofibrant",
+        "h1.prop.derived-unit"
+      ],
+      "universe": "The representable and cofibrant-unit results are at SSet.{0}.",
+      "provenance": "Native Part II length-filtration and projective-cell arguments for the actual adjunction unit.",
+      "kind": "proposition",
+      "section": "models"
+    },
+    {
+      "id": "B10",
+      "title": "The literal simplicial enrichment behind Theorem B",
+      "summary_tex": "The reversal diagram category carries a native simplicial-category structure whose enriched Hom bifunctor is naturally isomorphic to the literal mapping space with $k$-simplices given by natural transformations $A\\times\\Delta^k\\to W$. The comparison sends an ordinary morphism to its canonical zero simplex. Pointwise tensor and cotensor satisfy parameterized tensor--mapping and tensor--cotensor adjunctions, the corresponding internal-Hom exponential isomorphisms, and the stipulated naturality in diagram and simplicial-set variables. These are explicit structure fields constructed in Lean, beyond the seven model-theoretic clauses of the core Theorem B statement.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.DiagramSimplicialEnrichment.homComparison_ordinary",
+          "module": "DaggerModelsPartII.DiagramSimplicialEnrichment"
+        },
+        {
+          "name": "DaggerModels.PartII.theoremBSimplicialStructure",
+          "module": "DaggerModelsPartII.ProofTheoremB"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.not.discrete",
+        "h1.lem.proj-rev",
+        "h1.lem.localized-simplicial"
+      ],
+      "universe": "The native simplicial enrichment and full literal structure are constructed for ReverseDaggerSpace.{0} and SSet.{0}.",
+      "provenance": "Native Part II literal-enrichment implementation; `theoremBSimplicialStructure` supplies all fields of `FullTheoremBStatement.LiteralSimplicialStructure`.",
+      "kind": "proposition",
+      "section": "models"
+    },
+    {
+      "id": "I1",
+      "title": "Small generation and accessible weak-equivalence classes",
+      "summary_tex": "For $C:\\mathrm{Type}_u$ with a category structure in universe $u$, cyclic intersections of subfunctors suffice to test right lifting against every monomorphism of set-valued diagrams. After currying simplicial-set diagrams, a small family of quotient-subobject inclusions generates exactly their monomorphisms as a weak-factorization left class. Separately, the full subcategory of objectwise Kan weak-equivalence arrows and its inclusion are accessible, yielding a Smith solution set for every small family of diagram arrows. These are construction inputs for the injective model, not additional assumptions on a chosen localizer.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.PresheafMonoGeneration.PartialLift.mono_hasLiftingProperty_of_cyclic",
+          "module": "DaggerModelsPartII.PresheafMonoGenerationZorn"
+        },
+        {
+          "name": "DaggerModels.PartII.InjectiveKanDiagram.quotientGeneratedCofibrations_eq_cofibrations",
+          "module": "DaggerModelsPartII.InjectiveKanDiagramGeneration"
+        },
+        {
+          "name": "DaggerModels.PartII.ProjectiveKanDiagram.weakArrow_isAccessible",
+          "module": "DaggerModelsPartII.ProjectiveWeakAccessibility"
+        },
+        {
+          "name": "DaggerModels.PartII.ProjectiveKanDiagram.weakArrow_inclusion_isAccessible",
+          "module": "DaggerModelsPartII.ProjectiveWeakAccessibility"
+        },
+        {
+          "name": "DaggerModels.PartII.ProjectiveKanDiagram.weakSolutionSet",
+          "module": "DaggerModelsPartII.ProjectiveWeakAccessibility"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.lem.proj-rev",
+        "h1.lem.proj-dag"
+      ],
+      "universe": "Generic C : Type u with Category.{u} C and SSet.{u}; presheaf lifting uses the corresponding set-valued functor universes.",
+      "provenance": "Native Part II small-generation and accessibility proofs. B2--B3 state the resulting model structures; this group records their distinct construction theorems.",
+      "kind": "proposition",
+      "section": "infrastructure"
+    },
+    {
+      "id": "I2",
+      "title": "Borel collapse and strict-orbit comparison",
+      "summary_tex": "Let $X\\in\\Fun(C,\\Set)$ carry an involution, and let $A\\subseteq X$ be an invariant subdiagram containing every fixed element. For a small family of monomorphism localizers, assume that the pointwise discrete inclusion induced by $A\\subseteq X$ is a weak equivalence in the associated injective localization. The actual simplicial $EC_2$ makes the Borel pushout-collapse map a componentwise Kan weak equivalence; the comparison then proves that the inclusion of categorical strict orbits is a localized trivial cofibration. The Borel inclusion's localized triviality is derived, not an extra premise. The theorem applies to discrete presentations, not arbitrary simplicial diagrams merely equivalent to discrete ones.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.BorelDiscreteOrbits.actualEC2_pushoutCollapse_weak",
+          "module": "DaggerModelsPartII.BorelPushoutCollapse"
+        },
+        {
+          "name": "DaggerModels.PartII.DiscreteBorelDiagram.actualEC2_diagramPushoutCollapse_pointwiseWeak",
+          "module": "DaggerModelsPartII.DiscreteBorelDiagram"
+        },
+        {
+          "name": "DaggerModels.PartII.DiscreteBorelTheorem.strictOrbitInclusion_localTrivial",
+          "module": "DaggerModelsPartII.DiscreteBorelTheorem"
+        },
+        {
+          "name": "DaggerModels.PartII.DiscreteBorelTheorem.nativeStrictOrbitInclusion_localTrivial",
+          "module": "DaggerModelsPartII.DiscreteBorelTheorem"
+        },
+        {
+          "name": "DaggerModels.PartII.DiscreteBorelTheorem.reversal_strictOrbitInclusion_localTrivial",
+          "module": "DaggerModelsPartII.DiscreteBorelTheorem"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.lem.borel"
+      ],
+      "universe": "The generic diagram theorem uses C : Type u, Category.{u} C, X : C functor to Type u and SSet.{u}; the reversal specialization uses u = 0.",
+      "provenance": "Native Part II Borel and orbit constructions reuse the actual simplicial EC2 and the generic injective localization; no model structure on the action category is assumed.",
+      "kind": "proposition",
+      "section": "infrastructure"
+    },
+    {
+      "id": "I3",
+      "title": "Reversal fixed points and outer-face orbit cells",
+      "summary_tex": "The involution on a reversal representable acts by postcomposition with reversal of the target ordinal. No map into $[n]$ with odd $n$ is fixed; for even $n$, the fixed maps are exactly the constants at the middle vertex. For every length $\\ell\\geq2$, such fixed maps lie in the union of the two outer-face Yoneda images. That union includes into the representable by a localized trivial cofibration, and its strict-orbit quotient inclusion is again a localized trivial cofibration in the actual injective Segal model. The quotient statement has no additional local-equivalence premise because the outer-face inclusion is proved first.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.ReversalRepresentableFixedPoints.no_fixed_of_odd",
+          "module": "DaggerModelsPartII.ReversalRepresentableFixedPoints"
+        },
+        {
+          "name": "DaggerModels.PartII.ReversalRepresentableFixedPoints.fixed_iff_middle_constant",
+          "module": "DaggerModelsPartII.ReversalRepresentableFixedPoints"
+        },
+        {
+          "name": "DaggerModels.PartII.ReversalOuterFaceSubobject.fixed_mem_outerFaceSubpresheafAt",
+          "module": "DaggerModelsPartII.ReversalOuterFaceSubobject"
+        },
+        {
+          "name": "DaggerModels.PartII.ReversalOuterFaceQuotient.discreteOuterFaceInclusion_localTrivial",
+          "module": "DaggerModelsPartII.ReversalOuterFaceQuotient"
+        },
+        {
+          "name": "DaggerModels.PartII.ReversalOuterFaceQuotient.outerFaceStrictOrbitInclusion_localTrivial",
+          "module": "DaggerModelsPartII.ReversalOuterFaceQuotient"
+        },
+        {
+          "name": "DaggerModels.PartII.ReversalOuterFaceQuotient.outerFaceNativeStrictOrbitInclusion_localTrivial",
+          "module": "DaggerModelsPartII.ReversalOuterFaceQuotient"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.lem.outer",
+        "h1.lem.fix",
+        "h1.prop.classifying"
+      ],
+      "universe": "The fixed-point calculation is for finite reversal simplices; the localized quotient theorem is at SSet.{0}.",
+      "provenance": "Native Part II fixed-point and outer-face proofs specialize the conditional Borel theorem after proving its local-equivalence premise.",
+      "kind": "proposition",
+      "section": "infrastructure"
+    },
+    {
+      "id": "I4",
+      "title": "Word-length filtration and characteristic maps",
+      "summary_tex": "For the native nerve of a free dagger simplex, the total number of letters in a chain defines subpresheaves $X_\\ell$. Every reversal-simplex operator is length nonincreasing, so these subpresheaves are functorial; they form an increasing exhaustive filtration. The free dagger paths are unreduced words, including empty paths and immediate backtracking. For each word $p$, its letter chain has adjacent arrows of length one and composite exactly $p$, defining an actual characteristic map. Every native chain is the value of the characteristic map of its full composite word at the parameter determined by prefix lengths.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.DaggerNerveLengthFiltration.totalLength_extensionMap",
+          "module": "DaggerModelsPartII.DaggerNerveLengthFiltration"
+        },
+        {
+          "name": "DaggerModels.PartII.DaggerNerveLengthFiltration.lengthFiltration_exhaustive",
+          "module": "DaggerModelsPartII.DaggerNerveLengthFiltration"
+        },
+        {
+          "name": "DaggerModels.PartII.FreeDaggerPathChains.letterChain_composite",
+          "module": "DaggerModelsPartII.FreeDaggerPathChains"
+        },
+        {
+          "name": "DaggerModels.PartII.FreeDaggerPathChains.letterChain_adjacent_length",
+          "module": "DaggerModelsPartII.FreeDaggerPathChains"
+        },
+        {
+          "name": "DaggerModels.PartII.ChainPathCoverage.characteristic_covers_chain",
+          "module": "DaggerModelsPartII.ChainPathCoverage"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.lem.nerve",
+        "h1.prop.classifying"
+      ],
+      "universe": "The free dagger simplex index is finite; the set-valued filtration and its discrete simplicial realization use universe 0.",
+      "provenance": "Native Part II filtration and path constructions; no cancellation or reduced-word quotient is introduced.",
+      "kind": "proposition",
+      "section": "infrastructure"
+    },
+    {
+      "id": "I5",
+      "title": "Exact interior fibers of word cells",
+      "summary_tex": "For an unreduced free dagger path $p$ of positive length and two interior reversal-simplex parameters $\\varphi,\\psi$, equality of their images under the characteristic map holds exactly when $\\varphi=\\psi$, or when the full arrow $p$ equals its dagger and $\\psi$ is the reversal flip of $\\varphi$. Equality of full arrows includes equality of the endpoint objects. The result does not assume that $p$ is palindromic; it identifies precisely when reversal creates a second representative. Images of cells belonging to different dagger-orbits of words therefore have disjoint interiors, which is the injectivity input for the attaching pushout.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.CharacteristicFiber.characteristic_interior_fiber_iff",
+          "module": "DaggerModelsPartII.CharacteristicFiber"
+        },
+        {
+          "name": "DaggerModels.PartII.CharacteristicComposite.interior_images_determine_wordOrbit",
+          "module": "DaggerModelsPartII.CharacteristicComposite"
+        },
+        {
+          "name": "DaggerModels.PartII.CharacteristicInterior.characteristic_totalLength_eq_iff_interior",
+          "module": "DaggerModelsPartII.CharacteristicInterior"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.lem.nerve",
+        "h1.prop.classifying"
+      ],
+      "universe": "Finite free dagger simplices and reversal simplices, in universe 0.",
+      "provenance": "Native Part II interior-fiber classification for unreduced paths, used by the actual cell-attachment proof.",
+      "kind": "proposition",
+      "section": "infrastructure"
+    },
+    {
+      "id": "I6",
+      "title": "Actual word-cell pushouts and boundary locality",
+      "summary_tex": "For every free dagger simplex indexed by $m$ and every stage $\\ell\\geq2$, the square attaching the fixed-length word cells along their outer-face boundaries is an actual pushout of reversal presheaves; its discrete simplicial-set image is also a pushout. The cells are indexed by dagger-orbits of words, with separate ordinary and palindromic orbit types. Their boundary inclusion is a localized trivial cofibration, using the ordinary outer-face result and the strict-orbit quotient result. The full discrete native nerve is the colimit of its finite-length stages, supplying the countable transfinite-composition witness used later for the representable-unit theorem.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.LengthStageAttaching.lengthStage_isPushout",
+          "module": "DaggerModelsPartII.LengthStageAttaching"
+        },
+        {
+          "name": "DaggerModels.PartII.LengthStageAttaching.lengthStage_discrete_isPushout",
+          "module": "DaggerModelsPartII.LengthStageAttaching"
+        },
+        {
+          "name": "DaggerModels.PartII.LengthCellLocality.boundaryToCell_localTrivial",
+          "module": "DaggerModelsPartII.LengthCellLocality"
+        },
+        {
+          "name": "DaggerModels.PartII.LengthFiltrationColimit.lengthSequenceIsColimit",
+          "module": "DaggerModelsPartII.LengthFiltrationColimit"
+        },
+        {
+          "name": "DaggerModels.PartII.LengthFiltrationColimit.discreteLengthTransfiniteComposition",
+          "module": "DaggerModelsPartII.LengthFiltrationColimit"
+        }
+      ],
+      "manuscript_labels": [
+        "h1.prop.classifying"
+      ],
+      "universe": "The word-cell and discrete reversal-diagram constructions are at SSet.{0}, with m, ell : natural numbers and hypothesis 2 ≤ ell for each attaching stage.",
+      "provenance": "Native Part II word-orbit cell construction. This group records the pushout and local boundary inputs, without repeating the final representable-unit theorem catalogued in B9.",
+      "kind": "proposition",
+      "section": "infrastructure"
+    },
+    {
+      "id": "F1",
+      "title": "The actual two-index dagger Joyal--Tierney realization",
+      "summary_tex": "For a reversal-compatible simplicial space $W$ at value universe zero, the Joyal--Tierney coend $t_!(\\operatorname{res}W)$ carries the manuscript's prescribed dagger. On a representative $[\\alpha,\\xi,w]$, this dagger reverses the simplex coordinate, inverts the groupoid-completed coordinate, and applies horizontal reversal to $w$. The construction is natural in $W$, involutive, and fixes every vertex. Its underlying simplicial set is exactly the ordinary two-index realization. The constructed functor has a genuine right adjoint on the original dagger diagram category.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.DaggerJTRealization.toOpposite_generator_app",
+          "module": "DaggerModelsPartII.DaggerJTRealization"
+        },
+        {
+          "name": "DaggerModels.PartII.DaggerJTRealization.toOpposite_twice",
+          "module": "DaggerModelsPartII.DaggerJTRealization"
+        },
+        {
+          "name": "DaggerModels.PartII.DaggerJTRealization.toOpposite_fixedVertices",
+          "module": "DaggerModelsPartII.DaggerJTRealization"
+        },
+        {
+          "name": "DaggerModels.PartII.DaggerJTRealization.daggerRealization_underlying",
+          "module": "DaggerModelsPartII.DaggerJTRealization"
+        },
+        {
+          "name": "DaggerModels.PartII.DaggerJTAdjunction.adjunction",
+          "module": "DaggerModelsPartII.DaggerJTAdjunction"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.eq.tdag-formula"
+      ],
+      "universe": "SSet.{0} and DaggerSSet.{0}; the actual adjunction is constructed at value universe zero.",
+      "provenance": "Original coend and dagger construction, not an abstract existence assertion.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F2",
+      "title": "Represented frames and their ordinary product formula",
+      "summary_tex": "The frame represented by a pair of original indices is naturally isomorphic to the dagger realization of the corresponding representable tensor, jointly in the reversal-simplex and ordinary-simplex coordinates. After forgetting the dagger, the same represented frame is naturally the product of the underlying represented reversal simplex with the nerve of the completed simplex groupoid. On ordinary simplex indices, the represented reversal simplex agrees naturally with the original free dagger simplex. Thus the frame formula uses the manuscript's actual two-index parameter and retains horizontal reversal naturality.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.DaggerJTRepresentedFrames.frameRepresentation",
+          "module": "DaggerModelsPartII.DaggerJTRepresentedFrames"
+        },
+        {
+          "name": "DaggerModels.PartII.DaggerJTFrameUnderlying.frameUnderlyingIso",
+          "module": "DaggerModelsPartII.DaggerJTFrameUnderlying"
+        },
+        {
+          "name": "DaggerModels.PartII.DaggerJTFrameUnderlying.reversalSimplexFreeIso",
+          "module": "DaggerModelsPartII.DaggerJTFrameUnderlying"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.not.frames",
+        "jt.eq.Xi-underlying"
+      ],
+      "universe": "The represented parameter and all displayed isomorphisms are at value universe zero.",
+      "provenance": "The named Lean isomorphisms construct the represented formula rather than assuming the paper's frame formula.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F3",
+      "title": "Rigidified represented frames and their zero term",
+      "summary_tex": "Rigidifying the actual represented frame gives the functor $\\Xi$ of the manuscript. Its vertical degree zero is naturally the rigidification $A$ of the represented reversal simplex, and each $A_m$ is cofibrant in the original dagger Bergner model by the Part I left Quillen rigidification. After forgetting the dagger, $\\Xi$ agrees naturally with ordinary rigidification of the underlying product parameter. The actual frame augmentation has dagger DK-equivalence components and every ordinary-simplex structure map of the frame is a weak equivalence.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.RigidifiedJTFrames.XiZeroIso",
+          "module": "DaggerModelsPartII.RigidifiedJTFrames"
+        },
+        {
+          "name": "DaggerModels.PartII.RigidifiedJTFrames.XiUnderlyingIso",
+          "module": "DaggerModelsPartII.RigidifiedJTFrames"
+        },
+        {
+          "name": "DaggerModels.PartII.RigidifiedJTFrames.A_isCofibrant",
+          "module": "DaggerModelsPartII.RigidifiedJTFrames"
+        },
+        {
+          "name": "DaggerModels.PartII.JTActualCosimplicialFrame.augmentation_component_daggerDK",
+          "module": "DaggerModelsPartII.JTActualCosimplicialFrame"
+        },
+        {
+          "name": "DaggerModels.PartII.JTActualCosimplicialFrame.GammaOuter_map_weak",
+          "module": "DaggerModelsPartII.JTActualCosimplicialFrame"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.eq.compatible-frames",
+        "jt.eq.Xi-underlying"
+      ],
+      "universe": "Original dagger Joyal and dagger Bergner structures at value universe zero.",
+      "provenance": "The zero-term and underlying comparisons are actual natural isomorphisms; the weak statements use the original model classes.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F4",
+      "title": "The reversal-natural relative Reedy frame",
+      "summary_tex": "The full-outer functorial relative Reedy replacement of $\\Xi$ yields a comparison $\\Gamma\\to\\Xi$ whose zero component is the prescribed identity. At every reversal-simplex index, the opposite cosimplicial frame is Reedy fibrant, and each component of $\\Gamma\\to\\Xi$ is a dagger DK-equivalence in the original coefficient model. The relative latching and matching conditions are established for the actual diagrams, so the construction is natural for the full reversal index rather than only its ordinary simplex subcategory.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.JTRelativeReedyFrame.comparisonOpposite_relativeLatching",
+          "module": "DaggerModelsPartII.JTRelativeReedyFrameProperties"
+        },
+        {
+          "name": "DaggerModels.PartII.JTRelativeReedyFrame.GammaOuter_op_isFibrant",
+          "module": "DaggerModelsPartII.JTRelativeReedyFrameProperties"
+        },
+        {
+          "name": "DaggerModels.PartII.JTRelativeReedyFrame.comparison_component_daggerDK",
+          "module": "DaggerModelsPartII.JTRelativeReedyFrameProperties"
+        },
+        {
+          "name": "DaggerModels.PartII.JTRelativeReedyFrame.comparison_zero",
+          "module": "DaggerModelsPartII.JTRelativeReedyFrame"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.eq.lambda-frame"
+      ],
+      "universe": "Coefficient category DaggerSimplicialCat.{0, 0}; all outer reversal-simplex indices and all finite cosimplicial degrees.",
+      "provenance": "The actual opposite Reedy lifting classes are connected to the original dagger Bergner classes.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F5",
+      "title": "The actual frame coend--Hom adjunction",
+      "summary_tex": "The Yoneda left Kan extension of the constructed two-index frame $\\Gamma$ defines the actual frame realization $\\frakC^{\\prism}_{\\dag}$. Its right adjoint is the frame nerve $\\N^{\\prism}_{\\dag}$, whose bidegree $(m,k)$ is the Hom set from $\\Gamma^k_{\\dag}[m]$ to the target dagger simplicial category. The adjunction and the evaluation of its right adjoint are natural on the original reversal-compatible source and the original coefficient category. In particular, the raw Hom formula and the abstract restricted-Yoneda right adjoint are identified by a natural isomorphism.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.JTFrameAdjunction.adjunction",
+          "module": "DaggerModelsPartII.JTFrameAdjunction"
+        },
+        {
+          "name": "DaggerModels.PartII.JTFrameAdjunction.frameNerveEvaluationIso",
+          "module": "DaggerModelsPartII.JTFrameAdjunction"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.not.frames"
+      ],
+      "universe": "ReverseDaggerSpace.{0} and DaggerSimplicialCat.{0, 0}.",
+      "provenance": "The right adjoint is the raw Hom frame nerve, obtained through restricted Yoneda and the original source equivalence.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F6",
+      "title": "The projective frame Quillen adjunction",
+      "summary_tex": "For the projective Kan model structure on reversal-compatible simplicial spaces and the original dagger Bergner model structure on dagger simplicial categories, the actual frame realization and frame nerve form a Quillen adjunction. The proof checks that the right adjoint sends every coefficient fibration and trivial fibration to a projective fibration and trivial fibration, respectively, by evaluating at each original reversal-simplex index. This result is before Segal localization and uses the actual Reedy frame mapping nerve at every outer index.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.JTFrameQuillen.frameNerve_preservesFibrations",
+          "module": "DaggerModelsPartII.JTFrameQuillen"
+        },
+        {
+          "name": "DaggerModels.PartII.JTFrameQuillen.frameNerve_preservesTrivialFibrations",
+          "module": "DaggerModelsPartII.JTFrameQuillen"
+        },
+        {
+          "name": "DaggerModels.PartII.JTFrameQuillen.isQuillenAdjunction",
+          "module": "DaggerModelsPartII.JTFrameQuillen"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.lem.quillen"
+      ],
+      "universe": "The source is ReverseDaggerSpace.{0}; the target is DaggerSimplicialCat.{0, 0}.",
+      "provenance": "Uses the actual frame nerve and the original dagger Bergner model, without replacing the adjunction.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F7",
+      "title": "The capital frame comparison on projectively cofibrant inputs",
+      "summary_tex": "The actual natural transformation $\\Lambda_W:\\frakC^{\\prism}_{\\dag}(W)\\to\\frakC_{\\dag}(t_{\\dag,!}W)$ is the unique coend comparison induced on represented generators by $\\Gamma\\to\\Xi$. Its represented-generator equation and degree-zero normalization are verified. For every $W$ cofibrant in the original projective Kan diagram model, $\\Lambda_W$ is a dagger DK-equivalence. Coherent-unitary essential surjectivity holds for every $W$ without a cofibrancy hypothesis; the local mapping-space equivalence uses projective cofibrancy. The latter is proved for the literal comparison through free cells, filtered colimits, transfinite compositions, and retracts.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.JTCoendComparison.presheafComparison_fac_app_eq",
+          "module": "DaggerModelsPartII.JTCoendComparison"
+        },
+        {
+          "name": "DaggerModels.PartII.JTCoendComparison.presheafComparison_unique",
+          "module": "DaggerModelsPartII.JTCoendComparison"
+        },
+        {
+          "name": "DaggerModels.PartII.JTCoendEssentialSurjectivity.comparison_ess",
+          "module": "DaggerModelsPartII.JTCoendEssentialSurjectivity"
+        },
+        {
+          "name": "DaggerModels.PartII.JTProjectiveComparisonWeak.comparison_daggerDK_of_isCofibrant",
+          "module": "DaggerModelsPartII.JTProjectiveComparisonWeak"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.lem.frame-comparison",
+        "jt.eq.lambda-frame"
+      ],
+      "universe": "Value universe zero; the input must be cofibrant in the original projective Kan diagram model for the dagger DK conclusion.",
+      "provenance": "The weak comparison uses finite-cell and filtered-colimit arguments followed by original projective cell closure and retracts; it does not use the old finite-support route to Theorem C.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F8",
+      "title": "Strict rigidification and nerve transport",
+      "summary_tex": "There are natural isomorphisms of underived functors $\\Theta:\\frakC^{\\prism}_{\\dag}\\delta\\cong\\frakC_{\\dag}$ and $\\vartheta:i_0^*\\N^{\\prism}_{\\dag}\\cong\\N_{\\dag}$. The forward map of $\\Theta$ is exactly the prescribed capital comparison after vertically constant realization and collapse. The inverse of $\\vartheta$ is the right mate of that specified forward map under the two actual adjunctions. These are strict functor isomorphisms, with no derived replacement hidden in the statement. The mate orientation is checked explicitly, so the claimed nerve comparison has the manuscript's direction.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.JTStrictTransport.Theta_hom",
+          "module": "DaggerModelsPartII.JTStrictTransport"
+        },
+        {
+          "name": "DaggerModels.PartII.JTStrictTransport.Omega_inv_mate",
+          "module": "DaggerModelsPartII.JTStrictTransport"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.lem.transport"
+      ],
+      "universe": "The adjunctions and natural isomorphisms are at value universe zero.",
+      "provenance": "The Lean definitions Theta and Omega are actual natural isomorphisms; the cited theorems fix the comparison formula and mate orientation.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F9",
+      "title": "Projective cofibrancy of the original bar resolution",
+      "summary_tex": "For every dagger simplicial set $X$, the original bar object $B_{\\proj}(\\delta X)$ is cofibrant in the projective Kan diagram model, and its literal augmentation $\\varepsilon_X:B_{\\proj}(\\delta X)\\to\\delta X$ is a projective weak equivalence. The cofibrancy proof identifies its successive skeleta as pushouts of coproducts of the actual free boundary generators and takes their countable composite. The weak augmentation is checked rowwise for those same original bar maps. No cofibrancy of $\\delta X$ is assumed.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.JTBarProjectiveCofibrancy.barSkeletonMap_cofibration",
+          "module": "DaggerModelsPartII.JTBarProjectiveCofibrancy"
+        },
+        {
+          "name": "DaggerModels.PartII.JTBarProjectiveCofibrancy.barOnDagger_cofibrant_and_augmentation_weak",
+          "module": "DaggerModelsPartII.JTBarProjectiveCofibrancy"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.lem.density"
+      ],
+      "universe": "DaggerSSet.{0} and the original projective Kan model on ReverseSimplex-op diagrams valued in SSet.{0}.",
+      "provenance": "The theorem concerns the manuscript's literal bar and augmentation, not a newly chosen cofibrant resolution.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F10",
+      "title": "The exact natural bar density comparison",
+      "summary_tex": "For every dagger simplicial set $X$, the prescribed natural map $\\beta_X:\\frakC^{\\prism}_{\\dag}B_{\\proj}(\\delta X)\\to\\frakC_{\\dag}X$ is a dagger DK-equivalence. It satisfies the strict identity $\\beta_X=\\Theta_X\\circ\\frakC^{\\prism}_{\\dag}(\\varepsilon_X)$ with the original augmentation and strict transport map. Consequently the frame realization of that augmentation is weak, and the bar computes the derived realization at $\\delta X$. The Lean result gives the exact natural map and its objectwise weakness; an independent total-derived-functor natural-isomorphism API is not claimed.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.JTBarComparison.beta_eq",
+          "module": "DaggerModelsPartII.JTBarComparison"
+        },
+        {
+          "name": "DaggerModels.PartII.JTBarDensityWeak.beta_daggerDK",
+          "module": "DaggerModelsPartII.JTBarDensityWeak"
+        },
+        {
+          "name": "DaggerModels.PartII.JTBarDensityWeak.frameRealization_barAugmentation_weak",
+          "module": "DaggerModelsPartII.JTBarDensityWeak"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.lem.density",
+        "jt.lem.transport-realization"
+      ],
+      "universe": "Every X in DaggerSSet.{0}; no projective cofibrancy hypothesis on delta X.",
+      "provenance": "The local weak equivalence and coherent-unitary essential surjectivity are proved separately before assembling the original beta.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F11",
+      "title": "Images of the original Segal and completeness localizers",
+      "summary_tex": "The free dagger spine inclusion is weak in the original dagger Joyal model in every value universe. At value universe zero, the actual frame realization sends every member of the specified functorial projective resolution of the Segal and unitary-completeness maps to a weak equivalence in the original dagger Bergner model. The completeness case uses the specified walking-unitary collapse and its chosen cofibrant arrow resolution. This statement concerns the fixed resolved localizer family and does not by itself identify the constant--vertex adjunction as a Quillen equivalence.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.JTSpineWeak.spineFree_weak",
+          "module": "DaggerModelsPartII.JTSpineWeak"
+        },
+        {
+          "name": "DaggerModels.PartII.JTWalkingUnitaryWeak.frameRealization_completeness_resolution_weak",
+          "module": "DaggerModelsPartII.JTWalkingUnitaryWeak"
+        },
+        {
+          "name": "DaggerModels.PartII.JTSegalFrameLocality.frameRealization_localizerResolution_weak",
+          "module": "DaggerModelsPartII.JTSegalFrameLocality"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.thm.interval",
+        "jt.cor.local"
+      ],
+      "universe": "The free spine weak theorem covers arbitrary value universes; the frame realization and localizer application use value universe zero.",
+      "provenance": "Uses the literal spine and walking-unitary maps and the original functorial projective localizer resolutions.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F12",
+      "title": "The localized frame Quillen adjunction",
+      "summary_tex": "For each fibrant dagger simplicial category in the original dagger Bergner model, its actual frame nerve is local for the literal Segal and unitary-completeness family. Hence the same frame realization--nerve adjunction descends from the projective Kan diagram model to the specified projective Segal localization, while the target model remains the original dagger Bergner model. Locality is verified first for the functorially resolved maps and then transferred to the literal family. This is a localized Quillen adjunction; its Quillen-equivalence assertion is a separate question.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.JTSegalFrameLocality.frameNerve_literal_localObject",
+          "module": "DaggerModelsPartII.JTSegalFrameLocality"
+        },
+        {
+          "name": "DaggerModels.PartII.JTSegalFrameLocality.localized_isQuillenAdjunction",
+          "module": "DaggerModelsPartII.JTSegalFrameLocality"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.cor.local",
+        "jt.cor.localized-adjunction"
+      ],
+      "universe": "ReverseDaggerSpace.{0} localized projectively and DaggerSimplicialCat.{0, 0} with its original dagger Bergner model.",
+      "provenance": "The derived-locality test is discharged for the original right adjoint and the fixed localizing family.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F13",
+      "title": "Ordered-fiber Rezk recognition",
+      "summary_tex": "Let $f:W\\to Z$ be a map between injectively fibrant reversal-compatible simplicial spaces satisfying the unitarily complete Segal condition. If $f$ is surjective on $\\pi_0$ of the zero row and induces weak equivalences on every strict ordered mapping fiber over pairs of vertices of $W$, then $f$ is an injective weak equivalence. This is a proved criterion with its hypotheses displayed. The separate implications from decorated evaluator weakness or fixed-target comma contractibility to Theorem C remain conditional statements when used through this route.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.JTRezkRecognition.weak_of_ordered_fibers_and_components",
+          "module": "DaggerModelsPartII.JTRezkRecognition"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.lem.rezk-criterion"
+      ],
+      "universe": "ReverseDaggerSpace.{0}; injective Kan fibrancy, unitarily complete Segal conditions, zero-row component surjectivity, and all ordered-fiber weak equivalences are explicit hypotheses.",
+      "provenance": "This Lean declaration proves the forward implication under zero-row component surjectivity; it is narrower than the manuscript's full if-and-only-if criterion formulated using coherent-unitary essential surjectivity. Do not present JTRezkRecognition.theoremC_of_evaluators or theoremC_of_targetCommas as unconditional theorem proofs.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "F14",
+      "title": "Conditional reflection by the zero-vertex functor",
+      "summary_tex": "Assume that the original constant--vertex and zero-vertex adjunction is Quillen for the injective Segal model. Under that explicit premise, the zero-vertex right adjoint reflects weak equivalences between fibrant objects: if its image of $f:Z\\to Z'$ is a dagger Joyal weak equivalence, then $f$ is a weak equivalence in the injective Segal model. The proof first establishes a Kan weak equivalence in every reversal-simplex row by comparing frame mapping targets. This declaration does not itself prove that the constant--vertex adjunction is Quillen.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.ConstantVertexAdjunction.row_weak_of_vertex_weak",
+          "module": "DaggerModelsPartII.ConstantVertexReflection"
+        },
+        {
+          "name": "DaggerModels.PartII.ConstantVertexAdjunction.vertex_reflects_weak_between_fibrant",
+          "module": "DaggerModelsPartII.ConstantVertexReflection"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.cor.i0-reflects"
+      ],
+      "universe": "Value universe zero; requires an instance of the original constant-vertex adjunction being Quillen, fibrancy of both source and target, and weak equivalence after zero-vertex evaluation.",
+      "provenance": "A proved implication with an explicit Quillen premise. Do not cite it alone as an unconditional proof of the manuscript's reflection corollary.",
+      "kind": "proposition",
+      "section": "frames"
+    },
+    {
+      "id": "C1",
+      "title": "Ordinary Joyal--Tierney comparison",
+      "summary_tex": "The actual ordinary two-index realization and native-nerve adjunction is a\nQuillen equivalence from the specified ordinary complete-Segal-space model\nto the original Joyal model on simplicial sets.\nThe realization and right adjoint are the fixed functors of the development.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.OrdinaryJTCSSQuillenEquivalence.isQuillenEquivalence",
+          "module": "OrdinaryJTCSSQuillenEquivalence"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.thm.main / final original-unit input"
+      ],
+      "universe": "value universe zero",
+      "provenance": "Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.",
+      "kind": "proposition",
+      "section": "completion"
+    },
+    {
+      "id": "C2",
+      "title": "The corrected precompletion unit",
+      "summary_tex": "For an injectively fibrant ordinary Segal space $W$,\nthe unit from $W$ to its specified corrected vertical precompletion is a weak\nequivalence in the ordinary complete-Segal-space localization.\nThe unit is a monomorphism.\nThe monomorphism conclusion itself does not require the Segal hypothesis.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.OrdinaryPrecompletionUnitCSSWeak.unit_cssWeak",
+          "module": "OrdinaryPrecompletionUnitCSSWeak"
+        },
+        {
+          "name": "DaggerModels.PartII.OrdinaryPrecompletionUnitCSSWeak.unit_mono",
+          "module": "OrdinaryPrecompletionUnitCSSWeak"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.thm.main / final original-unit input"
+      ],
+      "universe": "value universe zero",
+      "provenance": "Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.",
+      "kind": "proposition",
+      "section": "completion"
+    },
+    {
+      "id": "C3",
+      "title": "Complete Segal replacement",
+      "summary_tex": "Let $W$ be an injectively fibrant ordinary Segal space.\nLet $R$ be injectively fibrant and let\n$\\operatorname{precompletion}(W)\\to R$ be rowwise weak.\nThen $R$ satisfies both the Segal condition and the completeness condition.\nThe specified coherent comparison into this same $R$ is a Kan--Quillen weak\nequivalence.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_completeSegalCondition",
+          "module": "OrdinaryPrecompletionReplacementComplete"
+        },
+        {
+          "name": "DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_coherentComparison_weak",
+          "module": "OrdinaryPrecompletionReplacementComplete"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.thm.main / final original-unit input"
+      ],
+      "universe": "value universe zero",
+      "provenance": "Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.",
+      "kind": "proposition",
+      "section": "completion"
+    },
+    {
+      "id": "C4",
+      "title": "A chosen complete-Segal-space completion",
+      "summary_tex": "For an injectively fibrant ordinary Segal space $W$,\nthe chosen injective factorization of the terminal map of its corrected\nprecompletion gives a complete-Segal-space-fibrant object\n$\\operatorname{completion}(W)$.\nThe actual composite unit\n$W\\to\\operatorname{completion}(W)$ is a trivial cofibration in the ordinary\ncomplete-Segal-space localization.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.OrdinaryChosenCSSCompletion.completion_cssFibrant",
+          "module": "OrdinaryChosenCSSCompletion"
+        },
+        {
+          "name": "DaggerModels.PartII.OrdinaryCSSCompletionExtension.unit_cssCofibration",
+          "module": "OrdinaryCSSCompletionExtension"
+        },
+        {
+          "name": "DaggerModels.PartII.OrdinaryCSSCompletionExtension.unit_cssWeak",
+          "module": "OrdinaryCSSCompletionExtension"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.thm.main / final original-unit input"
+      ],
+      "universe": "value universe zero",
+      "provenance": "Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.",
+      "kind": "proposition",
+      "section": "completion"
+    },
+    {
+      "id": "C5",
+      "title": "Extension through the chosen completion",
+      "summary_tex": "Let $W$ be an injectively fibrant ordinary Segal space and let $Z$ be fibrant\nin the ordinary complete-Segal-space model.\nEvery map $W\\to Z$ extends through the chosen completion unit.\nIf the given map is a complete-Segal-space weak equivalence,\nthe extension is weak as well,\nwith its composite equal to the given map.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.OrdinaryCSSCompletionExtension.exists_extension",
+          "module": "OrdinaryCSSCompletionExtension"
+        },
+        {
+          "name": "DaggerModels.PartII.OrdinaryCSSCompletionExtension.exists_weak_extension",
+          "module": "OrdinaryCSSCompletionExtension"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.thm.main / final original-unit input"
+      ],
+      "universe": "value universe zero",
+      "provenance": "Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.",
+      "kind": "proposition",
+      "section": "completion"
+    },
+    {
+      "id": "C6",
+      "title": "Ordered mapping-fiber recognition",
+      "summary_tex": "Let $W$ be injectively fibrant and Segal,\nlet $Z$ be complete-Segal-space fibrant,\nand let $f:W\\to Z$ be a complete-Segal-space weak equivalence.\nFor every ordered pair of vertices of $W$,\nthe literal chosen ordered mapping-fiber map induced by $f$ is a\nKan--Quillen weak equivalence.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.OrdinarySegalCSSWeakOrderedRecognition.cssWeak_chosenMappingMap_weak",
+          "module": "OrdinarySegalCSSWeakOrderedRecognition"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.thm.main / final original-unit input"
+      ],
+      "universe": "value universe zero",
+      "provenance": "Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.",
+      "kind": "proposition",
+      "section": "completion"
+    },
+    {
+      "id": "C7",
+      "title": "The exact raw transpose",
+      "summary_tex": "For every original reversal-space input,\nthe curry of the exact original raw transpose is weak in the ordinary\ncomplete-Segal-space localization.\nIts actual raw right-nerve target is complete-Segal-space fibrant.\nThe first assertion does not require locality of the reversal-space input.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.RawOrdinaryJTUnitCSSWeak.rawTranspose_cssWeak",
+          "module": "RawOrdinaryJTUnitCSSWeak"
+        },
+        {
+          "name": "DaggerModels.PartII.RawOrdinaryJTTargetCSSFibrant.rawTarget_cssFibrant",
+          "module": "RawOrdinaryJTTargetCSSFibrant"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.thm.main / final original-unit input"
+      ],
+      "universe": "value universe zero",
+      "provenance": "Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.",
+      "kind": "proposition",
+      "section": "completion"
+    },
+    {
+      "id": "C8",
+      "title": "The original raw ordered-unit premise",
+      "summary_tex": "For an original reversal-local input and every specified original ordered pair,\nthe literal map \\texttt{rawChosenFiberMapAtP} is a Kan--Quillen weak equivalence.\nConsequently the exact original premise\n\\texttt{OriginalRawOrderedUnitWeak} holds without additional assumptions.",
+      "declarations": [
+        {
+          "name": "DaggerModels.PartII.TheoremCOriginalCompletionProof.rawChosenFiberMapAtP_weak",
+          "module": "TheoremCOriginalCompletionProof"
+        },
+        {
+          "name": "DaggerModels.PartII.TheoremCOriginalCompletionProof.originalRawOrderedUnitWeak",
+          "module": "TheoremCOriginalCompletionProof"
+        }
+      ],
+      "manuscript_labels": [
+        "jt.thm.main / final original-unit input"
+      ],
+      "universe": "value universe zero",
+      "provenance": "Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.",
+      "kind": "proposition",
+      "section": "completion"
+    }
+  ]
+}

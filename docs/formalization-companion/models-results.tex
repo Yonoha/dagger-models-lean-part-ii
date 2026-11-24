@@ -1,0 +1,208 @@
+\section{Dagger Segal models and actual change of index}
+
+Generic diagram-model results are distinguished from their universe-zero applications to the actual reversal and free-dagger-simplex indices. Strict mapping-space tests and projective derived fibrancy are kept separate.
+
+\begin{resultblock}
+\begin{proposition}[The actual free dagger simplex index]
+\label{catalogue:B1}
+The category of Part I free dagger simplices retains every enriched dagger functor between its objects.
+It is equivalent to the explicit finite-path category of free dagger simplices.
+The actual index functor $u$ from reversal simplices is bijective on objects and faithful;
+on each reversal simplex map, its enriched dagger functor is the path-substitution map conjugated by the canonical comparison isomorphisms.
+These statements identify the index used by the change-of-index adjunction with the manuscript's actual free-object index, rather than a subcategory having only monotone maps.
+\end{proposition}
+
+\Source{DaggerModels.PartII.DaggerSimplexPartIIndex.pathEquivalence;
+DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_map_conjugation;
+DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_obj_bijective;
+DaggerModels.PartII.DaggerSimplexPartIIndex.actualU_faithful}{lean/DaggerModelsPartII/DaggerSimplexPartIIndex.lean}
+\CatalogueNote{Scope}{The actual index and its comparison are constructed at the Part I free-simplex universe 0.}
+\CatalogueNote{Manuscript context}{h1.lem.adjoints}
+\CatalogueNote{Construction and reuse}{Native Part II index construction; the Part I free dagger simplex objects are imported through the pinned dependency.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[The projective Kan model on diagram categories]
+\label{catalogue:B2}
+For $C:\mathrm{Type}_u$ with a category structure in universe $u$, the category $\Fun(C,\sSet)$ has a projective model structure.
+Fibrations and weak equivalences are detected at every object of $C$.
+The generating cofibrations and generating trivial cofibrations arise by applying the evaluation left adjoints to simplicial boundaries and horns, respectively;
+the corresponding small-object arguments are established.
+Projective cofibrations are objectwise monomorphisms.
+The model is combinatorial, and the arrow category of objectwise weak equivalences is accessible with a Smith solution set for every small family of arrows.
+\end{proposition}
+
+\Source{DaggerModels.PartII.ProjectiveKanDiagram.model_fibrations;
+DaggerModels.PartII.ProjectiveKanDiagram.model_weakEquivalences;
+DaggerModels.PartII.ProjectiveKanDiagram.boundaryGenerators_smallObjectArgument;
+DaggerModels.PartII.ProjectiveKanDiagram.hornGenerators_smallObjectArgument;
+DaggerModels.PartII.ProjectiveKanDiagram.combinatorial;
+DaggerModels.PartII.ProjectiveKanDiagram.weakArrow_isAccessible;
+DaggerModels.PartII.ProjectiveKanDiagram.weakSolutionSet}{lean/DaggerModelsPartII/ProjectiveKanDiagram.lean;
+lean/DaggerModelsPartII/ProjectiveWeakAccessibility.lean}
+\CatalogueNote{Scope}{Generic statement for C : Type u with Category.\{u\} C and SSet.\{u\}; Theorem B specializes to u = 0.}
+\CatalogueNote{Manuscript context}{h1.lem.proj-rev, h1.lem.proj-dag}
+\CatalogueNote{Construction and reuse}{Native Part II model construction, using the pinned Part I Kan model and Mathlib evaluation adjunctions.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[The injective Kan model and its generators]
+\label{catalogue:B3}
+For the same small category $C$, the category $\Fun(C,\sSet)$ has an injective model structure whose cofibrations are exactly diagram monomorphisms and whose weak equivalences are objectwise Kan weak equivalences.
+A small family of quotient-subobject inclusions generates all monomorphisms as a weak-factorization left class.
+The model is combinatorial and left proper, and every diagram is cofibrant.
+For each fixed diagram, pointwise tensor and the literal mapping space form a Quillen adjunction;
+maps into an injectively fibrant diagram give Kan mapping spaces.
+\end{proposition}
+
+\Source{DaggerModels.PartII.InjectiveKanDiagram.quotientGeneratedCofibrations_eq_cofibrations;
+DaggerModels.PartII.InjectiveKanDiagram.model_cofibrations;
+DaggerModels.PartII.InjectiveKanDiagram.model_weakEquivalences;
+DaggerModels.PartII.InjectiveKanDiagram.combinatorial;
+DaggerModels.PartII.InjectiveKanDiagram.model_isCofibrant;
+DaggerModels.PartII.InjectiveKanDiagram.model_leftProper;
+DaggerModels.PartII.InjectiveKanDiagram.model_tensorMapping_isQuillen}{lean/DaggerModelsPartII/InjectiveKanDiagramGeneration.lean;
+lean/DaggerModelsPartII/InjectiveKanModel.lean}
+\CatalogueNote{Scope}{Generic statement for C : Type u with Category.\{u\} C and SSet.\{u\}; Theorem B specializes to u = 0.}
+\CatalogueNote{Manuscript context}{h1.lem.proj-rev, h1.lem.proj-dag}
+\CatalogueNote{Construction and reuse}{Native Part II injective model construction; its quotient-subobject generation is proved rather than assumed.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Literal Segal and walking-unitary tests]
+\label{catalogue:B4}
+For a reversal-indexed simplicial-set diagram $W$, the strict Segal condition requires every map induced by a spine inclusion in degree $n\geq2$ to be a Kan weak equivalence on literal mapping spaces.
+The strict unitary completeness condition uses the selected zero vertex of the actual walking-unitary diagram.
+Their conjunction is equivalent to testing every arrow of the manuscript's family $S_{\mathrm{rev}}$ by precomposition into $W$.
+Injective fibrancy is a separate hypothesis when these strict tests are interpreted as the manuscript's unitarily complete dagger Segal space condition.
+\end{proposition}
+
+\Source{DaggerModels.PartII.SegalLocalizers.segalCondition;
+DaggerModels.PartII.SegalLocalizers.unitaryCompletenessCondition;
+DaggerModels.PartII.SegalLocalizers.unitarilyCompleteSegalCondition_iff_family}{lean/DaggerModelsPartII/SegalSpaceConditions.lean}
+\CatalogueNote{Scope}{Strict test definitions and the family equivalence are stated for ReverseDaggerSpace.\{u\}; the localized Theorem B models use u = 0.}
+\CatalogueNote{Manuscript context}{h1.not.S, h1.def.segal-complete}
+\CatalogueNote{Construction and reuse}{Native Part II mapping-space formulation of the manuscript's spine and walking-unitary family.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Strict and derived fibrancy of complete dagger Segal spaces]
+\label{catalogue:B5}
+In the injective localization at $S_{\mathrm{rev}}$, a diagram is fibrant exactly when it is injectively fibrant before localization and satisfies the literal Segal and unitary completeness tests.
+In the projective localization, a diagram is fibrant exactly when it is objectwise Kan and admits an objectwise weak equivalence to an injectively fibrant diagram satisfying those strict tests.
+For a projectively fibrant source, the same criterion may be checked on any chosen injectively fibrant replacement along an objectwise weak equivalence.
+Thus the projective claim is a derived condition, not a strict test on an arbitrary diagram.
+\end{proposition}
+
+\Source{DaggerModels.PartII.SegalLocalizers.injectiveLocalObject_iff_strict;
+DaggerModels.PartII.SegalLocalizers.projectiveLocalObject_iff_derived;
+DaggerModels.PartII.SegalLocalizers.projectiveLocalObject_iff_strict_replacement;
+DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_isFibrant_iff;
+DaggerModels.PartII.SegalLocalizers.projectiveSegalModel_isFibrant_iff}{lean/DaggerModelsPartII/InjectiveSegalLocality.lean;
+lean/DaggerModelsPartII/SegalLocalizationModels.lean}
+\CatalogueNote{Scope}{The strict/derived localization and fibrancy theorems are stated at SSet.\{0\}.}
+\CatalogueNote{Manuscript context}{h1.lem.local-objects, h1.lem.rev-models}
+\CatalogueNote{Construction and reuse}{Native Part II comparison of injective and projective derived mapping tests.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Reversal localizations and the identity Quillen equivalence]
+\label{catalogue:B6}
+The projective and injective Kan models on reversal-indexed diagrams have the same objectwise weak equivalences, and every projective cofibration is an injective cofibration.
+Localization at the manuscript's Segal and walking-unitary family, using functorial projective cofibrant resolutions on the projective side, yields left proper combinatorial model structures with the same localized weak equivalences.
+Their identity adjunction is a Quillen equivalence.
+The injective localization satisfies the literal pushout-product axiom for diagram cofibrations and cofibrations of simplicial sets, with a weak-equivalence conclusion when either input morphism is a weak equivalence.
+\end{proposition}
+
+\Source{DaggerModels.PartII.ProjectiveInjectiveComparison.cofibrations_le;
+DaggerModels.PartII.ProjectiveInjectiveComparison.localEquivalences_eq;
+DaggerModels.PartII.SegalLocalizers.segalIdentity_isQuillenEquivalence;
+DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_combinatorial;
+DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_leftProper;
+DaggerModels.PartII.SegalLocalizers.injectiveSegalModel_pushoutProduct_sm7}{lean/DaggerModelsPartII/ProjectiveInjectiveComparison.lean;
+lean/DaggerModelsPartII/SegalLocalizationModels.lean}
+\CatalogueNote{Scope}{The underlying projective/injective comparison is generic in u; the reversal Segal localization is at SSet.\{0\}.}
+\CatalogueNote{Manuscript context}{h1.lem.rev-models, h1.lem.localized-simplicial}
+\CatalogueNote{Construction and reuse}{Native Part II localizations; projective resolution and literal localizer weak classes are identified before the Quillen comparison.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Localization on the actual free dagger simplex index]
+\label{catalogue:B7}
+The actual-index localizing family consists of the literal left Kan images of the chosen functorial projective resolutions of $S_{\mathrm{rev}}$.
+Its projective localization is left proper and combinatorial.
+An actual-index diagram is fibrant there precisely when every value is Kan and its restriction along $u$ satisfies derived unitary completeness and Segal conditions.
+Localizing the injective actual-index model at the same family gives a left proper combinatorial model with the same localized weak equivalences;
+the identity is a Quillen equivalence.
+The injective localization also satisfies the actual diagram pushout-product axiom.
+\end{proposition}
+
+\Source{DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_isFibrant_iff;
+DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_combinatorial;
+DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModel_leftProper;
+DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalModels_weakEquivalences_eq;
+DaggerModels.PartII.ActualIndexProjectiveModel.actualSegalIdentity_isQuillenEquivalence;
+DaggerModels.PartII.ActualIndexProjectiveModel.actualInjectiveSegalModel_pushoutProduct_sm7}{lean/DaggerModelsPartII/ActualSegalLocalization.lean;
+lean/DaggerModelsPartII/ActualInjectiveSegalLocalization.lean}
+\CatalogueNote{Scope}{The actual free dagger simplex localization is constructed at SSet.\{0\}.}
+\CatalogueNote{Manuscript context}{h1.def.model, h1.prop.fibrant, h1.thm.projection}
+\CatalogueNote{Construction and reuse}{Native Part II actual-index construction; its localizing maps are the named Kan images of resolved manuscript maps.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Localized change of index and weak-equivalence detection]
+\label{catalogue:B8}
+For the actual functor $u$ from reversal simplices to Part I free dagger simplices, left Kan extension and restriction form a Quillen adjunction between the specified projective Segal localizations.
+Restriction reflects localized weak equivalences between fibrant actual-index diagrams.
+A subsequent theorem strengthens this to every arrow:
+an actual-index map is a localized weak equivalence exactly when its restriction is one.
+Combining this detection with the cofibrant-unit result proves that the same actual adjunction is a Quillen equivalence.
+The assertion concerns these localizations and this fixed $u$, not arbitrary changes of index.
+\end{proposition}
+
+\Source{DaggerModels.PartII.ActualIndexProjectiveModel.actualLeftAdjunction_localized_isQuillen;
+DaggerModels.PartII.ActualIndexProjectiveModel.actualRestriction_reflectsLocalizedWeakEquivalences;
+DaggerModels.PartII.ActualLocalizedEquivalence.actualRestriction_weakEquivalence_iff;
+DaggerModels.PartII.ActualLocalizedEquivalence.actualLeftAdjunction_isQuillenEquivalence}{lean/DaggerModelsPartII/ActualLocalizedQuillen.lean;
+lean/DaggerModelsPartII/ActualLocalizedEquivalence.lean}
+\CatalogueNote{Scope}{The actual localized adjunction and detection theorem are at SSet.\{0\}.}
+\CatalogueNote{Manuscript context}{h1.thm.adjunction, h1.thm.conservative, h1.thm.main}
+\CatalogueNote{Construction and reuse}{Native Part II comparison for the literal Part I free-object index functor.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Representable units and all projectively cofibrant units]
+\label{catalogue:B9}
+For every reversal representable indexed by $m$, the unit of the actual left Kan extension--restriction adjunction is a trivial cofibration in the injective Segal localization.
+The proof constructs a length filtration of the native free dagger nerve and establishes local triviality at each stage of length at least two.
+The unit theorem then extends to every diagram cofibrant in either the original or localized projective model.
+This is the specific cofibrant-input statement needed for the derived unit of the localized adjunction;
+it does not assert the strict unit is a local equivalence for arbitrary input.
+\end{proposition}
+
+\Source{DaggerModels.PartII.ClassifyingTheorem.lengthStage_trivialCofibration;
+DaggerModels.PartII.ClassifyingTheorem.actualRepresentableUnit_trivial;
+DaggerModels.PartII.CofibrantUnit.actualUnit_trivial_of_projectiveCofibrant;
+DaggerModels.PartII.CofibrantUnit.actualUnit_trivial_of_localizedProjectiveCofibrant}{lean/DaggerModelsPartII/ClassifyingTheorem.lean;
+lean/DaggerModelsPartII/CofibrantUnit.lean}
+\CatalogueNote{Scope}{The representable and cofibrant-unit results are at SSet.\{0\}.}
+\CatalogueNote{Manuscript context}{h1.prop.classifying, h1.lem.unit-cofibrant, h1.prop.derived-unit}
+\CatalogueNote{Construction and reuse}{Native Part II length-filtration and projective-cell arguments for the actual adjunction unit.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[The literal simplicial enrichment behind Theorem B]
+\label{catalogue:B10}
+The reversal diagram category carries a native simplicial-category structure whose enriched Hom bifunctor is naturally isomorphic to the literal mapping space with $k$-simplices given by natural transformations $A\times\Delta^k\to W$.
+The comparison sends an ordinary morphism to its canonical zero simplex.
+Pointwise tensor and cotensor satisfy parameterized tensor--mapping and tensor--cotensor adjunctions, the corresponding internal-Hom exponential isomorphisms, and the stipulated naturality in diagram and simplicial-set variables.
+These are explicit structure fields constructed in Lean, beyond the seven model-theoretic clauses of the core Theorem B statement.
+\end{proposition}
+
+\Source{DaggerModels.PartII.DiagramSimplicialEnrichment.homComparison_ordinary;
+DaggerModels.PartII.theoremBSimplicialStructure}{lean/DaggerModelsPartII/DiagramSimplicialEnrichment.lean;
+lean/DaggerModelsPartII/ProofTheoremB.lean}
+\CatalogueNote{Scope}{The native simplicial enrichment and full literal structure are constructed for ReverseDaggerSpace.\{0\} and SSet.\{0\}.}
+\CatalogueNote{Manuscript context}{h1.not.discrete, h1.lem.proj-rev, h1.lem.localized-simplicial}
+\CatalogueNote{Construction and reuse}{Native Part II literal-enrichment implementation; theoremBSimplicialStructure supplies all fields of FullTheoremBStatement.LiteralSimplicialStructure.}
+\end{resultblock}

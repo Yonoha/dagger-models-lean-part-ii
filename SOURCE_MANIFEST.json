@@ -1395,6 +1395,7 @@
     "lean/DaggerModelsPartII/WeightedReplacementHomotopy.lean": "776dbf3cb224723b5251735b61c9bf2d05f9686b7ab9aac8eb502f4478d113b7",
     "lean/DaggerModelsPartII.lean": "def0f993fcc2978d61f8ef67df2d95e8b27c0236f1957040d83766c7119232ea",
     "lean/MainTheoremCPartII.lean": "27ff5054aee56105c290613138dd785c0840102bd8231bd1a03792c7b07fd2f6",
+    "lean/MainTheoremsPartII.lean": "ab5df214eca8fb20c85bc4a59ef829a62ccaba04a755798278560ed15abe0ba8",
     "lean/TheoremCStages/AdjunctionLeftIdentityQuillenEquivalence.lean": "5ebad75569e85e80f00d8ae3ded2e591a08f6bb755b20becb9ce269000ea0653",
     "lean/TheoremCStages/BasedPiCartesianProjection.lean": "7c752deed44affd3e2fb6fb093de0a1c3b83676517273f48585a9c96570f0c20",
     "lean/TheoremCStages/BasedPiOperatorWeakTransfer.lean": "8a0faba8b80485dae45f7d22ef94be61819ce415d6a01a7c535a22b4a0c9c974",
@@ -1756,6 +1757,14 @@
     "lean/TheoremCStages/WeakSpanMorphismTransfer.lean": "7634096ad2eb0a77c4b186ac33c7962e6a825611e1df62e65ac983d8e14bd85a"
   },
   "evidence_files": {
+    "verification/catalogue-20261125/CheckCatalogueAxioms.lean": "96956215827c37859e2b30644711ef4aa6bb88c1c04264c623eaf0adf2dfb773",
+    "verification/catalogue-20261125/README.md": "6d543a01d74833b147692744891db29bbe3f440b39d591204cf32ddb301cd087",
+    "verification/catalogue-20261125/a-b-history.json": "d4249e9852db785d64904075300ee42ddbf00e24166e3857021e26e57e064f4b",
+    "verification/catalogue-20261125/catalogue-audit.json": "c88c317e73014bb3f724303c5e2062f5f18798406f115131a1256811219e00b0",
+    "verification/catalogue-20261125/catalogue-axioms.log": "5e8d66a8e0e812a6a46a4fda818f96c16f7d7dd1cc73e8e517556c66465b912f",
+    "verification/catalogue-20261125/main-a-b-c.log": "1e1e59832f534ecb537f4730afceb24c6fd0edbcb798ae368b5ae2a2d8b60b5f",
+    "verification/catalogue-20261125/pdf-qa.json": "4c3cba365fb254f2f3c057d08c322d4b47e1e4d5e5554e65c590d8d385021634",
+    "verification/catalogue-20261125/validator-controls.json": "c44a10e3d3d9354f3da912e6e31d5f1072bb98a9aada92385b669d9bf426461c",
     "verification/theorem-c-20261125/README.md": "5aa99b3c408472e3d40a9b137a416b37ff0f044cb260a1ebac7535191dbb14c9",
     "verification/theorem-c-20261125/agent-correspondence-review.md": "62bdbe1fd2e299341d0090247edeedcaa9a2b90aca05c1a27b88f1d58fd4bfcb",
     "verification/theorem-c-20261125/project-source-gate.json": "417d43eb8b51af4c1415f825c69f34c768b73fd05e2b072d344d7266a2e72944",

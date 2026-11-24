@@ -1,0 +1,3 @@
+'DaggerModelsPartIICompanion.mainA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModelsPartIICompanion.mainB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DaggerModelsPartIICompanion.mainC' depends on axioms: [propext, Classical.choice, Quot.sound]

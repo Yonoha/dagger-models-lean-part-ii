@@ -1,23 +1,21 @@
 cff-version: 1.2.0
-message: "Please cite this dedicated Part II release candidate or an exact commit; see PUBLICATION.md for scope."
+message: Please cite this dedicated Part II release candidate or an exact commit; see PUBLICATION.md for
+  scope.
 type: software
-title: "Models for dagger categories II: Lean companion and original four-link Theorem C"
+title: 'Models for dagger categories II: Lean companion to Theorems A, B, C and major formalized results'
 authors:
-  - family-names: Akasaka
-    given-names: Keima
-version: 0.1.0-rc1
+- family-names: Akasaka
+  given-names: Keima
+version: 0.1.0-rc2
 date-released: 2026-11-25
-url: "https://github.com/Yonoha/dagger-models-lean-part-ii/releases/tag/v0.1.0-rc1"
-repository-code: "https://github.com/Yonoha/dagger-models-lean-part-ii"
+url: https://github.com/Yonoha/dagger-models-lean-part-ii/releases/tag/v0.1.0-rc2
+repository-code: https://github.com/Yonoha/dagger-models-lean-part-ii
 license: Apache-2.0
-abstract: >-
-  An AI-assisted Lean 4 companion to Models for dagger (infinity,1)-categories II.
-  The original universe-zero four-link Theorem C is proved locally with the
-  original models, adjoints, ordered endpoints and hypotheses. Completeness of
-  the original input is not added. The final theorem and four literal targets
-  have standard transitive axioms only. Saved evidence covers 359 used named
-  stages, 1182 printed standard axiom reports and an original project-source
-  freshness gate. Part I is a separate pinned Git dependency. The English PDF
-  catalogue identifies its prose as AI-generated. A cold full build of this
-  separate repository, new Linux CI or Comparator pass, and independent human
-  correspondence review are not claimed.
+abstract: 'An AI-assisted Lean 4 companion across Models for dagger (infinity,1)-categories II. The English
+  catalogue has 49 grouped results: the original Theorems A, B and C and 46 substantial supporting propositions
+  or construction theorems, linked to 166 distinct declaration roots. The current selected-root local
+  audit and the three main aliases have standard transitive axioms only. A retains its universe parameter;
+  full B and the original four-link C have value universe zero. Hypotheses, actual models, adjoints and
+  directions are retained. The prose is identified as AI-generated. Current checks use verified existing
+  imports; a cold full build, new hosted Linux CI or Comparator pass, and independent human correspondence
+  review are not claimed. Part I remains a separate pinned dependency.'

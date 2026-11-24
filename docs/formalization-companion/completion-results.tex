@@ -1,0 +1,143 @@
+\section{Ordinary completion and the final raw ordered unit}
+
+These eight previously checked groups close the original raw ordered-unit input without imposing completeness on the original Segal source. Their ordinary constructions are auxiliary inputs to the dagger comparison, with the exact endpoint calibration retained.
+
+\begin{resultblock}
+\begin{proposition}[Ordinary Joyal--Tierney comparison]
+\label{catalogue:C1}
+The actual ordinary two-index realization and native-nerve adjunction is a
+Quillen equivalence from the specified ordinary complete-Segal-space model
+to the original Joyal model on simplicial sets.
+The realization and right adjoint are the fixed functors of the development.
+\end{proposition}
+
+\Source{DaggerModels.PartII.OrdinaryJTCSSQuillenEquivalence.isQuillenEquivalence}{lean/TheoremCStages/OrdinaryJTCSSQuillenEquivalence.lean}
+\CatalogueNote{Scope}{value universe zero}
+\CatalogueNote{Manuscript context}{jt.thm.main / final original-unit input}
+\CatalogueNote{Construction and reuse}{Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[The corrected precompletion unit]
+\label{catalogue:C2}
+For an injectively fibrant ordinary Segal space $W$,
+the unit from $W$ to its specified corrected vertical precompletion is a weak
+equivalence in the ordinary complete-Segal-space localization.
+The unit is a monomorphism.
+The monomorphism conclusion itself does not require the Segal hypothesis.
+\end{proposition}
+
+\Source{DaggerModels.PartII.OrdinaryPrecompletionUnitCSSWeak.unit_cssWeak;
+DaggerModels.PartII.OrdinaryPrecompletionUnitCSSWeak.unit_mono}{lean/TheoremCStages/OrdinaryPrecompletionUnitCSSWeak.lean}
+\CatalogueNote{Scope}{value universe zero}
+\CatalogueNote{Manuscript context}{jt.thm.main / final original-unit input}
+\CatalogueNote{Construction and reuse}{Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Complete Segal replacement]
+\label{catalogue:C3}
+Let $W$ be an injectively fibrant ordinary Segal space.
+Let $R$ be injectively fibrant and let
+$\operatorname{precompletion}(W)\to R$ be rowwise weak.
+Then $R$ satisfies both the Segal condition and the completeness condition.
+The specified coherent comparison into this same $R$ is a Kan--Quillen weak
+equivalence.
+\end{proposition}
+
+\Source{DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_completeSegalCondition;
+DaggerModels.PartII.OrdinaryPrecompletionReplacementComplete.replacement_coherentComparison_weak}{lean/TheoremCStages/OrdinaryPrecompletionReplacementComplete.lean}
+\CatalogueNote{Scope}{value universe zero}
+\CatalogueNote{Manuscript context}{jt.thm.main / final original-unit input}
+\CatalogueNote{Construction and reuse}{Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[A chosen complete-Segal-space completion]
+\label{catalogue:C4}
+For an injectively fibrant ordinary Segal space $W$,
+the chosen injective factorization of the terminal map of its corrected
+precompletion gives a complete-Segal-space-fibrant object
+$\operatorname{completion}(W)$.
+The actual composite unit
+$W\to\operatorname{completion}(W)$ is a trivial cofibration in the ordinary
+complete-Segal-space localization.
+\end{proposition}
+
+\Source{DaggerModels.PartII.OrdinaryChosenCSSCompletion.completion_cssFibrant;
+DaggerModels.PartII.OrdinaryCSSCompletionExtension.unit_cssCofibration;
+DaggerModels.PartII.OrdinaryCSSCompletionExtension.unit_cssWeak}{lean/TheoremCStages/OrdinaryChosenCSSCompletion.lean;
+lean/TheoremCStages/OrdinaryCSSCompletionExtension.lean}
+\CatalogueNote{Scope}{value universe zero}
+\CatalogueNote{Manuscript context}{jt.thm.main / final original-unit input}
+\CatalogueNote{Construction and reuse}{Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Extension through the chosen completion]
+\label{catalogue:C5}
+Let $W$ be an injectively fibrant ordinary Segal space and let $Z$ be fibrant
+in the ordinary complete-Segal-space model.
+Every map $W\to Z$ extends through the chosen completion unit.
+If the given map is a complete-Segal-space weak equivalence,
+the extension is weak as well,
+with its composite equal to the given map.
+\end{proposition}
+
+\Source{DaggerModels.PartII.OrdinaryCSSCompletionExtension.exists_extension;
+DaggerModels.PartII.OrdinaryCSSCompletionExtension.exists_weak_extension}{lean/TheoremCStages/OrdinaryCSSCompletionExtension.lean}
+\CatalogueNote{Scope}{value universe zero}
+\CatalogueNote{Manuscript context}{jt.thm.main / final original-unit input}
+\CatalogueNote{Construction and reuse}{Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Ordered mapping-fiber recognition]
+\label{catalogue:C6}
+Let $W$ be injectively fibrant and Segal,
+let $Z$ be complete-Segal-space fibrant,
+and let $f:W\to Z$ be a complete-Segal-space weak equivalence.
+For every ordered pair of vertices of $W$,
+the literal chosen ordered mapping-fiber map induced by $f$ is a
+Kan--Quillen weak equivalence.
+\end{proposition}
+
+\Source{DaggerModels.PartII.OrdinarySegalCSSWeakOrderedRecognition.cssWeak_chosenMappingMap_weak}{lean/TheoremCStages/OrdinarySegalCSSWeakOrderedRecognition.lean}
+\CatalogueNote{Scope}{value universe zero}
+\CatalogueNote{Manuscript context}{jt.thm.main / final original-unit input}
+\CatalogueNote{Construction and reuse}{Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[The exact raw transpose]
+\label{catalogue:C7}
+For every original reversal-space input,
+the curry of the exact original raw transpose is weak in the ordinary
+complete-Segal-space localization.
+Its actual raw right-nerve target is complete-Segal-space fibrant.
+The first assertion does not require locality of the reversal-space input.
+\end{proposition}
+
+\Source{DaggerModels.PartII.RawOrdinaryJTUnitCSSWeak.rawTranspose_cssWeak;
+DaggerModels.PartII.RawOrdinaryJTTargetCSSFibrant.rawTarget_cssFibrant}{lean/TheoremCStages/RawOrdinaryJTUnitCSSWeak.lean;
+lean/TheoremCStages/RawOrdinaryJTTargetCSSFibrant.lean}
+\CatalogueNote{Scope}{value universe zero}
+\CatalogueNote{Manuscript context}{jt.thm.main / final original-unit input}
+\CatalogueNote{Construction and reuse}{Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[The original raw ordered-unit premise]
+\label{catalogue:C8}
+For an original reversal-local input and every specified original ordered pair,
+the literal map \texttt{rawChosenFiberMapAtP} is a Kan--Quillen weak equivalence.
+Consequently the exact original premise
+\texttt{OriginalRawOrderedUnitWeak} holds without additional assumptions.
+\end{proposition}
+
+\Source{DaggerModels.PartII.TheoremCOriginalCompletionProof.rawChosenFiberMapAtP_weak;
+DaggerModels.PartII.TheoremCOriginalCompletionProof.originalRawOrderedUnitWeak}{lean/TheoremCStages/TheoremCOriginalCompletionProof.lean}
+\CatalogueNote{Scope}{value universe zero}
+\CatalogueNote{Manuscript context}{jt.thm.main / final original-unit input}
+\CatalogueNote{Construction and reuse}{Existing checked ordinary-completion route, retained with the exact original maps and hypotheses.}
+\end{resultblock}

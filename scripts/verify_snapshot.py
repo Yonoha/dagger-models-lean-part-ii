@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import re
+import subprocess
 
 root = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
@@ -61,3 +62,5 @@ print(json.dumps(dict(lean_sources=len(sources), used_named_stages=len(stages),
     original_four_link_target_checked=True, recorded_builds_exit_zero=True,
     part_i_source_bytes_checked=bool(args.part_i_root),
     fresh_lean_compilation=False), indent=2))
+if (root / 'docs/formalization-companion/results.json').is_file():
+    subprocess.run(['python3', 'scripts/verify_catalogue.py'], cwd=root, check=True)

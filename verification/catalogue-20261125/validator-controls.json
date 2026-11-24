@@ -1,0 +1,9 @@
+{
+  "scope": "Axiom-log validator controls only; not kernel axiom injection or Comparator",
+  "rejected": {
+    "extra-axiom": 1,
+    "missing-root": 1
+  },
+  "restored_positive_exit": 0,
+  "proof_sources_unchanged": true
+}

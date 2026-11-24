@@ -1,0 +1,148 @@
+\section{Resolution models and homotopical constancy}
+
+These results construct and characterize the resolution presentation $\sSpace^{\dag\vee}_{\CSS}$. Its $\CSS$ subscript is the manuscript notation for the homotopically constant resolution model; it is distinct from the ordinary complete-Segal-space model used later.
+
+\begin{resultblock}
+\begin{proposition}[External tensor and evaluation Quillen adjunctions]
+\label{catalogue:A1}
+For $A\in\sSet^{\dag}$, $K\in\sSet$, and $W\in\sSpace^{\dag\vee}$, the external tensor and mapping simplicial set satisfy a natural bijection $\Hom(A\boxtimes K,W)\cong\Hom(K,\Map(A,W))$.
+For every $n\geq0$, specializing to $K=\Delta^n$ gives $(-)\boxtimes\Delta^n\dashv\ev_n$.
+With the Part I dagger Joyal model on the coefficient category and the Reedy model on simplicial diagrams, each of these evaluation adjunctions is Quillen.
+The constant-diagram functor is naturally isomorphic to $(-)\boxtimes\Delta^0$.
+\end{proposition}
+
+\Source{DaggerModels.PartII.externalTensorAdjunction;
+DaggerModels.PartII.evaluationAdjunction;
+DaggerModels.PartII.evaluationAdjunction_isQuillen;
+DaggerModels.PartII.constantDiagramIsoExternalTensorZero}{lean/DaggerModelsPartII/ResolutionAdjunction.lean;
+lean/DaggerModelsPartII/ReedyModelComparison.lean}
+\CatalogueNote{Scope}{arbitrary u}
+\CatalogueNote{Manuscript context}{cs.lem.adjunction, cs.cor.evk, cs.lem.evaluation-quillen}
+\CatalogueNote{Construction and reuse}{Project-specific external tensor and adjunction, combined with the project Reedy model and Part I coefficient model.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Left proper combinatorial Reedy model]
+\label{catalogue:A2}
+The category $\Fun(\prism^{\mathrm{op}},\sSet^{\dag})$ has a Reedy model structure whose weak equivalences are the levelwise weak equivalences of the Part I dagger Joyal model.
+Pushout along a Reedy cofibration preserves those weak equivalences.
+The diagram category is locally presentable, and the two weak factorization systems have small generating families obtained from the Part I free dagger boundary and Smith generators.
+These families admit the small object argument, so the Reedy structure is combinatorial.
+\end{proposition}
+
+\Source{DaggerModels.PartII.resolutionReedyModelCategory;
+DaggerModels.PartII.resolutionReedy_leftProper;
+DaggerModels.PartII.resolutionReedy_combinatorial}{lean/DaggerModelsPartII/ReedyProperties.lean;
+lean/DaggerModelsPartII/ReedyModelComparison.lean;
+lean/DaggerModelsPartII/ReedyCombinatorial.lean}
+\CatalogueNote{Scope}{arbitrary u}
+\CatalogueNote{Manuscript context}{cs.lem.reedy}
+\CatalogueNote{Construction and reuse}{Specializes the project's generic simplicial Reedy construction; left properness and explicit small generators are assembled for the Part I dagger Joyal coefficients.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Collapse maps detect all simplicial operators]
+\label{catalogue:A3}
+Let $G_{\dag}$ consist of the free dagger boundaries and free dagger simplices, and let $S_h$ consist of their external tensors with the collapse maps $\Delta^k\to\Delta^0$ for $k\geq1$.
+For a morphism property containing identities and satisfying two-out-of-three, the collapse tests for a fixed coefficient object are equivalent to tests on all ordinary simplex operators.
+Consequently, for a Reedy fibrant diagram $W$, locality with respect to the literal family $S_h$ is equivalent to the corresponding derived mapping-space tests for every simplex operator.
+\end{proposition}
+
+\Source{DaggerModels.PartII.tensorCollapseTests_iff_allOperators;
+DaggerModels.PartII.resolutionLocalObject_iff_allOperators}{lean/DaggerModelsPartII/ResolutionGenerators.lean;
+lean/DaggerModelsPartII/ResolutionLocality.lean}
+\CatalogueNote{Scope}{arbitrary u}
+\CatalogueNote{Manuscript context}{cs.not.Gh, cs.thm.resolution}
+\CatalogueNote{Construction and reuse}{Project-specific reduction for the manuscript's literal localization maps; two-out-of-three is the abstract input.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Free dagger generators detect weak equivalences]
+\label{catalogue:A4}
+Suppose $X$ and $Y$ are fibrant in the Part I dagger Joyal model and $f:X\to Y$ is a morphism.
+If, for every $n\geq0$, the derived mapping simplicial sets from both the free dagger boundary of $\Delta^n$ and the free dagger simplex $\Delta^n$ send $f$ to a Kan weak equivalence, then $f$ is a dagger Joyal weak equivalence.
+The proof uses the actual Part I generating cofibrations and their cofibrant endpoints;
+it supplies the converse direction of the resolution-locality characterization.
+\end{proposition}
+
+\Source{DaggerModels.PartII.weak_of_resolutionTestObjects}{lean/DaggerModelsPartII/ResolutionLocalCharacterization.lean}
+\CatalogueNote{Scope}{arbitrary u}
+\CatalogueNote{Manuscript context}{cs.thm.resolution}
+\CatalogueNote{Construction and reuse}{Project-specific specialization of a generic derived-mapping detection argument to the actual Part I free dagger boundary and simplex generators.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Local and fibrant objects are homotopically constant]
+\label{catalogue:A5}
+For a simplicial dagger diagram $W$, locality with respect to $S_h$ is equivalent to Reedy fibrancy together with a levelwise Part I dagger Joyal weak equivalence $\ell_W:cW_0\to W$.
+After constructing the exact localized model, its fibrant objects satisfy precisely this same condition.
+Thus the characterization applies to the specified localization itself, without an additional hypothesis that $W$ is local.
+The levelwise counit condition is also equivalent to requiring every simplicial structure map of $W$ to be a weak equivalence.
+\end{proposition}
+
+\Source{DaggerModels.PartII.resolutionLocalObject_iff_homotopicallyConstant;
+DaggerModels.PartII.resolutionLocalized_isFibrant_iff_local;
+DaggerModels.PartII.resolutionLocalized_isFibrant_iff;
+DaggerModels.PartII.resolutionCounit_levelwise_iff}{lean/DaggerModelsPartII/ResolutionLocalCharacterization.lean;
+lean/DaggerModelsPartII/ResolutionModel.lean;
+lean/DaggerModelsPartII/ResolutionAdjunction.lean}
+\CatalogueNote{Scope}{arbitrary u}
+\CatalogueNote{Manuscript context}{cs.thm.resolution}
+\CatalogueNote{Construction and reuse}{Project-specific detection using the literal $S_h$ family, then applied to the constructed local model; the final structure-map equivalence uses two-out-of-three.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Local equivalences between local objects are detected at zero]
+\label{catalogue:A6}
+If $W$ and $V$ are $S_h$-local Reedy fibrant diagrams and $f:W\to V$, then $f$ is an $S_h$-local equivalence if and only if its zero component $f_0:W_0\to V_0$ is a weak equivalence in the Part I dagger Joyal model.
+More precisely, local equivalence first agrees with Reedy weak equivalence between local objects, and homotopical constancy then reduces the levelwise condition to degree zero.
+The statement does not assert this zero-degree criterion for arbitrary diagrams without local replacement.
+\end{proposition}
+
+\Source{DaggerModels.PartII.resolutionLocalEquivalence_iff_reedyWeak_of_local;
+DaggerModels.PartII.resolutionLocalEquivalence_iff_evalZero_of_local}{lean/DaggerModelsPartII/ResolutionLocalComparison.lean}
+\CatalogueNote{Scope}{arbitrary u}
+\CatalogueNote{Manuscript context}{cs.thm.equivalence}
+\CatalogueNote{Construction and reuse}{Project-specific comparison of exact local and Reedy weak classes; derived mapping-space and two-out-of-three results are supporting inputs.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Existence and exact classes of the resolution localization]
+\label{catalogue:A7}
+For the literal small family $S_h$ of free dagger collapse maps, the exact local weak-equivalence class admits a small solution set relative to the Reedy generating cofibrations.
+Smith recognition therefore constructs a model structure on simplicial dagger diagrams whose cofibrations are exactly the Reedy cofibrations and whose weak equivalences are exactly the $S_h$-local equivalences.
+Pushouts along cofibrations preserve local equivalences, and the localized model is locally presentable with two small generating families satisfying the small object argument.
+Hence the specified resolution localization is left proper and combinatorial.
+\end{proposition}
+
+\Source{DaggerModels.PartII.resolutionLocalSolutionSet;
+DaggerModels.PartII.resolutionLocalizationSmithData;
+DaggerModels.PartII.resolutionLocalizedModelCategory;
+DaggerModels.PartII.resolutionLocalized_cofibrations;
+DaggerModels.PartII.resolutionLocalized_weakEquivalences;
+DaggerModels.PartII.resolutionLocalized_leftProper;
+DaggerModels.PartII.resolutionLocalized_combinatorial}{lean/DaggerModelsPartII/ResolutionLocalSolutionSet.lean;
+lean/DaggerModelsPartII/ResolutionLocalizationSmith.lean;
+lean/DaggerModelsPartII/ResolutionModel.lean}
+\CatalogueNote{Scope}{arbitrary u}
+\CatalogueNote{Manuscript context}{cs.def.Sh}
+\CatalogueNote{Construction and reuse}{New Part II solution-set and exact-class assembly using the project's generic Smith machinery and the Part I dagger Joyal coefficient model.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{proposition}[Constant diagrams and evaluation form a Quillen equivalence]
+\label{catalogue:A8}
+Equip $\sSet^{\dag}$ with the Part I dagger Joyal model and $\sSpace^{\dag\vee}$ with the specified $S_h$-localized Reedy model.
+The adjunction $c\dashv\ev_0$ between constant diagrams and degree-zero evaluation is a Quillen equivalence.
+Its proof uses the exact Reedy cofibrations and local weak equivalences of the constructed model, the characterization of its fibrant objects, and the comparison identifying local equivalences into a local target with weak equivalences of the adjunct map in degree zero.
+\end{proposition}
+
+\Source{DaggerModels.PartII.constantEvaluation_localEquivalence_iff;
+DaggerModels.PartII.constantEvaluation_isQuillenEquivalence_of_exactClasses;
+DaggerModels.PartII.resolutionLocalized_constantEvaluation}{lean/DaggerModelsPartII/ResolutionLocalComparison.lean;
+lean/DaggerModelsPartII/ResolutionLocalizedModel.lean;
+lean/DaggerModelsPartII/ResolutionModel.lean}
+\CatalogueNote{Scope}{arbitrary u}
+\CatalogueNote{Manuscript context}{cs.thm.equivalence}
+\CatalogueNote{Construction and reuse}{Project-specific Quillen-equivalence criterion and application to the concrete localized model, relying on the Part I coefficient structure.}
+\end{resultblock}

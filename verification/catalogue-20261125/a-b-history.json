@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-08",
+  "historical_scope": "Local full Theorem B at simplicial-set universe zero, including literal simplicial structure and the actual change-of-index Quillen equivalence. Theorem A is rechecked in the same aggregate.",
+  "aggregate": {
+    "command": "lake build DaggerModelsPartII",
+    "exit_code": 0,
+    "jobs": 5592
+  },
+  "original_owned_declaration_audit": {
+    "command": "lake env lean docs/part-ii/CheckTheoremAAxioms.lean",
+    "exit_code": 0,
+    "declarations": 3400,
+    "part_ii_namespace_declarations": 3337
+  },
+  "theorem_b_owner_audit": {
+    "command": "lake env lean docs/part-ii/CheckTheoremBInputs.lean",
+    "exit_code": 0,
+    "declarations": 2675
+  },
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "axiom_audit_negative_control_actual_exit": 1,
+  "original_receipt_sha256": "25a92f8199a398e85016e971ca24a427d52aefad6b45906aa95532c52ba8c4e2",
+  "original_source_manifest_sha256": "e234716b46af2db8770634474ae7a0458ffec6e8e270bbb7765c49aaa299225a",
+  "current_unchanged_library_sources": 238,
+  "current_changed_library_sources": [
+    "lean/DaggerModelsPartII.lean",
+    "lean/DaggerModelsPartII/CosimplicialFrameNormalization.lean",
+    "lean/DaggerModelsPartII/CosimplicialQuillenComparison.lean"
+  ],
+  "note": "Historical milestone only; old open-C claims are not current. Current advertised roots have their own fresh catalogue audit."
+}

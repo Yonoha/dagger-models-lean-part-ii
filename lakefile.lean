@@ -395,6 +395,10 @@ lean_lib PartIITheoremCStages where
   srcDir := "lean/TheoremCStages"
   roots := stageRoots0 ++ stageRoots1 ++ stageRoots2 ++ stageRoots3 ++ stageRoots4 ++ stageRoots5
 
-@[default_target]
 lean_lib MainTheoremCPartII where
+  srcDir := "lean"
+
+/-- Public entry points for the original Theorems A, B and C. -/
+@[default_target]
+lean_lib MainTheoremsPartII where
   srcDir := "lean"

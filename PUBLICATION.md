@@ -1,34 +1,59 @@
-# Part II Theorem C publication scope
+# Part II companion publication scope
 
-The author authorized a separate public repository on November 25, 2026.
-This release candidate contains an AI-assisted local Lean proof of the original
-universe-zero four-link Theorem C, its supporting sources, saved local evidence,
-and an English PDF catalogue using Part II notation.
+The author authorized this separate public repository on November 25, 2026.
+Release candidate v0.1.0-rc2 expands the original C-focused companion to an
+English catalogue across Part II, including the original Theorems A, B and C.
+The earlier v0.1.0-rc1 tag and release are retained unchanged.
 
-The existing Part I repository and its release records are separate. This
-repository requires Part I at commit
-`9ee62295a79ef61269259e27216afc0292458931`; it does not republish that dependency's
-source tree or carry its CI certificates forward as evidence for Part II.
+## Catalogue and current checks
 
-The original proof used 359 named stages and 3,081 project-source modules across
-the original workspace. Its 156 direct project import roots passed a Lake
-content-rehash/no-build freshness gate. All 359 stages have successful local
-kernel receipts, source/import hashes and 1,182 printed standard axiom reports.
-The final theorem and four literal component targets were checked and freshly
-rechecked from saved sources. A public entry-point alias and the separate
-repository configuration are checked as recorded in `verification/`.
+There are 49 grouped entries: three main theorems and 46 substantial supporting
+propositions or construction theorems, with 166 distinct Lean declaration roots.
+The groups are not independent theorem counts or claims of new mathematical
+novelty. Contextual manuscript labels do not certify every clause of that label.
+The English prose and selection are AI-generated and disclosed on the first page.
 
-Source bytes are preserved. Public stage receipts are normalized exports:
-private filesystem paths and original command strings were omitted, while
-source hashes, unchanged log bytes, artifact hashes, actual exits, durations,
-import hashes and hashes of the original private receipts are retained.
-They are not described as byte-identical copies of the original receipt JSON.
+The current main A/B/C aliases passed a fresh local compile. The exact 166 roots
+passed a separate local transitive axiom audit using only propext,
+Classical.choice and Quot.sound. Their 68 native owner modules passed a current
+original-source Lake content-rehash/no-build gate. The A/B proof graphs also
+passed a separate freshness gate. All 1392 exported native Part II source bytes
+match the original workspace. The new aliases preserve the original statements;
+no theorem hypotheses or universes were changed for this publication.
 
-A cold full build of this new repository, hosted Linux verification, a new
-Comparator run with negative controls, an independent Mathlib-only Challenge,
-and independent human correspondence review have not been completed.
-The optional workflow is manual, and no long CI is started for publication.
+Theorem A retains its universe parameter. The full Theorem B includes the literal
+simplicial structure and is assembled at universe zero. Theorem C retains its
+original universe-zero four-link statement, without added source completeness.
+Saved current results and AI correspondence review are in
+`verification/catalogue-20261125/`. Independent human review is pending.
 
-The catalogue groups substantial theorem/proposition-level results. It is not
-a statement that every source file is an independent major theorem or a new
-mathematical contribution.
+## Earlier evidence
+
+Historical A/B evidence records the November 8 aggregate and overlapping owner
+audits. The current aggregate and two frame sources have since changed, so that
+milestone is not claimed as a fresh audit of the current entire tree.
+
+The original final C proof used 359 named stages, 1182 printed standard axiom
+reports and a 156-root source freshness gate. Its final proof and four literal
+component targets were also recompiled from saved sources. Those C-specific
+counts remain separate from the expanded catalogue's 166 advertised roots.
+
+Public JSON receipts normalize private machine paths and original command strings.
+Source and axiom-log bytes, actual exits, durations, artifact/import hashes and
+hashes of private originals are retained as described by each record.
+
+## Dependencies and limits
+
+Part I remains a separate dependency fixed at commit
+`9ee62295a79ef61269259e27216afc0292458931`. Its source tree is not republished
+here, and its CI certificates are not carried forward as Part II certificates.
+
+Current checks use verified existing import caches. A cold full build of this
+repository, new hosted Linux verification, real Comparator replay with negative
+controls, independent Mathlib-only Challenges and independent human
+correspondence review are not claimed. The workflow remains manual and no long
+CI is triggered. Log-validator negative controls are not Comparator tests.
+
+The source archive and PDF are bound to the release commit by per-file hashes,
+`release-record.json` and `SHA256SUMS`. The archive is read back against all
+committed files and is reproducible through `scripts/build_release_bundle.py`.

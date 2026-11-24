@@ -11,9 +11,10 @@ root = Path(__file__).resolve().parents[1]
 assert not subprocess.check_output(['git', 'status', '--porcelain'], cwd=root), 'Commit first.'
 subprocess.run(['python3', 'scripts/verify_snapshot.py'], cwd=root, check=True)
 commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=root, text=True).strip()
-version = 'v0.1.0-rc1'
+catalogue = json.loads((root / 'docs/formalization-companion/results.json').read_text())
+version = catalogue['release_tag']
 prefix = 'dagger-models-lean-part-ii-' + version + '/'
-output = root / 'build/release'
+output = root / 'build' / ('release-' + version)
 output.mkdir(parents=True, exist_ok=True)
 tar_bytes = subprocess.check_output(['git', 'archive', '--format=tar', '--prefix=' + prefix,
     commit], cwd=root)
@@ -35,20 +36,24 @@ archive_path.write_bytes(gzip.compress(tar_bytes, mtime=0))
 (output / 'source-archive-manifest.json').write_text(json.dumps(dict(
     source_commit=commit, prefix=prefix, files=sources), indent=2) + '\n')
 for source, name in [
-    ('docs/formalization-companion/part2-theorem-c-companion-en.pdf',
-        'part2-theorem-c-companion-en.pdf'),
-    ('verification/theorem-c-20261125/summary.json', 'verification-summary.json'),
-    ('verification/theorem-c-20261125/publication-checks.json', 'publication-checks.json')]:
+    ('docs/formalization-companion/part2-lean-formalization-companion-en.pdf',
+        'part2-lean-formalization-companion-en.pdf'),
+    ('verification/theorem-c-20261125/summary.json', 'theorem-c-verification-summary.json'),
+    ('verification/catalogue-20261125/catalogue-audit.json', 'catalogue-verification.json')]:
     (output / name).write_bytes((root / source).read_bytes())
 sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 names = [archive_path.name, 'source-archive-manifest.json',
-    'part2-theorem-c-companion-en.pdf', 'verification-summary.json', 'publication-checks.json']
+    'part2-lean-formalization-companion-en.pdf',
+    'theorem-c-verification-summary.json', 'catalogue-verification.json']
 record = dict(repository='https://github.com/Yonoha/dagger-models-lean-part-ii',
     release_tag=version, source_commit=commit, tracked_files=len(sources),
     lean_library_sources=sum(p.startswith('lean/') and p.endswith('.lean') for p in sources),
     part_i_commit='9ee62295a79ef61269259e27216afc0292458931',
     original_C_target='DaggerModels.PartII.TheoremCStatement.statement',
-    verification_scope='Local original kernel evidence and separate-layout final module checks; '
+    main_results=['DaggerModelsPartIICompanion.mainA', 'DaggerModelsPartIICompanion.mainB',
+        'DaggerModelsPartIICompanion.mainC'], grouped_catalogue_results=len(catalogue['groups']),
+    selected_catalogue_roots=len({d['name'] for g in catalogue['groups'] for d in g['declarations']}),
+    verification_scope='Current selected-root transitive audit and main A/B/C compile, retained original C evidence; '
         'no cold full build, hosted Linux CI, Comparator or human certification',
     artifacts={name: dict(sha256=sha(output / name), size=(output / name).stat().st_size)
         for name in names})
@@ -58,4 +63,4 @@ names.append('release-record.json')
     for name in names))
 print(json.dumps(dict(source_commit=commit, tracked_files=len(sources),
     archive_sha256=sha(archive_path), archive_bytes=archive_path.stat().st_size,
-    output='build/release'), indent=2))
+    output=str(output.relative_to(root))), indent=2))

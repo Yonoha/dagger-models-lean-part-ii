@@ -1,0 +1,82 @@
+\section{The three main theorems}
+
+The three statements below are proved with their existing hypotheses and model choices. Theorem B means the full statement with literal simplicial structure, not only its earlier seven-clause core.
+
+\begin{resultblock}
+\begin{theorem}[Theorem A: the homotopically constant resolution model]
+\label{catalogue:MainA}
+There is a left proper combinatorial model structure
+$\sSpace^{\dag\vee}_{\CSS}:=L_{S_h}\sSpace^{\dag\vee}_{\Reedy}$.
+Its cofibrations are exactly the Reedy cofibrations and its weak equivalences are exactly the $S_h$-local equivalences.
+Its fibrant objects are precisely the Reedy fibrant diagrams $W$ for which the canonical counit $\ell_W:cW_0\to W$ is a levelwise dagger Joyal weak equivalence.
+The constant--evaluation adjunction is a Quillen equivalence
+\begin{align}
+ c:\sSet^{\dag}_{\Joyal}\rightleftarrows\sSpace^{\dag\vee}_{\CSS}:\ev_0.
+\end{align}
+The same existential model structure satisfies all these clauses.
+\end{theorem}
+
+\Source{DaggerModels.PartII.theoremA;
+DaggerModelsPartIICompanion.mainA}{lean/DaggerModelsPartII/ProofTheoremA.lean;
+lean/MainTheoremsPartII.lean}
+\CatalogueNote{Scope}{Arbitrary original value-universe parameter u.}
+\CatalogueNote{Manuscript context}{Theorem A, cs.def.Sh, cs.thm.resolution, cs.thm.equivalence}
+\CatalogueNote{Construction and reuse}{Existing original theorem and public alias; original hypotheses and statement retained.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{theorem}[Theorem B: dagger complete Segal models and change of index]
+\label{catalogue:MainB}
+The injective localization $L_{S_{\rev}}\sSpace^{\dag}_{\rev,\inj}$ is left proper, combinatorial and simplicial for the literal mapping spaces and tensor.
+Its fibrant objects are exactly the injectively fibrant unitarily complete dagger Segal spaces.
+The projective localization has the levelwise Kan diagrams satisfying the corresponding derived Segal and unitary completeness conditions as its fibrant objects.
+The actual-index projective localization has precisely the levelwise Kan diagrams whose restriction along $u$ satisfies that derived condition.
+The actual adjunction
+\begin{align}
+ u_!:L_{\widetilde S_{\rev}}\sSpace^{\dag}_{\rev,\proj}
+ \rightleftarrows L_{u_!(\widetilde S_{\rev})}\sSpace^{\dag}_{\proj}:u^*
+\end{align}
+is a Quillen equivalence.
+The full Lean theorem also supplies the native simplicial enrichment, its natural comparison with the literal Hom bifunctor, ordinary-morphism normalization, parameterized tensor and cotensor adjunctions, and natural exponential laws.
+\end{theorem}
+
+\Source{DaggerModels.PartII.theoremB;
+DaggerModelsPartIICompanion.mainB}{lean/DaggerModelsPartII/ProofTheoremB.lean;
+lean/MainTheoremsPartII.lean}
+\CatalogueNote{Scope}{The assembled theorem, including its actual localized models and literal simplicial structure, has value universe zero.}
+\CatalogueNote{Manuscript context}{Theorem B, h1.lem.rev-models, h1.prop.fibrant, h1.thm.main}
+\CatalogueNote{Construction and reuse}{Existing original theorem and public alias; original hypotheses and statement retained.}
+\end{resultblock}
+
+\begin{resultblock}
+\begin{theorem}[Theorem C: the original four-link comparison]
+\label{catalogue:MainC}
+The following four adjunctions are Quillen equivalences.
+Each line displays its left adjoint first, with the exact original models and directions:
+\begin{align}
+ \frakC_{\dag}:\sSet^{\dag}_{\Joyal}
+ &\rightleftarrows\sCat^{\dag}_{\Bergner}:\N_{\dag},\\
+ \delta:\sSet^{\dag}_{\Joyal}
+ &\rightleftarrows L_{S_{\rev}}\sSpace^{\dag}_{\rev,\inj}:i_0^*,\\
+ \mathrm{id}:L_{\widetilde S_{\rev}}\sSpace^{\dag}_{\rev,\proj}
+ &\rightleftarrows L_{S_{\rev}}\sSpace^{\dag}_{\rev,\inj}:\mathrm{id},\\
+ u_!:L_{\widetilde S_{\rev}}\sSpace^{\dag}_{\rev,\proj}
+ &\rightleftarrows L_{u_!(\widetilde S_{\rev})}\sSpace^{\dag}_{\proj}:u^*.
+\end{align}
+In the manuscript's left-to-right zigzag, the first and third rightward arrows instead display the right adjoints.
+The original fixed Lean target has no additional assumptions;
+in particular ordinary completeness of the original input is not imposed.
+\end{theorem}
+
+\Source{DaggerModels.PartII.TheoremCOriginalCompletionProof.original_statement;
+DaggerModelsPartIICompanion.mainC;
+DaggerModels.PartII.TheoremCOriginalFourLinksAudit.partI;
+DaggerModels.PartII.TheoremCOriginalFourLinksAudit.constantVertex;
+DaggerModels.PartII.TheoremCOriginalFourLinksAudit.reversalIdentity;
+DaggerModels.PartII.TheoremCOriginalFourLinksAudit.indexChange}{lean/TheoremCStages/TheoremCOriginalCompletionProof.lean;
+lean/MainTheoremCPartII.lean;
+lean/TheoremCStages/TheoremCOriginalFourLinksAudit.lean}
+\CatalogueNote{Scope}{Original four-link statement at value universe zero.}
+\CatalogueNote{Manuscript context}{Theorem C, jt.thm.main, jt.cor.goal}
+\CatalogueNote{Construction and reuse}{Existing original theorem and public alias; original hypotheses and statement retained.}
+\end{resultblock}

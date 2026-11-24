@@ -71,6 +71,10 @@ original `DaggerModelsPartII` module names.
 ## Citation and provenance
 
 Use the dedicated release tag or an exact commit as the paper's fixed link.
+The first dedicated release candidate is
+[v0.1.0-rc1](https://github.com/Yonoha/dagger-models-lean-part-ii/releases/tag/v0.1.0-rc1).
+Its source archive, PDF and checksums can be regenerated from a clean committed
+checkout with `python3 scripts/build_release_bundle.py`.
 See [publication scope](PUBLICATION.md), [citation metadata](CITATION.cff),
 [mathematical correspondence](docs/THEOREM_C.md) and
 [third-party notices](THIRD_PARTY_NOTICES.md).

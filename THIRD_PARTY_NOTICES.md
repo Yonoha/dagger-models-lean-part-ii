@@ -5,7 +5,7 @@ see `LICENSE`. Existing file headers and attribution in the copied Part II
 development sources are preserved.
 
 The Part I companion is used as a pinned Git dependency, not copied into this
-repository. Its [third-party notices](https://github.com/Yonoha/dagger-models-lean/blob/9ee62295a79ef61269259e27216afc0292458931/THIRD_PARTY_NOTICES.md)
+repository. Its [third-party notices](https://github.com/Yonoha/dagger-models-lean-part-i/blob/9ee62295a79ef61269259e27216afc0292458931/THIRD_PARTY_NOTICES.md)
 and the applicable upstream terms continue to govern its own reused sources.
 In particular, the Part I notices distinguish observed file-level Apache
 headers from repository-wide licensing that was not confirmed. This Part II

@@ -48,7 +48,7 @@ lake env lean verification/catalogue-20261125/CheckCatalogueAxioms.lean
 ```
 
 The first build can be substantial. Part I is a Git dependency fixed at
-[`9ee62295a79ef61269259e27216afc0292458931`](https://github.com/Yonoha/dagger-models-lean/commit/9ee62295a79ef61269259e27216afc0292458931).
+[`9ee62295a79ef61269259e27216afc0292458931`](https://github.com/Yonoha/dagger-models-lean-part-i/commit/9ee62295a79ef61269259e27216afc0292458931).
 Its Mathlib pin and Lean 4.27.0 toolchain are retained. No Part I source tree is
 copied into this repository.
 
@@ -83,6 +83,6 @@ or its exact commit for a fixed paper reference. The earlier
 remains the C-focused historical snapshot.
 
 See [publication scope](PUBLICATION.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
-The [Part I companion](https://github.com/Yonoha/dagger-models-lean) and its
+The [Part I companion](https://github.com/Yonoha/dagger-models-lean-part-i) and its
 releases remain unchanged. From a clean committed checkout, regenerate the
 source archive, PDF copy and checksums with `python3 scripts/build_release_bundle.py`.

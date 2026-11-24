@@ -17,7 +17,7 @@ ai_assistance:
 dependencies:
   lean: leanprover/lean4:v4.27.0
   part_i:
-    repository: https://github.com/Yonoha/dagger-models-lean
+    repository: https://github.com/Yonoha/dagger-models-lean-part-i
     commit: 9ee62295a79ef61269259e27216afc0292458931
   mathlib: a3a10db0e9d66acbebf76c5e6a135066525ac900
 verification:

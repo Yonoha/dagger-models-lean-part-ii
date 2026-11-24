@@ -3,7 +3,7 @@
   "packagesDir": ".lake/packages",
   "packages": [
     {
-      "url": "https://github.com/Yonoha/dagger-models-lean.git",
+      "url": "https://github.com/Yonoha/dagger-models-lean-part-i.git",
       "type": "git",
       "subDir": null,
       "scope": "",

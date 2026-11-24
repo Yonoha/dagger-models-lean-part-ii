@@ -5,7 +5,7 @@ package «dagger-models-lean-part-ii» where
   moreLeanArgs := #["-DwarningAsError=true"]
 
 require «dagger-models-lean» from git
-  "https://github.com/Yonoha/dagger-models-lean.git" @
+  "https://github.com/Yonoha/dagger-models-lean-part-i.git" @
     "9ee62295a79ef61269259e27216afc0292458931"
 
 /-- Part II definitions and earlier auxiliary developments. -/
